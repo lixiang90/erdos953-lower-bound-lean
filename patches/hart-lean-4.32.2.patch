@@ -1,0 +1,76 @@
+--- a/Erdos953Formalization/CircleBessel.lean
++++ b/Erdos953Formalization/CircleBessel.lean
+@@ -50 +50 @@
+-  rfl
++  simp [J0c, unitIntervalMeasure]
+@@ -63,0 +64,2 @@
++  funext u
++  exact J0c_eq_setIntegral u
+--- a/Erdos953Formalization/MeasureReduction.lean
++++ b/Erdos953Formalization/MeasureReduction.lean
+@@ -192 +192 @@
+-        simpa [ε, Real.coe_toNNReal δ hδpos.le] using hsep
++        simpa [ε, ENNReal.ofReal] using hsep
+--- a/Erdos953Formalization/PoissonFormula.lean
++++ b/Erdos953Formalization/PoissonFormula.lean
+@@ -526 +526 @@
+-  have hpow := hinv.rpow (by norm_num : 0 ≤ (3 / 2 : ℝ))
++  have hpow := hinv.rpow (r := (3 / 2 : ℝ))
+@@ -549 +549 @@
+-  have hpow := hinv.rpow (by norm_num : 0 ≤ (5 / 2 : ℝ))
++  have hpow := hinv.rpow (r := (5 / 2 : ℝ))
+@@ -594 +594 @@
+-    simpa using Asymptotics.IsBigO.mul_atTop_rpow_natCast_of_isBigO_rpow
++    simpa only [Pi.mul_apply] using! Asymptotics.IsBigO.mul_atTop_rpow_natCast_of_isBigO_rpow
+@@ -617 +617 @@
+-      simpa using Asymptotics.IsBigO.mul_atTop_rpow_natCast_of_isBigO_rpow
++      simpa only [Pi.mul_apply] using! Asymptotics.IsBigO.mul_atTop_rpow_natCast_of_isBigO_rpow
+@@ -624 +624 @@
+-    simpa using Asymptotics.IsBigO.mul_atTop_rpow_natCast_of_isBigO_rpow
++    simpa only [Pi.mul_apply] using! Asymptotics.IsBigO.mul_atTop_rpow_natCast_of_isBigO_rpow
+@@ -840 +840,2 @@
+-      simpa using (Complex.ofRealCLM.hasDerivAt (x := x))
++      simpa only [Complex.ofRealCLM_apply, Complex.ofReal_one] using!
++        (Complex.ofRealCLM.hasDerivAt (x := x))
+@@ -850,3 +851,6 @@
+-    field_simp [ha0]
+-    simp
+-    ring_nf
++    · rfl
++    · funext y
++      rfl
++    · simp only [Pi.neg_apply]
++      field_simp [ha0]
++      ring
+@@ -895 +899,2 @@
+-      simpa using (Complex.ofRealCLM.hasDerivAt (x := x))
++      simpa only [Complex.ofRealCLM_apply, Complex.ofReal_one] using!
++        (Complex.ofRealCLM.hasDerivAt (x := x))
+@@ -905 +910 @@
+-        simpa [two_mul] using hco.pow 2
++        simpa [Pi.pow_apply, two_mul] using! hco.pow 2
+@@ -909 +914,2 @@
+-      simpa [add_assoc] using h1.add (h2.add_const (2 / a ^ 3))
++      simpa only [Pi.add_apply, add_assoc] using!
++        h1.add (h2.add_const (2 / a ^ 3))
+@@ -912,3 +918,6 @@
+-    field_simp [ha0]
+-    simp only [Pi.neg_apply]
+-    ring_nf
++    · rfl
++    · funext y
++      rfl
++    · simp only [Pi.neg_apply]
++      field_simp [ha0]
++      ring
+@@ -1903 +1912 @@
+-    simpa [F] using hOn
++    simpa only [F, Function.uncurry_def, Measure.restrict_univ] using hOn
+@@ -1932 +1941 @@
+-    simpa [F] using hOn
++    simpa only [F, Function.uncurry_def, Measure.restrict_univ] using hOn
+--- a/Erdos953Formalization/TermNegativity.lean
++++ b/Erdos953Formalization/TermNegativity.lean
+@@ -1297 +1297 @@
+-    exact ht.eventually (Metric.ball_mem_nhds _ hη)
++    simpa [dist_eq_norm] using ht.eventually (Metric.ball_mem_nhds _ hη)

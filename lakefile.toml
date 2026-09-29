@@ -1,6 +1,6 @@
 name = "erdos953_lower"
 version = "0.1.0"
-defaultTargets = ["Erdos953Lower"]
+defaultTargets = ["Erdos953Growth"]
 
 [leanOptions]
 autoImplicit = false
@@ -13,3 +13,21 @@ rev = "905b95818eb32af7874a58b427f50c1711a5e96c"
 
 [[lean_lib]]
 name = "Erdos953Lower"
+
+[[lean_lib]]
+name = "Erdos953Formalization"
+
+[[lean_lib]]
+name = "Erdos953SmallRadius"
+
+[[lean_lib]]
+name = "Erdos953Defect"
+
+[[lean_lib]]
+name = "Erdos953OpenClosed"
+
+[[lean_lib]]
+name = "Erdos953Sandwich"
+
+[[lean_lib]]
+name = "Erdos953Growth"
