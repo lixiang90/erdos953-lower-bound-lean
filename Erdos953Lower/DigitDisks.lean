@@ -9,7 +9,7 @@ open MeasureTheory
 
 noncomputable section
 
-def gap (k : ℕ) : ℝ := 1 / (48 * (k : ℝ) ^ 4)
+def gap (k : ℕ) : ℝ := 1 / (48 * (k : ℝ) ^ 3)
 def diskRadius (k : ℕ) : ℝ := gap k / 4
 
 private theorem gap_pos (k : ℕ) (hk : 3 ≤ k) : 0 < gap k := by
@@ -18,8 +18,8 @@ private theorem gap_pos (k : ℕ) (hk : 3 ≤ k) : 0 < gap k := by
 
 private theorem gap_lt_one (k : ℕ) (hk : 3 ≤ k) : gap k < 1 := by
   have hK : (1 : ℝ) ≤ k := by exact_mod_cast (by omega : 1 ≤ k)
-  have hpow : (1 : ℝ) ≤ (k : ℝ) ^ 4 := one_le_pow₀ hK
-  have hden : 0 < 48 * (k : ℝ) ^ 4 := by positivity
+  have hpow : (1 : ℝ) ≤ (k : ℝ) ^ 3 := one_le_pow₀ hK
+  have hden : 0 < 48 * (k : ℝ) ^ 3 := by positivity
   unfold gap
   rw [div_lt_iff₀ hden]
   nlinarith

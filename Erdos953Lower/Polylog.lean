@@ -85,7 +85,7 @@ theorem erdos953_lower_polylog (R : ℝ) (hR : (1000 : ℝ) ^ 4 ≤ R) :
       A ⊆ Metric.ball (0 : Erdos953Lower.Plane) R ∧
       (∀ x ∈ A, ∀ y ∈ A, x ≠ y →
         ∀ m : ℕ, 0 < m → dist x y ≠ (m : ℝ)) ∧
-      ((1 : ℝ) / (100000 * (Real.log R + 3) ^ 10)) *
+      ((1 : ℝ) / (61440 * (Real.log R + 3) ^ 8)) *
         (Real.exp (-1) * Real.sqrt R) ≤
           (MeasureTheory.volume A).toReal := by
   obtain ⟨k, hk, hlog, hfit, hKbound⟩ := choose_digit_base R hR
@@ -97,12 +97,12 @@ theorem erdos953_lower_polylog (R : ℝ) (hR : (1000 : ℝ) ^ 4 ≤ R) :
     have := Real.log_nonneg hRone
     linarith
   have hKpos : (0 : ℝ) < k := by exact_mod_cast (by omega : 0 < k)
-  have hpow : (k : ℝ) ^ 10 ≤ (Real.log R + 3) ^ 10 :=
-    pow_le_pow_left₀ hKpos.le hKbound 10
-  have hdenK : 0 < 100000 * (k : ℝ) ^ 10 := by positivity
-  have hdenL : 0 < 100000 * (Real.log R + 3) ^ 10 := by positivity
-  have hcoef : (1 : ℝ) / (100000 * (Real.log R + 3) ^ 10) ≤
-      1 / (100000 * (k : ℝ) ^ 10) :=
+  have hpow : (k : ℝ) ^ 8 ≤ (Real.log R + 3) ^ 8 :=
+    pow_le_pow_left₀ hKpos.le hKbound 8
+  have hdenK : 0 < 61440 * (k : ℝ) ^ 8 := by positivity
+  have hdenL : 0 < 61440 * (Real.log R + 3) ^ 8 := by positivity
+  have hcoef : (1 : ℝ) / (61440 * (Real.log R + 3) ^ 8) ≤
+      1 / (61440 * (k : ℝ) ^ 8) :=
     (div_le_div_iff₀ hdenL hdenK).2 (by nlinarith [hpow])
   have hroot : 0 ≤ Real.exp (-1) * Real.sqrt R := by positivity
   refine ⟨A, hmeas, hsubset, hno, ?_⟩

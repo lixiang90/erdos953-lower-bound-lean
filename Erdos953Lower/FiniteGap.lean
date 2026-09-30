@@ -14,21 +14,21 @@ noncomputable section
 /-- Any nonzero leading digit with lower digits bounded in magnitude
 produces a pairwise distance uniformly separated from the integers.
 The corresponding planar point difference has vertical coordinate
-`8 k² |∑ dⱼ (k²)^j|` and horizontal coordinate `|∑ dⱼ k^j|`.
+`8 k |∑ dⱼ (k²)^j|` and horizontal coordinate `|∑ dⱼ k^j|`.
 -/
 theorem finite_digit_distance_gap (k i : ℕ) (d : ℕ → ℤ)
     (hk : 3 ≤ k)
     (hbound : ∀ j ≤ i, |d j| ≤ (k : ℤ) - 2)
     (hdi : d i ≠ 0) :
-    1 / (48 * (k : ℝ) ^ 4) <
+    1 / (48 * (k : ℝ) ^ 3) <
       distToInt (Real.sqrt (
-        ((8 * (k : ℤ) ^ 2 *
+        ((8 * (k : ℤ) *
           |∑ j ∈ range (i + 1), d j * (((k : ℤ) ^ 2) ^ j)| : ℤ) : ℝ) ^ 2 +
         ((|∑ j ∈ range (i + 1), d j * (k : ℤ) ^ j| : ℤ) : ℝ) ^ 2)) := by
   let K : ℤ := k
   let L : ℤ := ∑ j ∈ range (i + 1), d j * K ^ j
   let Q : ℤ := ∑ j ∈ range (i + 1), d j * ((K ^ 2) ^ j)
-  let A : ℤ := 8 * K ^ 2 * |Q|
+  let A : ℤ := 8 * K * |Q|
   let B : ℤ := |L|
   let D : ℝ := (|d i| : ℤ)
   let X : ℝ := (k : ℝ) ^ i
@@ -68,21 +68,21 @@ theorem finite_digit_distance_gap (k i : ℕ) (d : ℕ → ℤ)
     simpa [Q, K, hpow] using hquad.1
   have hquad₂ : |Q| ≤ 2 * |d i| * (K ^ i) ^ 2 := by
     simpa [Q, K, hpow] using hquad.2
-  have hA₁_int : 4 * K ^ 2 * |d i| * (K ^ i) ^ 2 ≤ A := by
-    have hscale : 0 ≤ 4 * K ^ 2 * (2 * |Q| - |d i| * (K ^ i) ^ 2) :=
+  have hA₁_int : 4 * K * |d i| * (K ^ i) ^ 2 ≤ A := by
+    have hscale : 0 ≤ 4 * K * (2 * |Q| - |d i| * (K ^ i) ^ 2) :=
       mul_nonneg (by positivity) (by linarith)
     dsimp [A]
     nlinarith
-  have hA₂_int : A ≤ 16 * K ^ 2 * |d i| * (K ^ i) ^ 2 := by
-    have hscale : 0 ≤ 8 * K ^ 2 *
+  have hA₂_int : A ≤ 16 * K * |d i| * (K ^ i) ^ 2 := by
+    have hscale : 0 ≤ 8 * K *
         (2 * |d i| * (K ^ i) ^ 2 - |Q|) :=
       mul_nonneg (by positivity) (by linarith)
     dsimp [A]
     nlinarith
-  have ha₁ : 4 * (k : ℝ) ^ 2 * D * X ^ 2 ≤ (A : ℝ) := by
+  have ha₁ : 4 * (k : ℝ) * D * X ^ 2 ≤ (A : ℝ) := by
     dsimp [D, X, K] at *
     exact_mod_cast hA₁_int
-  have ha₂ : (A : ℝ) ≤ 16 * (k : ℝ) ^ 2 * D * X ^ 2 := by
+  have ha₂ : (A : ℝ) ≤ 16 * (k : ℝ) * D * X ^ 2 := by
     dsimp [D, X, K] at *
     exact_mod_cast hA₂_int
   have hgap := distance_gap_of_digit_bounds k hk D X A B

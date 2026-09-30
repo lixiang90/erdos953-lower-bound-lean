@@ -16,7 +16,7 @@ def xCoord (k n : ℕ) (α : Fin n → Fin (k - 1)) : ℤ :=
 
 /-- Vertical coordinate, with squared-place weights. -/
 def yCoord (k n : ℕ) (α : Fin n → Fin (k - 1)) : ℤ :=
-  8 * (k : ℤ) ^ 2 *
+  8 * (k : ℤ) *
     ∑ j ∈ range n, digitAt k n α j * (((k : ℤ) ^ 2) ^ j)
 
 /-- A point in the Euclidean plane associated to a digit string. -/
@@ -57,7 +57,7 @@ lemma xCoord_sub (k n : ℕ) (α β : Fin n → Fin (k - 1)) :
 
 lemma yCoord_sub (k n : ℕ) (α β : Fin n → Fin (k - 1)) :
     yCoord k n α - yCoord k n β =
-      8 * (k : ℤ) ^ 2 *
+      8 * (k : ℤ) *
       ∑ j ∈ range n, digitDiff k n α β j * (((k : ℤ) ^ 2) ^ j) := by
   rw [yCoord, yCoord, ← mul_sub]
   congr 1

@@ -19,10 +19,10 @@ theorem growthExponent_le_half (k : ℕ) (hk : 3 ≤ k) :
   rw [Real.log_pow]
   exact (div_le_iff₀ (by linarith : 0 < 2 * Real.log (k : ℝ))).2 (by linarith)
 
-/-- The disk-thickening coefficient loses at most ten powers of the
+/-- The disk-thickening coefficient loses at most eight powers of the
 digit base, with a uniform numerical constant. -/
 theorem base_coefficient_ge_inv_pow (k : ℕ) (hk : 3 ≤ k) :
-    (1 : ℝ) / (100000 * (k : ℝ) ^ 10) ≤
+    (1 : ℝ) / (61440 * (k : ℝ) ^ 8) ≤
       (diskRadius k) ^ 2 * Real.pi /
         ((16 * (k : ℝ) ^ 2 + 1) ^ growthExponent k *
           ((k - 1 : ℕ) : ℝ)) := by
@@ -64,38 +64,36 @@ theorem base_coefficient_ge_inv_pow (k : ℕ) (hk : 3 ≤ k) :
       _ ≤ (5 * K) * K :=
         mul_le_mul_of_nonneg_left hdk (by positivity)
       _ = 5 * K ^ 2 := by ring
-  have hρ : diskRadius k = 1 / (192 * K ^ 4) := by
+  have hρ : diskRadius k = 1 / (192 * K ^ 3) := by
     dsimp [diskRadius, gap, K]
     ring
   have hnum : (diskRadius k) ^ 2 * Real.pi =
-      Real.pi / (36864 * K ^ 8) := by
+      Real.pi / (36864 * K ^ 6) := by
     rw [hρ]
     ring
-  have hden1 : 0 < 100000 * K ^ 10 := by positivity
-  have hden2 : 0 < 36864 * K ^ 8 * Q := by positivity
-  have hineq : 36864 * K ^ 8 * Q ≤
-      100000 * K ^ 10 * Real.pi := by
+  have hden1 : 0 < 61440 * K ^ 8 := by positivity
+  have hden2 : 0 < 36864 * K ^ 6 * Q := by positivity
+  have hineq : 36864 * K ^ 6 * Q ≤
+      61440 * K ^ 8 * Real.pi := by
     calc
-      36864 * K ^ 8 * Q ≤ 36864 * K ^ 8 * (5 * K ^ 2) :=
+      36864 * K ^ 6 * Q ≤ 36864 * K ^ 6 * (5 * K ^ 2) :=
         mul_le_mul_of_nonneg_left hQbound (by positivity)
-      _ = 184320 * K ^ 10 := by ring
-      _ ≤ 300000 * K ^ 10 := by
-        nlinarith [pow_nonneg (by linarith : 0 ≤ K) 10]
-      _ ≤ 100000 * K ^ 10 * Real.pi := by
+      _ = 184320 * K ^ 8 := by ring
+      _ ≤ 61440 * K ^ 8 * Real.pi := by
         have hπ : (3 : ℝ) ≤ Real.pi := Real.pi_gt_three.le
         nlinarith [mul_le_mul_of_nonneg_left hπ
-          (by positivity : 0 ≤ 100000 * K ^ 10)]
-  have hmain : (1 : ℝ) / (100000 * K ^ 10) ≤
-      Real.pi / (36864 * K ^ 8 * Q) :=
+          (by positivity : 0 ≤ 61440 * K ^ 8)]
+  have hmain : (1 : ℝ) / (61440 * K ^ 8) ≤
+      Real.pi / (36864 * K ^ 6 * Q) :=
     (div_le_div_iff₀ hden1 hden2).2 (by
       simpa only [one_mul, mul_comm, mul_left_comm, mul_assoc] using hineq)
-  change (1 : ℝ) / (100000 * K ^ 10) ≤
+  change (1 : ℝ) / (61440 * K ^ 8) ≤
     (diskRadius k) ^ 2 * Real.pi / Q
   rw [hnum]
   calc
-    (1 : ℝ) / (100000 * K ^ 10) ≤
-        Real.pi / (36864 * K ^ 8 * Q) := hmain
-    _ = (Real.pi / (36864 * K ^ 8)) / Q := by ring
+    (1 : ℝ) / (61440 * K ^ 8) ≤
+        Real.pi / (36864 * K ^ 6 * Q) := hmain
+    _ = (Real.pi / (36864 * K ^ 6)) / Q := by ring
 
 /-- A digit base large enough compared with `log R` yields a square-root
 area lower bound with explicit polynomial loss in the base. -/
@@ -107,7 +105,7 @@ theorem digitDisks_lower_sqrt_div_pow_with_base (k : ℕ) (hk : 3 ≤ k)
       A ⊆ Metric.ball (0 : Plane) R ∧
       (∀ x ∈ A, ∀ y ∈ A, x ≠ y →
         ∀ m : ℕ, 0 < m → dist x y ≠ (m : ℝ)) ∧
-      ((1 : ℝ) / (100000 * (k : ℝ) ^ 10)) *
+      ((1 : ℝ) / (61440 * (k : ℝ) ^ 8)) *
         (Real.exp (-1) * Real.sqrt R) ≤
           (MeasureTheory.volume A).toReal := by
   obtain ⟨A, hmeas, hsubset, hno, harea⟩ :=

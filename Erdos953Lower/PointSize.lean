@@ -72,13 +72,18 @@ theorem yCoord_bound (k n : ℕ) (hk : 3 ≤ k)
     have : (3 : ℤ) ≤ K := by dsimp [K]; exact_mod_cast hk
     nlinarith
   constructor
-  · change 0 ≤ 8 * K ^ 2 * T
+  · change 0 ≤ 8 * K * T
     positivity
-  · change 8 * K ^ 2 * T < 4 * K ^ 2 * q ^ n
-    have hscale : 0 < 4 * K ^ 2 * (q ^ n - 2 * T) := by
+  · change 8 * K * T < 4 * K ^ 2 * q ^ n
+    have hscale : 0 < 4 * K * (q ^ n - 2 * T) := by
       apply mul_pos (by positivity)
       nlinarith
-    nlinarith
+    have hKleSq : K ≤ K ^ 2 := by
+      have hK3 : (3 : ℤ) ≤ K := by dsimp [K]; exact_mod_cast hk
+      nlinarith only [hK3, sq_nonneg (K - 1)]
+    have hscale2 : 0 ≤ 4 * (K ^ 2 - K) * q ^ n :=
+      mul_nonneg (by nlinarith only [hKleSq]) (pow_nonneg hq n)
+    nlinarith only [hscale, hscale2]
 
 /-- Every digit point is in a ball whose radius is quadratic in the
 largest place value. -/

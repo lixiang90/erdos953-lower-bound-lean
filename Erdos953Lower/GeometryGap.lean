@@ -20,14 +20,14 @@ theorem distance_gap_of_digit_bounds (k : ℕ) (hk : 3 ≤ k)
     (hX : 1 ≤ X)
     (hb₁ : D * X ≤ (k : ℝ) * (b : ℝ))
     (hb₂ : (b : ℝ) ≤ 2 * D * X)
-    (ha₁ : 4 * (k : ℝ) ^ 2 * D * X ^ 2 ≤ (a : ℝ))
-    (ha₂ : (a : ℝ) ≤ 16 * (k : ℝ) ^ 2 * D * X ^ 2) :
-    1 / (48 * (k : ℝ) ^ 4) <
+    (ha₁ : 4 * (k : ℝ) * D * X ^ 2 ≤ (a : ℝ))
+    (ha₂ : (a : ℝ) ≤ 16 * (k : ℝ) * D * X ^ 2) :
+    1 / (48 * (k : ℝ) ^ 3) <
       distToInt (Real.sqrt ((a : ℝ) ^ 2 + (b : ℝ) ^ 2)) := by
   let K : ℝ := k
   let B : ℝ := b
   let A : ℝ := a
-  let δ : ℝ := 1 / (48 * K ^ 4)
+  let δ : ℝ := 1 / (48 * K ^ 3)
   have hK : 3 ≤ K := by
     change (3 : ℝ) ≤ (k : ℝ)
     exact_mod_cast hk
@@ -52,16 +52,15 @@ theorem distance_gap_of_digit_bounds (k : ℕ) (hk : 3 ≤ k)
   have hBsquare : B ^ 2 ≤ 4 * D ^ 2 * X ^ 2 := by
     nlinarith only [mul_nonneg hBX (show 0 ≤ 2 * D * X + B by positivity)]
   have hDleK : D ≤ K := by dsimp [K] at hD₂ ⊢; linarith only [hD₂]
-  have hDleKsq : D ≤ K ^ 2 := by nlinarith only [hDleK, hK]
-  have hDsquare : D ^ 2 ≤ K ^ 2 * D := by
+  have hDsquare : D ^ 2 ≤ K * D := by
     nlinarith only [mul_nonneg hD0
-      (show 0 ≤ K ^ 2 - D by linarith only [hDleKsq])]
+      (show 0 ≤ K - D by linarith only [hDleK])]
   have hUpperSq : B ^ 2 ≤ A := by
     have hmul := mul_le_mul_of_nonneg_left hDsquare
       (show 0 ≤ 4 * X ^ 2 by positivity)
     dsimp [A, K] at ha₁ ⊢
     nlinarith only [hBsquare, hmul, ha₁]
-  have hLowerSq : A ≤ 16 * K ^ 4 * B ^ 2 := by
+  have hLowerSq : A ≤ 16 * K ^ 3 * B ^ 2 := by
     have hDXsq : D * X ^ 2 ≤ K ^ 2 * B ^ 2 := by
       calc
         D * X ^ 2 = (D * X) * X := by ring
@@ -69,34 +68,32 @@ theorem distance_gap_of_digit_bounds (k : ℕ) (hk : 3 ≤ k)
         _ ≤ (K * B) * (K * B) := mul_le_mul_of_nonneg_left hXle hKB0
         _ = K ^ 2 * B ^ 2 := by ring
     calc
-      A ≤ 16 * K ^ 2 * D * X ^ 2 := ha₂
-      _ = (16 * K ^ 2) * (D * X ^ 2) := by ring
-      _ ≤ (16 * K ^ 2) * (K ^ 2 * B ^ 2) :=
+      A ≤ 16 * K * D * X ^ 2 := ha₂
+      _ = (16 * K) * (D * X ^ 2) := by ring
+      _ ≤ (16 * K) * (K ^ 2 * B ^ 2) :=
         mul_le_mul_of_nonneg_left hDXsq (by positivity)
-      _ = 16 * K ^ 4 * B ^ 2 := by ring
+      _ = 16 * K ^ 3 * B ^ 2 := by ring
   have hAone : (1 : ℝ) ≤ A := by
-    have hKsq : (1 : ℝ) ≤ K ^ 2 := one_le_pow₀ (by linarith only [hK])
-    have hXsq : (1 : ℝ) ≤ X ^ 2 := one_le_pow₀ hX
-    have hprod : (1 : ℝ) ≤ 4 * K ^ 2 * D * X ^ 2 := by
+    have hprod : (1 : ℝ) ≤ 4 * K * D * X ^ 2 := by
       calc
-        (1 : ℝ) ≤ 4 * 1 ^ 2 * 1 * 1 ^ 2 := by norm_num
-        _ ≤ 4 * K ^ 2 * D * X ^ 2 := by
+        (1 : ℝ) ≤ 4 * 1 * 1 * 1 ^ 2 := by norm_num
+        _ ≤ 4 * K * D * X ^ 2 := by
           gcongr
           linarith only [hK]
     exact hprod.trans ha₁
   have ha : 1 ≤ a := by
     change (1 : ℝ) ≤ (a : ℝ) at hAone
     exact_mod_cast hAone
-  have hK4 : 1 ≤ K ^ 4 := one_le_pow₀ (by linarith only [hK])
-  have hden : 0 < 48 * K ^ 4 := by positivity
-  have hden' : 0 < 16 * K ^ 4 := by positivity
+  have hK3 : 1 ≤ K ^ 3 := one_le_pow₀ (by linarith only [hK])
+  have hden : 0 < 48 * K ^ 3 := by positivity
+  have hden' : 0 < 16 * K ^ 3 := by positivity
   have hδ : 0 < δ := by dsimp [δ]; positivity
   have hδsmall : δ ≤ 1 / 4 := by
     dsimp [δ]
     apply (div_le_div_iff₀ hden (by norm_num : (0 : ℝ) < 4)).2
-    nlinarith only [hK4]
+    nlinarith only [hK3]
   have hlo : 3 * δ * (a : ℝ) ≤ (b : ℝ) ^ 2 := by
-    have hquot : A / (16 * K ^ 4) ≤ B ^ 2 := by
+    have hquot : A / (16 * K ^ 3) ≤ B ^ 2 := by
       apply (div_le_iff₀ hden').2
       nlinarith only [hLowerSq]
     dsimp [δ, A, B] at *

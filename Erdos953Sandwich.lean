@@ -52,7 +52,7 @@ theorem lower_bound_for_M :
 extremal quantity. -/
 theorem lower_polylog_for_Mopen (R : ℝ)
     (hR : (1000 : ℝ) ^ 4 ≤ R) :
-    ((1 : ℝ) / (100000 * (Real.log R + 3) ^ 10)) *
+    ((1 : ℝ) / (61440 * (Real.log R + 3) ^ 8)) *
       (Real.exp (-1) * Real.sqrt R) ≤
         Erdos953OpenClosed.Mopen R := by
   obtain ⟨A, hmeas, hball, hno, harea⟩ :=
@@ -68,7 +68,7 @@ the open-disk extremal area up to a twelfth power of a logarithm. -/
 theorem polylog_sandwich_open :
     ∃ C : ℝ, 0 < C ∧
       ∀ R : ℝ, (1000 : ℝ) ^ 4 ≤ R →
-        ((1 : ℝ) / (100000 * (Real.log R + 3) ^ 10)) *
+        ((1 : ℝ) / (61440 * (Real.log R + 3) ^ 8)) *
           (Real.exp (-1) * Real.sqrt R) ≤
             Erdos953OpenClosed.Mopen R ∧
         Erdos953OpenClosed.Mopen R ≤ C * Real.sqrt R := by
