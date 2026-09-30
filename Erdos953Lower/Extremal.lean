@@ -59,7 +59,7 @@ theorem lower_bound_for_Mopen :
 /-- Explicit near-square-root lower bound for the standalone extremal area. -/
 theorem lower_polylog_for_Mopen (R : ℝ)
     (hR : (1000 : ℝ) ^ 4 ≤ R) :
-    ((1 : ℝ) / (100000 * (Real.log R + 3) ^ 12)) *
+    ((1 : ℝ) / (100000 * (Real.log R + 3) ^ 10)) *
       (Real.exp (-1) * Real.sqrt R) ≤ Mopen R := by
   obtain ⟨A, hmeas, hball, hno, harea⟩ := erdos953_lower_polylog R hR
   exact harea.trans (area_le_Mopen_of_admissible ⟨hmeas, hball, hno⟩)

@@ -14,7 +14,7 @@ The principal statements are:
 - `Erdos953Lower.erdos953_lower`: for every `ε > 0`, all sufficiently large
   disks contain an admissible set with area at least `cε R^(1/2-ε)`.
 - `Erdos953Lower.erdos953_lower_polylog`: for `R ≥ 1000^4`, an admissible set
-  exists with area at least `exp(-1) √R / [100000 (log R + 3)^12]`.
+  exists with area at least `exp(-1) √R / [100000 (log R + 3)^10]`.
 - `Erdos953Lower.lower_bound_for_Mopen` and
   `Erdos953Lower.lower_polylog_for_Mopen`: the same lower bounds for the
   supremum `Erdos953Lower.Mopen`, defined in `Erdos953Lower/Extremal.lean`.

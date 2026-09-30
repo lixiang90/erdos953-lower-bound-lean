@@ -20,7 +20,7 @@ theorem finite_digit_distance_gap (k i : ℕ) (d : ℕ → ℤ)
     (hk : 3 ≤ k)
     (hbound : ∀ j ≤ i, |d j| ≤ (k : ℤ) - 2)
     (hdi : d i ≠ 0) :
-    1 / (48 * (k : ℝ) ^ 5) <
+    1 / (48 * (k : ℝ) ^ 4) <
       distToInt (Real.sqrt (
         ((8 * (k : ℤ) ^ 2 *
           |∑ j ∈ range (i + 1), d j * (((k : ℤ) ^ 2) ^ j)| : ℤ) : ℝ) ^ 2 +
@@ -36,6 +36,7 @@ theorem finite_digit_distance_gap (k i : ℕ) (d : ℕ → ℤ)
     intro j hj
     exact hbound j (Nat.le_of_lt_succ (Nat.lt_succ_of_lt hj))
   have hlin := leading_linear_bounds k i d hk hlow hdi
+  have hlinWeighted := leading_linear_weighted_lower k i d hk hlow hdi
   have hquad := leading_quadratic_bounds k i d hk hlow hdi
   have hD₁ : 1 ≤ D := by
     dsimp [D]
@@ -51,9 +52,9 @@ theorem finite_digit_distance_gap (k i : ℕ) (d : ℕ → ℤ)
     apply one_le_pow₀
     have : (3 : ℝ) ≤ (k : ℝ) := by exact_mod_cast hk
     linarith
-  have hb₁ : X ≤ (k : ℝ) * (B : ℝ) := by
-    dsimp [X, B, L, K] at *
-    exact_mod_cast hlin.1
+  have hb₁ : D * X ≤ (k : ℝ) * (B : ℝ) := by
+    dsimp [D, X, B, L, K] at hlinWeighted ⊢
+    exact_mod_cast hlinWeighted
   have hb₂ : (B : ℝ) ≤ 2 * D * X := by
     dsimp [D, X, B, L, K] at *
     exact_mod_cast hlin.2
