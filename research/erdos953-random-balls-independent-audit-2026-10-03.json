@@ -1,0 +1,34 @@
+{
+  "certificates_verified": 2,
+  "results": [
+    {
+      "file": "erdos953-random-ball-grid-R1.5-N32000-eps0.03-seed95504.json",
+      "status": "passed all exact integer checks",
+      "balls_checked": 4463,
+      "ball_pairs_checked": 9956953,
+      "integers_checked": [
+        1,
+        2,
+        3
+      ],
+      "rectangles_checked": 142423,
+      "grid_cells": 1008821,
+      "area_fraction": "1008821/1000000"
+    },
+    {
+      "file": "erdos953-random-ball-grid-R2-N32000-eps0.03-seed95506.json",
+      "status": "passed all exact integer checks",
+      "balls_checked": 2647,
+      "ball_pairs_checked": 3501981,
+      "integers_checked": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "rectangles_checked": 101278,
+      "grid_cells": 1039132,
+      "area_fraction": "259783/250000"
+    }
+  ]
+}

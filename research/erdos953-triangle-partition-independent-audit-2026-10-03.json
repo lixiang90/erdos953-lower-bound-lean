@@ -1,0 +1,275 @@
+{
+  "certificates_verified": 18,
+  "results": [
+    {
+      "file": "erdos953-triangle-certificate-R1-n12-seed79312.json",
+      "status": "passed all exact integer and rational checks",
+      "pieces_checked": 235,
+      "piece_pairs_checked": 27495,
+      "forbidden_integers_checked": [
+        1,
+        2
+      ],
+      "exact_bbox_acceleration": true,
+      "fraction_fallback_pairs": 263,
+      "area_fraction": "111887803333373/144000000000000",
+      "circle_inclusion_and_grid_disjoint_interiors": "verified"
+    },
+    {
+      "file": "erdos953-triangle-certificate-R1-n24-seed79324.json",
+      "status": "passed all exact integer and rational checks",
+      "pieces_checked": 952,
+      "piece_pairs_checked": 452676,
+      "forbidden_integers_checked": [
+        1,
+        2
+      ],
+      "exact_bbox_acceleration": true,
+      "fraction_fallback_pairs": 144,
+      "area_fraction": "1247875353540097/1536000000000000",
+      "circle_inclusion_and_grid_disjoint_interiors": "verified"
+    },
+    {
+      "file": "erdos953-triangle-certificate-R1-n40-seed79340.json",
+      "status": "passed all exact integer and rational checks",
+      "pieces_checked": 2718,
+      "piece_pairs_checked": 3692403,
+      "forbidden_integers_checked": [
+        1,
+        2
+      ],
+      "exact_bbox_acceleration": true,
+      "fraction_fallback_pairs": 530,
+      "area_fraction": "1074534283269451/1280000000000000",
+      "circle_inclusion_and_grid_disjoint_interiors": "verified"
+    },
+    {
+      "file": "erdos953-triangle-certificate-R1-n64-seed79364.json",
+      "status": "passed all exact integer and rational checks",
+      "pieces_checked": 7109,
+      "piece_pairs_checked": 25265386,
+      "forbidden_integers_checked": [
+        1,
+        2
+      ],
+      "exact_bbox_acceleration": true,
+      "fraction_fallback_pairs": 1141,
+      "area_fraction": "14104480253525133/16384000000000000",
+      "circle_inclusion_and_grid_disjoint_interiors": "verified"
+    },
+    {
+      "file": "erdos953-triangle-certificate-R1-n96-seed79396-patch1600.json",
+      "status": "passed all exact integer and rational checks",
+      "pieces_checked": 16148,
+      "piece_pairs_checked": 130370878,
+      "forbidden_integers_checked": [
+        1,
+        2
+      ],
+      "exact_bbox_acceleration": true,
+      "fraction_fallback_pairs": 1169,
+      "area_fraction": "12854568687361979/14745600000000000",
+      "circle_inclusion_and_grid_disjoint_interiors": "verified"
+    },
+    {
+      "file": "erdos953-triangle-certificate-R1-n96-seed79396.json",
+      "status": "passed all exact integer and rational checks",
+      "pieces_checked": 16142,
+      "piece_pairs_checked": 130274011,
+      "forbidden_integers_checked": [
+        1,
+        2
+      ],
+      "exact_bbox_acceleration": true,
+      "fraction_fallback_pairs": 1953,
+      "area_fraction": "21421028937492071/24576000000000000",
+      "circle_inclusion_and_grid_disjoint_interiors": "verified"
+    },
+    {
+      "file": "erdos953-triangle-certificate-R1.5-n12-seed79412.json",
+      "status": "passed all exact integer and rational checks",
+      "pieces_checked": 102,
+      "piece_pairs_checked": 5151,
+      "forbidden_integers_checked": [
+        1,
+        2,
+        3
+      ],
+      "exact_bbox_acceleration": true,
+      "fraction_fallback_pairs": 80,
+      "area_fraction": "58554116716667/76800000000000",
+      "circle_inclusion_and_grid_disjoint_interiors": "verified"
+    },
+    {
+      "file": "erdos953-triangle-certificate-R1.5-n24-seed79424.json",
+      "status": "passed all exact integer and rational checks",
+      "pieces_checked": 459,
+      "piece_pairs_checked": 105111,
+      "forbidden_integers_checked": [
+        1,
+        2,
+        3
+      ],
+      "exact_bbox_acceleration": true,
+      "fraction_fallback_pairs": 131,
+      "area_fraction": "509074234164497/576000000000000",
+      "circle_inclusion_and_grid_disjoint_interiors": "verified"
+    },
+    {
+      "file": "erdos953-triangle-certificate-R1.5-n40-seed79440.json",
+      "status": "passed all exact integer and rational checks",
+      "pieces_checked": 1341,
+      "piece_pairs_checked": 898470,
+      "forbidden_integers_checked": [
+        1,
+        2,
+        3
+      ],
+      "exact_bbox_acceleration": true,
+      "fraction_fallback_pairs": 282,
+      "area_fraction": "23385935547967/25000000000000",
+      "circle_inclusion_and_grid_disjoint_interiors": "verified"
+    },
+    {
+      "file": "erdos953-triangle-certificate-R1.5-n64-seed79464.json",
+      "status": "passed all exact integer and rational checks",
+      "pieces_checked": 3567,
+      "piece_pairs_checked": 6359961,
+      "forbidden_integers_checked": [
+        1,
+        2,
+        3
+      ],
+      "exact_bbox_acceleration": true,
+      "fraction_fallback_pairs": 801,
+      "area_fraction": "15949849125802109/16384000000000000",
+      "circle_inclusion_and_grid_disjoint_interiors": "verified"
+    },
+    {
+      "file": "erdos953-triangle-certificate-R1.5-n96-seed79496-patch1600.json",
+      "status": "passed all exact integer and rational checks",
+      "pieces_checked": 8180,
+      "piece_pairs_checked": 33452110,
+      "forbidden_integers_checked": [
+        1,
+        2,
+        3
+      ],
+      "exact_bbox_acceleration": true,
+      "fraction_fallback_pairs": 1112,
+      "area_fraction": "1018663735117603/1024000000000000",
+      "circle_inclusion_and_grid_disjoint_interiors": "verified"
+    },
+    {
+      "file": "erdos953-triangle-certificate-R1.5-n96-seed79496.json",
+      "status": "passed all exact integer and rational checks",
+      "pieces_checked": 8180,
+      "piece_pairs_checked": 33452110,
+      "forbidden_integers_checked": [
+        1,
+        2,
+        3
+      ],
+      "exact_bbox_acceleration": true,
+      "fraction_fallback_pairs": 1112,
+      "area_fraction": "1018663735117603/1024000000000000",
+      "circle_inclusion_and_grid_disjoint_interiors": "verified"
+    },
+    {
+      "file": "erdos953-triangle-certificate-R2-n12-seed79512.json",
+      "status": "passed all exact integer and rational checks",
+      "pieces_checked": 65,
+      "piece_pairs_checked": 2080,
+      "forbidden_integers_checked": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "exact_bbox_acceleration": true,
+      "fraction_fallback_pairs": 120,
+      "area_fraction": "14882499261907/19200000000000",
+      "circle_inclusion_and_grid_disjoint_interiors": "verified"
+    },
+    {
+      "file": "erdos953-triangle-certificate-R2-n24-seed79524.json",
+      "status": "passed all exact integer and rational checks",
+      "pieces_checked": 263,
+      "piece_pairs_checked": 34453,
+      "forbidden_integers_checked": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "exact_bbox_acceleration": true,
+      "fraction_fallback_pairs": 234,
+      "area_fraction": "4035884962589341/4608000000000000",
+      "circle_inclusion_and_grid_disjoint_interiors": "verified"
+    },
+    {
+      "file": "erdos953-triangle-certificate-R2-n40-seed79540.json",
+      "status": "passed all exact integer and rational checks",
+      "pieces_checked": 784,
+      "piece_pairs_checked": 306936,
+      "forbidden_integers_checked": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "exact_bbox_acceleration": true,
+      "fraction_fallback_pairs": 580,
+      "area_fraction": "12252909040310907/12800000000000000",
+      "circle_inclusion_and_grid_disjoint_interiors": "verified"
+    },
+    {
+      "file": "erdos953-triangle-certificate-R2-n64-seed79564.json",
+      "status": "passed all exact integer and rational checks",
+      "pieces_checked": 2094,
+      "piece_pairs_checked": 2191371,
+      "forbidden_integers_checked": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "exact_bbox_acceleration": true,
+      "fraction_fallback_pairs": 1063,
+      "area_fraction": "8237461633407277/8192000000000000",
+      "circle_inclusion_and_grid_disjoint_interiors": "verified"
+    },
+    {
+      "file": "erdos953-triangle-certificate-R2-n96-seed79596-patch1600.json",
+      "status": "passed all exact integer and rational checks",
+      "pieces_checked": 4824,
+      "piece_pairs_checked": 11633076,
+      "forbidden_integers_checked": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "exact_bbox_acceleration": true,
+      "fraction_fallback_pairs": 2097,
+      "area_fraction": "15301182098368333/14745600000000000",
+      "circle_inclusion_and_grid_disjoint_interiors": "verified"
+    },
+    {
+      "file": "erdos953-triangle-certificate-R2-n96-seed79596.json",
+      "status": "passed all exact integer and rational checks",
+      "pieces_checked": 4822,
+      "piece_pairs_checked": 11623431,
+      "forbidden_integers_checked": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "exact_bbox_acceleration": true,
+      "fraction_fallback_pairs": 2738,
+      "area_fraction": "8500381596496823/8192000000000000",
+      "circle_inclusion_and_grid_disjoint_interiors": "verified"
+    }
+  ]
+}

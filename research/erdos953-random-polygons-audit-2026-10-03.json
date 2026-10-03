@@ -1,0 +1,1558 @@
+{
+  "certificates_verified": 24,
+  "results": [
+    {
+      "file": "erdos953-random-polygons-R1-N12000-eps0.015-seed95401.json",
+      "status": "passed exact integer and rational checks",
+      "polygon_count": 2,
+      "area_fraction": "2174563775650773/2500000000000000",
+      "component_squared_diameters": [
+        "2460437245238921/2500000000000000",
+        "9847180725786973/10000000000000000"
+      ],
+      "cross_distance_checks": [
+        {
+          "polygons": [
+            0,
+            1
+          ],
+          "minimum_squared_distance": "47963313256524735485131400281/47789060327176250000000000000",
+          "maximum_squared_distance": "39672512968333489/10000000000000000"
+        }
+      ]
+    },
+    {
+      "file": "erdos953-random-polygons-R1-N12000-eps0.03-seed95402.json",
+      "status": "passed exact integer and rational checks",
+      "polygon_count": 2,
+      "area_fraction": "8509358723087421/10000000000000000",
+      "component_squared_diameters": [
+        "2424668547806441/2500000000000000",
+        "19400772134493/20000000000000"
+      ],
+      "cross_distance_checks": [
+        {
+          "polygons": [
+            0,
+            1
+          ],
+          "minimum_squared_distance": "46054097907526242459219077797/45388940098732812500000000000",
+          "maximum_squared_distance": "39388236641019713/10000000000000000"
+        }
+      ]
+    },
+    {
+      "file": "erdos953-random-polygons-R1-N12000-eps0.06-seed95403.json",
+      "status": "passed exact integer and rational checks",
+      "polygon_count": 2,
+      "area_fraction": "16245912812367471/20000000000000000",
+      "component_squared_diameters": [
+        "293308929548897/312500000000000",
+        "4702198908746329/5000000000000000"
+      ],
+      "cross_distance_checks": [
+        {
+          "polygons": [
+            0,
+            1
+          ],
+          "minimum_squared_distance": "75409570045932806084575966801/72545752683547812500000000000",
+          "maximum_squared_distance": "19395599253218933/5000000000000000"
+        }
+      ]
+    },
+    {
+      "file": "erdos953-random-polygons-R1-N32000-eps0.008-seed95501.json",
+      "status": "passed exact integer and rational checks",
+      "polygon_count": 2,
+      "area_fraction": "1744235768941777/2000000000000000",
+      "component_squared_diameters": [
+        "983890375922197/1000000000000000",
+        "98352499338061/100000000000000"
+      ],
+      "cross_distance_checks": [
+        {
+          "polygons": [
+            0,
+            1
+          ],
+          "minimum_squared_distance": "4506993703421965547360762370957/4482231752871890000000000000000",
+          "maximum_squared_distance": "39680539646910809/10000000000000000"
+        }
+      ]
+    },
+    {
+      "file": "erdos953-random-polygons-R1-N32000-eps0.015-seed95502.json",
+      "status": "passed exact integer and rational checks",
+      "polygon_count": 2,
+      "area_fraction": "1710141226836471/2000000000000000",
+      "component_squared_diameters": [
+        "1940132774542021/2000000000000000",
+        "1212724190135569/1250000000000000"
+      ],
+      "cross_distance_checks": [
+        {
+          "polygons": [
+            0,
+            1
+          ],
+          "minimum_squared_distance": "453075495408737473751911165421/446522433299290000000000000000",
+          "maximum_squared_distance": "39400810162977357/10000000000000000"
+        }
+      ]
+    },
+    {
+      "file": "erdos953-random-polygons-R1-N4000-eps0.015-seed95302.json",
+      "status": "passed exact integer and rational checks",
+      "polygon_count": 2,
+      "area_fraction": "8370089628889433/10000000000000000",
+      "component_squared_diameters": [
+        "9693475105019953/10000000000000000",
+        "9685800319588821/10000000000000000"
+      ],
+      "cross_distance_checks": [
+        {
+          "polygons": [
+            0,
+            1
+          ],
+          "minimum_squared_distance": "49646416380064282039944402535201/49057307568881620000000000000000",
+          "maximum_squared_distance": "315200702013041/80000000000000"
+        }
+      ]
+    },
+    {
+      "file": "erdos953-random-polygons-R1-N4000-eps0.03-seed95301.json",
+      "status": "passed exact integer and rational checks",
+      "polygon_count": 2,
+      "area_fraction": "128852771065133/160000000000000",
+      "component_squared_diameters": [
+        "9408487104594593/10000000000000000",
+        "9393636212194429/10000000000000000"
+      ],
+      "cross_distance_checks": [
+        {
+          "polygons": [
+            0,
+            1
+          ],
+          "minimum_squared_distance": "5009800413987655018998751201/4929477352214500000000000000",
+          "maximum_squared_distance": "1552321754334013/400000000000000"
+        }
+      ]
+    },
+    {
+      "file": "erdos953-random-polygons-R1-N4000-eps0.06-seed95303.json",
+      "status": "passed exact integer and rational checks",
+      "polygon_count": 2,
+      "area_fraction": "8030604996076827/10000000000000000",
+      "component_squared_diameters": [
+        "2351260254821593/2500000000000000",
+        "75239086385369/80000000000000"
+      ],
+      "cross_distance_checks": [
+        {
+          "polygons": [
+            0,
+            1
+          ],
+          "minimum_squared_distance": "267554348769102912251604095209/256051981554020000000000000000",
+          "maximum_squared_distance": "3876408688505041/1000000000000000"
+        }
+      ]
+    },
+    {
+      "file": "erdos953-random-polygons-R1.5-N12000-eps0.015-seed95404.json",
+      "status": "passed exact integer and rational checks",
+      "polygon_count": 4,
+      "area_fraction": "4802370834475903/5000000000000000",
+      "component_squared_diameters": [
+        "1936214693176921/2000000000000000",
+        "9618723151741729/10000000000000000",
+        "1652728469086881/5000000000000000",
+        "786024612765109/5000000000000000"
+      ],
+      "cross_distance_checks": [
+        {
+          "polygons": [
+            0,
+            1
+          ],
+          "minimum_squared_distance": "26038960232538183666089699782089/6417127713628900000000000000000",
+          "maximum_squared_distance": "44546891426711741/5000000000000000"
+        },
+        {
+          "polygons": [
+            0,
+            2
+          ],
+          "minimum_squared_distance": "652659582655345912357848184161/644187739390471250000000000000",
+          "maximum_squared_distance": "19683953204942909/5000000000000000"
+        },
+        {
+          "polygons": [
+            0,
+            3
+          ],
+          "minimum_squared_distance": "24606472256060186780097861769/23869853136610000000000000000",
+          "maximum_squared_distance": "1969233118622401/500000000000000"
+        },
+        {
+          "polygons": [
+            1,
+            2
+          ],
+          "minimum_squared_distance": "24187156282437720072184007289/23661356504140100000000000000",
+          "maximum_squared_distance": "1969526543087693/500000000000000"
+        },
+        {
+          "polygons": [
+            1,
+            3
+          ],
+          "minimum_squared_distance": "967466879463800035159802017441/939637700733482500000000000000",
+          "maximum_squared_distance": "39390104439014697/10000000000000000"
+        },
+        {
+          "polygons": [
+            2,
+            3
+          ],
+          "minimum_squared_distance": "53684846257911331993820555329/51755987655140000000000000000",
+          "maximum_squared_distance": "39333227686922921/10000000000000000"
+        }
+      ]
+    },
+    {
+      "file": "erdos953-random-polygons-R1.5-N12000-eps0.03-seed95405.json",
+      "status": "passed exact integer and rational checks",
+      "polygon_count": 4,
+      "area_fraction": "18108712332109901/20000000000000000",
+      "component_squared_diameters": [
+        "188015847932953/200000000000000",
+        "292013538542717/312500000000000",
+        "295652943586841/1000000000000000",
+        "1275349277883589/10000000000000000"
+      ],
+      "cross_distance_checks": [
+        {
+          "polygons": [
+            0,
+            1
+          ],
+          "minimum_squared_distance": "60245941306866823202198707681/14631448528314863281250000000",
+          "maximum_squared_distance": "88202139243737401/10000000000000000"
+        },
+        {
+          "polygons": [
+            0,
+            2
+          ],
+          "minimum_squared_distance": "5603991776195854932449065445689/5336369826382285000000000000000",
+          "maximum_squared_distance": "19392418746767953/5000000000000000"
+        },
+        {
+          "polygons": [
+            0,
+            3
+          ],
+          "minimum_squared_distance": "3480261530875092589799404649889/3275359316813450000000000000000",
+          "maximum_squared_distance": "242444407517329/62500000000000"
+        },
+        {
+          "polygons": [
+            1,
+            2
+          ],
+          "minimum_squared_distance": "5315536714057561/5000000000000000",
+          "maximum_squared_distance": "2411730493782013/625000000000000"
+        },
+        {
+          "polygons": [
+            1,
+            3
+          ],
+          "minimum_squared_distance": "347117348395688340335080663449/327569307252732500000000000000",
+          "maximum_squared_distance": "19395654418592797/5000000000000000"
+        },
+        {
+          "polygons": [
+            2,
+            3
+          ],
+          "minimum_squared_distance": "5336935647702829/5000000000000000",
+          "maximum_squared_distance": "37244260879277701/10000000000000000"
+        }
+      ]
+    },
+    {
+      "file": "erdos953-random-polygons-R1.5-N12000-eps0.06-seed95406.json",
+      "status": "passed exact integer and rational checks",
+      "polygon_count": 4,
+      "area_fraction": "9072892132920309/10000000000000000",
+      "component_squared_diameters": [
+        "1173015982397857/1250000000000000",
+        "2350948676153369/2500000000000000",
+        "28566533337709/80000000000000",
+        "1040292695378833/10000000000000000"
+      ],
+      "cross_distance_checks": [
+        {
+          "polygons": [
+            0,
+            1
+          ],
+          "minimum_squared_distance": "10252285129654325704665795267801/2491453228960422500000000000000",
+          "maximum_squared_distance": "275034052037673/31250000000000"
+        },
+        {
+          "polygons": [
+            0,
+            2
+          ],
+          "minimum_squared_distance": "2634115164811773503091281013649/2508271995338832500000000000000",
+          "maximum_squared_distance": "19393014970665193/5000000000000000"
+        },
+        {
+          "polygons": [
+            0,
+            3
+          ],
+          "minimum_squared_distance": "307128315747181076083434409/290279649400505000000000000",
+          "maximum_squared_distance": "38782137938289161/10000000000000000"
+        },
+        {
+          "polygons": [
+            1,
+            2
+          ],
+          "minimum_squared_distance": "9717628962181832962531006509841/9207337245235090000000000000000",
+          "maximum_squared_distance": "38806544945953453/10000000000000000"
+        },
+        {
+          "polygons": [
+            1,
+            3
+          ],
+          "minimum_squared_distance": "704248168827244642818714948049/663878129091140000000000000000",
+          "maximum_squared_distance": "9681657696049649/2500000000000000"
+        },
+        {
+          "polygons": [
+            2,
+            3
+          ],
+          "minimum_squared_distance": "166320008284781/156250000000000",
+          "maximum_squared_distance": "19046776921861133/5000000000000000"
+        }
+      ]
+    },
+    {
+      "file": "erdos953-random-polygons-R1.5-N32000-eps0.008-seed95503.json",
+      "status": "passed exact integer and rational checks",
+      "polygon_count": 4,
+      "area_fraction": "20385620360334689/20000000000000000",
+      "component_squared_diameters": [
+        "619456975731533/625000000000000",
+        "2479412678552977/2500000000000000",
+        "555915044613097/2000000000000000",
+        "2241533213860181/10000000000000000"
+      ],
+      "cross_distance_checks": [
+        {
+          "polygons": [
+            0,
+            1
+          ],
+          "minimum_squared_distance": "42663165182346005208602203681/10657992501935050000000000000",
+          "maximum_squared_distance": "89751075628531181/10000000000000000"
+        },
+        {
+          "polygons": [
+            0,
+            2
+          ],
+          "minimum_squared_distance": "13721105729854944539972269441/13666236906432500000000000000",
+          "maximum_squared_distance": "7960767489574129/2000000000000000"
+        },
+        {
+          "polygons": [
+            0,
+            3
+          ],
+          "minimum_squared_distance": "107696031678640570228538658121/107470780135490000000000000000",
+          "maximum_squared_distance": "39834698251059917/10000000000000000"
+        },
+        {
+          "polygons": [
+            1,
+            2
+          ],
+          "minimum_squared_distance": "5131870517017712232927510921169/5118868733832250000000000000000",
+          "maximum_squared_distance": "39837200317122409/10000000000000000"
+        },
+        {
+          "polygons": [
+            1,
+            3
+          ],
+          "minimum_squared_distance": "5263973105348564087489559960049/5236680369617450000000000000000",
+          "maximum_squared_distance": "4979862911391561/1250000000000000"
+        },
+        {
+          "polygons": [
+            2,
+            3
+          ],
+          "minimum_squared_distance": "18059309394788688112665339849/17909249714530000000000000000",
+          "maximum_squared_distance": "39835193659486529/10000000000000000"
+        }
+      ]
+    },
+    {
+      "file": "erdos953-random-polygons-R1.5-N32000-eps0.03-seed95504.json",
+      "status": "passed exact integer and rational checks",
+      "polygon_count": 4,
+      "area_fraction": "784148741205817/800000000000000",
+      "component_squared_diameters": [
+        "9699387836602129/10000000000000000",
+        "9686997370089953/10000000000000000",
+        "2710568814983597/10000000000000000",
+        "1965574751198229/10000000000000000"
+      ],
+      "cross_distance_checks": [
+        {
+          "polygons": [
+            0,
+            1
+          ],
+          "minimum_squared_distance": "57662553592091870809962447609/14241660680105000000000000000",
+          "maximum_squared_distance": "22268916180404477/2500000000000000"
+        },
+        {
+          "polygons": [
+            0,
+            2
+          ],
+          "minimum_squared_distance": "10922041670399528300655380721841/10719679540395220000000000000000",
+          "maximum_squared_distance": "39384130697208113/10000000000000000"
+        },
+        {
+          "polygons": [
+            0,
+            3
+          ],
+          "minimum_squared_distance": "15333646567139902175565075169/15012775706075600000000000000",
+          "maximum_squared_distance": "9848832146029853/2500000000000000"
+        },
+        {
+          "polygons": [
+            1,
+            2
+          ],
+          "minimum_squared_distance": "11857493187048622363245222073441/11612684688879490000000000000000",
+          "maximum_squared_distance": "7879726893396109/2000000000000000"
+        },
+        {
+          "polygons": [
+            1,
+            3
+          ],
+          "minimum_squared_distance": "201247556031789277108079289889/195465446252690000000000000000",
+          "maximum_squared_distance": "7879100200551333/2000000000000000"
+        },
+        {
+          "polygons": [
+            2,
+            3
+          ],
+          "minimum_squared_distance": "25818893452997/25000000000000",
+          "maximum_squared_distance": "4891175642965597/1250000000000000"
+        }
+      ]
+    },
+    {
+      "file": "erdos953-random-polygons-R1.5-N4000-eps0.015-seed95304.json",
+      "status": "passed exact integer and rational checks",
+      "polygon_count": 3,
+      "area_fraction": "6125669358444613/10000000000000000",
+      "component_squared_diameters": [
+        "9782809995608717/10000000000000000",
+        "5557875849176437/10000000000000000",
+        "770780113887361/10000000000000000"
+      ],
+      "cross_distance_checks": [
+        {
+          "polygons": [
+            0,
+            1
+          ],
+          "minimum_squared_distance": "9429337537309996443837794349369/9350645748706712500000000000000",
+          "maximum_squared_distance": "39628149385073401/10000000000000000"
+        },
+        {
+          "polygons": [
+            0,
+            2
+          ],
+          "minimum_squared_distance": "14578140314326748221918019853/14250591787970000000000000000",
+          "maximum_squared_distance": "316873747718153/80000000000000"
+        },
+        {
+          "polygons": [
+            1,
+            2
+          ],
+          "minimum_squared_distance": "32617566883815848080333260921/31641741936366250000000000000",
+          "maximum_squared_distance": "19135496642805121/5000000000000000"
+        }
+      ]
+    },
+    {
+      "file": "erdos953-random-polygons-R1.5-N4000-eps0.03-seed95305.json",
+      "status": "passed exact integer and rational checks",
+      "polygon_count": 3,
+      "area_fraction": "8807421628694753/10000000000000000",
+      "component_squared_diameters": [
+        "9038929847968969/10000000000000000",
+        "9354921753165829/10000000000000000",
+        "2351095097346697/2500000000000000"
+      ],
+      "cross_distance_checks": [
+        {
+          "polygons": [
+            0,
+            1
+          ],
+          "minimum_squared_distance": "4414198684423942980619049929/4189072872452000000000000000",
+          "maximum_squared_distance": "38789536028836853/10000000000000000"
+        },
+        {
+          "polygons": [
+            0,
+            2
+          ],
+          "minimum_squared_distance": "5152337208569053/1250000000000000",
+          "maximum_squared_distance": "8811580623520509/1000000000000000"
+        },
+        {
+          "polygons": [
+            1,
+            2
+          ],
+          "minimum_squared_distance": "7297735110666110436553233115561/7112205189822580000000000000000",
+          "maximum_squared_distance": "38768327547788273/10000000000000000"
+        }
+      ]
+    },
+    {
+      "file": "erdos953-random-polygons-R1.5-N4000-eps0.06-seed95306.json",
+      "status": "passed exact integer and rational checks",
+      "polygon_count": 4,
+      "area_fraction": "17762046936064463/20000000000000000",
+      "component_squared_diameters": [
+        "4691471429914657/5000000000000000",
+        "2296702157267961/2500000000000000",
+        "125344483871417/400000000000000",
+        "1228321791663217/10000000000000000"
+      ],
+      "cross_distance_checks": [
+        {
+          "polygons": [
+            0,
+            1
+          ],
+          "minimum_squared_distance": "287454976437414225975258284089/70068920578771250000000000000",
+          "maximum_squared_distance": "87910622976559061/10000000000000000"
+        },
+        {
+          "polygons": [
+            0,
+            2
+          ],
+          "minimum_squared_distance": "3483470581591189791715104280129/3317708671701612500000000000000",
+          "maximum_squared_distance": "38793879605667121/10000000000000000"
+        },
+        {
+          "polygons": [
+            0,
+            3
+          ],
+          "minimum_squared_distance": "6086851067789990812666591849/5749790815700000000000000000",
+          "maximum_squared_distance": "38410594729842941/10000000000000000"
+        },
+        {
+          "polygons": [
+            1,
+            2
+          ],
+          "minimum_squared_distance": "10387566511811174239499040180849/9955403621322490000000000000000",
+          "maximum_squared_distance": "38587914835967909/10000000000000000"
+        },
+        {
+          "polygons": [
+            1,
+            3
+          ],
+          "minimum_squared_distance": "916917408806666771219249725129/866356646803370000000000000000",
+          "maximum_squared_distance": "19401982782468493/5000000000000000"
+        },
+        {
+          "polygons": [
+            2,
+            3
+          ],
+          "minimum_squared_distance": "212313798786989/200000000000000",
+          "maximum_squared_distance": "7501464045524189/2000000000000000"
+        }
+      ]
+    },
+    {
+      "file": "erdos953-random-polygons-R2-N12000-eps0.015-seed95407.json",
+      "status": "passed exact integer and rational checks",
+      "polygon_count": 6,
+      "area_fraction": "2572142712913067/2500000000000000",
+      "component_squared_diameters": [
+        "2460850777414433/2500000000000000",
+        "9845407953982981/10000000000000000",
+        "519434071066037/2000000000000000",
+        "569334925630441/2000000000000000",
+        "2168999637820693/5000000000000000",
+        "360353598153077/5000000000000000"
+      ],
+      "cross_distance_checks": [
+        {
+          "polygons": [
+            0,
+            1
+          ],
+          "minimum_squared_distance": "19394285312818709/2000000000000000",
+          "maximum_squared_distance": "31843995767723133/2000000000000000"
+        },
+        {
+          "polygons": [
+            0,
+            2
+          ],
+          "minimum_squared_distance": "12824119974470906728098738841/12735430360850000000000000000",
+          "maximum_squared_distance": "19845799653409409/5000000000000000"
+        },
+        {
+          "polygons": [
+            0,
+            3
+          ],
+          "minimum_squared_distance": "447672893336611977590663409/440597519876562500000000000",
+          "maximum_squared_distance": "7926393345468593/2000000000000000"
+        },
+        {
+          "polygons": [
+            0,
+            4
+          ],
+          "minimum_squared_distance": "23359596286802810915578160540961/5813041895826650000000000000000",
+          "maximum_squared_distance": "35801437453997553/5000000000000000"
+        },
+        {
+          "polygons": [
+            0,
+            5
+          ],
+          "minimum_squared_distance": "8585258161429121/2000000000000000",
+          "maximum_squared_distance": "4554539848749969/625000000000000"
+        },
+        {
+          "polygons": [
+            1,
+            2
+          ],
+          "minimum_squared_distance": "5075249317859873/1250000000000000",
+          "maximum_squared_distance": "17846396574961193/2000000000000000"
+        },
+        {
+          "polygons": [
+            1,
+            3
+          ],
+          "minimum_squared_distance": "84658180064978146782998803081/20393276948245000000000000000",
+          "maximum_squared_distance": "89471462606185153/10000000000000000"
+        },
+        {
+          "polygons": [
+            1,
+            4
+          ],
+          "minimum_squared_distance": "11778793221264973125230968567609/11700494896988740000000000000000",
+          "maximum_squared_distance": "1292868295783613/500000000000000"
+        },
+        {
+          "polygons": [
+            1,
+            5
+          ],
+          "minimum_squared_distance": "1621770261970491033192853444321/1601988853009332500000000000000",
+          "maximum_squared_distance": "13541097251910773/5000000000000000"
+        },
+        {
+          "polygons": [
+            2,
+            3
+          ],
+          "minimum_squared_distance": "10186622493810481/10000000000000000",
+          "maximum_squared_distance": "9919584472981573/2500000000000000"
+        },
+        {
+          "polygons": [
+            2,
+            4
+          ],
+          "minimum_squared_distance": "64691818659381923764506635569/63730450545728800000000000000",
+          "maximum_squared_distance": "29590108871455117/10000000000000000"
+        },
+        {
+          "polygons": [
+            2,
+            5
+          ],
+          "minimum_squared_distance": "186908042286597001777801/114042266500000000000000",
+          "maximum_squared_distance": "39565904803265741/10000000000000000"
+        },
+        {
+          "polygons": [
+            3,
+            4
+          ],
+          "minimum_squared_distance": "204581010307733/200000000000000",
+          "maximum_squared_distance": "36723843047754053/10000000000000000"
+        },
+        {
+          "polygons": [
+            3,
+            5
+          ],
+          "minimum_squared_distance": "81278241956988294088432350889/80145272313512500000000000000",
+          "maximum_squared_distance": "21461363622131801/10000000000000000"
+        },
+        {
+          "polygons": [
+            4,
+            5
+          ],
+          "minimum_squared_distance": "867318298953770660862179521/309233142056050000000000000000",
+          "maximum_squared_distance": "232275510976129/250000000000000"
+        }
+      ]
+    },
+    {
+      "file": "erdos953-random-polygons-R2-N12000-eps0.03-seed95408.json",
+      "status": "passed exact integer and rational checks",
+      "polygon_count": 5,
+      "area_fraction": "19921456442346153/20000000000000000",
+      "component_squared_diameters": [
+        "9666128584291909/10000000000000000",
+        "1927735383139117/2000000000000000",
+        "599301741129989/1250000000000000",
+        "189478090678069/2000000000000000",
+        "492716445152329/10000000000000000"
+      ],
+      "cross_distance_checks": [
+        {
+          "polygons": [
+            0,
+            1
+          ],
+          "minimum_squared_distance": "592770890455031849769550691209/65241874704602500000000000000",
+          "maximum_squared_distance": "158479006401733201/10000000000000000"
+        },
+        {
+          "polygons": [
+            0,
+            2
+          ],
+          "minimum_squared_distance": "21979698174995869087822292692849/5415789950440900000000000000000",
+          "maximum_squared_distance": "88930446617309409/10000000000000000"
+        },
+        {
+          "polygons": [
+            0,
+            3
+          ],
+          "minimum_squared_distance": "578092484098781413947771685969/141914088216410000000000000000",
+          "maximum_squared_distance": "44505396422768497/5000000000000000"
+        },
+        {
+          "polygons": [
+            0,
+            4
+          ],
+          "minimum_squared_distance": "1034056812802637/1000000000000000",
+          "maximum_squared_distance": "7864234100621681/2000000000000000"
+        },
+        {
+          "polygons": [
+            1,
+            2
+          ],
+          "minimum_squared_distance": "4629423822726857037414553593169/4578269147762005000000000000000",
+          "maximum_squared_distance": "39166596628798541/10000000000000000"
+        },
+        {
+          "polygons": [
+            1,
+            3
+          ],
+          "minimum_squared_distance": "16145620697726081696377132569/15743498061932500000000000000",
+          "maximum_squared_distance": "39348723836385197/10000000000000000"
+        },
+        {
+          "polygons": [
+            1,
+            4
+          ],
+          "minimum_squared_distance": "3821090753701051428503522883289/732523063641920800000000000000",
+          "maximum_squared_distance": "8904017918762761/1000000000000000"
+        },
+        {
+          "polygons": [
+            2,
+            3
+          ],
+          "minimum_squared_distance": "1303112989713413/1250000000000000",
+          "maximum_squared_distance": "39370988427957121/10000000000000000"
+        },
+        {
+          "polygons": [
+            2,
+            4
+          ],
+          "minimum_squared_distance": "10305304500232769/10000000000000000",
+          "maximum_squared_distance": "11061113190398701/5000000000000000"
+        },
+        {
+          "polygons": [
+            3,
+            4
+          ],
+          "minimum_squared_distance": "6328200245633228074645233009/1556832640010000000000000000",
+          "maximum_squared_distance": "6089917302823933/1000000000000000"
+        }
+      ]
+    },
+    {
+      "file": "erdos953-random-polygons-R2-N12000-eps0.06-seed95409.json",
+      "status": "passed exact integer and rational checks",
+      "polygon_count": 5,
+      "area_fraction": "9301149538580931/10000000000000000",
+      "component_squared_diameters": [
+        "9390784160177989/10000000000000000",
+        "187080314449813/200000000000000",
+        "998509522702597/2000000000000000",
+        "464303295995669/10000000000000000",
+        "178953138901717/10000000000000000"
+      ],
+      "cross_distance_checks": [
+        {
+          "polygons": [
+            0,
+            1
+          ],
+          "minimum_squared_distance": "42798253413967579873183237731721/4675980027266605000000000000000",
+          "maximum_squared_distance": "3926015835213313/250000000000000"
+        },
+        {
+          "polygons": [
+            0,
+            2
+          ],
+          "minimum_squared_distance": "8121000317815393277015459838321/1977978031649892500000000000000",
+          "maximum_squared_distance": "4406412577284457/500000000000000"
+        },
+        {
+          "polygons": [
+            0,
+            3
+          ],
+          "minimum_squared_distance": "20718092806641053/5000000000000000",
+          "maximum_squared_distance": "2705964822508537/312500000000000"
+        },
+        {
+          "polygons": [
+            0,
+            4
+          ],
+          "minimum_squared_distance": "1076733764067355486239785121/1013112988130000000000000000",
+          "maximum_squared_distance": "38764192877705997/10000000000000000"
+        },
+        {
+          "polygons": [
+            1,
+            2
+          ],
+          "minimum_squared_distance": "283888267083758959578033851601/272912100866050000000000000000",
+          "maximum_squared_distance": "9686722709920373/2500000000000000"
+        },
+        {
+          "polygons": [
+            1,
+            3
+          ],
+          "minimum_squared_distance": "2844713453814938713760298955161/2666642511248930000000000000000",
+          "maximum_squared_distance": "18523801368095077/5000000000000000"
+        },
+        {
+          "polygons": [
+            1,
+            4
+          ],
+          "minimum_squared_distance": "6614204721089041/1250000000000000",
+          "maximum_squared_distance": "8732312125644013/1000000000000000"
+        },
+        {
+          "polygons": [
+            2,
+            3
+          ],
+          "minimum_squared_distance": "2925866158476953/2500000000000000",
+          "maximum_squared_distance": "38717294094230869/10000000000000000"
+        },
+        {
+          "polygons": [
+            2,
+            4
+          ],
+          "minimum_squared_distance": "19434663601646863130104411609/18158445499405000000000000000",
+          "maximum_squared_distance": "10662831529112993/5000000000000000"
+        },
+        {
+          "polygons": [
+            3,
+            4
+          ],
+          "minimum_squared_distance": "20611144352745481/5000000000000000",
+          "maximum_squared_distance": "11273326431317581/2000000000000000"
+        }
+      ]
+    },
+    {
+      "file": "erdos953-random-polygons-R2-N32000-eps0.008-seed95505.json",
+      "status": "passed exact integer and rational checks",
+      "polygon_count": 2,
+      "area_fraction": "15242142390125171/20000000000000000",
+      "component_squared_diameters": [
+        "9793615904321749/10000000000000000",
+        "491527393072753/500000000000000"
+      ],
+      "cross_distance_checks": [
+        {
+          "polygons": [
+            0,
+            1
+          ],
+          "minimum_squared_distance": "75647431165164922169127533981401/8367720042418420000000000000000",
+          "maximum_squared_distance": "79663036168926017/5000000000000000"
+        }
+      ]
+    },
+    {
+      "file": "erdos953-random-polygons-R2-N32000-eps0.03-seed95506.json",
+      "status": "passed exact integer and rational checks",
+      "polygon_count": 5,
+      "area_fraction": "20367415168514783/20000000000000000",
+      "component_squared_diameters": [
+        "1938049246031749/2000000000000000",
+        "969923120435513/1000000000000000",
+        "6125151874773593/10000000000000000",
+        "80536635174049/1250000000000000",
+        "426239249063701/5000000000000000"
+      ],
+      "cross_distance_checks": [
+        {
+          "polygons": [
+            0,
+            1
+          ],
+          "minimum_squared_distance": "255281245464001094181093396721/28083370034310625000000000000",
+          "maximum_squared_distance": "4957682400040253/312500000000000"
+        },
+        {
+          "polygons": [
+            0,
+            2
+          ],
+          "minimum_squared_distance": "26150549681454313575739642530049/6466199770846272500000000000000",
+          "maximum_squared_distance": "17814610611815953/2000000000000000"
+        },
+        {
+          "polygons": [
+            0,
+            3
+          ],
+          "minimum_squared_distance": "8131432169961857/2000000000000000",
+          "maximum_squared_distance": "89089420345709381/10000000000000000"
+        },
+        {
+          "polygons": [
+            0,
+            4
+          ],
+          "minimum_squared_distance": "1033776336598277/1000000000000000",
+          "maximum_squared_distance": "7854600612881773/2000000000000000"
+        },
+        {
+          "polygons": [
+            1,
+            2
+          ],
+          "minimum_squared_distance": "3212270555199064174890678059569/3151164346955410000000000000000",
+          "maximum_squared_distance": "7869833366779913/2000000000000000"
+        },
+        {
+          "polygons": [
+            1,
+            3
+          ],
+          "minimum_squared_distance": "31898436928125499182217177161/30995699268771406250000000000",
+          "maximum_squared_distance": "9828074090707429/2500000000000000"
+        },
+        {
+          "polygons": [
+            1,
+            4
+          ],
+          "minimum_squared_distance": "2643782050438853/500000000000000",
+          "maximum_squared_distance": "89088645607223641/10000000000000000"
+        },
+        {
+          "polygons": [
+            2,
+            3
+          ],
+          "minimum_squared_distance": "1032170084238833/1000000000000000",
+          "maximum_squared_distance": "1574491545935793/400000000000000"
+        },
+        {
+          "polygons": [
+            2,
+            4
+          ],
+          "minimum_squared_distance": "534078481759614904082369454169/519224981005302500000000000000",
+          "maximum_squared_distance": "461811858492373/200000000000000"
+        },
+        {
+          "polygons": [
+            3,
+            4
+          ],
+          "minimum_squared_distance": "419345289174346358083801726761/103253026599010000000000000000",
+          "maximum_squared_distance": "62541081018108361/10000000000000000"
+        }
+      ]
+    },
+    {
+      "file": "erdos953-random-polygons-R2-N4000-eps0.015-seed95307.json",
+      "status": "passed exact integer and rational checks",
+      "polygon_count": 7,
+      "area_fraction": "3833396977901189/5000000000000000",
+      "component_squared_diameters": [
+        "1935329990248757/2000000000000000",
+        "288162638195221/500000000000000",
+        "133892183268289/400000000000000",
+        "3241878425149537/10000000000000000",
+        "502406081022389/5000000000000000",
+        "1946815052881/100000000000000",
+        "38523306626181/5000000000000000"
+      ],
+      "cross_distance_checks": [
+        {
+          "polygons": [
+            0,
+            1
+          ],
+          "minimum_squared_distance": "37714536411869/4000000000000",
+          "maximum_squared_distance": "39031802199977473/2500000000000000"
+        },
+        {
+          "polygons": [
+            0,
+            2
+          ],
+          "minimum_squared_distance": "22770116079476589/5000000000000000",
+          "maximum_squared_distance": "88758709251254793/10000000000000000"
+        },
+        {
+          "polygons": [
+            0,
+            3
+          ],
+          "minimum_squared_distance": "17053518761357093037564992996049/16504369616081810000000000000000",
+          "maximum_squared_distance": "290012727233149/78125000000000"
+        },
+        {
+          "polygons": [
+            0,
+            4
+          ],
+          "minimum_squared_distance": "41351685811701929/10000000000000000",
+          "maximum_squared_distance": "36862532651978389/5000000000000000"
+        },
+        {
+          "polygons": [
+            0,
+            5
+          ],
+          "minimum_squared_distance": "43785905178266301271851087649/4139659132629531250000000000",
+          "maximum_squared_distance": "75797165712441737/5000000000000000"
+        },
+        {
+          "polygons": [
+            0,
+            6
+          ],
+          "minimum_squared_distance": "646709846152408212396813350769/416346714788912500000000000000",
+          "maximum_squared_distance": "4918354504751233/1250000000000000"
+        },
+        {
+          "polygons": [
+            1,
+            2
+          ],
+          "minimum_squared_distance": "11348132786529320966646588891361/10845310370210450000000000000000",
+          "maximum_squared_distance": "17098022875942553/5000000000000000"
+        },
+        {
+          "polygons": [
+            1,
+            3
+          ],
+          "minimum_squared_distance": "6226494942311118454890127234369/1238029588692226250000000000000",
+          "maximum_squared_distance": "81166322642339381/10000000000000000"
+        },
+        {
+          "polygons": [
+            1,
+            4
+          ],
+          "minimum_squared_distance": "20458732368784344750057474282529/19808473419075620000000000000000",
+          "maximum_squared_distance": "4044811055348113/2000000000000000"
+        },
+        {
+          "polygons": [
+            1,
+            5
+          ],
+          "minimum_squared_distance": "639940572587458785086657521/117962998607620000000000000000",
+          "maximum_squared_distance": "7473696862189333/10000000000000000"
+        },
+        {
+          "polygons": [
+            1,
+            6
+          ],
+          "minimum_squared_distance": "60634246136225429/10000000000000000",
+          "maximum_squared_distance": "10272818192007293/1250000000000000"
+        },
+        {
+          "polygons": [
+            2,
+            3
+          ],
+          "minimum_squared_distance": "3008384812947949086401649/2920123962500000000000000",
+          "maximum_squared_distance": "25393147110940333/10000000000000000"
+        },
+        {
+          "polygons": [
+            2,
+            4
+          ],
+          "minimum_squared_distance": "1124911754007551337585330769/187391230260260000000000000000",
+          "maximum_squared_distance": "46515508138849/50000000000000"
+        },
+        {
+          "polygons": [
+            2,
+            5
+          ],
+          "minimum_squared_distance": "43020551404584936956798339121/42364493633634570312500000000",
+          "maximum_squared_distance": "21249291823097881/10000000000000000"
+        },
+        {
+          "polygons": [
+            2,
+            6
+          ],
+          "minimum_squared_distance": "12589428299019013/10000000000000000",
+          "maximum_squared_distance": "4591037555541117/2000000000000000"
+        },
+        {
+          "polygons": [
+            3,
+            4
+          ],
+          "minimum_squared_distance": "1502370478829250671082974841969/1170288240808010000000000000000",
+          "maximum_squared_distance": "25998518163139849/10000000000000000"
+        },
+        {
+          "polygons": [
+            3,
+            5
+          ],
+          "minimum_squared_distance": "10225849755139577/2000000000000000",
+          "maximum_squared_distance": "72947144770305237/10000000000000000"
+        },
+        {
+          "polygons": [
+            3,
+            6
+          ],
+          "minimum_squared_distance": "44955793754948122320687997081/4829153317076450000000000000000",
+          "maximum_squared_distance": "304839039717397/625000000000000"
+        },
+        {
+          "polygons": [
+            4,
+            5
+          ],
+          "minimum_squared_distance": "1374326910247537/1250000000000000",
+          "maximum_squared_distance": "369928120120081/200000000000000"
+        },
+        {
+          "polygons": [
+            4,
+            6
+          ],
+          "minimum_squared_distance": "1996669574685773/1000000000000000",
+          "maximum_squared_distance": "110607477376041/40000000000000"
+        },
+        {
+          "polygons": [
+            5,
+            6
+          ],
+          "minimum_squared_distance": "29682399814128109/5000000000000000",
+          "maximum_squared_distance": "3492194041409233/500000000000000"
+        }
+      ]
+    },
+    {
+      "file": "erdos953-random-polygons-R2-N4000-eps0.03-seed95308.json",
+      "status": "passed exact integer and rational checks",
+      "polygon_count": 7,
+      "area_fraction": "9468186618003491/10000000000000000",
+      "component_squared_diameters": [
+        "9698000383645061/10000000000000000",
+        "1921310325456689/2000000000000000",
+        "2074610078088953/5000000000000000",
+        "726487933119133/10000000000000000",
+        "521550587065433/10000000000000000",
+        "1085919439978597/10000000000000000",
+        "78900524822501/10000000000000000"
+      ],
+      "cross_distance_checks": [
+        {
+          "polygons": [
+            0,
+            1
+          ],
+          "minimum_squared_distance": "32467569216649041551692474077129/3526123683210610000000000000000",
+          "maximum_squared_distance": "31708700075158133/2000000000000000"
+        },
+        {
+          "polygons": [
+            0,
+            2
+          ],
+          "minimum_squared_distance": "305036746089611759500831129/71189700196214453125000000",
+          "maximum_squared_distance": "442251006907697/50000000000000"
+        },
+        {
+          "polygons": [
+            0,
+            3
+          ],
+          "minimum_squared_distance": "16232505426456445742703345241/15839819032820000000000000000",
+          "maximum_squared_distance": "39375653368100521/10000000000000000"
+        },
+        {
+          "polygons": [
+            0,
+            4
+          ],
+          "minimum_squared_distance": "8546379610737137/2000000000000000",
+          "maximum_squared_distance": "21600628785525833/2500000000000000"
+        },
+        {
+          "polygons": [
+            0,
+            5
+          ],
+          "minimum_squared_distance": "40705161912371580638794127401/39888210807140000000000000000",
+          "maximum_squared_distance": "30961025938967189/10000000000000000"
+        },
+        {
+          "polygons": [
+            0,
+            6
+          ],
+          "minimum_squared_distance": "9903676253946344278836576769/9484587263715039062500000000",
+          "maximum_squared_distance": "27504842119803893/10000000000000000"
+        },
+        {
+          "polygons": [
+            1,
+            2
+          ],
+          "minimum_squared_distance": "1038173574466914554495151493281/1027898322682896250000000000000",
+          "maximum_squared_distance": "9845525325220173/2500000000000000"
+        },
+        {
+          "polygons": [
+            1,
+            3
+          ],
+          "minimum_squared_distance": "51585462128993717/10000000000000000",
+          "maximum_squared_distance": "11119041424931089/1250000000000000"
+        },
+        {
+          "polygons": [
+            1,
+            4
+          ],
+          "minimum_squared_distance": "876131025030373055107505326129/850097154889060000000000000000",
+          "maximum_squared_distance": "39374414531891657/10000000000000000"
+        },
+        {
+          "polygons": [
+            1,
+            5
+          ],
+          "minimum_squared_distance": "4445553462246067900345889150761/1090284203699485000000000000000",
+          "maximum_squared_distance": "34626531925370237/5000000000000000"
+        },
+        {
+          "polygons": [
+            1,
+            6
+          ],
+          "minimum_squared_distance": "20322911031309653/5000000000000000",
+          "maximum_squared_distance": "64787392133837369/10000000000000000"
+        },
+        {
+          "polygons": [
+            2,
+            3
+          ],
+          "minimum_squared_distance": "516488064613841/500000000000000",
+          "maximum_squared_distance": "5668443785520269/2500000000000000"
+        },
+        {
+          "polygons": [
+            2,
+            4
+          ],
+          "minimum_squared_distance": "789068876574469/625000000000000",
+          "maximum_squared_distance": "9843245752306509/2500000000000000"
+        },
+        {
+          "polygons": [
+            2,
+            5
+          ],
+          "minimum_squared_distance": "1476267582000577/1000000000000000",
+          "maximum_squared_distance": "776155142753909/200000000000000"
+        },
+        {
+          "polygons": [
+            2,
+            6
+          ],
+          "minimum_squared_distance": "1834021564772348936948501965729/1822456325023090000000000000000",
+          "maximum_squared_distance": "18205769844491517/10000000000000000"
+        },
+        {
+          "polygons": [
+            3,
+            4
+          ],
+          "minimum_squared_distance": "4071760269291909/1000000000000000",
+          "maximum_squared_distance": "29020625225385341/5000000000000000"
+        },
+        {
+          "polygons": [
+            3,
+            5
+          ],
+          "minimum_squared_distance": "11342460540792637/10000000000000000",
+          "maximum_squared_distance": "27275938626455713/10000000000000000"
+        },
+        {
+          "polygons": [
+            3,
+            6
+          ],
+          "minimum_squared_distance": "506183972630297/2500000000000000",
+          "maximum_squared_distance": "617804003925953/1000000000000000"
+        },
+        {
+          "polygons": [
+            4,
+            5
+          ],
+          "minimum_squared_distance": "2062732004120369/2000000000000000",
+          "maximum_squared_distance": "1797311979419281/1000000000000000"
+        },
+        {
+          "polygons": [
+            4,
+            6
+          ],
+          "minimum_squared_distance": "29704411328057383132548683289/13084389455300000000000000000",
+          "maximum_squared_distance": "31259304459058429/10000000000000000"
+        },
+        {
+          "polygons": [
+            5,
+            6
+          ],
+          "minimum_squared_distance": "151957819645661/500000000000000",
+          "maximum_squared_distance": "9226721178180257/10000000000000000"
+        }
+      ]
+    },
+    {
+      "file": "erdos953-random-polygons-R2-N4000-eps0.06-seed95309.json",
+      "status": "passed exact integer and rational checks",
+      "polygon_count": 6,
+      "area_fraction": "3653061803289143/5000000000000000",
+      "component_squared_diameters": [
+        "68957301619237/78125000000000",
+        "8057668439213237/10000000000000000",
+        "3211865560381729/10000000000000000",
+        "1607827645371133/5000000000000000",
+        "477391944890689/5000000000000000",
+        "120083114100157/10000000000000000"
+      ],
+      "cross_distance_checks": [
+        {
+          "polygons": [
+            0,
+            1
+          ],
+          "minimum_squared_distance": "101653679055824857/10000000000000000",
+          "maximum_squared_distance": "38795285764704617/2500000000000000"
+        },
+        {
+          "polygons": [
+            0,
+            2
+          ],
+          "minimum_squared_distance": "52508926154058848033402990169/12305696269095312500000000000",
+          "maximum_squared_distance": "83593161392143261/10000000000000000"
+        },
+        {
+          "polygons": [
+            0,
+            3
+          ],
+          "minimum_squared_distance": "5009418287203990880223595987201/4383325399132850000000000000000",
+          "maximum_squared_distance": "693901941215353/200000000000000"
+        },
+        {
+          "polygons": [
+            0,
+            4
+          ],
+          "minimum_squared_distance": "1154754613591074281022692375281/272098425748420000000000000000",
+          "maximum_squared_distance": "85875566169382681/10000000000000000"
+        },
+        {
+          "polygons": [
+            0,
+            5
+          ],
+          "minimum_squared_distance": "2329719080802593/2000000000000000",
+          "maximum_squared_distance": "18643413951559709/5000000000000000"
+        },
+        {
+          "polygons": [
+            1,
+            2
+          ],
+          "minimum_squared_distance": "24673813293042816808071209797/21988509077540000000000000000",
+          "maximum_squared_distance": "4671229271479541/1250000000000000"
+        },
+        {
+          "polygons": [
+            1,
+            3
+          ],
+          "minimum_squared_distance": "639617506398935354854681925809/150405052530462500000000000000",
+          "maximum_squared_distance": "34865915082070553/5000000000000000"
+        },
+        {
+          "polygons": [
+            1,
+            4
+          ],
+          "minimum_squared_distance": "18523623299248757253101918689/4340458013193800000000000000",
+          "maximum_squared_distance": "21267714721093009/2500000000000000"
+        },
+        {
+          "polygons": [
+            1,
+            5
+          ],
+          "minimum_squared_distance": "56242611912000533/10000000000000000",
+          "maximum_squared_distance": "672671140505473/80000000000000"
+        },
+        {
+          "polygons": [
+            2,
+            3
+          ],
+          "minimum_squared_distance": "11393399757385109/10000000000000000",
+          "maximum_squared_distance": "37376055139698461/10000000000000000"
+        },
+        {
+          "polygons": [
+            2,
+            4
+          ],
+          "minimum_squared_distance": "5311619992852669/1250000000000000",
+          "maximum_squared_distance": "10113930545956981/1250000000000000"
+        },
+        {
+          "polygons": [
+            2,
+            5
+          ],
+          "minimum_squared_distance": "59966870844612963695293449/53368780197200000000000000",
+          "maximum_squared_distance": "1900247535766277/1000000000000000"
+        },
+        {
+          "polygons": [
+            3,
+            4
+          ],
+          "minimum_squared_distance": "86775432280812597488225431681/76331058068012500000000000000",
+          "maximum_squared_distance": "4012826442338429/1250000000000000"
+        },
+        {
+          "polygons": [
+            3,
+            5
+          ],
+          "minimum_squared_distance": "1135755411552697/1000000000000000",
+          "maximum_squared_distance": "5728721099369573/2000000000000000"
+        },
+        {
+          "polygons": [
+            4,
+            5
+          ],
+          "minimum_squared_distance": "7010573615080589/1000000000000000",
+          "maximum_squared_distance": "85489729328957993/10000000000000000"
+        }
+      ]
+    }
+  ]
+}

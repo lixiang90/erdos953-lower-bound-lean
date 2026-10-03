@@ -1,0 +1,9 @@
+{
+  "status": "all independent exact rational checks passed",
+  "log_method": "144-term positive log series with explicit geometric remainder; independent of atanh evaluator",
+  "finite_digit_radius_intervals": 41,
+  "log_lemma_parameter_extrema": 10,
+  "early_unbounded_radius_intervals": 18,
+  "coverage_and_large_n_induction_base_passed": true,
+  "full_Lean_formalization": false
+}

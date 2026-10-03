@@ -1,0 +1,28 @@
+{
+  "certificate": "erdos953-ring-exchange-restoration-2026-10-03.json",
+  "sha256": "7c8e47102346f12c085d4552527b05cf9ff79c08f7bfcbdf93bcdf301e7d52c6",
+  "all_passed": true,
+  "removed_initial_components": 91,
+  "restored_pieces": 30,
+  "restored_area_fraction": "3383049507533/1583296743997440",
+  "final_deleted_area_fraction": "130773943162777/4749890231992320",
+  "exchange_plus_restoration_net_gain_fraction": "17660126586983/4749890231992320",
+  "generation_areas_after": {
+    "6": "3398189641/28991029248",
+    "7": "8813666327/75497472000",
+    "8": "38547329070319/527765581332480",
+    "9": "8735319793/99656663040",
+    "10": "2605581277/20384317440",
+    "11": "38050526087/193273528320",
+    "12": "102195728093/362387865600",
+    "13": "4469969501/12230590464"
+  },
+  "all_integer_distances_excluded": true,
+  "all_future_scales_included": true,
+  "all_uniform_generation_floors_retained": true,
+  "uniform_all_R_lower_coefficient": "1/55296",
+  "method": "independent split-path reconstruction, sweep disjointness, exact target annuli, and certified subset inheritance",
+  "full_lean_formalization": false,
+  "new_asymptotic_order_proved": false,
+  "finite_optimum_proved": false
+}

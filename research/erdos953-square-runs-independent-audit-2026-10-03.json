@@ -1,0 +1,23 @@
+[
+  {
+    "file": "erdos953-square-runs-R2-N128-2026-10-03.json",
+    "rectangles": 492,
+    "exact_rational_rectangle_pairs": 120786,
+    "area_fraction": "8993/8192",
+    "all_passed": true
+  },
+  {
+    "file": "erdos953-square-runs-R2-N256-2026-10-03.json",
+    "rectangles": 990,
+    "exact_rational_rectangle_pairs": 489555,
+    "area_fraction": "73223/65536",
+    "all_passed": true
+  },
+  {
+    "file": "erdos953-square-runs-R2-N512-2026-10-03.json",
+    "rectangles": 1985,
+    "exact_rational_rectangle_pairs": 1969120,
+    "area_fraction": "295605/262144",
+    "all_passed": true
+  }
+]

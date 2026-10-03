@@ -64,7 +64,7 @@ theorem lower_polylog_for_Mopen (R : ℝ)
     harea.trans (area_le_M_of_admissible hA)
 
 /-- The current explicit lower bound and the attributed upper bound enclose
-the open-disk extremal area up to a twelfth power of a logarithm. -/
+the open-disk extremal area up to an eighth power of a logarithm. -/
 theorem polylog_sandwich_open :
     ∃ C : ℝ, 0 < C ∧
       ∀ R : ℝ, (1000 : ℝ) ^ 4 ≤ R →

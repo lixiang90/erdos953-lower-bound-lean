@@ -15,3 +15,5 @@ import Erdos953Lower.Coefficient
 import Erdos953Lower.Polylog
 import Erdos953Lower.GrowthRate
 import Erdos953Lower.Extremal
+import Erdos953Lower.AnisotropicRectangles
+import Erdos953Lower.AnisotropicUniform

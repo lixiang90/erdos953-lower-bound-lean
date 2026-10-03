@@ -1,0 +1,65 @@
+{
+  "results": [
+    {
+      "certificate": "erdos953-theta-cuts-M1-N8-control-2026-10-03.json",
+      "M": 1,
+      "N": 8,
+      "tag": "control",
+      "cuts_verified": 0,
+      "local_states_or_clique_pairs_checked": 0,
+      "nonedge_matrix_entries_checked": 1770,
+      "psd_residual_rows_checked": 64,
+      "alpha_upper_fraction": "18799121863179/500000000000",
+      "integer_upper": 37,
+      "sha256": "abde553bc2d295d77aa4ef5eb280968a507dfcd6ce4a841b45192881838020eb",
+      "all_passed": true
+    },
+    {
+      "certificate": "erdos953-theta-cuts-M1-N8-r1-2026-10-03.json",
+      "M": 1,
+      "N": 8,
+      "tag": "r1",
+      "cuts_verified": 24,
+      "local_states_or_clique_pairs_checked": 192,
+      "nonedge_matrix_entries_checked": 1770,
+      "psd_residual_rows_checked": 64,
+      "alpha_upper_fraction": "37283034494121/1000000000000",
+      "integer_upper": 37,
+      "sha256": "12a228628b46cb5b3246420abf7025c70bf807fff52c543a27cc8bc107700ed8",
+      "all_passed": true
+    },
+    {
+      "certificate": "erdos953-theta-cuts-M1-N8-r2-2026-10-03.json",
+      "M": 1,
+      "N": 8,
+      "tag": "r2",
+      "cuts_verified": 60,
+      "local_states_or_clique_pairs_checked": 480,
+      "nonedge_matrix_entries_checked": 1770,
+      "psd_residual_rows_checked": 64,
+      "alpha_upper_fraction": "37152801425573/1000000000000",
+      "integer_upper": 37,
+      "sha256": "ac057252d644027a2041640e6b12d56d280edc16fb2e81612bb66637ce8c33cf",
+      "all_passed": true
+    },
+    {
+      "certificate": "erdos953-theta-cuts-M1-N8-r3-2026-10-03.json",
+      "M": 1,
+      "N": 8,
+      "tag": "r3",
+      "cuts_verified": 113,
+      "local_states_or_clique_pairs_checked": 904,
+      "nonedge_matrix_entries_checked": 1770,
+      "psd_residual_rows_checked": 64,
+      "alpha_upper_fraction": "37052062249941/1000000000000",
+      "integer_upper": 37,
+      "sha256": "d47750e09b52dd9b64a7d1adf0970ca1b4ef16e9837db489b4e58dd8e55437d5",
+      "all_passed": true
+    }
+  ],
+  "all_passed": true,
+  "standard_library_only": true,
+  "continuous_upper_proved": false,
+  "new_asymptotic_order_proved": false,
+  "lean_formalized": false
+}

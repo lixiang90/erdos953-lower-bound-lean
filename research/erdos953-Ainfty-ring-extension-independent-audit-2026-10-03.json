@@ -1,0 +1,138 @@
+{
+  "all_passed": true,
+  "method": "independent arbitrary-precision integers and rational constants",
+  "lean_formalized": false,
+  "finite_optimum_proved": false,
+  "blocks": [
+    {
+      "j": 6,
+      "rectangles": 9,
+      "pairs": 36,
+      "sha256": "3f0a034432665a5f9b65c00f240781ae6757158faf8968a30960351e42113ac9",
+      "area_fraction": "308580937/28991029248",
+      "min_squared_lower_gap": "14365915967609041/1494186269970473680896",
+      "min_squared_upper_gap": "37142519/589824",
+      "all_integer_distances_excluded": true
+    },
+    {
+      "j": 7,
+      "rectangles": 16,
+      "pairs": 120,
+      "sha256": "e0fc397abf557a1e29e1679bca45924ac86fd2b96bc42c509e258ea6878dde68",
+      "area_fraction": "1221352727/75497472000",
+      "min_squared_lower_gap": "56865433423296529/22799473113563136000000",
+      "min_squared_upper_gap": "46542839/589824",
+      "all_integer_distances_excluded": true
+    },
+    {
+      "j": 8,
+      "rectangles": 49,
+      "pairs": 1176,
+      "sha256": "96427e2c05f50b591a2539664ba08b3df596657cc6312db9f5e73a9033ca14bf",
+      "area_fraction": "33631683001/927712935936",
+      "min_squared_lower_gap": "85856977026312001/95627921278110315577344",
+      "min_squared_upper_gap": "10515455/82944",
+      "all_integer_distances_excluded": true
+    },
+    {
+      "j": 9,
+      "rectangles": 100,
+      "pairs": 4950,
+      "sha256": "061c3108f62278fdce3133b30007cf10d5bd5d7e486944092214c5a7ccc12f05",
+      "area_fraction": "965014013/19931332608",
+      "min_squared_lower_gap": "1308648264421921/10097664347134255693824",
+      "min_squared_upper_gap": "451800901362515683458416639/2585002072866369457618944",
+      "all_integer_distances_excluded": true
+    },
+    {
+      "j": 10,
+      "rectangles": 125,
+      "pairs": 7750,
+      "sha256": "67a30c8f7cd0205acb1b9cf466de2921fab595b2a8c43b3224f385a89d9f1a66",
+      "area_fraction": "358812473/4076863488",
+      "min_squared_lower_gap": "625/764411904",
+      "min_squared_upper_gap": "55943159/589824",
+      "all_integer_distances_excluded": true
+    },
+    {
+      "j": 11,
+      "rectangles": 343,
+      "pairs": 58653,
+      "sha256": "1beeb74032a33bd4f0ab42d1f9e734cb8649ec5f5e0da1589008232716493d06",
+      "area_fraction": "6402823963/38654705664",
+      "min_squared_lower_gap": "6389863567501025/42501298345826806923264",
+      "min_squared_upper_gap": "10515455/82944",
+      "all_integer_distances_excluded": true
+    },
+    {
+      "j": 12,
+      "rectangles": 729,
+      "pairs": 265356,
+      "sha256": "4694af60f0e8f5155ad23f0263a2201a9cb1cf01234214e45f0f3b501c7cf25a",
+      "area_fraction": "30347739551/120795955200",
+      "min_squared_lower_gap": "100948871356841/2533274790395904000000",
+      "min_squared_upper_gap": "20577599/129600",
+      "all_integer_distances_excluded": true
+    },
+    {
+      "j": 13,
+      "rectangles": 1331,
+      "pairs": 885115,
+      "sha256": "fdd4b2bc9279a95685ac0ddd2f6ae32708b956337ff164d44adfc8f3ff1a3230",
+      "area_fraction": "4273454429/12230590464",
+      "min_squared_lower_gap": "3374739010073785/272315447702118828343296",
+      "min_squared_upper_gap": "35603711/186624",
+      "all_integer_distances_excluded": true
+    }
+  ],
+  "base": {
+    "certificate": "erdos953-Ainfty-ring-base-2026-10-03.json",
+    "sha256": "c19bd786370d8762d316ac8556238554d625d7f9c06d76e92c9b7a172e987822",
+    "area_fraction": "104781950309835/140737488355328",
+    "vertices": 1394,
+    "contains_original_base": true,
+    "strictly_inside_half_unit_disk_and_strip": true
+  },
+  "epsilon_1_over_64_base": {
+    "certificate": "erdos953-Ainfty-all-integer-safe-base-2026-10-03.json",
+    "sha256": "7f27083648a04000e83235e3fe5dc65542db986cc999291cf0eee8a6099409d7",
+    "area_fraction": "12816797074813/17592186044416",
+    "vertices": 1314,
+    "contains_original_base": true,
+    "strictly_inside_half_unit_disk_and_strip": true
+  },
+  "all_integer_ring_cells": {
+    "certificate": "erdos953-Ainfty-all-integer-ring-cells-2026-10-03.json",
+    "sha256": "537cd790adcc22b9c11887d8c59ba7dc05bad4887decb91ac56985efe2c3e926",
+    "entire_cells": 374,
+    "exact_source_pairs": 240482,
+    "all_positive_integer_radii_included": true,
+    "all_future_scales_included": true,
+    "pixel_counts_used_as_proof": false
+  },
+  "additional_hole_extension": {
+    "certificate": "erdos953-Ainfty-all-ring-hole-extension-2026-10-03.json",
+    "sha256": "57825c6f0ad3fb96672ab6e9b728036564068f817803c06156fab54821418f86",
+    "rectangles": 738,
+    "exact_source_pairs": 1994814,
+    "exact_added_pairs": 271953,
+    "windows": 9,
+    "added_area_fraction": "11765/262144",
+    "all_integer_epsilon_annuli_missed": true,
+    "epsilon": "1/512",
+    "all_future_scales_excluded_by_uniform_phase_bound": true,
+    "added_rectangles_mutually_integer_distance_free": true,
+    "new_set_contains_A_infinity_plus": true
+  },
+  "universal_constants": {
+    "cross_lower": "5/72",
+    "cross_upper": "485/2304",
+    "enlarged_base_lower": "169/9216",
+    "enlarged_base_upper": "10151/442368",
+    "all_integer_epsilon_ring_base_lower": "11241/262144",
+    "all_integer_epsilon_ring_base_upper": "394895/12582912",
+    "all_future_blocks_included_by_analytic_proof": true
+  },
+  "finite_rectangles": 2702,
+  "finite_exact_pairs": 1223156
+}

@@ -1,0 +1,3 @@
+# Exact audit certificates are hashed as bytes. Preserve their original line
+# endings on every platform, including code/data inside the research snapshot.
+research/** -text

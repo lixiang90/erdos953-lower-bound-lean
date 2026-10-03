@@ -1,0 +1,23 @@
+{
+  "status": "all exact integer checks passed",
+  "results": [
+    {
+      "R": "1",
+      "area": "586555002834469/655360000000000",
+      "ordered_vertex_pairs_checked": 66049,
+      "strictly_above": "179/200"
+    },
+    {
+      "R": "3/2",
+      "area": "37586551414283/40960000000000",
+      "ordered_vertex_pairs_checked": 66049,
+      "strictly_above": "1147/1250"
+    },
+    {
+      "R": "2",
+      "area": "152047293396509/163840000000000",
+      "ordered_vertex_pairs_checked": 66049,
+      "strictly_above": "116/125"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "status": "all geometry and exact-checker sanity checks passed",
+  "clipped_cells_area_checked": 960,
+  "independent_cell_pairs_checked": 400,
+  "reference_circle_segments": 16384,
+  "largest_cell_area_error_against_inscribed_reference": 2.300885486479498e-09,
+  "largest_squared_minimum_distance_error": 7.999970863536987e-08,
+  "largest_squared_maximum_distance_error": 3.530567846965482e-07,
+  "two_vertex_circular_cap": "passed",
+  "interior_arc_maximum": "passed",
+  "shared_edge_area_and_duplicate_rejection": "passed",
+  "note": "Shapely is only an independent numerical diagnostic; area certificates use exact integers"
+}

@@ -1,0 +1,40 @@
+{
+  "certificate": "erdos953-ring-exchange-2026-10-03.json",
+  "sha256": "109ba875bb84924e65c9bddad5dbeb41d6d292e6d611ed3caaf396f5389f59ea",
+  "all_passed": true,
+  "operations": [
+    {
+      "step": 4,
+      "removed_components": 59,
+      "original_digital_rectangles_removed": 31,
+      "added_area_fraction": "1/40",
+      "removed_area_fraction": "5483081581/231928233984",
+      "net_gain_fraction": "1575621343/1159641169920",
+      "all_finite_sources_checked": 7873,
+      "all_future_scales_excluded": true,
+      "all_uniform_generation_floors_retained": true
+    },
+    {
+      "step": 5,
+      "removed_components": 32,
+      "original_digital_rectangles_removed": 2,
+      "added_area_fraction": "1/160",
+      "removed_area_fraction": "213307/35389440",
+      "net_gain_fraction": "7877/35389440",
+      "all_finite_sources_checked": 15688,
+      "all_future_scales_excluded": true,
+      "all_uniform_generation_floors_retained": true
+    }
+  ],
+  "net_gain_fraction": "1833734879/1159641169920",
+  "exact_candidate_active_source_pairs": 15688,
+  "active_components": 7784,
+  "all_integer_distances_excluded": true,
+  "all_future_scales_included": true,
+  "all_uniform_generation_floors_retained": true,
+  "uniform_all_R_lower_coefficient": "1/55296",
+  "method": "independent standard-library exact arithmetic plus subset/deletion inheritance",
+  "full_lean_formalization": false,
+  "new_asymptotic_order_proved": false,
+  "finite_optimum_proved": false
+}

@@ -1,0 +1,65 @@
+{
+  "results": [
+    {
+      "certificate": "erdos953-theta-cuts-M2-N4-control-2026-10-03.json",
+      "M": 2,
+      "N": 4,
+      "tag": "control",
+      "cuts_verified": 0,
+      "local_states_or_clique_pairs_checked": 0,
+      "nonedge_matrix_entries_checked": 824,
+      "psd_residual_rows_checked": 64,
+      "alpha_upper_fraction": "4506128394123/500000000000",
+      "integer_upper": 9,
+      "sha256": "acf6e0edfc6bab87541802a694542353b881a47aa7b01474a3252dea081ed6e9",
+      "all_passed": true
+    },
+    {
+      "certificate": "erdos953-theta-cuts-M2-N4-r1-2026-10-03.json",
+      "M": 2,
+      "N": 4,
+      "tag": "r1",
+      "cuts_verified": 85,
+      "local_states_or_clique_pairs_checked": 556,
+      "nonedge_matrix_entries_checked": 824,
+      "psd_residual_rows_checked": 64,
+      "alpha_upper_fraction": "1725453100371/200000000000",
+      "integer_upper": 8,
+      "sha256": "080e316dff72a527d85b607beb123ae65a943eb40158d2da2236acb650c29ac5",
+      "all_passed": true
+    },
+    {
+      "certificate": "erdos953-theta-cuts-M2-N4-r2-2026-10-03.json",
+      "M": 2,
+      "N": 4,
+      "tag": "r2",
+      "cuts_verified": 163,
+      "local_states_or_clique_pairs_checked": 1168,
+      "nonedge_matrix_entries_checked": 824,
+      "psd_residual_rows_checked": 64,
+      "alpha_upper_fraction": "4179988958827/500000000000",
+      "integer_upper": 8,
+      "sha256": "f3e2775d39807ef39f75bc1a9390d7b40c1f1a2d3c238cd3cb849ad974a73295",
+      "all_passed": true
+    },
+    {
+      "certificate": "erdos953-theta-cuts-M2-N4-r3-2026-10-03.json",
+      "M": 2,
+      "N": 4,
+      "tag": "r3",
+      "cuts_verified": 237,
+      "local_states_or_clique_pairs_checked": 1550,
+      "nonedge_matrix_entries_checked": 824,
+      "psd_residual_rows_checked": 64,
+      "alpha_upper_fraction": "8171303924351/1000000000000",
+      "integer_upper": 8,
+      "sha256": "1fb2ad5ef42f3cfb64d851ddd7f9636d6487ae23b64106d902fd9b3d574fe6c4",
+      "all_passed": true
+    }
+  ],
+  "all_passed": true,
+  "standard_library_only": true,
+  "continuous_upper_proved": false,
+  "new_asymptotic_order_proved": false,
+  "lean_formalized": false
+}

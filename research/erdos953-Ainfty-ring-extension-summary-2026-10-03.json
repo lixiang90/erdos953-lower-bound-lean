@@ -1,0 +1,83 @@
+{
+  "construction": "A_infinity_plus_plus contains the original A_infinity",
+  "base_area_expression": "7*sqrt(15)/128 + asin(7/8)/2",
+  "base_area_decimal": 0.7445216850010878,
+  "base_rational_inner_area": "104781950309835/140737488355328",
+  "additional_area_fraction": "11765/262144",
+  "uniform_block_area_multiplier": "256/27",
+  "uniform_coefficient": "1/55296",
+  "validity": "all real R>=e",
+  "growth_factor": "sqrt(R)*(log(log(R))/log(R))^3",
+  "growth_order_of_this_fixed_set": "Theta(sqrt(R)*(log(log(R))/log(R))^3)",
+  "not_a_sharpness_claim_for_M": true,
+  "full_lean_formalization": false,
+  "finite_optimum_proved": false,
+  "sample_complete_radii": [
+    {
+      "j": 6,
+      "R": "16384",
+      "old_exact_area": "41/65536",
+      "new_rational_lower": "3040098708491369/3799912185593856",
+      "new_rational_lower_decimal": 0.8000444641897054,
+      "new_exact_area_expression": "7*sqrt(15)/128 + asin(7/8)/2 + 1609695817/28991029248",
+      "new_area_decimal": 0.8000456128765029
+    },
+    {
+      "j": 9,
+      "R": "1048576",
+      "old_exact_area": "80026927/87228416000",
+      "new_rational_lower": "4707046952627542007/5224879255191552000",
+      "new_rational_lower_decimal": 0.9008910489080718,
+      "new_exact_area_expression": "7*sqrt(15)/128 + asin(7/8)/2 + 199467052581767/1275605286912000",
+      "new_area_decimal": 0.9008921975948692
+    },
+    {
+      "j": 12,
+      "R": "67108864",
+      "old_exact_area": "419325161/147197952000",
+      "new_rational_lower": "66105082970831017903/47023913296723968000",
+      "new_rational_lower_decimal": 1.4057758773435896,
+      "new_exact_area_expression": "7*sqrt(15)/128 + asin(7/8)/2 + 7591507281141943/11480447582208000",
+      "new_area_decimal": 1.4057770260303868
+    },
+    {
+      "j": 13,
+      "R": "268435456",
+      "old_exact_area": "117788383/32710656000",
+      "new_rational_lower": "247606708177267197709/141071739890171904000",
+      "new_rational_lower_decimal": 1.7551829187761887,
+      "new_exact_area_expression": "7*sqrt(15)/128 + asin(7/8)/2 + 34808569515489829/34441342746624000",
+      "new_area_decimal": 1.7551840674629862
+    },
+    {
+      "j": 20,
+      "R": "4398046511104",
+      "old_exact_area": "213440842500838291/1117649320280064000",
+      "new_rational_lower": "3576093801699767684994187379/1012556379163957967978496000",
+      "new_rational_lower_decimal": 3.531747836750046,
+      "new_exact_area_expression": "7*sqrt(15)/128 + asin(7/8)/2 + 689019722469766048715099/247206147256825675776000",
+      "new_area_decimal": 3.5317489854368436
+    },
+    {
+      "j": 40,
+      "R": "4835703278458516698824704",
+      "old_exact_area": "119661610668136694707899737623/3486735737127658900684800",
+      "new_rational_lower": "5139454226843947636854418247923087453867/15794384021111687296800088129536000",
+      "new_rational_lower_decimal": 325397.57295848045,
+      "new_exact_area_expression": "7*sqrt(15)/128 + asin(7/8)/2 + 1254746696191573604717453101453353427/3856050786404220531445334016000",
+      "new_area_decimal": 325397.5729596291
+    },
+    {
+      "j": 60,
+      "R": "5316911983139663491615228241121378304",
+      "old_exact_area": "217168704013743463541010713853652977150861928921/15519859805426645341870933671936000000",
+      "new_rational_lower": "233183120366457869298483915400380152463936471522798472279/1757565271656185407127746863766268018688000000",
+      "new_rational_lower_decimal": 132673946240.82736,
+      "new_exact_area_expression": "7*sqrt(15)/128 + asin(7/8)/2 + 56929472745397784633745869329257912767030517124051999/429093083900435890412047574161686528000000",
+      "new_area_decimal": 132673946240.82736
+    }
+  ],
+  "finite_exact_pair_checks": 3730405,
+  "proof_notes": "erdos953-Ainfty-all-integer-rings-notes-2026-10-03.txt",
+  "independent_audit": "erdos953-Ainfty-ring-extension-independent-audit-2026-10-03.json"
+}

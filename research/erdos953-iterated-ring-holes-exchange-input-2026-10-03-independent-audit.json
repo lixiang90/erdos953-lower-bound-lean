@@ -1,0 +1,1279 @@
+{
+  "certificate": "erdos953-iterated-ring-holes-exchange-input-2026-10-03.json",
+  "sha256": "b7d014d178ef3d8de46bd9d38a915825b5db4a90f749e0e3f5f884505f1e680d",
+  "all_passed": true,
+  "added_rectangles": 4432,
+  "added_area_fraction": "461959/1310720",
+  "old_and_new_hole_area_fraction": "32549/81920",
+  "window_source_interval_pairs_checked": 488274,
+  "rectangle_source_ring_pairs_checked": 11945272,
+  "rectangle_overlap_pairs_checked": 235117,
+  "groups": [
+    {
+      "round": "repeat-fixed",
+      "j": 6,
+      "digits": [
+        0,
+        0
+      ],
+      "rectangles": 0,
+      "area_fraction": "0",
+      "all_previous_sources_checked": 3441,
+      "ring_pairs_checked": 0,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "repeat-fixed",
+      "j": 6,
+      "digits": [
+        0,
+        1
+      ],
+      "rectangles": 0,
+      "area_fraction": "0",
+      "all_previous_sources_checked": 3441,
+      "ring_pairs_checked": 0,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "repeat-fixed",
+      "j": 6,
+      "digits": [
+        0,
+        2
+      ],
+      "rectangles": 0,
+      "area_fraction": "0",
+      "all_previous_sources_checked": 3441,
+      "ring_pairs_checked": 0,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "repeat-fixed",
+      "j": 6,
+      "digits": [
+        1,
+        0
+      ],
+      "rectangles": 0,
+      "area_fraction": "0",
+      "all_previous_sources_checked": 3441,
+      "ring_pairs_checked": 0,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "repeat-fixed",
+      "j": 6,
+      "digits": [
+        1,
+        1
+      ],
+      "rectangles": 0,
+      "area_fraction": "0",
+      "all_previous_sources_checked": 3441,
+      "ring_pairs_checked": 0,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "repeat-fixed",
+      "j": 6,
+      "digits": [
+        1,
+        2
+      ],
+      "rectangles": 0,
+      "area_fraction": "0",
+      "all_previous_sources_checked": 3441,
+      "ring_pairs_checked": 0,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "repeat-fixed",
+      "j": 6,
+      "digits": [
+        2,
+        0
+      ],
+      "rectangles": 0,
+      "area_fraction": "0",
+      "all_previous_sources_checked": 3441,
+      "ring_pairs_checked": 0,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "repeat-fixed",
+      "j": 6,
+      "digits": [
+        2,
+        1
+      ],
+      "rectangles": 0,
+      "area_fraction": "0",
+      "all_previous_sources_checked": 3441,
+      "ring_pairs_checked": 0,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "repeat-fixed",
+      "j": 6,
+      "digits": [
+        2,
+        2
+      ],
+      "rectangles": 0,
+      "area_fraction": "0",
+      "all_previous_sources_checked": 3441,
+      "ring_pairs_checked": 0,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine1",
+      "j": 6,
+      "digits": [
+        0,
+        0
+      ],
+      "rectangles": 22,
+      "area_fraction": "901/163840",
+      "all_previous_sources_checked": 3441,
+      "ring_pairs_checked": 16016,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine1",
+      "j": 6,
+      "digits": [
+        0,
+        1
+      ],
+      "rectangles": 12,
+      "area_fraction": "69/40960",
+      "all_previous_sources_checked": 3463,
+      "ring_pairs_checked": 8652,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine1",
+      "j": 6,
+      "digits": [
+        0,
+        2
+      ],
+      "rectangles": 12,
+      "area_fraction": "69/40960",
+      "all_previous_sources_checked": 3475,
+      "ring_pairs_checked": 8676,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine1",
+      "j": 6,
+      "digits": [
+        1,
+        0
+      ],
+      "rectangles": 40,
+      "area_fraction": "1507/327680",
+      "all_previous_sources_checked": 3487,
+      "ring_pairs_checked": 31280,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine1",
+      "j": 6,
+      "digits": [
+        1,
+        1
+      ],
+      "rectangles": 28,
+      "area_fraction": "1071/327680",
+      "all_previous_sources_checked": 3527,
+      "ring_pairs_checked": 22428,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine1",
+      "j": 6,
+      "digits": [
+        1,
+        2
+      ],
+      "rectangles": 28,
+      "area_fraction": "1041/327680",
+      "all_previous_sources_checked": 3555,
+      "ring_pairs_checked": 22736,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine1",
+      "j": 6,
+      "digits": [
+        2,
+        0
+      ],
+      "rectangles": 34,
+      "area_fraction": "569/163840",
+      "all_previous_sources_checked": 3583,
+      "ring_pairs_checked": 30838,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine1",
+      "j": 6,
+      "digits": [
+        2,
+        1
+      ],
+      "rectangles": 33,
+      "area_fraction": "961/327680",
+      "all_previous_sources_checked": 3617,
+      "ring_pairs_checked": 30195,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine1",
+      "j": 6,
+      "digits": [
+        2,
+        2
+      ],
+      "rectangles": 41,
+      "area_fraction": "1223/327680",
+      "all_previous_sources_checked": 3650,
+      "ring_pairs_checked": 38458,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine1",
+      "j": 7,
+      "digits": [
+        0,
+        0
+      ],
+      "rectangles": 28,
+      "area_fraction": "271/65536",
+      "all_previous_sources_checked": 3691,
+      "ring_pairs_checked": 31556,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine1",
+      "j": 7,
+      "digits": [
+        0,
+        1
+      ],
+      "rectangles": 31,
+      "area_fraction": "71/16384",
+      "all_previous_sources_checked": 3719,
+      "ring_pairs_checked": 35991,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine1",
+      "j": 7,
+      "digits": [
+        0,
+        2
+      ],
+      "rectangles": 36,
+      "area_fraction": "1423/327680",
+      "all_previous_sources_checked": 3750,
+      "ring_pairs_checked": 43308,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine1",
+      "j": 7,
+      "digits": [
+        0,
+        3
+      ],
+      "rectangles": 21,
+      "area_fraction": "207/81920",
+      "all_previous_sources_checked": 3786,
+      "ring_pairs_checked": 26145,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine1",
+      "j": 7,
+      "digits": [
+        1,
+        0
+      ],
+      "rectangles": 28,
+      "area_fraction": "259/81920",
+      "all_previous_sources_checked": 3807,
+      "ring_pairs_checked": 34804,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine1",
+      "j": 7,
+      "digits": [
+        1,
+        1
+      ],
+      "rectangles": 35,
+      "area_fraction": "13/4096",
+      "all_previous_sources_checked": 3835,
+      "ring_pairs_checked": 44730,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine1",
+      "j": 7,
+      "digits": [
+        1,
+        2
+      ],
+      "rectangles": 41,
+      "area_fraction": "1453/327680",
+      "all_previous_sources_checked": 3870,
+      "ring_pairs_checked": 54325,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine1",
+      "j": 7,
+      "digits": [
+        1,
+        3
+      ],
+      "rectangles": 35,
+      "area_fraction": "1373/327680",
+      "all_previous_sources_checked": 3911,
+      "ring_pairs_checked": 48090,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine1",
+      "j": 7,
+      "digits": [
+        2,
+        0
+      ],
+      "rectangles": 24,
+      "area_fraction": "163/65536",
+      "all_previous_sources_checked": 3946,
+      "ring_pairs_checked": 33216,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine1",
+      "j": 7,
+      "digits": [
+        2,
+        1
+      ],
+      "rectangles": 39,
+      "area_fraction": "1161/327680",
+      "all_previous_sources_checked": 3970,
+      "ring_pairs_checked": 55185,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine1",
+      "j": 7,
+      "digits": [
+        2,
+        2
+      ],
+      "rectangles": 40,
+      "area_fraction": "1093/327680",
+      "all_previous_sources_checked": 4009,
+      "ring_pairs_checked": 58600,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine1",
+      "j": 7,
+      "digits": [
+        2,
+        3
+      ],
+      "rectangles": 47,
+      "area_fraction": "1713/327680",
+      "all_previous_sources_checked": 4049,
+      "ring_pairs_checked": 71346,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine1",
+      "j": 7,
+      "digits": [
+        3,
+        0
+      ],
+      "rectangles": 14,
+      "area_fraction": "643/327680",
+      "all_previous_sources_checked": 4096,
+      "ring_pairs_checked": 21504,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine1",
+      "j": 7,
+      "digits": [
+        3,
+        1
+      ],
+      "rectangles": 30,
+      "area_fraction": "981/327680",
+      "all_previous_sources_checked": 4110,
+      "ring_pairs_checked": 46770,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine1",
+      "j": 7,
+      "digits": [
+        3,
+        2
+      ],
+      "rectangles": 37,
+      "area_fraction": "89/32768",
+      "all_previous_sources_checked": 4140,
+      "ring_pairs_checked": 59126,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine1",
+      "j": 7,
+      "digits": [
+        3,
+        3
+      ],
+      "rectangles": 53,
+      "area_fraction": "347/65536",
+      "all_previous_sources_checked": 4177,
+      "ring_pairs_checked": 87238,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine1",
+      "j": 8,
+      "digits": [
+        0,
+        0
+      ],
+      "rectangles": 12,
+      "area_fraction": "587/327680",
+      "all_previous_sources_checked": 4230,
+      "ring_pairs_checked": 21540,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine1",
+      "j": 8,
+      "digits": [
+        3,
+        3
+      ],
+      "rectangles": 9,
+      "area_fraction": "543/81920",
+      "all_previous_sources_checked": 4242,
+      "ring_pairs_checked": 16380,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine1",
+      "j": 8,
+      "digits": [
+        6,
+        6
+      ],
+      "rectangles": 18,
+      "area_fraction": "505/32768",
+      "all_previous_sources_checked": 4251,
+      "ring_pairs_checked": 26478,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine1",
+      "j": 9,
+      "digits": [
+        0,
+        0
+      ],
+      "rectangles": 7,
+      "area_fraction": "957/327680",
+      "all_previous_sources_checked": 4269,
+      "ring_pairs_checked": 13489,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine1",
+      "j": 9,
+      "digits": [
+        4,
+        4
+      ],
+      "rectangles": 7,
+      "area_fraction": "3191/327680",
+      "all_previous_sources_checked": 4276,
+      "ring_pairs_checked": 11711,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine1",
+      "j": 9,
+      "digits": [
+        9,
+        9
+      ],
+      "rectangles": 11,
+      "area_fraction": "1337/81920",
+      "all_previous_sources_checked": 4283,
+      "ring_pairs_checked": 11979,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine1",
+      "j": 10,
+      "digits": [
+        0,
+        0,
+        0
+      ],
+      "rectangles": 19,
+      "area_fraction": "93/32768",
+      "all_previous_sources_checked": 4294,
+      "ring_pairs_checked": 38760,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine1",
+      "j": 10,
+      "digits": [
+        2,
+        2,
+        2
+      ],
+      "rectangles": 20,
+      "area_fraction": "275/32768",
+      "all_previous_sources_checked": 4313,
+      "ring_pairs_checked": 34240,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine1",
+      "j": 10,
+      "digits": [
+        4,
+        4,
+        4
+      ],
+      "rectangles": 21,
+      "area_fraction": "1163/65536",
+      "all_previous_sources_checked": 4333,
+      "ring_pairs_checked": 34083,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine1",
+      "j": 11,
+      "digits": [
+        0,
+        0,
+        0
+      ],
+      "rectangles": 11,
+      "area_fraction": "283/163840",
+      "all_previous_sources_checked": 4354,
+      "ring_pairs_checked": 32681,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine1",
+      "j": 11,
+      "digits": [
+        3,
+        3,
+        3
+      ],
+      "rectangles": 3,
+      "area_fraction": "1907/327680",
+      "all_previous_sources_checked": 4365,
+      "ring_pairs_checked": 8091,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine1",
+      "j": 11,
+      "digits": [
+        6,
+        6,
+        6
+      ],
+      "rectangles": 13,
+      "area_fraction": "2759/163840",
+      "all_previous_sources_checked": 4368,
+      "ring_pairs_checked": 35815,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine1",
+      "j": 12,
+      "digits": [
+        0,
+        0,
+        0
+      ],
+      "rectangles": 7,
+      "area_fraction": "411/327680",
+      "all_previous_sources_checked": 4381,
+      "ring_pairs_checked": 22834,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine1",
+      "j": 12,
+      "digits": [
+        4,
+        4,
+        4
+      ],
+      "rectangles": 1,
+      "area_fraction": "7/1280",
+      "all_previous_sources_checked": 4388,
+      "ring_pairs_checked": 2817,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine1",
+      "j": 12,
+      "digits": [
+        8,
+        8,
+        8
+      ],
+      "rectangles": 9,
+      "area_fraction": "5513/327680",
+      "all_previous_sources_checked": 4389,
+      "ring_pairs_checked": 22653,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine1",
+      "j": 13,
+      "digits": [
+        0,
+        0,
+        0
+      ],
+      "rectangles": 4,
+      "area_fraction": "141/163840",
+      "all_previous_sources_checked": 4398,
+      "ring_pairs_checked": 12140,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine1",
+      "j": 13,
+      "digits": [
+        5,
+        5,
+        5
+      ],
+      "rectangles": 0,
+      "area_fraction": "0",
+      "all_previous_sources_checked": 4402,
+      "ring_pairs_checked": 0,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine1",
+      "j": 13,
+      "digits": [
+        10,
+        10,
+        10
+      ],
+      "rectangles": 7,
+      "area_fraction": "3777/327680",
+      "all_previous_sources_checked": 4402,
+      "ring_pairs_checked": 15225,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine2",
+      "j": 6,
+      "digits": [
+        0,
+        0
+      ],
+      "rectangles": 136,
+      "area_fraction": "417/65536",
+      "all_previous_sources_checked": 4409,
+      "ring_pairs_checked": 204816,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine2",
+      "j": 6,
+      "digits": [
+        0,
+        1
+      ],
+      "rectangles": 123,
+      "area_fraction": "353/81920",
+      "all_previous_sources_checked": 4545,
+      "ring_pairs_checked": 199137,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine2",
+      "j": 6,
+      "digits": [
+        0,
+        2
+      ],
+      "rectangles": 164,
+      "area_fraction": "1361/327680",
+      "all_previous_sources_checked": 4668,
+      "ring_pairs_checked": 284704,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine2",
+      "j": 6,
+      "digits": [
+        1,
+        0
+      ],
+      "rectangles": 142,
+      "area_fraction": "3497/1310720",
+      "all_previous_sources_checked": 4832,
+      "ring_pairs_checked": 272498,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine2",
+      "j": 6,
+      "digits": [
+        1,
+        1
+      ],
+      "rectangles": 137,
+      "area_fraction": "2091/655360",
+      "all_previous_sources_checked": 4974,
+      "ring_pairs_checked": 280576,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine2",
+      "j": 6,
+      "digits": [
+        1,
+        2
+      ],
+      "rectangles": 165,
+      "area_fraction": "2179/655360",
+      "all_previous_sources_checked": 5111,
+      "ring_pairs_checked": 358215,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine2",
+      "j": 6,
+      "digits": [
+        2,
+        0
+      ],
+      "rectangles": 130,
+      "area_fraction": "3521/1310720",
+      "all_previous_sources_checked": 5276,
+      "ring_pairs_checked": 311740,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine2",
+      "j": 6,
+      "digits": [
+        2,
+        1
+      ],
+      "rectangles": 166,
+      "area_fraction": "3147/1310720",
+      "all_previous_sources_checked": 5406,
+      "ring_pairs_checked": 415332,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine2",
+      "j": 6,
+      "digits": [
+        2,
+        2
+      ],
+      "rectangles": 192,
+      "area_fraction": "667/262144",
+      "all_previous_sources_checked": 5572,
+      "ring_pairs_checked": 508800,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine2",
+      "j": 7,
+      "digits": [
+        0,
+        0
+      ],
+      "rectangles": 61,
+      "area_fraction": "359/262144",
+      "all_previous_sources_checked": 5764,
+      "ring_pairs_checked": 184891,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine2",
+      "j": 7,
+      "digits": [
+        0,
+        1
+      ],
+      "rectangles": 102,
+      "area_fraction": "6713/1310720",
+      "all_previous_sources_checked": 5825,
+      "ring_pairs_checked": 315894,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine2",
+      "j": 7,
+      "digits": [
+        0,
+        2
+      ],
+      "rectangles": 107,
+      "area_fraction": "7587/1310720",
+      "all_previous_sources_checked": 5927,
+      "ring_pairs_checked": 342828,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine2",
+      "j": 7,
+      "digits": [
+        0,
+        3
+      ],
+      "rectangles": 67,
+      "area_fraction": "3171/1310720",
+      "all_previous_sources_checked": 6034,
+      "ring_pairs_checked": 223646,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine2",
+      "j": 7,
+      "digits": [
+        1,
+        0
+      ],
+      "rectangles": 77,
+      "area_fraction": "979/655360",
+      "all_previous_sources_checked": 6101,
+      "ring_pairs_checked": 259413,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine2",
+      "j": 7,
+      "digits": [
+        1,
+        1
+      ],
+      "rectangles": 116,
+      "area_fraction": "2591/655360",
+      "all_previous_sources_checked": 6178,
+      "ring_pairs_checked": 399852,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine2",
+      "j": 7,
+      "digits": [
+        1,
+        2
+      ],
+      "rectangles": 121,
+      "area_fraction": "2217/655360",
+      "all_previous_sources_checked": 6294,
+      "ring_pairs_checked": 432091,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine2",
+      "j": 7,
+      "digits": [
+        1,
+        3
+      ],
+      "rectangles": 95,
+      "area_fraction": "813/327680",
+      "all_previous_sources_checked": 6415,
+      "ring_pairs_checked": 352165,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine2",
+      "j": 7,
+      "digits": [
+        2,
+        0
+      ],
+      "rectangles": 69,
+      "area_fraction": "3013/1310720",
+      "all_previous_sources_checked": 6510,
+      "ring_pairs_checked": 261234,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine2",
+      "j": 7,
+      "digits": [
+        2,
+        1
+      ],
+      "rectangles": 101,
+      "area_fraction": "4041/1310720",
+      "all_previous_sources_checked": 6579,
+      "ring_pairs_checked": 388345,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine2",
+      "j": 7,
+      "digits": [
+        2,
+        2
+      ],
+      "rectangles": 111,
+      "area_fraction": "3769/1310720",
+      "all_previous_sources_checked": 6680,
+      "ring_pairs_checked": 439560,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine2",
+      "j": 7,
+      "digits": [
+        2,
+        3
+      ],
+      "rectangles": 99,
+      "area_fraction": "605/262144",
+      "all_previous_sources_checked": 6791,
+      "ring_pairs_checked": 403128,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine2",
+      "j": 7,
+      "digits": [
+        3,
+        0
+      ],
+      "rectangles": 49,
+      "area_fraction": "235/131072",
+      "all_previous_sources_checked": 6890,
+      "ring_pairs_checked": 204722,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine2",
+      "j": 7,
+      "digits": [
+        3,
+        1
+      ],
+      "rectangles": 99,
+      "area_fraction": "1871/1310720",
+      "all_previous_sources_checked": 6939,
+      "ring_pairs_checked": 417384,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine2",
+      "j": 7,
+      "digits": [
+        3,
+        2
+      ],
+      "rectangles": 132,
+      "area_fraction": "1847/1310720",
+      "all_previous_sources_checked": 7038,
+      "ring_pairs_checked": 570636,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine2",
+      "j": 7,
+      "digits": [
+        3,
+        3
+      ],
+      "rectangles": 106,
+      "area_fraction": "1967/1310720",
+      "all_previous_sources_checked": 7170,
+      "ring_pairs_checked": 471594,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine2",
+      "j": 8,
+      "digits": [
+        0,
+        0
+      ],
+      "rectangles": 34,
+      "area_fraction": "137/131072",
+      "all_previous_sources_checked": 7276,
+      "ring_pairs_checked": 160888,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine2",
+      "j": 8,
+      "digits": [
+        3,
+        3
+      ],
+      "rectangles": 50,
+      "area_fraction": "7791/1310720",
+      "all_previous_sources_checked": 7310,
+      "ring_pairs_checked": 234400,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine2",
+      "j": 8,
+      "digits": [
+        6,
+        6
+      ],
+      "rectangles": 46,
+      "area_fraction": "3371/1310720",
+      "all_previous_sources_checked": 7360,
+      "ring_pairs_checked": 172730,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine2",
+      "j": 9,
+      "digits": [
+        0,
+        0
+      ],
+      "rectangles": 27,
+      "area_fraction": "4339/1310720",
+      "all_previous_sources_checked": 7406,
+      "ring_pairs_checked": 124092,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine2",
+      "j": 9,
+      "digits": [
+        4,
+        4
+      ],
+      "rectangles": 31,
+      "area_fraction": "7687/1310720",
+      "all_previous_sources_checked": 7433,
+      "ring_pairs_checked": 122698,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine2",
+      "j": 9,
+      "digits": [
+        9,
+        9
+      ],
+      "rectangles": 31,
+      "area_fraction": "1419/1310720",
+      "all_previous_sources_checked": 7464,
+      "ring_pairs_checked": 65596,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine2",
+      "j": 10,
+      "digits": [
+        0,
+        0,
+        0
+      ],
+      "rectangles": 46,
+      "area_fraction": "41/32768",
+      "all_previous_sources_checked": 7495,
+      "ring_pairs_checked": 175996,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine2",
+      "j": 10,
+      "digits": [
+        2,
+        2,
+        2
+      ],
+      "rectangles": 63,
+      "area_fraction": "2317/327680",
+      "all_previous_sources_checked": 7541,
+      "ring_pairs_checked": 180810,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine2",
+      "j": 10,
+      "digits": [
+        4,
+        4,
+        4
+      ],
+      "rectangles": 48,
+      "area_fraction": "3293/1310720",
+      "all_previous_sources_checked": 7604,
+      "ring_pairs_checked": 106992,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine2",
+      "j": 11,
+      "digits": [
+        0,
+        0,
+        0
+      ],
+      "rectangles": 33,
+      "area_fraction": "1419/1310720",
+      "all_previous_sources_checked": 7652,
+      "ring_pairs_checked": 142824,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine2",
+      "j": 11,
+      "digits": [
+        3,
+        3,
+        3
+      ],
+      "rectangles": 31,
+      "area_fraction": "5577/1310720",
+      "all_previous_sources_checked": 7685,
+      "ring_pairs_checked": 102269,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine2",
+      "j": 11,
+      "digits": [
+        6,
+        6,
+        6
+      ],
+      "rectangles": 34,
+      "area_fraction": "2927/1310720",
+      "all_previous_sources_checked": 7716,
+      "ring_pairs_checked": 108222,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine2",
+      "j": 12,
+      "digits": [
+        0,
+        0,
+        0
+      ],
+      "rectangles": 25,
+      "area_fraction": "39/40960",
+      "all_previous_sources_checked": 7750,
+      "ring_pairs_checked": 113725,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine2",
+      "j": 12,
+      "digits": [
+        4,
+        4,
+        4
+      ],
+      "rectangles": 19,
+      "area_fraction": "787/262144",
+      "all_previous_sources_checked": 7775,
+      "ring_pairs_checked": 64847,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine2",
+      "j": 12,
+      "digits": [
+        8,
+        8,
+        8
+      ],
+      "rectangles": 26,
+      "area_fraction": "729/327680",
+      "all_previous_sources_checked": 7794,
+      "ring_pairs_checked": 73346,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine2",
+      "j": 13,
+      "digits": [
+        0,
+        0,
+        0
+      ],
+      "rectangles": 21,
+      "area_fraction": "125/131072",
+      "all_previous_sources_checked": 7820,
+      "ring_pairs_checked": 84483,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine2",
+      "j": 13,
+      "digits": [
+        5,
+        5,
+        5
+      ],
+      "rectangles": 12,
+      "area_fraction": "227/655360",
+      "all_previous_sources_checked": 7841,
+      "ring_pairs_checked": 37884,
+      "all_future_scales_excluded": true
+    },
+    {
+      "round": "refine2",
+      "j": 13,
+      "digits": [
+        10,
+        10,
+        10
+      ],
+      "rectangles": 20,
+      "area_fraction": "39/16384",
+      "all_previous_sources_checked": 7853,
+      "ring_pairs_checked": 48140,
+      "all_future_scales_excluded": true
+    }
+  ],
+  "all_positive_integer_radii_included": true,
+  "all_future_scales_included": true,
+  "method": "independent standard-library arbitrary-precision arithmetic and exact sweep disjointness",
+  "source_baseline_hashes_verified": true,
+  "lean_formalized": false,
+  "new_asymptotic_order_proved": false,
+  "finite_optimum_proved": false
+}

@@ -1,0 +1,157 @@
+{
+  "source": "original A_infinity",
+  "finite_sources": 643,
+  "finite_block_indices": [
+    6,
+    11
+  ],
+  "analytic_tail_start": 12,
+  "all_positive_integer_radii_included": true,
+  "pixel_counts_are_not_area_certificates": true,
+  "green": "finite-free and outside a uniform rational envelope of ALL future annuli",
+  "red": "covered by a finite-source integer epsilon annulus",
+  "yellow": "finite-free, but future envelope is inconclusive",
+  "windows": [
+    {
+      "name": "Origin",
+      "center": [
+        0,
+        0
+      ],
+      "offset_window": [
+        "-1",
+        "1",
+        "-6/5",
+        "9/10"
+      ],
+      "epsilons": [
+        {
+          "epsilon": "1/64",
+          "finite_covered_pixels": 18524,
+          "guaranteed_uncovered_pixels": 44012,
+          "tail_uncertain_pixels": 3000,
+          "pixels": 65536,
+          "exact_whole_cells_checked": 47
+        },
+        {
+          "epsilon": "1/512",
+          "finite_covered_pixels": 15462,
+          "guaranteed_uncovered_pixels": 47010,
+          "tail_uncertain_pixels": 3064,
+          "pixels": 65536,
+          "exact_whole_cells_checked": 46
+        },
+        {
+          "epsilon": "1/32768",
+          "finite_covered_pixels": 14871,
+          "guaranteed_uncovered_pixels": 47446,
+          "tail_uncertain_pixels": 3219,
+          "pixels": 65536,
+          "exact_whole_cells_checked": 47
+        }
+      ]
+    },
+    {
+      "name": "Block 6, digits (0,0)",
+      "center": [
+        64,
+        12288
+      ],
+      "offset_window": [
+        "-2/5",
+        "2/5",
+        "-1/20",
+        "1/20"
+      ],
+      "epsilons": [
+        {
+          "epsilon": "1/64",
+          "finite_covered_pixels": 35453,
+          "guaranteed_uncovered_pixels": 30083,
+          "tail_uncertain_pixels": 0,
+          "pixels": 65536,
+          "exact_whole_cells_checked": 47
+        },
+        {
+          "epsilon": "1/512",
+          "finite_covered_pixels": 24266,
+          "guaranteed_uncovered_pixels": 41270,
+          "tail_uncertain_pixels": 0,
+          "pixels": 65536,
+          "exact_whole_cells_checked": 47
+        },
+        {
+          "epsilon": "1/32768",
+          "finite_covered_pixels": 15347,
+          "guaranteed_uncovered_pixels": 50189,
+          "tail_uncertain_pixels": 0,
+          "pixels": 65536,
+          "exact_whole_cells_checked": 47
+        }
+      ]
+    },
+    {
+      "name": "Block 6, digits (0,1)",
+      "center": [
+        68,
+        12800
+      ],
+      "offset_window": [
+        "-2/5",
+        "2/5",
+        "-1/100",
+        "1/100"
+      ],
+      "epsilons": [
+        {
+          "epsilon": "1/64",
+          "finite_covered_pixels": 65536,
+          "guaranteed_uncovered_pixels": 0,
+          "tail_uncertain_pixels": 0,
+          "pixels": 65536,
+          "exact_whole_cells_checked": 0
+        },
+        {
+          "epsilon": "1/512",
+          "finite_covered_pixels": 33820,
+          "guaranteed_uncovered_pixels": 31716,
+          "tail_uncertain_pixels": 0,
+          "pixels": 65536,
+          "exact_whole_cells_checked": 46
+        },
+        {
+          "epsilon": "1/32768",
+          "finite_covered_pixels": 11820,
+          "guaranteed_uncovered_pixels": 53716,
+          "tail_uncertain_pixels": 0,
+          "pixels": 65536,
+          "exact_whole_cells_checked": 47
+        }
+      ]
+    }
+  ],
+  "epsilon_safe_base": {
+    "epsilon": "1/64",
+    "area_fraction": "12816797074813/17592186044416",
+    "area_decimal": 0.7285505645775743,
+    "analytic_area_decimal": 0.7285516567820152,
+    "certificate": "erdos953-Ainfty-all-integer-safe-base-2026-10-03.json"
+  },
+  "fixed_epsilon_obstruction": {
+    "j": 6,
+    "first_digits": [
+      0,
+      1
+    ],
+    "second_digits": [
+      2,
+      0
+    ],
+    "vertical_integer": 448,
+    "horizontal_difference": 2,
+    "distance_to_integer": "4/(sqrt(a^2+4)+a)",
+    "strict_upper_bound": "1/224",
+    "epsilon_1_over_64_conflict": true,
+    "general_upper_bound": "1/[4*k*(k^2-k+2)] tends to zero"
+  }
+}

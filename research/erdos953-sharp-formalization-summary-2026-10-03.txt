@@ -1,0 +1,25 @@
+JSP-000793 / Erdős #953：精确常数下界的 Lean 形式化完成
+
+对每个实数 R≥e，
+  Mopen(R) ≥ sqrt(R)/(32768 sqrt(10)) · (loglog(R)/log(R))^3。
+
+对每个实数 R>0，
+  R≤1/2：       Mopen(R)≥πR²，且实际上等号成立；
+  1/2<R<e：     Mopen(R)≥π/4；
+  R≥e：         Mopen(R)≥max{π/4,上述精确常数下界}。
+
+主文件：../erdos953-lower-submission/Erdos953SharpLower.lean。
+主定理：sharp_lower_Mopen、explicit_lower_all_radii；另有独立 Mopen 定义的
+sharp_lower_standalone、explicit_lower_standalone。
+
+digit_rectangle_lower 给出参数构造的精确面积 (k−1)^n/(1024 k³)。
+例如 R=10^18、n=7、k=16，面积≥170859375/4194304。
+
+验证：Lean v4.32.2；Mathlib 905b95818eb32af7874a58b427f50c1711a5e96c。
+默认 lake build 成功（3,688 jobs），新模块已接入默认构建入口。
+最终定理的公理仅 propext、Classical.choice、Quot.sound；新增证明无
+sorry、admit、新增 axiom、native_decide，不使用外部数值结果作为假设。
+审计 JSON 记录实际版本、公理结果、构建日志哈希及源码 SHA-256。
+
+本次完成的是按半径选构造的 Mopen 下界；固定 A∞ 与系数 1/524288，
+以及额外的小半径多边形/网格证书，仍是此前的解析与精确计算验证成果。

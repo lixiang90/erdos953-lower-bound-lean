@@ -1,0 +1,170 @@
+{
+  "cases": [
+    {
+      "M": 1,
+      "domain": "[0,1]^2",
+      "delta_fraction": "1/4",
+      "initial_vertices": 64,
+      "initial_graph_upper": 45,
+      "independent_disk_packing_upper": 31,
+      "initial_effective_point_upper": 31,
+      "best_vertices": 256,
+      "best_robust_point_upper": 23,
+      "best_delta_squared_point_upper_fraction": "23/16",
+      "best_certificate": "erdos953-adaptive-outer-M1-d1over4-uniform1-cut1-2026-10-03.json",
+      "partition_certificate": "erdos953-adaptive-outer-M1-d1over4-adaptive2-cut1-2026-10-03.json",
+      "adaptive_stages": [
+        {
+          "stage": "adaptive0",
+          "vertices": 64,
+          "graph_upper": 45,
+          "effective_point_upper": 31,
+          "certificate": "erdos953-adaptive-outer-M1-d1over4-adaptive0-cut1-2026-10-03.json"
+        },
+        {
+          "stage": "adaptive1",
+          "vertices": 160,
+          "graph_upper": 28,
+          "effective_point_upper": 28,
+          "certificate": "erdos953-adaptive-outer-M1-d1over4-adaptive1-cut1-2026-10-03.json"
+        },
+        {
+          "stage": "adaptive2",
+          "vertices": 256,
+          "graph_upper": 23,
+          "effective_point_upper": 23,
+          "certificate": "erdos953-adaptive-outer-M1-d1over4-adaptive2-cut1-2026-10-03.json"
+        }
+      ],
+      "uniform_control": [
+        {
+          "vertices": 256,
+          "upper": 23,
+          "upper_fraction": "11564557573709/500000000000",
+          "tag": "uniform1-plain"
+        },
+        {
+          "vertices": 256,
+          "upper": 23,
+          "upper_fraction": "11552515837883/500000000000",
+          "tag": "uniform1-cut1"
+        }
+      ]
+    },
+    {
+      "M": 1,
+      "domain": "[0,1]^2",
+      "delta_fraction": "1/8",
+      "initial_vertices": 256,
+      "initial_graph_upper": 189,
+      "independent_disk_packing_upper": 102,
+      "initial_effective_point_upper": 102,
+      "best_vertices": 400,
+      "best_robust_point_upper": 102,
+      "best_delta_squared_point_upper_fraction": "51/32",
+      "best_certificate": "erdos953-adaptive-outer-M1-d1over8-root-capacity-exact-2026-10-03.json",
+      "partition_certificate": "erdos953-adaptive-outer-M1-d1over8-adaptive3-cut1-2026-10-03.json",
+      "adaptive_stages": [
+        {
+          "stage": "adaptive0",
+          "vertices": 256,
+          "graph_upper": 189,
+          "effective_point_upper": 102,
+          "certificate": "erdos953-adaptive-outer-M1-d1over8-adaptive0-cut1-2026-10-03.json"
+        },
+        {
+          "stage": "adaptive1",
+          "vertices": 304,
+          "graph_upper": 176,
+          "effective_point_upper": 102,
+          "certificate": "erdos953-adaptive-outer-M1-d1over8-adaptive1-cut1-2026-10-03.json"
+        },
+        {
+          "stage": "adaptive2",
+          "vertices": 352,
+          "graph_upper": 165,
+          "effective_point_upper": 102,
+          "certificate": "erdos953-adaptive-outer-M1-d1over8-adaptive2-cut1-2026-10-03.json"
+        },
+        {
+          "stage": "adaptive3",
+          "vertices": 400,
+          "graph_upper": 149,
+          "effective_point_upper": 102,
+          "certificate": "erdos953-adaptive-outer-M1-d1over8-adaptive3-cut1-2026-10-03.json"
+        }
+      ],
+      "uniform_control": []
+    },
+    {
+      "M": 2,
+      "domain": "[0,2]^2",
+      "delta_fraction": "1/4",
+      "initial_vertices": 256,
+      "initial_graph_upper": 62,
+      "independent_disk_packing_upper": 102,
+      "initial_effective_point_upper": 62,
+      "best_vertices": 400,
+      "best_robust_point_upper": 49,
+      "best_delta_squared_point_upper_fraction": "49/16",
+      "best_certificate": "erdos953-adaptive-outer-M2-d1over4-capacity-spatial-2026-10-03.json",
+      "partition_certificate": "erdos953-adaptive-outer-M2-d1over4-adaptive3-cut1-2026-10-03.json",
+      "adaptive_stages": [
+        {
+          "stage": "adaptive0",
+          "vertices": 256,
+          "graph_upper": 62,
+          "effective_point_upper": 62,
+          "certificate": "erdos953-adaptive-outer-M2-d1over4-adaptive0-cut1-2026-10-03.json"
+        },
+        {
+          "stage": "adaptive1",
+          "vertices": 304,
+          "graph_upper": 57,
+          "effective_point_upper": 57,
+          "certificate": "erdos953-adaptive-outer-M2-d1over4-adaptive1-cut1-2026-10-03.json"
+        },
+        {
+          "stage": "adaptive2",
+          "vertices": 352,
+          "graph_upper": 53,
+          "effective_point_upper": 53,
+          "certificate": "erdos953-adaptive-outer-M2-d1over4-adaptive2-cut1-2026-10-03.json"
+        },
+        {
+          "stage": "adaptive3",
+          "vertices": 400,
+          "graph_upper": 50,
+          "effective_point_upper": 50,
+          "certificate": "erdos953-adaptive-outer-M2-d1over4-adaptive3-cut1-2026-10-03.json"
+        }
+      ],
+      "uniform_control": []
+    }
+  ],
+  "independently_audited_certificates": 30,
+  "all_passed": true,
+  "finite_delta_point_upper_proved": true,
+  "continuous_area_upper_proved": false,
+  "uniform_over_delta_proved": false,
+  "new_asymptotic_order_proved": false,
+  "optimizer_optimality_proved": false,
+  "lean_formalized": false,
+  "variable_scale_kernel": {
+    "paper_derivation_complete": true,
+    "peer_reviewed": false,
+    "explicit_absolute_constants_computed": false,
+    "recovers_existing_square_root_order": true,
+    "minimum_cell_size_loss_removed": true,
+    "weighted_phase_dichotomy_proved": false
+  },
+  "caveats": [
+    "Some finite graph certificates are weaker than elementary disk packing; effective bounds include that baseline.",
+    "The equal-node comparison gave 23 for both adaptive and uniform partitions; no demonstrated adaptive efficiency advantage.",
+    "The tested deltas 1/4 and 1/8 exceed the 1/10 range of the usual continuous-area reduction.",
+    "Spatial capacities constrain actual geometric point occupancies, not all independent sets of the outer graph."
+  ],
+  "notes": "erdos953-adaptive-upper-notes-2026-10-03.txt",
+  "audit": "erdos953-adaptive-outer-independent-audit-2026-10-03.json",
+  "figure": "erdos953-adaptive-upper-2026-10-03.png"
+}

@@ -31,3 +31,6 @@ name = "Erdos953Sandwich"
 
 [[lean_lib]]
 name = "Erdos953Growth"
+
+[[lean_lib]]
+name = "Erdos953SharpLower"

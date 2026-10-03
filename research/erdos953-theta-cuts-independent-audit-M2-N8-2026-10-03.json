@@ -1,0 +1,65 @@
+{
+  "results": [
+    {
+      "certificate": "erdos953-theta-cuts-M2-N8-control-2026-10-03.json",
+      "M": 2,
+      "N": 8,
+      "tag": "control",
+      "cuts_verified": 0,
+      "local_states_or_clique_pairs_checked": 0,
+      "nonedge_matrix_entries_checked": 23424,
+      "psd_residual_rows_checked": 256,
+      "alpha_upper_fraction": "25664649579251/500000000000",
+      "integer_upper": 51,
+      "sha256": "66d24b4aae5d13b2b5e8903fed5a572f1ddce37f03c5c1fd5084fb90b6b66949",
+      "all_passed": true
+    },
+    {
+      "certificate": "erdos953-theta-cuts-M2-N8-r1-2026-10-03.json",
+      "M": 2,
+      "N": 8,
+      "tag": "r1",
+      "cuts_verified": 162,
+      "local_states_or_clique_pairs_checked": 1282,
+      "nonedge_matrix_entries_checked": 23424,
+      "psd_residual_rows_checked": 256,
+      "alpha_upper_fraction": "25465523130053/500000000000",
+      "integer_upper": 50,
+      "sha256": "58f683e9945f95ac5c3dc4e86449af9270ac1ec55dae0ac9e70903eb10491638",
+      "all_passed": true
+    },
+    {
+      "certificate": "erdos953-theta-cuts-M2-N8-r2-2026-10-03.json",
+      "M": 2,
+      "N": 8,
+      "tag": "r2",
+      "cuts_verified": 311,
+      "local_states_or_clique_pairs_checked": 2397,
+      "nonedge_matrix_entries_checked": 23424,
+      "psd_residual_rows_checked": 256,
+      "alpha_upper_fraction": "633189833623/12500000000",
+      "integer_upper": 50,
+      "sha256": "7f2381962f3878c6f49a524233f9e89a6a9359e8dfd83b0bfe9f981a127fd323",
+      "all_passed": true
+    },
+    {
+      "certificate": "erdos953-theta-cuts-M2-N8-r3-2026-10-03.json",
+      "M": 2,
+      "N": 8,
+      "tag": "r3",
+      "cuts_verified": 481,
+      "local_states_or_clique_pairs_checked": 3757,
+      "nonedge_matrix_entries_checked": 23424,
+      "psd_residual_rows_checked": 256,
+      "alpha_upper_fraction": "50481647967283/1000000000000",
+      "integer_upper": 50,
+      "sha256": "e004d4b613bbe008fdaf8e51fe5857e6bfe08fc3900712a421cbef7396c1de47",
+      "all_passed": true
+    }
+  ],
+  "all_passed": true,
+  "standard_library_only": true,
+  "continuous_upper_proved": false,
+  "new_asymptotic_order_proved": false,
+  "lean_formalized": false
+}

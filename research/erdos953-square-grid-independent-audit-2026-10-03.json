@@ -1,0 +1,565 @@
+{
+  "certificates": 69,
+  "exact_square_pair_checks": 793911170,
+  "exact_target_witnesses": 250733,
+  "nested_inclusions": 37,
+  "source_certificates": {
+    "erdos953-random-polygons-R1.5-N32000-eps0.008-seed95503.json": {
+      "status": "passed exact integer and rational checks",
+      "polygon_count": 4,
+      "area_fraction": "20385620360334689/20000000000000000",
+      "component_squared_diameters": [
+        "619456975731533/625000000000000",
+        "2479412678552977/2500000000000000",
+        "555915044613097/2000000000000000",
+        "2241533213860181/10000000000000000"
+      ],
+      "cross_distance_checks": [
+        {
+          "polygons": [
+            0,
+            1
+          ],
+          "minimum_squared_distance": "42663165182346005208602203681/10657992501935050000000000000",
+          "maximum_squared_distance": "89751075628531181/10000000000000000"
+        },
+        {
+          "polygons": [
+            0,
+            2
+          ],
+          "minimum_squared_distance": "13721105729854944539972269441/13666236906432500000000000000",
+          "maximum_squared_distance": "7960767489574129/2000000000000000"
+        },
+        {
+          "polygons": [
+            0,
+            3
+          ],
+          "minimum_squared_distance": "107696031678640570228538658121/107470780135490000000000000000",
+          "maximum_squared_distance": "39834698251059917/10000000000000000"
+        },
+        {
+          "polygons": [
+            1,
+            2
+          ],
+          "minimum_squared_distance": "5131870517017712232927510921169/5118868733832250000000000000000",
+          "maximum_squared_distance": "39837200317122409/10000000000000000"
+        },
+        {
+          "polygons": [
+            1,
+            3
+          ],
+          "minimum_squared_distance": "5263973105348564087489559960049/5236680369617450000000000000000",
+          "maximum_squared_distance": "4979862911391561/1250000000000000"
+        },
+        {
+          "polygons": [
+            2,
+            3
+          ],
+          "minimum_squared_distance": "18059309394788688112665339849/17909249714530000000000000000",
+          "maximum_squared_distance": "39835193659486529/10000000000000000"
+        }
+      ]
+    },
+    "erdos953-random-ball-grid-R2-N32000-eps0.03-seed95506.json": {
+      "balls_checked": 2647,
+      "ball_pairs_checked": 3501981,
+      "integers_checked": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  "all_passed": true,
+  "results": [
+    {
+      "file": "erdos953-square-grid-R1-N128-free-2026-10-03.json",
+      "count": 14279,
+      "area_fraction": "14279/16384",
+      "pair_checks": 101937781,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R1-N128-nested-2026-10-03.json",
+      "count": 12552,
+      "area_fraction": "1569/2048",
+      "pair_checks": 78770076,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R1-N128-target-2026-10-03.json",
+      "count": 14140,
+      "area_fraction": "3535/4096",
+      "pair_checks": 0,
+      "method": "exact source geometry and source certificate"
+    },
+    {
+      "file": "erdos953-square-grid-R1-N16-free-2026-10-03.json",
+      "count": 183,
+      "area_fraction": "183/256",
+      "pair_checks": 16653,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R1-N16-nested-2026-10-03.json",
+      "count": 173,
+      "area_fraction": "173/256",
+      "pair_checks": 14878,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R1-N16-target-2026-10-03.json",
+      "count": 160,
+      "area_fraction": "5/8",
+      "pair_checks": 0,
+      "method": "exact source geometry and source certificate"
+    },
+    {
+      "file": "erdos953-square-grid-R1-N256-target-2026-10-03.json",
+      "count": 57628,
+      "area_fraction": "14407/16384",
+      "pair_checks": 0,
+      "method": "exact source geometry and source certificate"
+    },
+    {
+      "file": "erdos953-square-grid-R1-N32-free-2026-10-03.json",
+      "count": 826,
+      "area_fraction": "413/512",
+      "pair_checks": 340725,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R1-N32-nested-2026-10-03.json",
+      "count": 745,
+      "area_fraction": "745/1024",
+      "pair_checks": 277140,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R1-N32-target-2026-10-03.json",
+      "count": 780,
+      "area_fraction": "195/256",
+      "pair_checks": 0,
+      "method": "exact source geometry and source certificate"
+    },
+    {
+      "file": "erdos953-square-grid-R1-N64-free-2026-10-03.json",
+      "count": 3480,
+      "area_fraction": "435/512",
+      "pair_checks": 6053460,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R1-N64-nested-2026-10-03.json",
+      "count": 3081,
+      "area_fraction": "3081/4096",
+      "pair_checks": 4744740,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R1-N64-target-2026-10-03.json",
+      "count": 3400,
+      "area_fraction": "425/512",
+      "pair_checks": 0,
+      "method": "exact source geometry and source certificate"
+    },
+    {
+      "file": "erdos953-square-grid-R1-N8-free-2026-10-03.json",
+      "count": 37,
+      "area_fraction": "37/64",
+      "pair_checks": 666,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R1-N8-nested-2026-10-03.json",
+      "count": 37,
+      "area_fraction": "37/64",
+      "pair_checks": 666,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R1-N8-target-2026-10-03.json",
+      "count": 24,
+      "area_fraction": "3/8",
+      "pair_checks": 0,
+      "method": "exact source geometry and source certificate"
+    },
+    {
+      "file": "erdos953-square-grid-R1.5-N128-free-2026-10-03.json",
+      "count": 16583,
+      "area_fraction": "16583/16384",
+      "pair_checks": 137489653,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R1.5-N128-nested-2026-10-03.json",
+      "count": 16312,
+      "area_fraction": "2039/2048",
+      "pair_checks": 133032516,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R1.5-N128-target-2026-10-03.json",
+      "count": 16121,
+      "area_fraction": "16121/16384",
+      "pair_checks": 0,
+      "method": "exact source geometry and source certificate"
+    },
+    {
+      "file": "erdos953-square-grid-R1.5-N16-free-2026-10-03.json",
+      "count": 209,
+      "area_fraction": "209/256",
+      "pair_checks": 21736,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R1.5-N16-nested-2026-10-03.json",
+      "count": 203,
+      "area_fraction": "203/256",
+      "pair_checks": 20503,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R1.5-N16-target-2026-10-03.json",
+      "count": 186,
+      "area_fraction": "93/128",
+      "pair_checks": 0,
+      "method": "exact source geometry and source certificate"
+    },
+    {
+      "file": "erdos953-square-grid-R1.5-N256-target-2026-10-03.json",
+      "count": 65623,
+      "area_fraction": "65623/65536",
+      "pair_checks": 0,
+      "method": "exact source geometry and source certificate"
+    },
+    {
+      "file": "erdos953-square-grid-R1.5-N32-free-2026-10-03.json",
+      "count": 939,
+      "area_fraction": "939/1024",
+      "pair_checks": 440391,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R1.5-N32-nested-2026-10-03.json",
+      "count": 929,
+      "area_fraction": "929/1024",
+      "pair_checks": 431056,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R1.5-N32-target-2026-10-03.json",
+      "count": 896,
+      "area_fraction": "7/8",
+      "pair_checks": 0,
+      "method": "exact source geometry and source certificate"
+    },
+    {
+      "file": "erdos953-square-grid-R1.5-N64-free-2026-10-03.json",
+      "count": 4009,
+      "area_fraction": "4009/4096",
+      "pair_checks": 8034036,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R1.5-N64-nested-2026-10-03.json",
+      "count": 3944,
+      "area_fraction": "493/512",
+      "pair_checks": 7775596,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R1.5-N64-target-2026-10-03.json",
+      "count": 3874,
+      "area_fraction": "1937/2048",
+      "pair_checks": 0,
+      "method": "exact source geometry and source certificate"
+    },
+    {
+      "file": "erdos953-square-grid-R1.5-N8-free-2026-10-03.json",
+      "count": 39,
+      "area_fraction": "39/64",
+      "pair_checks": 741,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R1.5-N8-nested-2026-10-03.json",
+      "count": 39,
+      "area_fraction": "39/64",
+      "pair_checks": 741,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R1.5-N8-target-2026-10-03.json",
+      "count": 32,
+      "area_fraction": "1/2",
+      "pair_checks": 0,
+      "method": "exact source geometry and source certificate"
+    },
+    {
+      "file": "erdos953-square-grid-R2-N128-free-2026-10-03.json",
+      "count": 17986,
+      "area_fraction": "8993/8192",
+      "pair_checks": 161739105,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R2-N128-nested-2026-10-03.json",
+      "count": 16298,
+      "area_fraction": "8149/8192",
+      "pair_checks": 132804253,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R2-N128-target-2026-10-03.json",
+      "count": 16298,
+      "area_fraction": "8149/8192",
+      "pair_checks": 0,
+      "method": "exact source geometry and source certificate"
+    },
+    {
+      "file": "erdos953-square-grid-R2-N16-free-2026-10-03.json",
+      "count": 219,
+      "area_fraction": "219/256",
+      "pair_checks": 23871,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R2-N16-nested-2026-10-03.json",
+      "count": 208,
+      "area_fraction": "13/16",
+      "pair_checks": 21528,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R2-N16-target-2026-10-03.json",
+      "count": 128,
+      "area_fraction": "1/2",
+      "pair_checks": 0,
+      "method": "exact source geometry and source certificate"
+    },
+    {
+      "file": "erdos953-square-grid-R2-N256-target-2026-10-03.json",
+      "count": 66875,
+      "area_fraction": "66875/65536",
+      "pair_checks": 0,
+      "method": "exact source geometry and source certificate"
+    },
+    {
+      "file": "erdos953-square-grid-R2-N32-free-2026-10-03.json",
+      "count": 1010,
+      "area_fraction": "505/512",
+      "pair_checks": 509545,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R2-N32-nested-2026-10-03.json",
+      "count": 931,
+      "area_fraction": "931/1024",
+      "pair_checks": 432915,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R2-N32-target-2026-10-03.json",
+      "count": 769,
+      "area_fraction": "769/1024",
+      "pair_checks": 0,
+      "method": "exact source geometry and source certificate"
+    },
+    {
+      "file": "erdos953-square-grid-R2-N64-free-2026-10-03.json",
+      "count": 4338,
+      "area_fraction": "2169/2048",
+      "pair_checks": 9406953,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R2-N64-nested-2026-10-03.json",
+      "count": 3950,
+      "area_fraction": "1975/2048",
+      "pair_checks": 7799275,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R2-N64-target-2026-10-03.json",
+      "count": 3791,
+      "area_fraction": "3791/4096",
+      "pair_checks": 0,
+      "method": "exact source geometry and source certificate"
+    },
+    {
+      "file": "erdos953-square-grid-R2-N8-free-2026-10-03.json",
+      "count": 45,
+      "area_fraction": "45/64",
+      "pair_checks": 990,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R2-N8-nested-2026-10-03.json",
+      "count": 45,
+      "area_fraction": "45/64",
+      "pair_checks": 990,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R2-N8-target-2026-10-03.json",
+      "count": 8,
+      "area_fraction": "1/8",
+      "pair_checks": 0,
+      "method": "exact source geometry and source certificate"
+    },
+    {
+      "file": "erdos953-square-grid-R4-N16-free-2026-10-03.json",
+      "count": 259,
+      "area_fraction": "259/256",
+      "pair_checks": 33411,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R4-N16-nested-2026-10-03.json",
+      "count": 243,
+      "area_fraction": "243/256",
+      "pair_checks": 29403,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R4-N16-target-2026-10-03.json",
+      "count": 164,
+      "area_fraction": "41/64",
+      "pair_checks": 13366,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R4-N32-free-2026-10-03.json",
+      "count": 1203,
+      "area_fraction": "1203/1024",
+      "pair_checks": 723003,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R4-N32-nested-2026-10-03.json",
+      "count": 1089,
+      "area_fraction": "1089/1024",
+      "pair_checks": 592416,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R4-N32-target-2026-10-03.json",
+      "count": 732,
+      "area_fraction": "183/256",
+      "pair_checks": 267546,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R4-N4-free-2026-10-03.json",
+      "count": 10,
+      "area_fraction": "5/8",
+      "pair_checks": 45,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R4-N4-nested-2026-10-03.json",
+      "count": 10,
+      "area_fraction": "5/8",
+      "pair_checks": 45,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R4-N4-target-2026-10-03.json",
+      "count": 4,
+      "area_fraction": "1/4",
+      "pair_checks": 6,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R4-N8-free-2026-10-03.json",
+      "count": 53,
+      "area_fraction": "53/64",
+      "pair_checks": 1378,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R4-N8-nested-2026-10-03.json",
+      "count": 50,
+      "area_fraction": "25/32",
+      "pair_checks": 1225,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R4-N8-target-2026-10-03.json",
+      "count": 32,
+      "area_fraction": "1/2",
+      "pair_checks": 496,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R8-N16-free-2026-10-03.json",
+      "count": 306,
+      "area_fraction": "153/128",
+      "pair_checks": 46665,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R8-N16-nested-2026-10-03.json",
+      "count": 289,
+      "area_fraction": "289/256",
+      "pair_checks": 41616,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R8-N16-target-2026-10-03.json",
+      "count": 164,
+      "area_fraction": "41/64",
+      "pair_checks": 13366,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R8-N4-free-2026-10-03.json",
+      "count": 12,
+      "area_fraction": "3/4",
+      "pair_checks": 66,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R8-N4-nested-2026-10-03.json",
+      "count": 12,
+      "area_fraction": "3/4",
+      "pair_checks": 66,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R8-N4-target-2026-10-03.json",
+      "count": 4,
+      "area_fraction": "1/4",
+      "pair_checks": 6,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R8-N8-free-2026-10-03.json",
+      "count": 61,
+      "area_fraction": "61/64",
+      "pair_checks": 1830,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R8-N8-nested-2026-10-03.json",
+      "count": 56,
+      "area_fraction": "7/8",
+      "pair_checks": 1540,
+      "method": "every integer in every pair interval, bounded exact int64"
+    },
+    {
+      "file": "erdos953-square-grid-R8-N8-target-2026-10-03.json",
+      "count": 32,
+      "area_fraction": "1/2",
+      "pair_checks": 496,
+      "method": "every integer in every pair interval, bounded exact int64"
+    }
+  ]
+}

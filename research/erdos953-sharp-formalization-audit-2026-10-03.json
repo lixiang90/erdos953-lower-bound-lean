@@ -1,0 +1,148 @@
+{
+  "recorded_at_utc": "2026-10-03T08:21:39.909927+00:00",
+  "scope": "Lean formalization of the exact coefficient lower bound for Mopen and its piecewise extension to every positive real radius",
+  "repository": "E:\\codex-build\\sun_prize\\erdos953-lower-submission",
+  "repository_base_commit": "531af1969768d52c6e0fe0e791300ef342808e93",
+  "lean_toolchain": "leanprover/lean4:v4.32.2",
+  "lean_version": "Lean (version 4.32.2, x86_64-w64-windows-gnu, commit f3b06c705e6c85f5314019d5d3baab0fec5b580c, Release)",
+  "mathlib_pin": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "mathlib_checkout": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "hart_upstream_pin": "0d031f7212150df788f4fa38c26cfc3fc729f3d0",
+  "main_statement": "For every real R >= exp(1), Mopen(R) >= sqrt(R)/(32768*sqrt(10))*(log(log(R))/log(R))^3",
+  "all_positive_radii": {
+    "0<R<=1/2": "pi*R^2 (also the exact extremal area)",
+    "1/2<R<exp(1)": "pi/4",
+    "R>=exp(1)": "max(pi/4, sqrt(R)/(32768*sqrt(10))*(log(log(R))/log(R))^3)"
+  },
+  "construction": "finite measurable union of digit rectangles of width 1/4 and height 1/(256*k^3)",
+  "rectangle_area": "(k-1)^n/(1024*k^3), for k>=3 and 10*k^(2*n)<=R",
+  "proof_route": "R>=10^14: simultaneous digit parameter selection and exact union measure; smaller R: half-unit disk estimate; ten exceptional base bounds certified inside Lean",
+  "exact_numerical_example": {
+    "R": "10^18",
+    "n": 7,
+    "k": 16,
+    "area": "170859375/4194304"
+  },
+  "build": {
+    "command": "lake build",
+    "exit_code": 0,
+    "jobs": 3688,
+    "log": "erdos953-sharp-formalization-build-2026-10-03.log",
+    "log_sha256": "ce7efccc3fd0370f12fcfa091fc7e678b2dd8e144e91d534845256ab678b81ec",
+    "dependency_cache": "existing pinned local checkout/cache"
+  },
+  "main_axiom_audit": {
+    "Erdos953SharpLower.large_radius_witness": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos953SharpLower.sharp_lower_Mopen": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos953SharpLower.explicit_lower_all_radii": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos953SharpLower.sharp_lower_standalone": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos953SharpLower.explicit_lower_standalone": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos953SharpLower.lower_at_ten_pow_eighteen": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "all_printed_axiom_audits_use_only_standard_axioms": true,
+  "new_source_scan": {
+    "files": 10,
+    "sorry": false,
+    "admit": false,
+    "new_axiom": false,
+    "native_decide": false
+  },
+  "source_hashes": {
+    "Erdos953Lower/AnisotropicDigits.lean": {
+      "sha256": "bf4416c197409b74617f80b4884647b24c7fa20ff76404029bbcb0abcaf04467",
+      "lines": 215
+    },
+    "Erdos953Lower/AnisotropicGeometry.lean": {
+      "sha256": "6028c4f53992db50c8e43ea95daf8045721a99ed54de8639ad3f5d29f0f00e48",
+      "lines": 97
+    },
+    "Erdos953Lower/AnisotropicLogBounds.lean": {
+      "sha256": "a06213ef1074393c6c1e3b5dab7bdd1db5b24217ec2a1508d931c6f6f4f7a42a",
+      "lines": 153
+    },
+    "Erdos953Lower/AnisotropicLogCertificates.lean": {
+      "sha256": "fb4e82c85c0225ba7d2a4e7f28cda72ac2ecab58cd0bd6b2155c571d2dc99da4",
+      "lines": 291
+    },
+    "Erdos953Lower/AnisotropicParameters.lean": {
+      "sha256": "91d9d732a614461a833355684c0cbc77accc6cce528b8c29b230d2cb47999b00",
+      "lines": 74
+    },
+    "Erdos953Lower/AnisotropicRadius.lean": {
+      "sha256": "cc9fe84410140caf1381e101128be9e1f1999c086f7ced9b7f0f4097d4171c88",
+      "lines": 101
+    },
+    "Erdos953Lower/AnisotropicRectangles.lean": {
+      "sha256": "ff34f7e20ce55e4d8f3394363cff9837edf8ca987c5fa3665ac230cfe7c4cd34",
+      "lines": 228
+    },
+    "Erdos953Lower/AnisotropicSelection.lean": {
+      "sha256": "217e2323fb45fe53f63219dd040c47685dcd1da90522b891c9ddc0afa7d20f41",
+      "lines": 139
+    },
+    "Erdos953Lower/AnisotropicUniform.lean": {
+      "sha256": "45e9701f1ae9126828c7056ecd967735ffd20fd270574cddefd49c6e56dfce36",
+      "lines": 153
+    },
+    "Erdos953SharpLower.lean": {
+      "sha256": "4a77eb62fb3f22489900a8e2ab9ee746a89ab241be164d673e4847d871a4d554",
+      "lines": 158
+    },
+    "Erdos953Growth.lean": {
+      "sha256": "1f306d11caae97a2f7d864c4532092aabaeea83c7e62ed70c4a5c0349887a815",
+      "lines": 39
+    },
+    "Erdos953Lower.lean": {
+      "sha256": "bd38027e38eaf48661e8934c1fd2adf9dc90bfce6c9463b5bf84d29ad767cae3",
+      "lines": 19
+    },
+    "Erdos953Sandwich.lean": {
+      "sha256": "8b21d95969eaa65b2b915fb4442370320aa8b9b4d37a401b742e281a5b5933f2",
+      "lines": 170
+    },
+    "Erdos953Lower/Extremal.lean": {
+      "sha256": "85a308fb10de5bd0cdf053145d5da42c883dc2b63accb839ed9d8fb754951dd4",
+      "lines": 71
+    },
+    "lakefile.toml": {
+      "sha256": "35d30a63e03e995ccd83edd8b3d6a84d93ed199eea75ac43ff58a7e543fe36c0",
+      "lines": 36
+    },
+    "lake-manifest.json": {
+      "sha256": "2f7591671c1c571f9f4b6539b220d34fdae629ce044a7d17ce8b3de76617d14d",
+      "lines": 96
+    },
+    "lean-toolchain": {
+      "sha256": "2bdc48adfa58d0017e538a0ad117c5d73d35deec879978f909406a80c8037273",
+      "lines": 1
+    }
+  },
+  "not_formalized_in_this_audit": [
+    "one fixed unbounded set A_infinity and its coefficient 1/524288",
+    "additional polygon and square-grid lower-bound certificates at small radii"
+  ]
+}

@@ -1,0 +1,3546 @@
+{
+  "date": "2026-10-03",
+  "scope": "Erdos 953 research outputs authored or generated in this workspace; third-party repositories excluded",
+  "archive": "archives/erdos953-research-snapshot-2026-10-03.zip",
+  "archive_sha256": "3917182e64e00b2f5fcf15a7b4df6811f5111d5b85970650f23d0dccc91027a2",
+  "archive_bytes": 97249245,
+  "file_count": 589,
+  "uncompressed_bytes": 336059348,
+  "directly_browsable_file_count": 164,
+  "files": [
+    {
+      "name": "erdos953-adaptive-outer-independent-audit-2026-10-03.json",
+      "bytes": 19978,
+      "sha256": "0b458ad7d618f19bbe185f5d1964db8f77b29cc3e6d9d21ad4730151f876dd7a",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-adaptive-outer-M1-d1over4-adaptive0-cut1-2026-10-03.json",
+      "bytes": 70842,
+      "sha256": "362987b0ba920576b89d9b58aca5e0951ce95c80bd6dc2c9a5fb8d6f899d9bc7",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-adaptive-outer-M1-d1over4-adaptive0-plain-2026-10-03.json",
+      "bytes": 66758,
+      "sha256": "90dfd86de2e137bcd6555b2a03b5835a9686bf5fc9e57ca9caa2e185b5fed36b",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-adaptive-outer-M1-d1over4-adaptive1-cut1-2026-10-03.json",
+      "bytes": 411464,
+      "sha256": "02cb7ba60327f003b41d5277f835967b47d1a0b2ffb2b1e3aa25e7faec105a89",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-adaptive-outer-M1-d1over4-adaptive1-plain-2026-10-03.json",
+      "bytes": 404265,
+      "sha256": "a96edc74e9f636bb15fcd81cfc2fbb2237594c8c06bb0892b747ceb825ca490e",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-adaptive-outer-M1-d1over4-adaptive2-cut1-2026-10-03.json",
+      "bytes": 1026746,
+      "sha256": "e45e2421d25ab4ab0db68d4e81df38ab756ae9530f8aeeabb6f2cccef9eaf4dc",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-adaptive-outer-M1-d1over4-adaptive2-plain-2026-10-03.json",
+      "bytes": 1019367,
+      "sha256": "a119855975bd3d350aaa43f48d1194db43e43a595ab4d6dac96261f10b5e82e0",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-adaptive-outer-M1-d1over4-uniform1-cut1-2026-10-03.json",
+      "bytes": 1023682,
+      "sha256": "dac2ce7b867cbca9c52bc8479d1797eeb62bb996a07776931804243c1ef4c2d5",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-adaptive-outer-M1-d1over4-uniform1-plain-2026-10-03.json",
+      "bytes": 1016217,
+      "sha256": "e9ee1a532be02db8531a5be8dec400756d6bf8dfcdd3a96ed65593f2c09f3566",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-adaptive-outer-M1-d1over8-adaptive0-cut1-2026-10-03.json",
+      "bytes": 1038968,
+      "sha256": "a73536f593e9a2c0be4f990ef91fcdf1a5860dcb078c9e9e0f61f4b470997fc0",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-adaptive-outer-M1-d1over8-adaptive0-plain-2026-10-03.json",
+      "bytes": 1031910,
+      "sha256": "a7149a6a99faabc59ef4ed832c531fa563e0b703f136e253c35cedb440379db2",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-adaptive-outer-M1-d1over8-adaptive1-cut1-2026-10-03.json",
+      "bytes": 1457504,
+      "sha256": "8bda79fd9f65745a6167930cae0dbab93cdb5da4320c3aad79a5175fb1d19efd",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-adaptive-outer-M1-d1over8-adaptive1-plain-2026-10-03.json",
+      "bytes": 1448858,
+      "sha256": "17c534610c6bb4d11b77b458916b15ebdebcec2e3edf150332cbca46573dc57e",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-adaptive-outer-M1-d1over8-adaptive2-cut1-2026-10-03.json",
+      "bytes": 1949620,
+      "sha256": "26d7c28727afc443d4dbfcc33b3cb104235b7091e77fd854ce360e884244a371",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-adaptive-outer-M1-d1over8-adaptive2-plain-2026-10-03.json",
+      "bytes": 1940823,
+      "sha256": "8b2ccbbffee3e1cb56a4dcf74188a659820aaa807307d9c4f0e5676358e88558",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-adaptive-outer-M1-d1over8-adaptive3-cut1-2026-10-03.json",
+      "bytes": 2511248,
+      "sha256": "671b13552c113f278fabf8493c6cfee29163293781fc6acc0d3b19bbccaa0ae8",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-adaptive-outer-M1-d1over8-adaptive3-plain-2026-10-03.json",
+      "bytes": 2501393,
+      "sha256": "1f88786c61c98c39fefd167734be5f8852a0290b5f8ffe0de0e24fe2b633a621",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-adaptive-outer-M1-d1over8-capacity-control-plain-2026-10-03.json",
+      "bytes": 2502742,
+      "sha256": "2005996bb0833561968a1ab4a9b8da31e03f37b016259b33427a0bd19f5c9b33",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-adaptive-outer-M1-d1over8-capacity-spatial-2026-10-03.json",
+      "bytes": 2593110,
+      "sha256": "b0783f7b24a1b1504d4833b464dd1fd4be4595d2916cec114b956ee27e91e865",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-adaptive-outer-M1-d1over8-root-capacity-exact-2026-10-03.json",
+      "bytes": 1328710,
+      "sha256": "dd9f9eecf86a92a8e33193da64237a78f057017e2fcd0ca5612873a2ed2f731f",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-adaptive-outer-M1-d1over8-root-capacity-sdp-2026-10-03.json",
+      "bytes": 1328859,
+      "sha256": "3ee823aace45366ad9ccc69c465d67250a155dadfb34a1cd4967921560f56654",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-adaptive-outer-M2-d1over4-adaptive0-cut1-2026-10-03.json",
+      "bytes": 1039413,
+      "sha256": "0cb2b635057c59096039ba3394708f6e487b1e2d6ee2e74106158754692f99be",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-adaptive-outer-M2-d1over4-adaptive0-plain-2026-10-03.json",
+      "bytes": 1030692,
+      "sha256": "71d542a75ec37314e3d12edf496c29ed79977dc34b5ed754223eda6e3823428e",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-adaptive-outer-M2-d1over4-adaptive1-cut1-2026-10-03.json",
+      "bytes": 1451777,
+      "sha256": "a1a16ae8dd7e7b570a02f360da6baf71790fe2265879f5ef4a64c239f073b3a5",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-adaptive-outer-M2-d1over4-adaptive1-plain-2026-10-03.json",
+      "bytes": 1444165,
+      "sha256": "d5be1dc48de6920ea8ee93f4b7e802186d351e7ba3bbaf6ea7f27bee8e9a2e35",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-adaptive-outer-M2-d1over4-adaptive2-cut1-2026-10-03.json",
+      "bytes": 1936156,
+      "sha256": "6582f01610b486cba3d71f9b2a764b5e5e880deddef2a4aaa23325fba196e1e2",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-adaptive-outer-M2-d1over4-adaptive2-plain-2026-10-03.json",
+      "bytes": 1928514,
+      "sha256": "0a8ab6241898cbdf8d114a2a464259dba2721a913a4387cb572bef33abc5b723",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-adaptive-outer-M2-d1over4-adaptive3-cut1-2026-10-03.json",
+      "bytes": 2489878,
+      "sha256": "0097d1a054d41260a031f40f49762aab3807081da2046122a2a1c497e6a4ef5a",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-adaptive-outer-M2-d1over4-adaptive3-plain-2026-10-03.json",
+      "bytes": 2482495,
+      "sha256": "82bdab3c2ce493fb0c8139c7dd954abb2769b9d185d8922207472a274777fb7f",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-adaptive-outer-M2-d1over4-capacity-control-plain-2026-10-03.json",
+      "bytes": 2481545,
+      "sha256": "0f78158c37d893a585a216aec5a07ff1bab365e9f827844f7af6cc1116f765e2",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-adaptive-outer-M2-d1over4-capacity-spatial-2026-10-03.json",
+      "bytes": 2494034,
+      "sha256": "feb636440c1f8ed8f736bca6be635e5baf049ca3f90feba6748462fbd6df4a58",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-adaptive-outer-results-M1-d1over4-2026-10-03.json",
+      "bytes": 11534,
+      "sha256": "145d65aff152e762772a21bedade581055fa51dc571a63dba8853cacee83a3d6",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-adaptive-outer-results-M1-d1over8-2026-10-03.json",
+      "bytes": 16784,
+      "sha256": "75d11ba3be8e6da90d9787114ea8ab5b852bacf475cfbdd63f944f89ec5521d3",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-adaptive-outer-results-M2-d1over4-2026-10-03.json",
+      "bytes": 14292,
+      "sha256": "e84a16a35d646c053805773e6004771a190a2c7ef94f4778b54e31c3cdedc9fd",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-adaptive-outer-summary-2026-10-03.json",
+      "bytes": 6295,
+      "sha256": "961def981b4663dbbd86c1b6f2012b4370047ce4e52d747b3ada96587f3974cf",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-adaptive-upper-2026-10-03.png",
+      "bytes": 148001,
+      "sha256": "3d8956814a77a56c31d5fa7e8f83b0144f91325372a33dc122337a4f15dc7a18",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-adaptive-upper-notes-2026-10-03.txt",
+      "bytes": 13028,
+      "sha256": "7ac31024ed010bfd8fb3798b76976c52cc2505ff4f9efdb05fa779f1bf985525",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-Ainfty-all-integer-ring-cells-2026-10-03.json",
+      "bytes": 20954,
+      "sha256": "537cd790adcc22b9c11887d8c59ba7dc05bad4887decb91ac56985efe2c3e926",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-Ainfty-all-integer-rings-2026-10-03.png",
+      "bytes": 157720,
+      "sha256": "ee8140cdea4d12de1ccc8291bec25a32d117bddeacc2309e5e3b658a48a380ef",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-Ainfty-all-integer-rings-notes-2026-10-03.txt",
+      "bytes": 15255,
+      "sha256": "68414997d6e084a6ebf49279a82877dbf79032983d9ae20ec282e6681c7d1604",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-Ainfty-all-integer-rings-results-2026-10-03.json",
+      "bytes": 4186,
+      "sha256": "46dd62f8be39c9460eb1e6598ad9b63cbf7a5daaed7a9390db47f26754278fdb",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-Ainfty-all-integer-safe-base-2026-10-03.json",
+      "bytes": 25733,
+      "sha256": "7f27083648a04000e83235e3fe5dc65542db986cc999291cf0eee8a6099409d7",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-Ainfty-all-ring-hole-extension-2026-10-03.json",
+      "bytes": 76860,
+      "sha256": "57825c6f0ad3fb96672ab6e9b728036564068f817803c06156fab54821418f86",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-Ainfty-ring-base-2026-10-03.json",
+      "bytes": 27275,
+      "sha256": "c19bd786370d8762d316ac8556238554d625d7f9c06d76e92c9b7a172e987822",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-Ainfty-ring-block-j10-2026-10-03.json",
+      "bytes": 1793,
+      "sha256": "67a30c8f7cd0205acb1b9cf466de2921fab595b2a8c43b3224f385a89d9f1a66",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-Ainfty-ring-block-j11-2026-10-03.json",
+      "bytes": 3985,
+      "sha256": "1beeb74032a33bd4f0ab42d1f9e734cb8649ec5f5e0da1589008232716493d06",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-Ainfty-ring-block-j12-2026-10-03.json",
+      "bytes": 7921,
+      "sha256": "4694af60f0e8f5155ad23f0263a2201a9cb1cf01234214e45f0f3b501c7cf25a",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-Ainfty-ring-block-j13-2026-10-03.json",
+      "bytes": 14140,
+      "sha256": "fdd4b2bc9279a95685ac0ddd2f6ae32708b956337ff164d44adfc8f3ff1a3230",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-Ainfty-ring-block-j6-2026-10-03.json",
+      "bytes": 655,
+      "sha256": "3f0a034432665a5f9b65c00f240781ae6757158faf8968a30960351e42113ac9",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-Ainfty-ring-block-j7-2026-10-03.json",
+      "bytes": 725,
+      "sha256": "e0fc397abf557a1e29e1679bca45924ac86fd2b96bc42c509e258ea6878dde68",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-Ainfty-ring-block-j8-2026-10-03.json",
+      "bytes": 1080,
+      "sha256": "96427e2c05f50b591a2539664ba08b3df596657cc6312db9f5e73a9033ca14bf",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-Ainfty-ring-block-j9-2026-10-03.json",
+      "bytes": 1622,
+      "sha256": "061c3108f62278fdce3133b30007cf10d5bd5d7e486944092214c5a7ccc12f05",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-Ainfty-ring-extension-independent-audit-2026-10-03.json",
+      "bytes": 5413,
+      "sha256": "9d9e32da61fc80d9459e8d8c2134160f673d42182e3198eec0b2aa40bde4699a",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-Ainfty-ring-extension-results-2026-10-03.json",
+      "bytes": 7833,
+      "sha256": "67be5f7e7152b535e93fdb07f32442ab86994809eded612c487043f739cce1f3",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-Ainfty-ring-extension-search-2026-10-03.log",
+      "bytes": 3845,
+      "sha256": "9f9927a1fbd007a76739f1fbee67e213c933a841503f2409947f3b79f97de732",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-Ainfty-ring-extension-summary-2026-10-03.json",
+      "bytes": 3960,
+      "sha256": "ea917ac5ef1220869aecf1d9e464c2b78ceb668bf55e26554cc8743a3feadd2e",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-Ainfty-ring-extension-summary-2026-10-03.png",
+      "bytes": 139062,
+      "sha256": "67330bae148e3b783965e4940730ac1ce587698b426880c78fd153223a402455",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-alternative-tilings-coarse-2026-10-03.log",
+      "bytes": 3228,
+      "sha256": "2c2321642c0103af63c2206ebf393b231225b74fbfb10b9b29eaac6b74341491",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-alternative-tilings-coarse-audit-2026-10-03.json",
+      "bytes": 9837,
+      "sha256": "2749f270c229679727034fdb2bd2c907c71d7afae2a6a39247613d0e66d12887",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-alternative-tilings-comparison-2026-10-03.png",
+      "bytes": 279007,
+      "sha256": "9e5df54fc47ea9e2e77841ad9c51fcbccf324c85cca1e70703512a7f620b2e40",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-alternative-tilings-constructions-2026-10-03.png",
+      "bytes": 330548,
+      "sha256": "cad179fa402c4b281c7a334b04950172b48b1a4e1fa5ce4ff9995110bd4d72c3",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-alternative-tilings-final-audit-2026-10-03.log",
+      "bytes": 2709,
+      "sha256": "c83c97e21d2a1e31f1ff13d6af22b920e91f744e62ba470a12885097e6a7cfe9",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-alternative-tilings-fine-2026-10-03.log",
+      "bytes": 15508,
+      "sha256": "4dc831c3773710d7567406525fb399a50d8ed8f333e34429dbc7ea10e8a9f69f",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-alternative-tilings-independent-audit-2026-10-03.json",
+      "bytes": 49568,
+      "sha256": "4fbee3bacbf63e384d6440e2870b195160e2f4227b8d6e26c2b7fe2147cdb179",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-alternative-tilings-independent-audit-2026-10-03.log",
+      "bytes": 28488,
+      "sha256": "a535fc3920163e72cc7e5e41b2b1474d814a41e41c296ef9c386dad8b3209088",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-alternative-tilings-initial-audit-2026-10-03.json",
+      "bytes": 1124,
+      "sha256": "3f2527f258e82933ed751478b3c15be959ed403d677d97b3ff2b522b84e05d75",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-alternative-tilings-large-radii-2026-10-03.log",
+      "bytes": 13316,
+      "sha256": "9fd14ec828e8a0283fce34ba2dbd3e04073aef5bcbd5608ddf63861820bd5b84",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-alternative-tilings-layouts-2026-10-03.png",
+      "bytes": 112208,
+      "sha256": "12c6a55dc538814c1bd4fc926d58ff34a4747691563dece579f65346f2f912fc",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-alternative-tilings-matched-resolution-2026-10-03.log",
+      "bytes": 9280,
+      "sha256": "6e533ebff200dd7d19d634814d96a7deff27f2cdf4fca71fa792268d0a0115f7",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-alternative-tilings-notes-2026-10-03.txt",
+      "bytes": 5578,
+      "sha256": "78690e03f481714dc60c20f95956624fe2bfba9e1519b22d6a0bcee583ec7db9",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-alternative-tilings-refined-coarse-2026-10-03.log",
+      "bytes": 6981,
+      "sha256": "e8b1dd2d336048e53fd93906cd1e22f3131dd6323c5374532cad8ce3da08812a",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-alternative-tilings-regular-oct-2026-10-03.log",
+      "bytes": 17705,
+      "sha256": "f2f7fbd9002d28f2e3c0ed3e2f2c6b5bfdc3f5c1349632bb15e24a1c7c3787ef",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-alternative-tilings-results-2026-10-03.json",
+      "bytes": 127051,
+      "sha256": "73d92a05ffc1e26e652ac7299d8f77c4308632b71e17e47fbf48239203cf76fd",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-alternative-tilings-small-radii-audit-2026-10-03.json",
+      "bytes": 16497,
+      "sha256": "9340a0370f54cfd86ddff75bad0f13553db32aafdc52ef527720fbd1c623f0a9",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-alternative-tilings-square-control-2026-10-03.log",
+      "bytes": 15766,
+      "sha256": "19c7b5c101b4db09032b4f30b71f9e73cab74a587043d0d435f975d2ae407414",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-alternative-tilings-summary-2026-10-03.json",
+      "bytes": 60462,
+      "sha256": "1d82bd1d3e1d813003dadbdba88859c1f52da4a81ad286495cbeb03856c86e2b",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-anisotropic-lower-bound-2026-10-03.md",
+      "bytes": 10016,
+      "sha256": "4a6c7deac172fc21d1eb84c3792ff6ee93055bebf9c76047577fd61037ba592f",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-anisotropic-verification-2026-10-03.json",
+      "bytes": 1354,
+      "sha256": "ccf571a4bcea3d9db4075fd0ebd9010135809f4850403638346863259e551229",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-current-certified-lower-bounds-2026-10-03.json",
+      "bytes": 12957,
+      "sha256": "07d59621e84cf2894a0500144a46d7fe5b0e3c2980a68d749ba63a4997ee2adb",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-equilateral-grid-analysis-2026-10-03.png",
+      "bytes": 176960,
+      "sha256": "115c81484a915624bed85cc052a5f1848f7b93456802acaaf8fdd70a66b80091",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-equilateral-grid-analysis-2026-10-03.txt",
+      "bytes": 11144,
+      "sha256": "ceaaa02e3d3511a04a76967ddc3fdb4026f736030c6752f8e0b3ae3196c46df0",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-equilateral-grid-independent-audit-2026-10-03.json",
+      "bytes": 262,
+      "sha256": "196170e29370d6f1df956616e2fa551f6c45e3e678ac6fcc283dcf01f99a047e",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-equilateral-grid-results-2026-10-03.json",
+      "bytes": 60852,
+      "sha256": "ac46a9ff2f66c633abe5beb9a91377a2fb89fd7213f991ffd18e9d52e8f64034",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-explicit-constants-all-radii-2026-10-03.txt",
+      "bytes": 11860,
+      "sha256": "8d53b15289bceef7eeee6f4afd6c2d770be4ba107c2ec1f81162d35b0ab3f878",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-explicit-constants-audit-2026-10-03.json",
+      "bytes": 43927,
+      "sha256": "dac8a0de320ac1ff151e9d1d9a73a32a4626d0172d212347aa1371ccc9cf2e86",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-explicit-constants-independent-audit-2026-10-03.json",
+      "bytes": 392,
+      "sha256": "97ac04a322e30a866f27a35fd94e4ca4fd8870441e534e91df56620d86935068",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-graph-methods-comparison-2026-10-03.png",
+      "bytes": 94618,
+      "sha256": "a196f9c7c4d11125d191482253137ad7a022a7d2f361dec38dd5771b93469c8c",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-graph-methods-independent-audit-2026-10-03.json",
+      "bytes": 8127,
+      "sha256": "954ad2668e9933989a369e44ff948e7b1aa8db4279a1be2bbac174634f762e71",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-graph-methods-notes-2026-10-03.txt",
+      "bytes": 15661,
+      "sha256": "257b7af316108f38056b2ad2bb7d37eb48e928c3f4b8a61277820a3b12255bb3",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-graph-methods-summary-2026-10-03.json",
+      "bytes": 4362,
+      "sha256": "a549711d428e0bc2b29e1b7411d3ff652205e16fce9098ebe0251dc0739370e4",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-graph-spectral-M1-N16-2026-10-03.json",
+      "bytes": 679,
+      "sha256": "930cb7c5255c2894cd48f33e98a3f10d8ebf3c4d0daac83217c8f270cf8775e6",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-graph-spectral-M1-N8-2026-10-03.json",
+      "bytes": 675,
+      "sha256": "60dd6cb4c90518000f7025219dfd2993d71c7bdff4b0e70bbf08c61078f0f222",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-graph-spectral-M16-N8-2026-10-03.json",
+      "bytes": 899,
+      "sha256": "5e2f55f4a86f3fd7c42e01bcfdac28d4c7dd65b3c122ce89891e47c3dc3df2f8",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-graph-spectral-M2-N16-2026-10-03.json",
+      "bytes": 686,
+      "sha256": "eb936b948f4b3ca3e0234dc586c85ebb8779f98bf44c78420158a17c5de1a2ad",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-graph-spectral-M2-N8-2026-10-03.json",
+      "bytes": 701,
+      "sha256": "89bbfc5a53470c25c91946e96e771156419f889e95773a7d4f0d55f76476b316",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-graph-spectral-M4-N16-2026-10-03.json",
+      "bytes": 721,
+      "sha256": "512e1a7924aee72c36d4221e3b0f76fdee1f586516e22f9bbc655873cbe40385",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-graph-spectral-M4-N8-2026-10-03.json",
+      "bytes": 722,
+      "sha256": "94effdd2b33211ee8423eee82d6273bdca2ed67666c5d1b261dab7aaa3d11f1f",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-graph-spectral-M8-N16-2026-10-03.json",
+      "bytes": 787,
+      "sha256": "ac3183c4ae21253218bf1a4a8f84092b81ddcede3006a946bdf1ffbb734a5c8e",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-graph-spectral-M8-N8-2026-10-03.json",
+      "bytes": 786,
+      "sha256": "93865968fca938ebfa5da32cd11da5edbe17dacde2dc49c7b3aa6f6666661d64",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-graph-spectral-results-2026-10-03.json",
+      "bytes": 12154,
+      "sha256": "16edf1a84d1899554172cd4bf1a310f1a61ee8977fb34cd5b497ac8e02ef3ead",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-grid-clique-upper-R1-N12-2026-10-03.json",
+      "bytes": 8745,
+      "sha256": "8d25d6cdfe60f4cd0c53c389a092fca93c54fc1600b3cc6a1ebcff8240d9ab95",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-grid-clique-upper-R1-N16-2026-10-03.json",
+      "bytes": 14949,
+      "sha256": "866cbfcbd806699e403134beb34ca9455ff1a3eb003a3c3cef285742ab168a05",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-grid-clique-upper-R1-N24-2026-10-03.json",
+      "bytes": 33167,
+      "sha256": "d834046058ca91de206d61eaba4aba400a220dba69f37fc4ec9e3bc1b4ff005c",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-grid-clique-upper-R1-N32-2026-10-03.json",
+      "bytes": 65309,
+      "sha256": "7793512841e6f664f14857720fce0fa5fba76177eab230ad2304f65722a8e947",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-grid-clique-upper-R1-N4-2026-10-03.json",
+      "bytes": 780,
+      "sha256": "d80dde0c7711ddca9732af9c4f8d5e885e3e45a9982370c9d8746b0f85a9ba0c",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-grid-clique-upper-R1-N6-2026-10-03.json",
+      "bytes": 1874,
+      "sha256": "39d75645c76728df066e9d7c55af5ff75a225d925af774cf9cc13381ba9b2633",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-grid-clique-upper-R1-N8-2026-10-03.json",
+      "bytes": 3666,
+      "sha256": "63e9a3a67a6ed07a8875d1bc405143e240134c605dd710723fc58c2ae7ae746f",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-grid-clique-upper-R2-N12-2026-10-03.json",
+      "bytes": 55386,
+      "sha256": "c99e6bef19c3f947e4b30ffc45bfd20a39c633c368b54e070cb5521449ab56ad",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-grid-clique-upper-R2-N16-2026-10-03.json",
+      "bytes": 103669,
+      "sha256": "c844e1b9b2a36cc7e3102b06c2c07232c72f7235230f64a96b680b9d117f93eb",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-grid-clique-upper-R2-N8-2026-10-03.json",
+      "bytes": 23313,
+      "sha256": "32f08241e543e8aaff81e1886aeb91da3689dd595e2ed452b4fde87bcffe359e",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-grid-upper-cosines-T100-2026-10-03.json",
+      "bytes": 2172,
+      "sha256": "a1b8f01b704c0ba94f5d4a36b2d9e972e5ef99fc2c065f5be29d00e76a3932a0",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-grid-upper-cosines-T12-2026-10-03.json",
+      "bytes": 395,
+      "sha256": "c1b4cc5bab9a4babb6f9190a84d0e119381f93ee449387a5d30444e841a3d975",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-grid-upper-cosines-T128-2026-10-03.json",
+      "bytes": 2728,
+      "sha256": "723f41843ff1bb98d0ec65d7c64c546cf72dda57466cb0ca1bdbffbc85710dd0",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-grid-upper-cosines-T132-2026-10-03.json",
+      "bytes": 2812,
+      "sha256": "2fc8bb4a3e92dfe69cf7d4bcb2dd430e37369b5525dcf8a4a28ca62d7e2c64dc",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-grid-upper-cosines-T16-2026-10-03.json",
+      "bytes": 479,
+      "sha256": "3f4f34817e5a0ffb513e905cd1326322fc7fc921d1cf5ee2d31ed57ffce36ffa",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-grid-upper-cosines-T20-2026-10-03.json",
+      "bytes": 555,
+      "sha256": "3cc2146bc6fce46e91f782c34a991a489ce5d1842aa6f7ef32ea5e64cfcb9ac3",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-grid-upper-cosines-T256-2026-10-03.json",
+      "bytes": 5304,
+      "sha256": "69ec73c5249329da339c74b48e88ccae5210a509200e4b9bfb25436dbe426ed9",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-grid-upper-cosines-T260-2026-10-03.json",
+      "bytes": 5388,
+      "sha256": "cf87f4cce77542d6980a400b7e86db774cd666743cf75a56b5ec6cfc2993c882",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-grid-upper-cosines-T28-2026-10-03.json",
+      "bytes": 723,
+      "sha256": "f56f570a8ddf6bc28ba0e922015f65b3f6f157dc060506cff29b3f6a5cf5095f",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-grid-upper-cosines-T32-2026-10-03.json",
+      "bytes": 799,
+      "sha256": "fd3fb67ff185dfe9389f8e1b19d612e92ea2b6c0489219e6db6d4fa6880ad0d2",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-grid-upper-cosines-T36-2026-10-03.json",
+      "bytes": 883,
+      "sha256": "d71919c3531d3a1a37860f317c2604d7b98f4993713397c712e171a38e90f281",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-grid-upper-cosines-T52-2026-10-03.json",
+      "bytes": 1203,
+      "sha256": "ee70a42203cbda11dbb4c8be4613db4f2934115dc00b8e09adb76ac88307f3bf",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-grid-upper-cosines-T64-2026-10-03.json",
+      "bytes": 1447,
+      "sha256": "401c6bd6cb5a3c023b36662c4bbe477d2635efbe1e439c20019dcdd1e0be13fc",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-grid-upper-cosines-T68-2026-10-03.json",
+      "bytes": 1531,
+      "sha256": "1c021b9d56aba3da2ecaba93b363a3d7694d73699ed4c125581ade22676715fa",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-grid-upper-R1-N12-2026-10-03.json",
+      "bytes": 3751,
+      "sha256": "436beac5f8eca7a8b37fa324e632346404924849740da2f0d73a5ec6ab74a80f",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-grid-upper-R1-N16-2026-10-03.json",
+      "bytes": 6450,
+      "sha256": "bc8e67eb2c4627ecaa43496994cdf4adde3b6be1b486112d3040ae14c8651761",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-grid-upper-R1-N2-2026-10-03.json",
+      "bytes": 232,
+      "sha256": "233d746ee348acf4a6dff0d87167d8002685b50748739a91074f4bf05d650198",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-grid-upper-R1-N3-2026-10-03.json",
+      "bytes": 761,
+      "sha256": "8e1b240417be010644de685d7fbe122797d65c5163623ddac65224ea6035750a",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-grid-upper-R1-N4-2026-10-03.json",
+      "bytes": 910,
+      "sha256": "d40deb21329a689b4b1ecbf691a08d212105f4f227df1c4599341185ca744ff9",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-grid-upper-R1-N6-2026-10-03.json",
+      "bytes": 1304,
+      "sha256": "2ad1fb8250ea1c5b11a108d2090377e8d64f72351e54992aee62a01b1a73c0a7",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-grid-upper-R1-N8-2026-10-03.json",
+      "bytes": 1913,
+      "sha256": "93012cf2327b198cd4681c5f28dab887b1ad034a70bc6bd1378c3f3f4553cbb9",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-grid-upper-R2-N12-2026-10-03.json",
+      "bytes": 12041,
+      "sha256": "134a8a5e1f6e84405b0b8c5d3708d48a6538234d7880ef9f835126396e1d5eef",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-grid-upper-R2-N16-2026-10-03.json",
+      "bytes": 22056,
+      "sha256": "09a7c761810e3d04cd031a2bdb6631546900113e0ac8fc8a82a1f20232519627",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-grid-upper-R2-N4-2026-10-03.json",
+      "bytes": 1309,
+      "sha256": "5a6d409ca8ce6f1017c15fa6582a4795efbe51aea709851cc89eb78e09587bcf",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-grid-upper-R2-N8-2026-10-03.json",
+      "bytes": 5077,
+      "sha256": "324dc20e3f4e5fcdab61de5c94ab98a4e9ea9d989490bf9c6546efbe5ce9e5bc",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-grid-upper-R4-N4-2026-10-03.json",
+      "bytes": 2751,
+      "sha256": "a43053d4d35f322e112d2c9624ea8187b41ce711264b98baff7fc0ae905457fe",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-grid-upper-R4-N8-2026-10-03.json",
+      "bytes": 16634,
+      "sha256": "343ba3983ee23beea47e4e3ae53ea8d590f527e0e00843c8b2f55e9821ac2147",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-grid-upper-R8-N4-2026-10-03.json",
+      "bytes": 7123,
+      "sha256": "d93572d4dc4b242634ad095002cacb20bc5d2610e407715cddf57aee74f43e79",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-hex-R1-N128-fine-2026-10-03.json",
+      "bytes": 156859,
+      "sha256": "dc36a013e04676f064592b4f2c16190045acbd6dbad2dfba136beea9d023d752",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-hex-R1-N16-coarse-2026-10-03.json",
+      "bytes": 2570,
+      "sha256": "988f909723ea41267fc1a214007efdd2bbd1cbd328119b20b215ede6b3e6e885",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-hex-R1-N256-fine-2026-10-03.json",
+      "bytes": 693001,
+      "sha256": "9a170b640d22ec376b7eb6943ea25d63edf50e801c278a0d00deac5d92859c53",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-hex-R1-N32-coarse-2026-10-03.json",
+      "bytes": 9267,
+      "sha256": "5b3371eb5e41b85348d886b7557cebeee0bd87f20706bc0adfa5d79eea1fba7a",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-hex-R1-N64-coarse-2026-10-03.json",
+      "bytes": 37414,
+      "sha256": "e39f2aeadf94d675567b30d398f600b197106407d9f792cd1aefade0401c4a0b",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-hex-R1.5-N128-fine-2026-10-03.json",
+      "bytes": 208626,
+      "sha256": "c1b593eca6e1373c7704a23878b55cf8b98d1ba06ee3140237250e17c9b365b9",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-hex-R1.5-N16-coarse-2026-10-03.json",
+      "bytes": 2951,
+      "sha256": "a505bed378afda12d441b8e01cd4a39d6f6c6c1c00e61fcdb2f2e30e8895c608",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-hex-R1.5-N256-fine-2026-10-03.json",
+      "bytes": 865737,
+      "sha256": "4e670e4e98b2b1e1eabd05181a5f23e5b000cb4217ff796bb726a2377317fb01",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-hex-R1.5-N32-coarse-2026-10-03.json",
+      "bytes": 11175,
+      "sha256": "10043e6cb39a69308ac1186fc9638b90facc9b8c3cbb1bbf61bf71ba413e17a7",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-hex-R1.5-N362-fine-2026-10-03.json",
+      "bytes": 1750524,
+      "sha256": "15c49b4ff87e754a69864e1d57ca55d0ded3e04b2ca53dcdef625c4d5c51db93",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-hex-R1.5-N64-coarse-2026-10-03.json",
+      "bytes": 45018,
+      "sha256": "33534e3f4181a208fb1e7f0533adbd7b93473061c0c05f9ad1980d456d99f2e0",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-hex-R2-N128-fine-2026-10-03.json",
+      "bytes": 214608,
+      "sha256": "aa1666f2d488fc5d0d95e061aa75cc31c303dc908316fc3a8bf1aa9c1195313d",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-hex-R2-N16-coarse-2026-10-03.json",
+      "bytes": 2897,
+      "sha256": "58d23fb959dedcfe1fb198167c4f197c4368d16d91f4bc91d7587475addea1c1",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-hex-R2-N256-fine-2026-10-03.json",
+      "bytes": 911915,
+      "sha256": "c75654ee87978d00db4956a49bfb5830303ae7ac27933ca03fbdd6b23b8a1de5",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-hex-R2-N32-coarse-2026-10-03.json",
+      "bytes": 11498,
+      "sha256": "a6a227de0776400bac52b45359d56a0df18f32f2cc2467971520d1f77fc2e789",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-hex-R2-N362-fine-2026-10-03.json",
+      "bytes": 1847768,
+      "sha256": "1c6586fec9bdacd1a3e533e0b2b83ee43c6988366ae3e065fc0e7441f4ec390f",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-hex-R2-N64-coarse-2026-10-03.json",
+      "bytes": 47837,
+      "sha256": "c079f34fbfe6f374a9cbf1ba60615e70175401702a988a917cb51b1d01a21d94",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-hex-R4-N16-coarse-2026-10-03.json",
+      "bytes": 3503,
+      "sha256": "abe6e42dde3d07fedbc5e060193043b9f19b8ad6016a8a0c7a61ed2d484b1668",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-hex-R4-N32-fine-2026-10-03.json",
+      "bytes": 14888,
+      "sha256": "0843aee4ae2a942d0b36a6ca9adbb10e705e98f5774dbe0c367ec9908aaa0362",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-hex-R4-N64-fine-2026-10-03.json",
+      "bytes": 64204,
+      "sha256": "ef0461eb5dbf42de8fcff003b9e789c768a2ece5f59fa275010f3e09e53862e5",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-hex-R4-N91-fine-2026-10-03.json",
+      "bytes": 135493,
+      "sha256": "c9bd6dd46a82e336fc6edb75f01157ce600cc9eff66e3139467499b9833ceca1",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-hex-R8-N16-fine-2026-10-03.json",
+      "bytes": 4306,
+      "sha256": "871b86f0b2e8900345e27617b2a176c4335d220b4d50590eeca31d42c68d4659",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-hex-R8-N32-fine-2026-10-03.json",
+      "bytes": 17858,
+      "sha256": "1e6a75a8e0a11ca0124c3fe0843cd7459db38fbb1145554de96aec5d060325b7",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-hex-R8-N64-fine-2026-10-03.json",
+      "bytes": 75269,
+      "sha256": "be81f9aaa9e5ee82de1fb5d964054e09faae3881f5797565b37fa44070efbf4f",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-hex-R8-N8-coarse-2026-10-03.json",
+      "bytes": 1205,
+      "sha256": "7a1d6ae51743ccce757fc4261468bb91217fcd343d9e2d219bc0dbe07d437b62",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-hex-R8-N91-fine-2026-10-03.json",
+      "bytes": 157413,
+      "sha256": "251fb1d000e5bb522cc312f8db8f1ea90c8868bdf1db6d1871db498370a1813c",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-iterated-fill-exchange-2026-10-03.png",
+      "bytes": 192867,
+      "sha256": "a3f55753220a845491d5fa987495b96032bb8de359845d45fc9bb2b143923103",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-iterated-fill-exchange-2026-10-03.svg",
+      "bytes": 105652,
+      "sha256": "89cbf5c648ed54267843be79af71978897812433134b70582cfcd3918f9326b2",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-iterated-fill-exchange-notes-2026-10-03.txt",
+      "bytes": 11630,
+      "sha256": "1a4488a4aa58115c00ae0a1d98e3b873062fe8cb0cb622653ec9aa8137e67b63",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-iterated-fill-exchange-summary-2026-10-03.json",
+      "bytes": 4628,
+      "sha256": "31eb99ff89eb63256bdf39c7cff2122568e6cae2f8ecfa96a4ea09d190948e14",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-iterated-ring-holes-exchange-input-2026-10-03-independent-audit.json",
+      "bytes": 29142,
+      "sha256": "fad08a0e2c2c6dabfbb9da9115a4d02348d372f25c148d21bccee6f00aea69c7",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-iterated-ring-holes-exchange-input-2026-10-03.json",
+      "bytes": 531986,
+      "sha256": "b7d014d178ef3d8de46bd9d38a915825b5db4a90f749e0e3f5f884505f1e680d",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-iterated-ring-holes-multiscale-2026-10-03-independent-audit.json",
+      "bytes": 29366,
+      "sha256": "2e72af5fb28d11face4b796633985a77e5292456f9a87630f72d2774334999c0",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-iterated-ring-holes-multiscale-2026-10-03.json",
+      "bytes": 531986,
+      "sha256": "b7d014d178ef3d8de46bd9d38a915825b5db4a90f749e0e3f5f884505f1e680d",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-oct-R1-N128-fine-2026-10-03.json",
+      "bytes": 324900,
+      "sha256": "751c52251bc190ef543d4ee15c3578c1856a180ac67c8a66a3c5b4da35eb3f4f",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-oct-R1-N16-coarse-2026-10-03.json",
+      "bytes": 4621,
+      "sha256": "5a81cd7d4b8aefb8341e370de019a767d81e99e1d15b6c799d950d0f34f4da45",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-oct-R1-N256-fine-2026-10-03.json",
+      "bytes": 1408439,
+      "sha256": "c9ba241e9c6f0653e2a757eaf38771e63e9faaa3985b8c4df1f05f139124fa5d",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-oct-R1-N32-coarse-2026-10-03.json",
+      "bytes": 18415,
+      "sha256": "fea77af128ef5eb251f3c0560635c28c654154b39622b2f0b213befac8f04380",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-oct-R1-N64-coarse-2026-10-03.json",
+      "bytes": 76573,
+      "sha256": "8fd4f11efb2c95733d4a62d47ba1bd72dd577b7a919c977a562fffc72039f851",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-oct-R1.5-N128-fine-2026-10-03.json",
+      "bytes": 390548,
+      "sha256": "af10f1d572a006fde6de9bde9f90f482d12e3a41c3880de0e435b4af1dec475c",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-oct-R1.5-N16-coarse-2026-10-03.json",
+      "bytes": 5085,
+      "sha256": "2518c376a0dd5e34e63f89caf8060870b3c53ac1dfe59b868544d5f8040a5ec1",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-oct-R1.5-N256-fine-2026-10-03.json",
+      "bytes": 1627735,
+      "sha256": "f9e70980afa691fd9fa34cfee1287fb18b684ff3d49df530260103e297773b4f",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-oct-R1.5-N32-coarse-2026-10-03.json",
+      "bytes": 20914,
+      "sha256": "0358306e2eec894d25930e0f65d52cb90d3d58bc60980ea68902d0f6084989b1",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-oct-R1.5-N64-coarse-2026-10-03.json",
+      "bytes": 87147,
+      "sha256": "7c97fd533e786503ba13e3bfed9bbba0711afe6f33931259053245a7a24c81c3",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-oct-R2-N128-fine-2026-10-03.json",
+      "bytes": 428292,
+      "sha256": "07abca2deed8496e9eff7248639670b063923447c5dcc124a1b9c35c3bc45c52",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-oct-R2-N16-coarse-2026-10-03.json",
+      "bytes": 5529,
+      "sha256": "a25e68a69887a8da25778e778854211636b386a835d313188f0044c24500af6b",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-oct-R2-N256-fine-2026-10-03.json",
+      "bytes": 1832836,
+      "sha256": "c3c719a3c431ee279bc1de8b0cdd8cb7abdff6e447069b8c696a618b4dd05571",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-oct-R2-N32-coarse-2026-10-03.json",
+      "bytes": 23256,
+      "sha256": "b4cc172475a90416f472b5baaf585ad92a973097b7f9db685eac379dbb6ab4c5",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-oct-R2-N64-coarse-2026-10-03.json",
+      "bytes": 100771,
+      "sha256": "2e9ab490191f4c38e6523f5935c484617ee30ec6181dd79ba50d599a04d6e386",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-oct-R4-N16-coarse-2026-10-03.json",
+      "bytes": 6429,
+      "sha256": "dbbff2fcec7b173210120e0c7c373009569ec1d019999c0f473237dec513a70f",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-oct-R4-N32-fine-2026-10-03.json",
+      "bytes": 28471,
+      "sha256": "623dc76c68d86deb985deb3bfd9dcc6a65168a0a0b5dc9a53474f6ba822307d2",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-oct-R4-N64-fine-2026-10-03.json",
+      "bytes": 127273,
+      "sha256": "ee89cef46ac96be5cd3a41e12fea23147951784912ca371d944ba2458aee3fff",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-oct-R8-N16-fine-2026-10-03.json",
+      "bytes": 8226,
+      "sha256": "01abd23722c54d378071da75100c3fadb2f821a7890f43ab09a3792e532a4f09",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-oct-R8-N32-fine-2026-10-03.json",
+      "bytes": 34239,
+      "sha256": "c9a363e6acb47dd214e0ad92a2b118317f1e88f59f8e513239cde26d68ba02a9",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-oct-R8-N64-fine-2026-10-03.json",
+      "bytes": 146018,
+      "sha256": "97b08af3cfd25dd2b232618a10b1982c5bdae5413055eb909b3d1c640eff80e7",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-oct-R8-N8-coarse-2026-10-03.json",
+      "bytes": 1859,
+      "sha256": "71f2c27d92566f20e27bc368bffe25cceeb0b1f02f34217e3172c18e9a2fc985",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-ball-grid-audit-2026-10-03.json",
+      "bytes": 749,
+      "sha256": "fce8cd93bf0da1bfb66254f04964501419690d7cbe2d2669b0e5eaab3d024450",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-random-ball-grid-R1.5-N32000-eps0.03-seed95504.json",
+      "bytes": 3098777,
+      "sha256": "df343ee107ae44643f110192f3ab2e3b650a5202ff795402db81318e028a934a",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-ball-grid-R2-N32000-eps0.03-seed95506.json",
+      "bytes": 2171718,
+      "sha256": "3cb9a6bb3f32e8ae3cbeb72f9c18c92ddc22a165fa127957ceff28088a95b2ec",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-balls-independent-audit-2026-10-03.json",
+      "bytes": 859,
+      "sha256": "cfdbfb547a4a9e6dadcb50eff4f7050dcce84bdf9b089a8038a00a4a7e4c0a5c",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-random-point-comparison-2026-10-03.png",
+      "bytes": 216167,
+      "sha256": "e5a0c2ccff557101b63803cc577e020d31ef6a027fbce321cfed7476dbc25f9a",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-random-point-results-2026-10-03.json",
+      "bytes": 51798,
+      "sha256": "2ee7bb60181018601be5eeb3e21c6b659eb318b75b2f6c649deab1aba6ad3410",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-point-shapes-2026-10-03.png",
+      "bytes": 1565473,
+      "sha256": "c4ca7aa3f11ace166baa2d2bf9181dd3511aa222bf51539d234eaabc162848a9",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-random-points-R1-N12000-eps0.015-seed95401.npz",
+      "bytes": 211909,
+      "sha256": "2118f9f368c349753346038167e3423f43e512a5ab5011eb71d9c44e0ab55e18",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-points-R1-N12000-eps0.03-seed95402.npz",
+      "bytes": 210726,
+      "sha256": "6c86c0092099668cb65984948faa2f4fbcbe97f3cfc6bd52a9459387be6411b8",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-points-R1-N12000-eps0.06-seed95403.npz",
+      "bytes": 208891,
+      "sha256": "bcd1a2a7fd4b9a6b1ea0f1aa33efc234a3e2f19f306d95894a1a738dae65a634",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-points-R1-N32000-eps0.008-seed95501.npz",
+      "bytes": 565134,
+      "sha256": "c6c8a95c7971f50c4e5afefd12f48e9467a6156e49145b779d468e031c102c1c",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-points-R1-N32000-eps0.015-seed95502.npz",
+      "bytes": 563750,
+      "sha256": "5a5b121ce8b492d2e9308859e3116d35a530e18c64985422c26c84d952f80d6e",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-points-R1-N4000-eps0.015-seed95302.npz",
+      "bytes": 71663,
+      "sha256": "2967908898dde2d77279fd5e121b4f57c46a7ca7ceacf325212a56dce3ce2947",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-points-R1-N4000-eps0.03-seed95301.npz",
+      "bytes": 71587,
+      "sha256": "88b2bb27cfe5560db846cf9ebaf8a1d3215d74e67d550f8a2af18ffa5e33ffe5",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-points-R1-N4000-eps0.06-seed95303.npz",
+      "bytes": 70520,
+      "sha256": "eff40a822870012b5748727b293565f6a3be02d3d805e2bd810f605c5a1119bc",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-points-R1.5-N12000-eps0.015-seed95404.npz",
+      "bytes": 199767,
+      "sha256": "04f873e2d5e0bb49808aa2597e2c8bc78f34e108ea3481b7cba2b8b9000fb471",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-points-R1.5-N12000-eps0.03-seed95405.npz",
+      "bytes": 199252,
+      "sha256": "9da7c78bd3104ca30668089d503fa5f59ea4bc38a1d4fd5ee412fb0689484c7e",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-points-R1.5-N12000-eps0.06-seed95406.npz",
+      "bytes": 197730,
+      "sha256": "b13617775505e4e3def9fe0a36caf395e286cf48ece2faa4999118e84cffe360",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-points-R1.5-N32000-eps0.008-seed95503.npz",
+      "bytes": 531182,
+      "sha256": "98eca0c1053b8967aa5e5f1ab81c6d1560143d2ec7cfd549478854ac2be26df3",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-points-R1.5-N32000-eps0.03-seed95504.npz",
+      "bytes": 528327,
+      "sha256": "69064f3a38acb184089c7dc2f9bcc461b7d67d9fbc7d5d9e81a738598054aade",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-points-R1.5-N4000-eps0.015-seed95304.npz",
+      "bytes": 67710,
+      "sha256": "31e81eec4c745095353b231e1aff64568b59858054b572a1bd278b41e5bfa870",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-points-R1.5-N4000-eps0.03-seed95305.npz",
+      "bytes": 67402,
+      "sha256": "fc896dbe60be52847bb46999d3a582980edc15a42128cb152f8b0835a4bbcdee",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-points-R1.5-N4000-eps0.06-seed95306.npz",
+      "bytes": 66786,
+      "sha256": "eef6cede85821918d269f68c298b7ab96947ffde0ce2d85bfc21335e7ca322ef",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-points-R2-N12000-eps0.015-seed95407.npz",
+      "bytes": 194552,
+      "sha256": "dfb5ddc4f757c5cd1616a76c81cbcb921fb9a20d746dedcf9e47cfe0fefd835c",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-points-R2-N12000-eps0.03-seed95408.npz",
+      "bytes": 193917,
+      "sha256": "2cb2fba764d5037123b591abf0c548ad8d8484bb2c311a82795647136dc0de84",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-points-R2-N12000-eps0.06-seed95409.npz",
+      "bytes": 192774,
+      "sha256": "a825ae56786f2a3123640b5f2c0d0e03fd5efa026637b8fb2bef29ee5d36a5ed",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-points-R2-N32000-eps0.008-seed95505.npz",
+      "bytes": 516216,
+      "sha256": "acdf2657fa2f507028aaeadfc29c566a0785697f393601fe8078de4222ace1f7",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-points-R2-N32000-eps0.03-seed95506.npz",
+      "bytes": 513749,
+      "sha256": "522c4618f30131541c3a8f3be5ff2692574cc4ba84563814af1d539a7e7cf8ee",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-points-R2-N4000-eps0.015-seed95307.npz",
+      "bytes": 65733,
+      "sha256": "491ef99ee1e1dc55e7124a0d481a8eab0d8365a40a2f3a786d12ddff6661fedd",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-points-R2-N4000-eps0.03-seed95308.npz",
+      "bytes": 65371,
+      "sha256": "f043bbb6d58cb57f06ff13796fc62fbde47171b5e2f1e8a19c1e6df6a2a0f96c",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-points-R2-N4000-eps0.06-seed95309.npz",
+      "bytes": 65209,
+      "sha256": "08ff8004e0512b46c6bec318eaa522a0ec5cf6f604d61763c0bdc2c00e68f510",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-polygons-audit-2026-10-03.json",
+      "bytes": 52398,
+      "sha256": "941ac5fecfd680107f02bb2f7c70fe065d49d3aef8bc9528fb6ff3c54f9ec7d5",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-random-polygons-R1-N12000-eps0.015-seed95401.json",
+      "bytes": 11167,
+      "sha256": "1b47a65f1c2b9b85423038d88e8d431c8786be090d9c2224877d9e880c9707c8",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-polygons-R1-N12000-eps0.03-seed95402.json",
+      "bytes": 9924,
+      "sha256": "069b93759fe140b8551c3ba691ecbe0afe8e4c8af8b851fd180d345776cf0edb",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-polygons-R1-N12000-eps0.06-seed95403.json",
+      "bytes": 9978,
+      "sha256": "8f775272ed08da3444c046fa05f82f17bfa29634eeadcf3d0c2736ef0d16c40e",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-polygons-R1-N32000-eps0.008-seed95501.json",
+      "bytes": 4860,
+      "sha256": "4997509f50f261b6aff760b1f1bb1edf8cd40cca3940fbfd05ab7eabb01f28e0",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-polygons-R1-N32000-eps0.015-seed95502.json",
+      "bytes": 5316,
+      "sha256": "a2f370d6bba09a9627065a0fabe592199aa7c07f03b6b406f8e46cdc40612439",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-polygons-R1-N4000-eps0.015-seed95302.json",
+      "bytes": 3210,
+      "sha256": "c963f5a85deeb7313ed9fa1d61082c0adb8886724ce41529d494d6b343caba80",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-polygons-R1-N4000-eps0.03-seed95301.json",
+      "bytes": 3209,
+      "sha256": "dd41dc262caca7908defbce1f8bb1a671866c78f1d4391b2d7bea80d510c7158",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-polygons-R1-N4000-eps0.06-seed95303.json",
+      "bytes": 7813,
+      "sha256": "1ca4e01af26e689915d80501b4249a2136809b11ec03279dc30399d864ea739d",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-polygons-R1.5-N12000-eps0.015-seed95404.json",
+      "bytes": 5445,
+      "sha256": "21c1030c575a4f655e13cc0f892644be7ba11bc31e585f387cf3fea41987e563",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-polygons-R1.5-N12000-eps0.03-seed95405.json",
+      "bytes": 5746,
+      "sha256": "fd49080d907b109d93569002c60da0e6e8fbe7261ca93507a0e9febfd0a434cc",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-polygons-R1.5-N12000-eps0.06-seed95406.json",
+      "bytes": 14305,
+      "sha256": "a96bf9f2be2370661bd77455d659fbef9217fc5d16b5348a94ce6a673f1746a5",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-polygons-R1.5-N32000-eps0.008-seed95503.json",
+      "bytes": 15871,
+      "sha256": "eda3db9edc1de0e151246e3bd37d241844589af48c673d3913df4b8ed900cfc3",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-polygons-R1.5-N32000-eps0.03-seed95504.json",
+      "bytes": 15481,
+      "sha256": "da687c54388077691c8c06a621c57dd73bcc44b2fd56cb7080c0abe00f7de773",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-polygons-R1.5-N4000-eps0.015-seed95304.json",
+      "bytes": 12010,
+      "sha256": "2bc58f8740a164ad2f485a426ff833233c18f29862da81457c5850fab6193c47",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-polygons-R1.5-N4000-eps0.03-seed95305.json",
+      "bytes": 3644,
+      "sha256": "a174be8d7f056b188df71ef8f45efd2ebeca0a875c63795edc9c1a2918cb1677",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-polygons-R1.5-N4000-eps0.06-seed95306.json",
+      "bytes": 13383,
+      "sha256": "d6dfe494316f8a45f7cd5e65e58ea6d12cf761e6bf8abe3a71a8424a72c32212",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-polygons-R2-N12000-eps0.015-seed95407.json",
+      "bytes": 18762,
+      "sha256": "96dd65aa3ddef9d7c3edc5d2972363647eaa938b27ec279fe7943cbee833120b",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-polygons-R2-N12000-eps0.03-seed95408.json",
+      "bytes": 16859,
+      "sha256": "99c81557e97477a5360ec41f23c6ceb8d5c0417459848d82c58159b8985f931e",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-polygons-R2-N12000-eps0.06-seed95409.json",
+      "bytes": 15784,
+      "sha256": "29e73107be1338a0d172eb0e2853b4dc9fcac653319e37842c70c9d57dd1019e",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-polygons-R2-N32000-eps0.008-seed95505.json",
+      "bytes": 3608,
+      "sha256": "dd2c7b0985721ad34f7a616440ff0d89f0b1e45428bf5102303de1a153140a81",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-polygons-R2-N32000-eps0.03-seed95506.json",
+      "bytes": 19386,
+      "sha256": "54ad70565571a2765993bfd206a25f54d867b84f6d40b39328ab9c31289fecf0",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-polygons-R2-N4000-eps0.015-seed95307.json",
+      "bytes": 4346,
+      "sha256": "1e10054ba3c2bd6d7b51770c7c4a98ea80ccd3b23164a21aad7a231bb70acc8d",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-polygons-R2-N4000-eps0.03-seed95308.json",
+      "bytes": 18906,
+      "sha256": "d69f073211224e92e8acca534418901fed5ccbb577827df5192b03df40f6b5c5",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-polygons-R2-N4000-eps0.06-seed95309.json",
+      "bytes": 4298,
+      "sha256": "47f2accf79a642c89e01823390d3956ec8d10d2d33169c3c4fd33cbd2b081033",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-random-search-notes-2026-10-03.txt",
+      "bytes": 5739,
+      "sha256": "58cfd630a4b12ebc8c4486e0ab691924e1c36417e191e9a8e4a919be74f35996",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-random-search-summary-2026-10-03.json",
+      "bytes": 2181,
+      "sha256": "c3c302204cb0821fae8068bf3445163f5b0fa53c8157fa303b1d14070fd5107a",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-regular-oct-R1-N128-fine-2026-10-03.json",
+      "bytes": 325242,
+      "sha256": "52f75e44ac97d7c4e2a6f9dfe6d912acdf240da8baf1c2fbc25de718ac5fd36c",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-regular-oct-R1-N256-fine-2026-10-03.json",
+      "bytes": 1408772,
+      "sha256": "0b53435efcf4bedd47958201f7a24298d489ff3ad1455f65a0d555322fa35adf",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-regular-oct-R1-N64-coarse-2026-10-03.json",
+      "bytes": 76739,
+      "sha256": "16b01b4e7a0f8cda314d9636531070f30f85a06a8d55368d3fde8e2640c4d473",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-regular-oct-R1.5-N128-fine-2026-10-03.json",
+      "bytes": 391531,
+      "sha256": "e399814645d23d91fd1873748520e53221eaee6d4c6503f976c2a41a6b9e525e",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-regular-oct-R1.5-N256-fine-2026-10-03.json",
+      "bytes": 1630770,
+      "sha256": "f0d65fd54b611b0f7e289a6183a14219f5bcf861f58883c45000952e9ca64ae8",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-regular-oct-R1.5-N64-coarse-2026-10-03.json",
+      "bytes": 87455,
+      "sha256": "bd0e9bf68a01df7cbbe9d4630eb0e25cc54b82f5d7f4be5348222b11d693a632",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-regular-oct-R2-N128-fine-2026-10-03.json",
+      "bytes": 427480,
+      "sha256": "4fd94584919bea40fad0682ac5cfc5bbaeb80cbf35264a47d08cde50d27ceceb",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-regular-oct-R2-N256-fine-2026-10-03.json",
+      "bytes": 1829589,
+      "sha256": "7978c50f3550b6e852a12a4cea0c8c1a7b1e66a3974b12c6ab833d79c4957395",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-regular-oct-R2-N64-coarse-2026-10-03.json",
+      "bytes": 100926,
+      "sha256": "49e691c4ff2683709bd507308c6389d0b8eda7b714936fd824581b7984814857",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-regular-oct-R4-N16-coarse-2026-10-03.json",
+      "bytes": 6665,
+      "sha256": "ea7feece2313c0b6bfd833ed3b7e22f43564127464569522b38d2646097bed43",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-regular-oct-R4-N32-fine-2026-10-03.json",
+      "bytes": 28714,
+      "sha256": "b09209709ae60be3a597664a2809b1705aabff71aad572eb5c068db808581ce2",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-regular-oct-R4-N64-fine-2026-10-03.json",
+      "bytes": 127435,
+      "sha256": "d23760a467a5fc2124cefcd5b028f7961b897ca641d08003cd67f437b25d212b",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-regular-oct-R8-N16-fine-2026-10-03.json",
+      "bytes": 8480,
+      "sha256": "13c072a217354777f97adda550de4ae5c5eb80a5d3cd903113c37f6c99a78cf0",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-regular-oct-R8-N32-fine-2026-10-03.json",
+      "bytes": 34536,
+      "sha256": "9cba0dbd42685b70d3dd29b3e592f88eed4834f5935ae516fa8e61039b3d3dc2",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-regular-oct-R8-N64-fine-2026-10-03.json",
+      "bytes": 145827,
+      "sha256": "2c70a82b2f9584765d1bc2133bc3af474af0c68408cfb4997927968d0135247a",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-regular-oct-R8-N8-coarse-2026-10-03.json",
+      "bytes": 2124,
+      "sha256": "fe7ddcc7ed6e45f5b81dd29236736a39d3e3357679c8d0ad59d7c47af06ef696",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-ring-exchange-2026-10-03-independent-audit.json",
+      "bytes": 1512,
+      "sha256": "c27554c0bf909840c2a5646f1d39fa49488fdc40962eedd1e44bfca95eea68e1",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-ring-exchange-2026-10-03.json",
+      "bytes": 89824,
+      "sha256": "109ba875bb84924e65c9bddad5dbeb41d6d292e6d611ed3caaf396f5389f59ea",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-ring-exchange-restoration-2026-10-03-independent-audit.json",
+      "bytes": 1225,
+      "sha256": "91b7c6c3504e54e0d6653cb68c24da20d4eb4bca733d318f927f37252da765cf",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-ring-exchange-restoration-2026-10-03.json",
+      "bytes": 33004,
+      "sha256": "7c8e47102346f12c085d4552527b05cf9ff79c08f7bfcbdf93bcdf301e7d52c6",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-sharp-formalization-audit-2026-10-03.json",
+      "bytes": 5621,
+      "sha256": "8cd3aad4a78d747f258e3c022279ce2d419410a252a887149fee3229490528d2",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-sharp-formalization-build-2026-10-03.log",
+      "bytes": 15082,
+      "sha256": "ce7efccc3fd0370f12fcfa091fc7e678b2dd8e144e91d534845256ab678b81ec",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-sharp-formalization-summary-2026-10-03.txt",
+      "bytes": 1345,
+      "sha256": "4959a8367d946de87101b9d4c29f4c6d608ef679bba2fbb111578f2fde9c07e1",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-small-radius-area-envelope-2026-10-03.png",
+      "bytes": 70124,
+      "sha256": "e53f548db0eda162b38bfd01fa6b136797323af1f1547469c63ec82e2f911e10",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-small-radius-area-envelope-2026-10-03.svg",
+      "bytes": 19765,
+      "sha256": "e50e53708c827cb1d7fada7c209767066c1ac2c7a28958d926a64dd27cc94b0c",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-small-radius-constructive-results-2026-10-03.md",
+      "bytes": 9896,
+      "sha256": "c9f4093c078917e6b5ea7fc08665ae791e9197b199a5be7f205b0336965abb2c",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-small-radius-integer-audit-2026-10-03.json",
+      "bytes": 565,
+      "sha256": "8814789facfac2cd10779103e155c9b6866db62ad9874b41c83650601319c48b",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-small-radius-lobes-2026-10-03.png",
+      "bytes": 170081,
+      "sha256": "67b62b1aefed9f0af977d6b9e78fe42a9d50c0d01898bfa34493d97a6ff17402",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-small-radius-lobes-2026-10-03.svg",
+      "bytes": 518586,
+      "sha256": "529d6edf80b124d5e7073c01d93b452472df13e9be20cc2a6dc045eca62dad81",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-small-radius-R2-over-2-certificate.json",
+      "bytes": 7838,
+      "sha256": "66e4a41337bac5756361d585b9c732d3ab4ba807002b4067a79d47e622db7050",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-small-radius-R3-over-2-certificate.json",
+      "bytes": 7923,
+      "sha256": "794a0d39351fb266c941f3e53a29e6fbf47d574f7b67e764f9b39adce98c2cb7",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-small-radius-R4-over-2-certificate.json",
+      "bytes": 7926,
+      "sha256": "f7dbec22bfcd130720fd145e0fba5b64ac3e94a08882551fac0b2f8a944d193f",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-small-radius-results-2026-10-03.json",
+      "bytes": 2898,
+      "sha256": "be06db43a155721d748ff1143c3f09c2f90323047a1d52c39f94ad6ef8f35c59",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-extension-independent-audit-2026-10-03.json",
+      "bytes": 822,
+      "sha256": "c97fa2304748f749f7f2a99384d73ac9f60a83031feb27b5c16304990873a147",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-square-grid-and-limit-2026-10-03.txt",
+      "bytes": 12527,
+      "sha256": "dff8c127b79a7839146c38fdf50a7913262db44afff702012e5d9ff7ed669862",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-square-grid-clique-upper-results-2026-10-03.json",
+      "bytes": 6049,
+      "sha256": "b09817fa444b40c8a57fbe96b68a4cc73286c2f3541177791a5bc0ff3346a469",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-independent-audit-2026-10-03.json",
+      "bytes": 19216,
+      "sha256": "c0ef50bacddf5a385c5cad51bca63ff7e477ac237020d4320bfdde66449161a6",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-square-grid-R1-N128-free-2026-10-03.json",
+      "bytes": 131868,
+      "sha256": "47181e3bc4db7da37e21eec884aef79ab5f25eb5e0dd5c81937b5647c6637124",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R1-N128-nested-2026-10-03.json",
+      "bytes": 107415,
+      "sha256": "3ff56c20f522c6516b1818d68722e0f62afbd3afecb3f3ba9c02176ec6b3049e",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R1-N128-target-2026-10-03.json",
+      "bytes": 159000,
+      "sha256": "4d34799d7ca5d0f0227e0614cbfa40e9010a3231b7133f515034e52204b3e07e",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R1-N16-free-2026-10-03.json",
+      "bytes": 1634,
+      "sha256": "24f13aedfe84b973c08fa8fe19b20533ee147c73d79d5e3a6018c6cc71ea3856",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R1-N16-nested-2026-10-03.json",
+      "bytes": 1430,
+      "sha256": "859cf31141dbce6297de7a83647dfb7879fa221569c3444ccaa261b4d379701c",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R1-N16-target-2026-10-03.json",
+      "bytes": 1837,
+      "sha256": "400711e5d7d9e8cff8ebb75b1b0a3bbf331cb88ef112f3d4970ff3f080c20dac",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R1-N256-target-2026-10-03.json",
+      "bytes": 696968,
+      "sha256": "2f1c7ccec8c22c4adbe90a2d435336e7b90ca77c825ab3929ab80497c74e4dd0",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R1-N32-free-2026-10-03.json",
+      "bytes": 7083,
+      "sha256": "fd6d79fcbc36ffba36d403b7b5a68875520a03573c49fad9d5bcb1c3e6af4e08",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R1-N32-nested-2026-10-03.json",
+      "bytes": 5789,
+      "sha256": "9b890e471689a4deb1cec45af415337a5bc55c467128238fa393568d9c6c8e16",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R1-N32-target-2026-10-03.json",
+      "bytes": 8313,
+      "sha256": "6c4325fc983caf7406610ea2b74653647237e38c366878a6e33e2cb8380f2ccc",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R1-N64-free-2026-10-03.json",
+      "bytes": 30401,
+      "sha256": "aaa8f1d0f72c0d07e13d44f18f9198773cde0cc278fe6cdb202cc21a64f5b7c4",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R1-N64-nested-2026-10-03.json",
+      "bytes": 25380,
+      "sha256": "4fd74deec0c343a8b8ceef276df78d69169430c7dbf87af92f214f5308179e38",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R1-N64-target-2026-10-03.json",
+      "bytes": 36515,
+      "sha256": "9d7bd67ce45fa58d7c25e17f765aa7f617047d6cf8f1a029ece6c8adf752dd72",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R1-N8-free-2026-10-03.json",
+      "bytes": 486,
+      "sha256": "5bef04f7e0fcf64b866f64b61769554d52fe7d7d31c7bcf17cd5d5671037c15a",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R1-N8-nested-2026-10-03.json",
+      "bytes": 488,
+      "sha256": "fd2d430e3e03c03d1244580893f75aa2196b18d404aef85a2df268d69992040f",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R1-N8-target-2026-10-03.json",
+      "bytes": 466,
+      "sha256": "515cb473d5d3da0d36d2b371b9a8a29d4af1fbec9161cd0f65910182c1780acc",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R1.5-N128-free-2026-10-03.json",
+      "bytes": 160090,
+      "sha256": "6577a028cf4c0d13877ed759359d96b5b506b8a3d59410028bec6b0ee365aba6",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R1.5-N128-nested-2026-10-03.json",
+      "bytes": 158521,
+      "sha256": "4ad0383cd5508ac73b32963d77d0e5e6af00e58d5de05f9ca1d67ca8217179e2",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R1.5-N128-target-2026-10-03.json",
+      "bytes": 188280,
+      "sha256": "2ae5a54cb69f1a062cac3ddb23751c98d8c031324a9d7a2aa2c2f2fb7e0eb72b",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R1.5-N16-free-2026-10-03.json",
+      "bytes": 1968,
+      "sha256": "85422ad6d8f1a80a24ee22c3cbd79edd1c1e3737bf55a89757af69a6d07d4df4",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R1.5-N16-nested-2026-10-03.json",
+      "bytes": 1924,
+      "sha256": "1ef63945c715a41bd611a2ec80ca007e972ed3c485d518f171f40e856483812b",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R1.5-N16-target-2026-10-03.json",
+      "bytes": 2178,
+      "sha256": "b28d99db980a309cfb6155ea8ca9e3b634ef9d4e5edc7dfcc9c1c0039a7e9bb4",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R1.5-N256-target-2026-10-03.json",
+      "bytes": 790076,
+      "sha256": "e2d04603692ebb89fc3da3808c619410a77f3356752abb1e513d49009ef3ece9",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R1.5-N32-free-2026-10-03.json",
+      "bytes": 8091,
+      "sha256": "c3a33aded00fc5c8001308ed80da34bdae1f37a2aac361790b14ccca580a69cb",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R1.5-N32-nested-2026-10-03.json",
+      "bytes": 8006,
+      "sha256": "2cd1a859820de7742d89dfbeaef7c06733d15c56add80d776be035c8d6826fe7",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R1.5-N32-target-2026-10-03.json",
+      "bytes": 9512,
+      "sha256": "3387b66de7b9e0290ff08ae6cf6b7f54b6ee28af7a907ad51dd35040858a8a10",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R1.5-N64-free-2026-10-03.json",
+      "bytes": 34527,
+      "sha256": "9eecc2fac443a377ca4357319b6855b058b4d8fe2fab6f3e693f6ccaa549e737",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R1.5-N64-nested-2026-10-03.json",
+      "bytes": 34154,
+      "sha256": "6582f6c7338371563a29eb1a59d4aee9202adfe65d06ea8a129b18b70fd5fbfc",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R1.5-N64-target-2026-10-03.json",
+      "bytes": 41194,
+      "sha256": "267d9914c698863a2b7ba1877b9c12f0a9a7a9c4d9e8fabbda0cc8f46e36aadb",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R1.5-N8-free-2026-10-03.json",
+      "bytes": 591,
+      "sha256": "d0f5bca19dbd25fab5b8f12451646ad487c1eb4aaf6885c0aa1ae34b6692293c",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R1.5-N8-nested-2026-10-03.json",
+      "bytes": 593,
+      "sha256": "ef2482f1b40dc3b43e296341f7071c5aa9cd55e35a19ed2ec071e4ea1f9892ea",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R1.5-N8-target-2026-10-03.json",
+      "bytes": 625,
+      "sha256": "548b52952feb84be83da7634eb44edc9aca917a8ba8f411cd575575b81739b03",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R2-N128-free-2026-10-03.json",
+      "bytes": 174611,
+      "sha256": "07e4e078bcc26dfce35620e8708964804f300a942f39d4068b28b922dffbfed5",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R2-N128-nested-2026-10-03.json",
+      "bytes": 169044,
+      "sha256": "318436cfd4a691188aa31cf78653ef99b57d6377e57e17e4c9ab906fe74e753f",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R2-N128-target-2026-10-03.json",
+      "bytes": 220290,
+      "sha256": "31bc5d5fff9e475351c53aeaabae7defdbb0466db1fac07eb23b269f667b80b0",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R2-N16-free-2026-10-03.json",
+      "bytes": 2057,
+      "sha256": "093c44a8630234aa076702436190eb885e692594de849ba6a9a855e581ca6ba4",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R2-N16-nested-2026-10-03.json",
+      "bytes": 2108,
+      "sha256": "53f0976090f72de91f512cdcc173e19bc5c7b5e792af66f60f477345d4d26d7b",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R2-N16-target-2026-10-03.json",
+      "bytes": 1866,
+      "sha256": "c2377966ade514eb6193429257e9d1bf7e57b58a113fd4dca340fd15c4dc6757",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R2-N256-nested-extension-2026-10-03.json",
+      "bytes": 775009,
+      "sha256": "2152fe4a292d4c79138d63c62748405bea95b327de89342be51f38afddd5c68f",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R2-N256-target-2026-10-03.json",
+      "bytes": 937023,
+      "sha256": "5e02381ba81e4b6505bf01420dc910b68a11638d1ec7f115db8e9c5561fc7c19",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R2-N32-free-2026-10-03.json",
+      "bytes": 8944,
+      "sha256": "1752d20bfed32fd43f6c7dfe2ee6f95ee610104bda13f8aa80f1d51e1c21f79e",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R2-N32-nested-2026-10-03.json",
+      "bytes": 8642,
+      "sha256": "735503e67e1e63c8bdaef0f4d7114b7c2177393f7f5e239293980aeebf377ebd",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R2-N32-target-2026-10-03.json",
+      "bytes": 9768,
+      "sha256": "32891ca0d83e4c2057953f72639850c8c525e8cd8e687bb3703d4f56e14f386c",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R2-N512-nested-extension-2026-10-03.json",
+      "bytes": 3179133,
+      "sha256": "37665eb29bc04ac39d5b106edea8249b855c200f531796016013de5dc07723c2",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R2-N64-free-2026-10-03.json",
+      "bytes": 40272,
+      "sha256": "fa202e93455d6ae8a3f1d8ec3f68947c615544bf48451b2fd005fe10669525bb",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R2-N64-nested-2026-10-03.json",
+      "bytes": 36926,
+      "sha256": "ff86b0bbfd2140ec5dc3e01db5c006e35f4aa8b0ff1c5382edebeca828165767",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R2-N64-target-2026-10-03.json",
+      "bytes": 48957,
+      "sha256": "8e4f3b6f8a66af5f0f9bfe2547054147beb0f2865eb1240bcb796edb70b0b677",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R2-N8-free-2026-10-03.json",
+      "bytes": 660,
+      "sha256": "8ccd6efa7ebd3c74a1ce43a1574ebce66831059cedd749b735f4de81d8ee9343",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R2-N8-nested-2026-10-03.json",
+      "bytes": 662,
+      "sha256": "42ec52bae9a3c0608806ac34b7b3104277751485b11d1370ce1cce277cc75a01",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R2-N8-target-2026-10-03.json",
+      "bytes": 412,
+      "sha256": "90decfb3c43d97caf19107a6d4612a255cbc0675c839932446f560707c2f188e",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R4-N16-free-2026-10-03.json",
+      "bytes": 2331,
+      "sha256": "2e02385b9d351556bec0409e5132115e01a2e92ddd9e020242d8616fe44a7343",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R4-N16-nested-2026-10-03.json",
+      "bytes": 2177,
+      "sha256": "e20c360e2dd1ce41df4fce964e7ebcd3a395a41af2799e01c7d7220c6c8e82d0",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R4-N16-target-2026-10-03.json",
+      "bytes": 1688,
+      "sha256": "8ffaacf2399e1ece4d80e86cc24d3feaccf9f9340b05585abdf1a780c4c85c3d",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R4-N32-free-2026-10-03.json",
+      "bytes": 10732,
+      "sha256": "4f5d71169c93ad53c5387234edbf9263a0e14ea9291352587a52987887dca61d",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R4-N32-nested-2026-10-03.json",
+      "bytes": 9861,
+      "sha256": "6bab31e2f291293e74d9c1f1c30bf6631e0ad9a5449d7c9a4e9bd09ee20699de",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R4-N32-target-2026-10-03.json",
+      "bytes": 7186,
+      "sha256": "d98b2fce29ed2ce76d86ed52da82ae83190581037bb0aa94b31e058e67c0cb9d",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R4-N4-free-2026-10-03.json",
+      "bytes": 259,
+      "sha256": "037db5448e9a3b349ddbd543b68a0ef55adae4f000de8fed824ae3d6a847f9e1",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R4-N4-nested-2026-10-03.json",
+      "bytes": 261,
+      "sha256": "fbd4a20dedebc24e64c02c3129c7890e7ffa2f575355165562fc04d86830bbe4",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R4-N4-target-2026-10-03.json",
+      "bytes": 245,
+      "sha256": "b9ba9d0ceca9206473b06bcf879149eabb751ed1cb85a9bb1132ceb885a1ec66",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R4-N8-free-2026-10-03.json",
+      "bytes": 608,
+      "sha256": "f3146f98430d24f8b4e5c046e191ef1e6beabf1bad667a323647446424323a0e",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R4-N8-nested-2026-10-03.json",
+      "bytes": 584,
+      "sha256": "4dc3cd8a569ec941fa1c7bfb48b8d31d6471695e422aea1951c9e553893a4444",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R4-N8-target-2026-10-03.json",
+      "bytes": 497,
+      "sha256": "0623a485f0127199413991b05d5a00e1ecceaba4672d030f492cd8d789d3b2d7",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R8-N16-free-2026-10-03.json",
+      "bytes": 2890,
+      "sha256": "3f54cf4c8d0030a8c0cb85b072bafa9f078364e098f88f912182fb6872d0c67a",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R8-N16-nested-2026-10-03.json",
+      "bytes": 3046,
+      "sha256": "196337a1cf188a6d1cde5835560ce98bb44b3c9989a7daf78ec1c5c79af19dba",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R8-N16-target-2026-10-03.json",
+      "bytes": 1688,
+      "sha256": "adb0ec69f46d8a1f6203676806844714fbdd3d32d4e546e0e3f064fea55403b9",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R8-N4-free-2026-10-03.json",
+      "bytes": 291,
+      "sha256": "207b58b80f993f2d50156c8d7fab8897dd5b73722dc3affb7b70551f6eedbbca",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R8-N4-nested-2026-10-03.json",
+      "bytes": 293,
+      "sha256": "1eb13efd1318fafe4a9db27c1040f47a097b216bf20980e8c194bf943347b32c",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R8-N4-target-2026-10-03.json",
+      "bytes": 245,
+      "sha256": "46dd87eb6924b6d677edc05c977a2f0bbb9526a756f14d111ae231d7b60f00fe",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R8-N8-free-2026-10-03.json",
+      "bytes": 685,
+      "sha256": "8afe642a87f128171bca238e13a2504569038197c6ec9f1660b9da29a4dad3fd",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R8-N8-nested-2026-10-03.json",
+      "bytes": 707,
+      "sha256": "8f6f08afdc6f89017531034253c9a723f0f7f31b607eb4a0cbc32ef6c771a485",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-R8-N8-target-2026-10-03.json",
+      "bytes": 497,
+      "sha256": "9d1b852cfdac724d100722bad151b03f2ade53eefec3464486ca0fc07208f753",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-results-2026-10-03.json",
+      "bytes": 20992,
+      "sha256": "96a88a69533ec7a52a08618e5dc288bfd02acd42c3f62cc304a1ba2ce9e6d1bb",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-search-2026-10-03.png",
+      "bytes": 243798,
+      "sha256": "2c52b7866447c88ced772fe09ed6ed50eda4384214b846144720d521c975d8d5",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-square-grid-upper-2026-10-03.png",
+      "bytes": 174945,
+      "sha256": "dc7bc4a0081967dd7e7c74c6c12b96f85b15e29a1afda54798134b1152e7d105",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-square-grid-upper-independent-audit-2026-10-03.json",
+      "bytes": 8280,
+      "sha256": "b46ff2fd67fa5f7fe79df2993fe04d210734706065401335d81d828e18a2bee1",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-square-grid-upper-notes-2026-10-03.txt",
+      "bytes": 11546,
+      "sha256": "1febde4962517b5c4b3ccef8a1697d503138bb38cd2abab481ab147ea36ec013",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-square-grid-upper-results-2026-10-03.json",
+      "bytes": 7423,
+      "sha256": "a040a550a9e44fe03e0e7e3a5f71c32d1506431e15486f04fcb441bac0ac1b31",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-grid-upper-summary-2026-10-03.json",
+      "bytes": 8533,
+      "sha256": "5fd9379cb08e03f113d88bf2c489bc36a2bc330f08d194869467255f7c7945c0",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-square-limit-construction-2026-10-03.json",
+      "bytes": 99719,
+      "sha256": "b61c55a4918c903667238594ee1970dbf2c300e266de5405bb31b69b16527537",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-limit-construction-2026-10-03.png",
+      "bytes": 96675,
+      "sha256": "a4231954b9b46813bfcafdd353ee35d96550955d2cd194a4c04f0468e7543491",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-square-nested-extensions-2026-10-03.json",
+      "bytes": 1546,
+      "sha256": "6da62751735600868418f8894789a77834cd32fef87794a8d2489ef214b239a6",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-R1-N128-fine-2026-10-03.json",
+      "bytes": 161724,
+      "sha256": "bb9106f4cc33e622a0beaf27634a9e7213eb2eb31bb1a39b91591dab6d1c5cc0",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-R1-N256-fine-2026-10-03.json",
+      "bytes": 701693,
+      "sha256": "2ec887dd6e21ed13bc6a6dceec4ae84d15f1f0d4de5e6a0c1263cf5faa73375e",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-R1-N64-coarse-2026-10-03.json",
+      "bytes": 37736,
+      "sha256": "f7e2ca89272bcc435378840f03917de2d44d3368feb258b730e510ebfd4a36e3",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-R1.5-N128-fine-2026-10-03.json",
+      "bytes": 193863,
+      "sha256": "a75cdfc5ea937a4dbda32859e5e32964f762faac84ca9a0f94c2ae176646e8f8",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-R1.5-N256-fine-2026-10-03.json",
+      "bytes": 811202,
+      "sha256": "8fecbb3ec292e426d55986d78f5cede1eae4a7ff8da8072ae5db0bd827f3ffed",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-R1.5-N362-fine-2026-10-03.json",
+      "bytes": 1652176,
+      "sha256": "40943cd3acbf8cfb330463f6551e164611fc4cf527dccef1178f9df26d2a7b35",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-R1.5-N64-coarse-2026-10-03.json",
+      "bytes": 42829,
+      "sha256": "0c43da1243f003519876d40feb0a6c0df1ba6fae8dc77dafd28a1880b53e0568",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-R2-N128-fine-2026-10-03.json",
+      "bytes": 211461,
+      "sha256": "107f00e930c2b0863071f54b1c1afd57b552887356daf6c1b01cc8ca576a897d",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-R2-N256-fine-2026-10-03.json",
+      "bytes": 909176,
+      "sha256": "e2d4b98b83deba7ea7b1137b1cf5a3a037d932e872b586bfe47ebb8c76ddc470",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-R2-N362-fine-2026-10-03.json",
+      "bytes": 1851668,
+      "sha256": "18a199bb4757e02c5c6ceaf6404e0a73a3a3106583ca9a2f3e87e761d99dc5f7",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-R2-N64-coarse-2026-10-03.json",
+      "bytes": 49326,
+      "sha256": "2bb6d520a993ea26f9072cd9db33f05d3083f17c33697ba4b08d6215382d0b44",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-R4-N16-coarse-2026-10-03.json",
+      "bytes": 3234,
+      "sha256": "8e622f2501212cbc7e4ef37a1732dc8d0ef4ef6966631fa175b98d30953449b1",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-R4-N32-fine-2026-10-03.json",
+      "bytes": 14119,
+      "sha256": "88aecfecc8a72d16bce7f82611d8a442553eb86c8f535bcabbba05137ed10041",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-R4-N64-fine-2026-10-03.json",
+      "bytes": 62362,
+      "sha256": "b42229d31e6f288b22c33632dbe7210b3cdf239377ed238bce6e75944c9fb481",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-R4-N91-fine-2026-10-03.json",
+      "bytes": 130632,
+      "sha256": "db704a2377f827002a1c9d823a00671cdb71e65f927ff7dd693056712bdeb800",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-R8-N16-fine-2026-10-03.json",
+      "bytes": 4465,
+      "sha256": "a417c06c60d4b3826f8c351eaeda1dfb16143ed264b76ed6b9be9d0eb83efc2f",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-R8-N32-fine-2026-10-03.json",
+      "bytes": 16939,
+      "sha256": "c760e885f4dcec556741c2876148e9aaf18eac2bd069e9120d445cafc7a96883",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-R8-N64-fine-2026-10-03.json",
+      "bytes": 71402,
+      "sha256": "430634695a4476be96dcc61ec976fb6048194f772402ed901349078b3c95f42d",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-R8-N8-coarse-2026-10-03.json",
+      "bytes": 1150,
+      "sha256": "606e1b0cba9df17e34c2bd73e117aa46d881b83968f6fe37d02c7e9c36ae4c45",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-R8-N91-fine-2026-10-03.json",
+      "bytes": 150406,
+      "sha256": "2adc811cd9bef01705000c0dbee9a341e8fc94849b3b974055569fdaa92ca454",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-runs-independent-audit-2026-10-03.json",
+      "bytes": 617,
+      "sha256": "6a03da87c7e9275371cdae746ab09ffb6dea9052d0521ba2f5c7cec582738003",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-square-runs-R2-N128-2026-10-03.json",
+      "bytes": 8662,
+      "sha256": "7c9e597e0a2a3f8f1bac61b957cc651f384ba34cb9c11647f693044f5c3b3b02",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-runs-R2-N256-2026-10-03.json",
+      "bytes": 18694,
+      "sha256": "05341cc0211986c8f8bf597001e097e77b0e09f2d6cdb8f7ac647bf39b9e40d8",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-runs-R2-N512-2026-10-03.json",
+      "bytes": 38584,
+      "sha256": "76f6f010cf841c0bc768d057a05dcf38d18cbc6a55b965bcb599920129733162",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-window-clique-M1-N12-2026-10-03.json",
+      "bytes": 2539,
+      "sha256": "3ba1e4f988c045a103a23835166d73660189020987e301137f50c5582f6e3496",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-window-clique-M1-N16-2026-10-03.json",
+      "bytes": 3818,
+      "sha256": "6b67778655fe56200d605d611358d50f4fba1e5d8c42692c9b850a4bafe8234b",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-window-clique-M1-N24-2026-10-03.json",
+      "bytes": 7974,
+      "sha256": "fbf8f6aad43527a3d71778468cf1b7687a6d8ef6a06c1b21661183ed2604ccf9",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-window-clique-M1-N32-2026-10-03.json",
+      "bytes": 14430,
+      "sha256": "1bffd64c74a3efbab853180e71a717b36dd173097392c2b9a1c410104ca5558b",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-window-clique-M1-N4-2026-10-03.json",
+      "bytes": 648,
+      "sha256": "7418d10b4f7d4975307960a7587b21561cb0e28221cc9d38bbbd3133775d9bb8",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-window-clique-M1-N8-2026-10-03.json",
+      "bytes": 1192,
+      "sha256": "0bf365364ec9944d33f2b5f12a51136cc62aec5111c62fe4b71d747947ae582c",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-window-clique-M2-N12-2026-10-03.json",
+      "bytes": 13312,
+      "sha256": "756e3cb2d817b95d99260af234da2565741778c08c7a05b28304ee9f7654dbaf",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-window-clique-M2-N4-2026-10-03.json",
+      "bytes": 2069,
+      "sha256": "018903e14d95abde9f97d388bda695ab5020e61b09d2b65b8522565add368e02",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-window-clique-M2-N8-2026-10-03.json",
+      "bytes": 6547,
+      "sha256": "429814cda76fecc00c7b6eac76ac66b1626596d5b6a97006661122047a326439",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-window-clique-M4-N4-2026-10-03.json",
+      "bytes": 7811,
+      "sha256": "5b61f8c7ea052bac799011ea0c57f7009d5e0fc4b4276817271dc0516c47fbed",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-window-clique-M4-N8-2026-10-03.json",
+      "bytes": 34050,
+      "sha256": "e4a63deae2aa0270a653c3b01c172d87bbe26b0f21edc4652406aaf2574e3e1c",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-window-clique-M8-N4-2026-10-03.json",
+      "bytes": 36613,
+      "sha256": "819ab50a2a31f4c85ceef1ae438a07ff4c4540b42ee6948932cd39b23dffe78a",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-window-clique-results-2026-10-03.json",
+      "bytes": 10846,
+      "sha256": "67984fca948fa6a05309931065d4e9101c55df151bcb2f4679f8f10304ba8276",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-window-cover-2026-10-03.png",
+      "bytes": 223701,
+      "sha256": "85af37b6bd5478e5e3ae1084625d3165a9d3a92e001cbc3404c80dbb45ea9dfe",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-square-window-cover-notes-2026-10-03.txt",
+      "bytes": 15241,
+      "sha256": "56ab454102bdfd9ce6fb77cdc080fe24bc834d26c49edbc8411a6291b13a6661",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-square-window-cover-summary-2026-10-03.json",
+      "bytes": 8847,
+      "sha256": "0bb493a80fe25630227ddfc70ae43d7e5cc5c72e60e8e06480e1cbb5308359e9",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-square-window-independent-audit-2026-10-03.json",
+      "bytes": 13309,
+      "sha256": "c9aa2eddde1574cb1526fb15120cb7759540e360d299c44bbd10764d619a59c3",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-square-window-kernel-M1-N12-2026-10-03.json",
+      "bytes": 1654,
+      "sha256": "7cec4456b23adf5c7a9ab8468c88aa1966a98e42825a335924882a6072ef3f0e",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-window-kernel-M1-N16-2026-10-03.json",
+      "bytes": 2431,
+      "sha256": "67500a184734e613a72a25269d2034ab9dde197c8304c5d8b6835fa07a18576b",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-window-kernel-M1-N24-2026-10-03.json",
+      "bytes": 4827,
+      "sha256": "2712e899c37ce3c694a75475cfc15839b500a6efcb22e1a85285a4247f661bcd",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-window-kernel-M1-N32-2026-10-03.json",
+      "bytes": 8255,
+      "sha256": "3ae9fb3d7c6fc02607808666febb55dc7f556165274753ffcda826fac6ed9f7a",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-window-kernel-M1-N4-2026-10-03.json",
+      "bytes": 813,
+      "sha256": "be7aa6aa81c57620ac797fd8ba7a610174e2a884556fe13080696c72ff3e5e87",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-window-kernel-M1-N8-2026-10-03.json",
+      "bytes": 1100,
+      "sha256": "328d2f44afb6e74a0a01a8cb6c951a6a504b0f553d6c80cc6de00ba3d634a452",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-window-kernel-M16-N4-2026-10-03.json",
+      "bytes": 7959,
+      "sha256": "bb94f06778af685f7e8158669e0d2c0053c5b17b6a06515326a4f0dd0ab70373",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-window-kernel-M2-N12-2026-10-03.json",
+      "bytes": 4327,
+      "sha256": "c39801bcbac2ccb03c9258a75a228ca50a20e2dfc6f678da78f872991ce16a44",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-window-kernel-M2-N16-2026-10-03.json",
+      "bytes": 7529,
+      "sha256": "19b384bf327f1ec13405fe0d9449ae095b526c8e3f35672eeec9e8c3e5edaddb",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-window-kernel-M2-N4-2026-10-03.json",
+      "bytes": 943,
+      "sha256": "e3fa4d85930c9a7434944a1785f6347e3e202ebd25aaf14ba376f32f281d9776",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-window-kernel-M2-N8-2026-10-03.json",
+      "bytes": 2075,
+      "sha256": "1e8d977ffc36327c15445fbd8bd186939430812f3b0506330a2f5c9a65f01428",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-window-kernel-M4-N12-2026-10-03.json",
+      "bytes": 14219,
+      "sha256": "2196a6ce7ed985b0a7d18f3eea37b814c1f26e4f46141cb54f2dd69d49b06346",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-window-kernel-M4-N4-2026-10-03.json",
+      "bytes": 1371,
+      "sha256": "81677ccf28d9730a8b3f557179b9bc7978c663947bd065eabf0b40faa23e533b",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-window-kernel-M4-N8-2026-10-03.json",
+      "bytes": 5820,
+      "sha256": "122dca7ec17b315eaecdaf16717c37aa6090fbb73da7d5b18d2a7c32eed13054",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-window-kernel-M8-N4-2026-10-03.json",
+      "bytes": 2964,
+      "sha256": "7683c3b9d61492189e30997176ecc888249d5f76c45020d9a730e584d1eb7d84",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-window-kernel-M8-N8-2026-10-03.json",
+      "bytes": 19852,
+      "sha256": "5c5b29690bb02333a8a0e458c7b769ed6dd1127f16750bdea154be005e521c6b",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-square-window-kernel-results-2026-10-03.json",
+      "bytes": 18460,
+      "sha256": "9cabbf3326b7f3ada3e6905431d88b2d0f9a5865d79f71b8f54c5e15373ccd50",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-asymptotic-notes-2026-10-03.txt",
+      "bytes": 10232,
+      "sha256": "0a95c6334ad51825bdd3d10d60554034a8fc3ec844f24e87c9dc7137a7cb852c",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-theta-cuts-independent-audit-2026-10-03.json",
+      "bytes": 19611,
+      "sha256": "efb07f489edeeebb26a4ed50ffe8a483d1698a218ce63441a232fb257684e4c8",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-theta-cuts-independent-audit-M1-N8-2026-10-03.json",
+      "bytes": 2211,
+      "sha256": "45faf8f35b1eae16d200851a2a790fcd0d250f2b78b14acb41831059762350ad",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-theta-cuts-independent-audit-M2-N4-2026-10-03.json",
+      "bytes": 2200,
+      "sha256": "dcce1b0b19f96d641ff7e78130e5abd530f894e6e77aa311ea5fc92e92e45ce5",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-theta-cuts-independent-audit-M2-N8-2026-10-03.json",
+      "bytes": 2219,
+      "sha256": "d0887d4ab26b7e0903b6f5397ca36e4d917b6d6a289ea18f50f49eb9283c6a25",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-theta-cuts-independent-audit-M4-N8-2026-10-03.json",
+      "bytes": 4043,
+      "sha256": "c09cbfba407bd1ba6c982cee3613c3bbc1fbd23104d4035267d9127320121214",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-theta-cuts-M1-N16-control-2026-10-03.json",
+      "bytes": 1030229,
+      "sha256": "5965cd17af6ed9e39d346ac57fb449d2063c44372456acd06245b9760c078cdb",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-M1-N16-r1-2026-10-03.json",
+      "bytes": 1042687,
+      "sha256": "ad72a929f14f57daa873801e6adfe1a5efe3650c95b63b7f1789c9e5f89e3e0f",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-M1-N16-r2-2026-10-03.json",
+      "bytes": 1051176,
+      "sha256": "27a9d0984c22f3c705ff2ccf33fa5886b880e8fb09a263101776abaf7dab573e",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-M1-N16-r3-2026-10-03.json",
+      "bytes": 1058696,
+      "sha256": "68f27bd9daeedb1c973c996c10a1e642af24ebd7cadd4246f59e2409dd9958ba",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-M1-N8-control-2026-10-03.json",
+      "bytes": 63827,
+      "sha256": "abde553bc2d295d77aa4ef5eb280968a507dfcd6ce4a841b45192881838020eb",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-M1-N8-r1-2026-10-03.json",
+      "bytes": 64272,
+      "sha256": "12a228628b46cb5b3246420abf7025c70bf807fff52c543a27cc8bc107700ed8",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-M1-N8-r2-2026-10-03.json",
+      "bytes": 68794,
+      "sha256": "ac057252d644027a2041640e6b12d56d280edc16fb2e81612bb66637ce8c33cf",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-M1-N8-r3-2026-10-03.json",
+      "bytes": 74062,
+      "sha256": "d47750e09b52dd9b64a7d1adf0970ca1b4ef16e9837db489b4e58dd8e55437d5",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-M2-N16-matched-control-2026-10-03.json",
+      "bytes": 16296057,
+      "sha256": "5c46a1fcff0eb8ba15cf9d384f6e85993e8c7b9af3dcb1bbbc9cd2d3e69d4abf",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-M2-N16-warm-control-2026-10-03.json",
+      "bytes": 16249127,
+      "sha256": "f852cd74131c97f90726b3a331445f2a9bf08a0973a3f33d3528cbb407518ee6",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-M2-N16-warm-r1-2026-10-03.json",
+      "bytes": 16349949,
+      "sha256": "5b7e68611dd5b9e04008b779cc5095a426c9ac2a8d87da57da7bb7083913e995",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-M2-N16-warm-r2-2026-10-03.json",
+      "bytes": 16437165,
+      "sha256": "22a3eb1fa7f62b4d89393ec7d7f6e42d97065fe6947dbfc5f56db9df14442e03",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-M2-N4-control-2026-10-03.json",
+      "bytes": 60979,
+      "sha256": "acf6e0edfc6bab87541802a694542353b881a47aa7b01474a3252dea081ed6e9",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-M2-N4-lower-witness-2026-10-03.json",
+      "bytes": 315,
+      "sha256": "136d5a90444100a59f44f77756b9812aef5b9b01abf47dc16b1e62d5eb7573a0",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-M2-N4-r1-2026-10-03.json",
+      "bytes": 69419,
+      "sha256": "080e316dff72a527d85b607beb123ae65a943eb40158d2da2236acb650c29ac5",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-M2-N4-r2-2026-10-03.json",
+      "bytes": 76563,
+      "sha256": "f3e2775d39807ef39f75bc1a9390d7b40c1f1a2d3c238cd3cb849ad974a73295",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-M2-N4-r3-2026-10-03.json",
+      "bytes": 83327,
+      "sha256": "1fb2ad5ef42f3cfb64d851ddd7f9636d6487ae23b64106d902fd9b3d574fe6c4",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-M2-N8-control-2026-10-03.json",
+      "bytes": 1015513,
+      "sha256": "66d24b4aae5d13b2b5e8903fed5a572f1ddce37f03c5c1fd5084fb90b6b66949",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-M2-N8-r1-2026-10-03.json",
+      "bytes": 1029059,
+      "sha256": "58f683e9945f95ac5c3dc4e86449af9270ac1ec55dae0ac9e70903eb10491638",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-M2-N8-r2-2026-10-03.json",
+      "bytes": 1039513,
+      "sha256": "7f2381962f3878c6f49a524233f9e89a6a9359e8dfd83b0bfe9f981a127fd323",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-M2-N8-r3-2026-10-03.json",
+      "bytes": 1053817,
+      "sha256": "e004d4b613bbe008fdaf8e51fe5857e6bfe08fc3900712a421cbef7396c1de47",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-M2-N8-warm-control-2026-10-03.json",
+      "bytes": 1014492,
+      "sha256": "1a0cd59b84bf0ba13506a72e3c00dc28ec0193a519b78a43ec12e4b0e2a83478",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-M2-N8-warm-r1-2026-10-03.json",
+      "bytes": 1027428,
+      "sha256": "3b1d3f144d2ad036fc7da0eb3e2419c26c2034cbc7193caf036e6293c5ba86c8",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-M2-N8-warm-r2-2026-10-03.json",
+      "bytes": 1038552,
+      "sha256": "02bbf40b29114ee206b01ae954b0b211b6c24ac75b18ed4254be16fe6582d28b",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-M2-N8-warm-r3-2026-10-03.json",
+      "bytes": 1054340,
+      "sha256": "22f37178572b1504444a6d4be54ccb5828f6dae79f7978ac4d66bef4180534f6",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-M4-N4-control-2026-10-03.json",
+      "bytes": 946196,
+      "sha256": "a5203fbe31e6553bde0af86643d5b16fe742095a82b11b7a55a10c698af3c79f",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-M4-N4-r1-2026-10-03.json",
+      "bytes": 962154,
+      "sha256": "8224bed68eb408148cf986ebd385b72e3aef5c9571f4b27e42e83ddb82246ac5",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-M4-N4-r2-2026-10-03.json",
+      "bytes": 972355,
+      "sha256": "63f9cae09eb2643256d6b8a07d4703e3cb89be58f731b209c1fa02756bf9371f",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-M4-N4-r3-2026-10-03.json",
+      "bytes": 985886,
+      "sha256": "95c825f4fc8ebb31f46fa0497f7d974c390de333e828316155982482747ca933",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-M4-N8-control-2026-10-03.json",
+      "bytes": 16052290,
+      "sha256": "4e8f2159129613ab240cdded2e8ead25e02823fe9eac67e73c1b1afd01edb522",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-M4-N8-matched-control-2026-10-03.json",
+      "bytes": 16049597,
+      "sha256": "d8021a4c9a3e27ff79bc1f13a5bd60f4198cae992e4458d9c13ffb583bda64c9",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-M4-N8-r1-2026-10-03.json",
+      "bytes": 16067588,
+      "sha256": "1a53058c88a08227ddb82c6086746f3bc93794b5d71dc8b4e4552a958b9037ad",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-M4-N8-r2-2026-10-03.json",
+      "bytes": 16126394,
+      "sha256": "18b504ed89f4f1613a7bfe446188367ce56f93375b07e98503d7f2d727f9c08e",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-M4-N8-warm-control-2026-10-03.json",
+      "bytes": 16051147,
+      "sha256": "2a8ec2a363f115c7f053163baf15f92cc3c33ea3dc581fb2501253f0ba6297c5",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-M4-N8-warm-r1-2026-10-03.json",
+      "bytes": 16121131,
+      "sha256": "0f8bac312b516bb7636e9d4b343d743401f8d82568e575ec6f4212acffd36073",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-M4-N8-warm-r2-2026-10-03.json",
+      "bytes": 16184838,
+      "sha256": "c84d149b4473857af82833461fb4f3454220473679dd2a4016e2628302131ab4",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-M4-N8-warm-r3-2026-10-03.json",
+      "bytes": 16242905,
+      "sha256": "144b91d04919007e550c1475a30754f92762ae9174deb9bd612631d1aecbb392",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-results-M1-N16-2026-10-03.json",
+      "bytes": 5631,
+      "sha256": "cd4927eff601aa3d647e2e54fcc97a48ae210c4b465049474112d751b3ac2a0c",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-results-M1-N8-2026-10-03.json",
+      "bytes": 5585,
+      "sha256": "2148b661ba61f3291d7cc48850b3a6b29600c40b3493f1d939c791119d761c8b",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-results-M2-N16-matched-2026-10-03.json",
+      "bytes": 1307,
+      "sha256": "6026798c74d22bef497d1701deabd3db34cf6c420be2062da4db97b8e122e96c",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-results-M2-N16-warm-2026-10-03.json",
+      "bytes": 4236,
+      "sha256": "75b38941ed610c689a335540653d7fcd286921bbc76c4a2a6abf087327166c7a",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-results-M2-N4-2026-10-03.json",
+      "bytes": 5610,
+      "sha256": "5c0fa5c26bdfa1f9d796e4d5da67c273906d0492e44dce98a782bbc0cda7b272",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-results-M2-N8-2026-10-03.json",
+      "bytes": 5643,
+      "sha256": "1637fb2eacfc012c82f11b4bdb4f5f6525fbb138f0c4f17ca77cf7f69de75d90",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-results-M2-N8-warm-2026-10-03.json",
+      "bytes": 5675,
+      "sha256": "3594a86db95a8f4052157e96d61bfad9244d4c944dfb5e204328e68cb145f5f4",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-results-M4-N4-2026-10-03.json",
+      "bytes": 5585,
+      "sha256": "36b902726bc3701490b500c5dc820170949fdd022719ada2a4b0e70ba4543553",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-results-M4-N8-2026-10-03.json",
+      "bytes": 4153,
+      "sha256": "463624ef86315a16d473e8c2f9144b215ebfbf13adceaa954d843b6b78eae746",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-results-M4-N8-matched-2026-10-03.json",
+      "bytes": 1286,
+      "sha256": "69b6075d3c2b65d67f75718ae9f1f70f9405dc9a64108884a5fada704413282f",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-results-M4-N8-warm-2026-10-03.json",
+      "bytes": 5626,
+      "sha256": "a4b3f71afae6daebe5c047e9739981fa647fb1e8881cf073b27b37439f09f684",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-cuts-scaling-2026-10-03.png",
+      "bytes": 124401,
+      "sha256": "3eba6747a9218e2e7c0b16a62c39ef46e13715f71316d17c08c7d48605e734ad",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-theta-cuts-summary-2026-10-03.json",
+      "bytes": 14640,
+      "sha256": "a21f079ab75791cf34cabd3e3428a34e833664ab2f223688153742dc508d82ee",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-theta-M1-N12-2026-10-03.json",
+      "bytes": 328081,
+      "sha256": "3954263a865f68cb43b21cd2f33f38048d6341cc593adc53754bba5d9f8fbb9e",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-M1-N4-2026-10-03.json",
+      "bytes": 4800,
+      "sha256": "9e2fc7d47c270a2379ea9d8e1ff7d8de106c80f377128c0763957dedbffeebe3",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-M1-N8-2026-10-03.json",
+      "bytes": 64253,
+      "sha256": "c9d1d09878d1f7b543b636b0fba3c124b89f701b34e6ba9418f5734c204553d3",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-M2-N4-2026-10-03.json",
+      "bytes": 61047,
+      "sha256": "50ddf71930c0a64610940e093f7fd7091cab54efb3961c248c4df28de082fe1b",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-M2-N8-2026-10-03.json",
+      "bytes": 1017049,
+      "sha256": "bf3fb759272b03698b29a700ad8154297beadab784570ec56550b82e757c1b18",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-M4-N4-2026-10-03.json",
+      "bytes": 951470,
+      "sha256": "e77ac0c95b01fce3e6916dda13ff97b4e5596f28787a57b024ebfaaed7d16533",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-theta-results-2026-10-03.json",
+      "bytes": 6310,
+      "sha256": "76503e324343b5d1d03b351fac693e89c23847667669395695a5f9d31231fe42",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-triangle-certificate-R1-n12-seed79312.json",
+      "bytes": 44233,
+      "sha256": "f2a084f90b184a57941558f32934c4e7493a8389e765e5349ad2055a90894cf5",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-triangle-certificate-R1-n24-seed79324.json",
+      "bytes": 169529,
+      "sha256": "2778ad8751fdb87e90308c4cda63be05af5db932de964f97bc9ba006aec6b5a3",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-triangle-certificate-R1-n40-seed79340.json",
+      "bytes": 476591,
+      "sha256": "4b9493cfcd77a8dd388ecb5bcfede26f385341efe6491f36340d722ce2365c9a",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-triangle-certificate-R1-n64-seed79364.json",
+      "bytes": 1260690,
+      "sha256": "d38486d253b08c5059b12277cdb942a2b269ad2e90a2e92cf3e050414c930c0f",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-triangle-certificate-R1-n96-seed79396-patch1600.json",
+      "bytes": 2914938,
+      "sha256": "397232c07f7d42fa0fe8342f91897c9a8c1a5b804c5cffb2ea5e9e07b9c4504e",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-triangle-certificate-R1-n96-seed79396.json",
+      "bytes": 2914589,
+      "sha256": "2bc7e0d26039612b57152aea0beb57fc9b6b7a558e6e605322abc7f7d51f2ef9",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-triangle-certificate-R1.5-n12-seed79412.json",
+      "bytes": 19590,
+      "sha256": "4fd650dc2bac2f5cb1de814eb520bebb92b987f29e0188f9c2cb4daec732e1c1",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-triangle-certificate-R1.5-n24-seed79424.json",
+      "bytes": 80613,
+      "sha256": "d0d4dad44b6ecd1dd8ec7392cfc19fb50fb83a3ecfc84ae079c6a08b8960fc35",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-triangle-certificate-R1.5-n40-seed79440.json",
+      "bytes": 234956,
+      "sha256": "f5209af0bd09ab28da202a7da67c363e079f67f95e8c1617bb8a050bc87d41f6",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-triangle-certificate-R1.5-n64-seed79464.json",
+      "bytes": 635494,
+      "sha256": "f11b40d07999d330d21cab0eea88efe8fb14dbe1fe7c7a2e217953e0412586da",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-triangle-certificate-R1.5-n96-seed79496-patch1600.json",
+      "bytes": 1467083,
+      "sha256": "77bce0791a1811e06a3828f43d2b3867a8b3d8efbfda27516503d8fde21d4ff6",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-triangle-certificate-R1.5-n96-seed79496.json",
+      "bytes": 1467073,
+      "sha256": "55f445a3a3f5100c958d4f509c08d73ad20745b680602c9328a924533a2f9313",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-triangle-certificate-R2-n12-seed79512.json",
+      "bytes": 14682,
+      "sha256": "631027648eed14e54acde82259418886a47d616553aef445346d9b9fe0653e5f",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-triangle-certificate-R2-n24-seed79524.json",
+      "bytes": 49765,
+      "sha256": "ab08dd5fc74153a9f92b753fbc43a9704ac504c2657bb650f987fce240f35e30",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-triangle-certificate-R2-n40-seed79540.json",
+      "bytes": 143978,
+      "sha256": "8e4e6b578eab9e20f57e00c0069be19b31e82724a6078e27bb3da13bbd9126f4",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-triangle-certificate-R2-n64-seed79564.json",
+      "bytes": 387082,
+      "sha256": "b3626d9d46699ff5ac82c488f2ab9c6bb276599e865d0e5fe7aadae3719043f0",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-triangle-certificate-R2-n96-seed79596-patch1600.json",
+      "bytes": 895725,
+      "sha256": "ee8ae0ac7054453ad2a75df63c199e3d2f2e074de1fb7e49eae7b431fc2a41e2",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-triangle-certificate-R2-n96-seed79596.json",
+      "bytes": 895021,
+      "sha256": "fbe012a5d0a4f72a7d195f294be2045cbdec6205e0d1d46248677520f38829e3",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-triangle-geometry-audit-2026-10-03.json",
+      "bytes": 647,
+      "sha256": "d31ad1dccdb590b058f6a6b6aeb907f1cefc2e44a368b51cd3a4e1117f403a13",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-triangle-mesh-R1-n12-seed79312.npz",
+      "bytes": 16394,
+      "sha256": "30caa9af3fe0152f166b2a8f398fa3bd9f11fcc559387e7737ddde231d8c251d",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-triangle-mesh-R1-n24-seed79324.npz",
+      "bytes": 53135,
+      "sha256": "27c52f93ebb8f892040a486c93663a5f75e1c8fd267b7bdfc2324f3398077b40",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-triangle-mesh-R1-n40-seed79340.npz",
+      "bytes": 131672,
+      "sha256": "3b3726492fd5392f292dc29c60180cd7a99442ba3f0e3706279b4fb055273791",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-triangle-mesh-R1-n64-seed79364.npz",
+      "bytes": 264784,
+      "sha256": "a4a3095d4d99459f21b77564288e52fda752aa9b661fd8afc74d3cbae0597799",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-triangle-mesh-R1-n96-seed79396-patch1600.npz",
+      "bytes": 667864,
+      "sha256": "e92f909549861af092bdc71c87b8b0cbd9fbb33f415804b3c0df0f1dcb10edcd",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-triangle-mesh-R1-n96-seed79396.npz",
+      "bytes": 667874,
+      "sha256": "49feeeace791a1211bbc2a26c697c3f48ff724368d5fed94d9ffbbc7cc3de0c1",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-triangle-mesh-R1.5-n12-seed79412.npz",
+      "bytes": 14426,
+      "sha256": "80115adb94c604f4ebb3acb08590f1c0e3b2263096e4bf255c934c0e06cbe2c8",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-triangle-mesh-R1.5-n24-seed79424.npz",
+      "bytes": 43419,
+      "sha256": "7206844de66f2c03fe45bf699c3c2d4d0c3c48650600f4340341278bcb2b2938",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-triangle-mesh-R1.5-n40-seed79440.npz",
+      "bytes": 136211,
+      "sha256": "a7ee725bfdee5c65e295760dc235ef9ab186fdc9628868969f272c2da98cf99f",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-triangle-mesh-R1.5-n64-seed79464.npz",
+      "bytes": 282172,
+      "sha256": "62a57702a0f15578c0d122e692eeefa34d4896f010a7eea03705b9c0d1ba3cb1",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-triangle-mesh-R1.5-n96-seed79496-patch1600.npz",
+      "bytes": 563911,
+      "sha256": "0e5baccaf79ff157d934d76ec401909e87109153a8107e88c13da4f3a637698b",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-triangle-mesh-R1.5-n96-seed79496.npz",
+      "bytes": 563911,
+      "sha256": "0e5baccaf79ff157d934d76ec401909e87109153a8107e88c13da4f3a637698b",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-triangle-mesh-R2-n12-seed79512.npz",
+      "bytes": 16367,
+      "sha256": "6bf207ec57cdce8027ac2704438ae4cade56135a877f8c04fded22e1f4b7f47c",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-triangle-mesh-R2-n24-seed79524.npz",
+      "bytes": 53158,
+      "sha256": "baf88e85cf0fd3a192085f3f542b6b91abe16c70ccba32bd8ad9444f919bbdc6",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-triangle-mesh-R2-n40-seed79540.npz",
+      "bytes": 131724,
+      "sha256": "d357a2911da60448eb7840970a6ed231d1eb050ab0a49a391f584269b20c47ea",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-triangle-mesh-R2-n64-seed79564.npz",
+      "bytes": 264804,
+      "sha256": "d63e01bcb7af449adc041f575e64fe7c575859c734b64f027c95376d342dd82a",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-triangle-mesh-R2-n96-seed79596-patch1600.npz",
+      "bytes": 667828,
+      "sha256": "1fcf6804891368f7a6c17d24df84ba2f93f970d8d75c0c345c5973ca17471d20",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-triangle-mesh-R2-n96-seed79596.npz",
+      "bytes": 667833,
+      "sha256": "1e80214e4f8a3870eba95a3511015c91348faef404898bb587abccc9fb48cc72",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-triangle-partition-independent-audit-2026-10-03.json",
+      "bytes": 9272,
+      "sha256": "57f35d00ab71c1b0a4337c6d3aa9982e0409798c37e221733244758941d9373c",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-triangle-partition-notes-2026-10-03.txt",
+      "bytes": 5340,
+      "sha256": "5d8a71c0c0f7fefbd3a597608608c99128c6f450f704f96a0f752ffff2d03836",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-triangle-partition-refinement-2026-10-03.png",
+      "bytes": 108214,
+      "sha256": "e936a1d54c64509b5e1f354c13c7a718bea73934593178ff7dfba429a2d22535",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-triangle-partition-results-2026-10-03.json",
+      "bytes": 50844,
+      "sha256": "d196c46d9c8824c48782a3877869e4562b08467153acead9a27be3628792bb72",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953-triangle-partition-shapes-2026-10-03.png",
+      "bytes": 1371347,
+      "sha256": "ffec7cf4e05cf7c006b0460f1f17d73c9cba64af886ad024fca35d6bceea4063",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-triangle-partition-summary-2026-10-03.json",
+      "bytes": 5154,
+      "sha256": "e2e54a79d0418a8b61674fb53289f65ee9a7ffbcc31ebb61acf58ee58f5d347d",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953-variable-scale-kernel-diagnostics-2026-10-03.json",
+      "bytes": 26465,
+      "sha256": "a18f6ca06c34a1e2baf2fc30bd795879ba179c6c76629d021b219493fcbeb9c5",
+      "directly_browsable": false
+    },
+    {
+      "name": "erdos953_adaptive_outer.py",
+      "bytes": 15178,
+      "sha256": "de1032a7d853f23ced56ffe78d1c24feb531a190a3e4d743b15d2980abb0b991",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953_all_integer_rings.py",
+      "bytes": 10584,
+      "sha256": "98fec2cdf28aede1bd0ee4bd7e17a9f50ae7c3c8f4ff499133a2600b9220a3bb",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953_all_ring_hole_extension.py",
+      "bytes": 6588,
+      "sha256": "756e36a7d9437ac483772fff7d1077244ea957423b9887b510ce434ba58c68d2",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953_alternative_tilings.py",
+      "bytes": 22634,
+      "sha256": "275664fc3547f67302c58a2c94a1bd8a4f4fd995d9d80d885a303bf8146ed276",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953_equilateral_grid_analysis.py",
+      "bytes": 14496,
+      "sha256": "e8802c2daa0b84a2489c237a8618dab4dc731c121f84528890d183ec56408784",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953_explicit_constants.py",
+      "bytes": 11041,
+      "sha256": "2f81eadd57f69ba555ebd8522e24cc33c08161c3f769249ee07b73c25714245c",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953_graph_spectral.py",
+      "bytes": 5531,
+      "sha256": "8ea0fda00d90ebed24e602e645e09317b9845119fa3141347811cfc92696eb64",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953_infinite_ring_extension.py",
+      "bytes": 7920,
+      "sha256": "5a1a839598a70234aed1678ac41625564b9217fcbe74466e4c4a07471b99a336",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953_iterated_ring_holes.py",
+      "bytes": 10893,
+      "sha256": "a91873753963dc995275b42f3cc2e3e8241afa8eeb9b0a4d21768a2ad33389da",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953_random_ball_certificates.py",
+      "bytes": 4723,
+      "sha256": "b27985c25ac20546e28b603d910021dc654db6054c432acda771203804034c64",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953_random_point_search.py",
+      "bytes": 23873,
+      "sha256": "b64bc11f6ff91b31bf0d03be6ea54071f7371dfad3cc58891de8c79bd632c0d9",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953_ring_exchange.py",
+      "bytes": 11437,
+      "sha256": "3126753975b0020bb0a8c6f86bf077f8b7a06bb71e14e17fb6c185dd78941602",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953_ring_exchange_restore.py",
+      "bytes": 4645,
+      "sha256": "5d4e8dd1d859c32abcdb4ac5c101a24831d7c97350f227c9b4dac8c0712c43cd",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953_small_radius_constructions.py",
+      "bytes": 7797,
+      "sha256": "4712c6460a260fea8d557f28dbae773fe5116148846063cef7f77a752b3f9a84",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953_square_clique_upper.py",
+      "bytes": 4017,
+      "sha256": "75f0c5f5442a842e1995aeee1013207f3b9d10a30261280df205586c1190e584",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953_square_grid_search.py",
+      "bytes": 16658,
+      "sha256": "38a270be5f4ca56c7f2653ae1243eefdda866482b197adce7c90091a3ebe3731",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953_square_grid_upper.py",
+      "bytes": 6710,
+      "sha256": "8c85513aec10d9db963795ca43551331284729278cb1334118ae1f5d519db44c",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953_square_limit_construction.py",
+      "bytes": 6931,
+      "sha256": "627505d374d8df6b2894bdf974c8ccc223cb079a229b58aa7537287d3eae9041",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953_square_nested_extension.py",
+      "bytes": 5075,
+      "sha256": "567165ab6482b76471f2bc2b03faadeea1c2646c95e2f5f2ee1557a824a359d9",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953_square_window_cover.py",
+      "bytes": 7564,
+      "sha256": "1c8945895d6e72bbe221ec8c22ea4060796b21560d8ee339d2b0a7125ff237ff",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953_theta_cuts.py",
+      "bytes": 15689,
+      "sha256": "44d120b49db572bc56053a53865c03e7b23b5de7a3cb8b561e81e5601dcfc67f",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953_theta_graph.py",
+      "bytes": 4502,
+      "sha256": "839f618632555119358898ebdb861ad25c5e44df217b397efc6c4e75cb58d8e2",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953_triangle_partition_search.py",
+      "bytes": 31835,
+      "sha256": "e6c9be3c3dadc108d38cb9d65554abc286639daa4656cec064704ed205c81a85",
+      "directly_browsable": true
+    },
+    {
+      "name": "erdos953_variable_scale_kernel.py",
+      "bytes": 3144,
+      "sha256": "d9c0c97536984d1c9fe9797e60062f5fe5563d9ab6f7a36426ba5a701d2a3a10",
+      "directly_browsable": true
+    },
+    {
+      "name": "summarize_953_adaptive_upper.py",
+      "bytes": 6761,
+      "sha256": "e417a67150a306cd311fbd4128522fdf41c3ee1fd83b0450bbdf758171c416a2",
+      "directly_browsable": true
+    },
+    {
+      "name": "summarize_953_alternative_tilings.py",
+      "bytes": 13373,
+      "sha256": "ed82d605c66da11a16c44a538c5b3a02dca5477b22f4ac06e1005b920a91a011",
+      "directly_browsable": true
+    },
+    {
+      "name": "summarize_953_graph_methods.py",
+      "bytes": 6465,
+      "sha256": "88b7e72a09276132f9681d2bcc44345c518ceddd27835923e03fe91b62ef0e00",
+      "directly_browsable": true
+    },
+    {
+      "name": "summarize_953_infinite_ring_extension.py",
+      "bytes": 6120,
+      "sha256": "4f425bcdda16bcf3a13a8978219a7a8aa051f98fbb7a8e4aec46178ab52cd9a4",
+      "directly_browsable": true
+    },
+    {
+      "name": "summarize_953_iterated_exchange.py",
+      "bytes": 10126,
+      "sha256": "e3c5d2205644ca7bd6333638a3a5adb9777aaa987caf8838720b3e4fe4569d92",
+      "directly_browsable": true
+    },
+    {
+      "name": "summarize_953_random_search.py",
+      "bytes": 9528,
+      "sha256": "eaf1bb68f2adcb2c091b8078eddc391a690d71ca33bfede93dc19861fc579f73",
+      "directly_browsable": true
+    },
+    {
+      "name": "summarize_953_square_grid_upper.py",
+      "bytes": 6639,
+      "sha256": "131b52eeebb2199ceb185c9ecab50fc5ae4857bb709671bf3819c8c1b08062eb",
+      "directly_browsable": true
+    },
+    {
+      "name": "summarize_953_square_window_cover.py",
+      "bytes": 8071,
+      "sha256": "abc203204dc1e176f07f5c56cc221a89d450b44b0d781b44b69dfe23d50cc47b",
+      "directly_browsable": true
+    },
+    {
+      "name": "summarize_953_theta_cuts.py",
+      "bytes": 7574,
+      "sha256": "23a99267a922c1f67ec3dfca6fde61b7bdfe7802965e106a1f87e88ce0cefdac",
+      "directly_browsable": true
+    },
+    {
+      "name": "summarize_953_triangle_partition.py",
+      "bytes": 10048,
+      "sha256": "a068472f0e3d8ab890bef98be3d2f30b2944e05a0f001dc507e02c9033fdde09",
+      "directly_browsable": true
+    },
+    {
+      "name": "verify_953_adaptive_outer.py",
+      "bytes": 8993,
+      "sha256": "1aa47054f1cf98b8629c32562a540fe4b773176af07ac44f96bb93dbe0340cdd",
+      "directly_browsable": true
+    },
+    {
+      "name": "verify_953_alternative_tilings.py",
+      "bytes": 9082,
+      "sha256": "563d68a858c27d3853b547603cee8cb6635d82d0ba74c55cef25173cfa508f4c",
+      "directly_browsable": true
+    },
+    {
+      "name": "verify_953_anisotropic.py",
+      "bytes": 3286,
+      "sha256": "81aff2d9420e0f87fde0d319c13487b73a5120e02cd98fa891192489cccdbe18",
+      "directly_browsable": true
+    },
+    {
+      "name": "verify_953_exchange_restoration.py",
+      "bytes": 4998,
+      "sha256": "1aae98790ba4527388dd68ccdbb61e605d34c281c9ce631efb10c1338b2f6a54",
+      "directly_browsable": true
+    },
+    {
+      "name": "verify_953_explicit_constants.py",
+      "bytes": 5340,
+      "sha256": "186c8b4669262b39a2eab637b2ce91c64a2e6da5b49291835c2ab76799e62a2a",
+      "directly_browsable": true
+    },
+    {
+      "name": "verify_953_graph_methods.py",
+      "bytes": 7906,
+      "sha256": "1b9a287381742b56ccd3cd3fcf2b7cbc26f9bed65ccc2bf24b75d8a81f38d09a",
+      "directly_browsable": true
+    },
+    {
+      "name": "verify_953_infinite_ring_extension.py",
+      "bytes": 12177,
+      "sha256": "d41b10812ca73661ff423c30a39ca1aea9797a78d4c3ddb0a0a3bc4453eb50c5",
+      "directly_browsable": true
+    },
+    {
+      "name": "verify_953_iterated_ring_holes.py",
+      "bytes": 7572,
+      "sha256": "d1024884d969661944f9fc0c838bbbfd5f5b5d7ace6922f7921dc1b8617d86a2",
+      "directly_browsable": true
+    },
+    {
+      "name": "verify_953_random_balls.py",
+      "bytes": 3952,
+      "sha256": "d4e00b0d5246c1f996cfa22137cf6cc22e8edd947d508957c13305612080dc02",
+      "directly_browsable": true
+    },
+    {
+      "name": "verify_953_random_polygons.py",
+      "bytes": 5257,
+      "sha256": "0f7c6445bdcbf7bc0caf1596b94e3faab1e9a2dda1d52e0606757b88eef2bc89",
+      "directly_browsable": true
+    },
+    {
+      "name": "verify_953_ring_exchange.py",
+      "bytes": 5477,
+      "sha256": "434fc84bd93fbdb46c919f9c17eea1d4feb94afbc07bab70f5fbec67e1fcd174",
+      "directly_browsable": true
+    },
+    {
+      "name": "verify_953_small_radius_certificates.py",
+      "bytes": 2050,
+      "sha256": "da5d1b48848d2a31aa3f59db996b0bfbb8f2a2afd442407bec1842ebdb3506d9",
+      "directly_browsable": true
+    },
+    {
+      "name": "verify_953_square_extensions.py",
+      "bytes": 3599,
+      "sha256": "f94d805b0b8df8f2fd8d16bdf015fb83a70ef05364c60703ddce33eff0eed0b6",
+      "directly_browsable": true
+    },
+    {
+      "name": "verify_953_square_grid.py",
+      "bytes": 5824,
+      "sha256": "8d6ccaed36f7bd9666e502e7df51a7598b81750efe97bc4547e1959dc2066903",
+      "directly_browsable": true
+    },
+    {
+      "name": "verify_953_square_grid_upper.py",
+      "bytes": 7887,
+      "sha256": "174ecc217f69b97a7a8fcda382f743528c33cf15b86b978528301b13b661c1dc",
+      "directly_browsable": true
+    },
+    {
+      "name": "verify_953_square_runs.py",
+      "bytes": 2045,
+      "sha256": "77672156dfdfb91b51e703df6a5686141ab51931d9623c10a00f2fe9b2f04d41",
+      "directly_browsable": true
+    },
+    {
+      "name": "verify_953_square_window_cover.py",
+      "bytes": 6742,
+      "sha256": "14c3e5e3deaf4f807fc03d339eb70676b4ec5f6e940742888e694bf1e72aeb47",
+      "directly_browsable": true
+    },
+    {
+      "name": "verify_953_theta_cuts.py",
+      "bytes": 7267,
+      "sha256": "b632d408f723fa4f5e8664daa3ef2068ccc476b0ea6fb940ff8320983af4d423",
+      "directly_browsable": true
+    },
+    {
+      "name": "verify_953_triangle_geometry.py",
+      "bytes": 4472,
+      "sha256": "2da4f52283d10e1e744177de14da9f781b6617d842eb30cc25b6321951be7d10",
+      "directly_browsable": true
+    },
+    {
+      "name": "verify_953_triangle_partition.py",
+      "bytes": 7212,
+      "sha256": "5f3474d233e8c9c8bbc1644ccec2d35a25a5824825a7a8a588cfb77c687e3a7c",
+      "directly_browsable": true
+    }
+  ]
+}

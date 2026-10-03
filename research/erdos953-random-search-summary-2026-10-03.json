@@ -1,0 +1,55 @@
+{
+  "experiment_count": 24,
+  "total_training_points": 336000,
+  "sample_sizes": [
+    4000,
+    12000,
+    32000
+  ],
+  "epsilon_values": [
+    0.008,
+    0.015,
+    0.03,
+    0.06
+  ],
+  "ball_pairs_checked_exactly": 13458934,
+  "all_polygon_certificates_verified": 24,
+  "all_ball_grid_certificates_verified": 2,
+  "globally_optimal_areas_proved": false,
+  "lean_formalization_of_new_certificates": false,
+  "radii": [
+    {
+      "R": 1.0,
+      "selected_at_N32000_epsilon0008": 9179,
+      "point_fraction_area_proxy": 0.9011462177281472,
+      "best_random_construction_area_fraction": "1744235768941777/2000000000000000",
+      "best_random_construction_area_decimal": 0.8721178844708884,
+      "best_random_certificate": "erdos953-random-polygons-R1-N32000-eps0.008-seed95501.json",
+      "previous_analytic_lower_bound_decimal": 0.8950191291901026,
+      "improvement_over_previous_percent": 0.0,
+      "best_known_in_this_workspace_lower_bound_decimal": 0.8950191291901026
+    },
+    {
+      "R": 1.5,
+      "selected_at_N32000_epsilon0008": 4815,
+      "point_fraction_area_proxy": 1.0636009190883882,
+      "best_random_construction_area_fraction": "20385620360334689/20000000000000000",
+      "best_random_construction_area_decimal": 1.0192810180167344,
+      "best_random_certificate": "erdos953-random-polygons-R1.5-N32000-eps0.008-seed95503.json",
+      "previous_analytic_lower_bound_decimal": 0.9176478349623267,
+      "improvement_over_previous_percent": 11.075401606388603,
+      "best_known_in_this_workspace_lower_bound_decimal": 1.0192810180167344
+    },
+    {
+      "R": 2.0,
+      "selected_at_N32000_epsilon0008": 2944,
+      "point_fraction_area_proxy": 1.156106096521044,
+      "best_random_construction_area_fraction": "259783/250000",
+      "best_random_construction_area_decimal": 1.039132,
+      "best_random_certificate": "erdos953-random-ball-grid-R2-N32000-eps0.03-seed95506.json",
+      "previous_analytic_lower_bound_decimal": 0.928030414065414,
+      "improvement_over_previous_percent": 11.971761296904514,
+      "best_known_in_this_workspace_lower_bound_decimal": 1.039132
+    }
+  ]
+}

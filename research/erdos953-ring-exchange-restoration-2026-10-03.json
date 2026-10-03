@@ -1,0 +1,1389 @@
+{
+  "exchange_certificate": "erdos953-ring-exchange-2026-10-03.json",
+  "exchange_sha256": "109ba875bb84924e65c9bddad5dbeb41d6d292e6d611ed3caaf396f5389f59ea",
+  "input_certificate": "erdos953-iterated-ring-holes-exchange-input-2026-10-03.json",
+  "input_sha256": "b7d014d178ef3d8de46bd9d38a915825b5db4a90f749e0e3f5f884505f1e680d",
+  "split_depth": 12,
+  "epsilon_against_active_new_targets": "1/32768",
+  "groups": [
+    {
+      "source_id": 28,
+      "generation": 8,
+      "source_box": [
+        "1631/6",
+        "1633/6",
+        "126663739454525195/618475290624",
+        "126663739585065205/618475290624"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 29,
+      "generation": 8,
+      "source_box": [
+        "1679/6",
+        "1681/6",
+        "7700742143/36864",
+        "7700742145/36864"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 30,
+      "generation": 8,
+      "source_box": [
+        "1727/6",
+        "1729/6",
+        "131730289035317003/618475290624",
+        "131730289165857013/618475290624"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 31,
+      "generation": 8,
+      "source_box": [
+        "1775/6",
+        "1777/6",
+        "8002732031/36864",
+        "8002732033/36864"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 35,
+      "generation": 8,
+      "source_box": [
+        "1637/6",
+        "1639/6",
+        "7039073409600217/34359738368",
+        "7039073472443687/34359738368"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 36,
+      "generation": 8,
+      "source_box": [
+        "1685/6",
+        "1687/6",
+        "43078865403897533/206158430208",
+        "43078865748629827/206158430208"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 37,
+      "generation": 8,
+      "source_box": [
+        "1733/6",
+        "1735/6",
+        "7320548386310873/34359738368",
+        "7320548449154343/34359738368"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 38,
+      "generation": 8,
+      "source_box": [
+        "1781/6",
+        "1783/6",
+        "44767715264161469/206158430208",
+        "44767715608893763/206158430208"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 41,
+      "generation": 8,
+      "source_box": [
+        "1595/6",
+        "1597/6",
+        "41403209516393167/206158430208",
+        "41403210194672945/206158430208"
+      ],
+      "retained_pieces": [
+        {
+          "box": [
+            "1595/6",
+            "1597/6",
+            "41403209516393167/206158430208",
+            "200832"
+          ],
+          "split_path": "1L"
+        },
+        {
+          "box": [
+            "1595/6",
+            "1597/6",
+            "200832",
+            "165612839761272113/824633720832"
+          ],
+          "split_path": "1R1L1L"
+        },
+        {
+          "box": [
+            "1595/6",
+            "1597/6",
+            "165612839761272113/824633720832",
+            "110408559953894705/549755813888"
+          ],
+          "split_path": "1R1L1R1L"
+        },
+        {
+          "box": [
+            "1595/6",
+            "1597/6",
+            "110408559953894705/549755813888",
+            "1324902719785876349/6597069766656"
+          ],
+          "split_path": "1R1L1R1R1L1L"
+        },
+        {
+          "box": [
+            "1595/6",
+            "1597/6",
+            "1324902719785876349/6597069766656",
+            "883268479970297529/4398046511104"
+          ],
+          "split_path": "1R1L1R1R1L1R1L"
+        },
+        {
+          "box": [
+            "1595/6",
+            "1597/6",
+            "883268479970297529/4398046511104",
+            "21198443519626280585/105553116266496"
+          ],
+          "split_path": "1R1L1R1R1L1R1R1L1L1L"
+        },
+        {
+          "box": [
+            "1595/6",
+            "1597/6",
+            "21198443519626280585/105553116266496",
+            "14132295679863900353/70368744177664"
+          ],
+          "split_path": "1R1L1R1R1L1R1R1L1L1R1L"
+        }
+      ],
+      "retained_area_fraction": "494805098051/633318697598976"
+    },
+    {
+      "source_id": 42,
+      "generation": 8,
+      "source_box": [
+        "1643/6",
+        "1645/6",
+        "5280954303795109/25769803776",
+        "5280954392621147/25769803776"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 43,
+      "generation": 8,
+      "source_box": [
+        "1691/6",
+        "1693/6",
+        "43092059376657103/206158430208",
+        "43092060054936881/206158430208"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 44,
+      "generation": 8,
+      "source_box": [
+        "1739/6",
+        "1741/6",
+        "5492060536328101/25769803776",
+        "5492060625154139/25769803776"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 45,
+      "generation": 8,
+      "source_box": [
+        "1787/6",
+        "1789/6",
+        "44780909236921039/206158430208",
+        "44780909915200817/206158430208"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 48,
+      "generation": 8,
+      "source_box": [
+        "1601/6",
+        "1603/6",
+        "31062302713783781/154618822656",
+        "31062303278815771/154618822656"
+      ],
+      "retained_pieces": [
+        {
+          "box": [
+            "1601/6",
+            "1603/6",
+            "31062302713783781/154618822656",
+            "41416403712550373/206158430208"
+          ],
+          "split_path": "1L1L1L"
+        },
+        {
+          "box": [
+            "1601/6",
+            "1603/6",
+            "41416403712550373/206158430208",
+            "248498422557818233/1236950581248"
+          ],
+          "split_path": "1L1L1R1L"
+        },
+        {
+          "box": [
+            "1601/6",
+            "1603/6",
+            "248498422557818233/1236950581248",
+            "3975974761207607723/19791209299968"
+          ],
+          "split_path": "1L1L1R1R1L1L1L1L"
+        },
+        {
+          "box": [
+            "1601/6",
+            "1603/6",
+            "3975974761207607723/19791209299968",
+            "7951949522697731441/39582418599936"
+          ],
+          "split_path": "1L1L1R1R1L1L1L1R1L"
+        },
+        {
+          "box": [
+            "1601/6",
+            "1603/6",
+            "7951949522697731441/39582418599936",
+            "10602599363691147253/52776558133248"
+          ],
+          "split_path": "1L1L1R1R1L1L1L1R1R1L1L"
+        },
+        {
+          "box": [
+            "1601/6",
+            "1603/6",
+            "10602599363691147253/52776558133248",
+            "63615596182429399513/316659348799488"
+          ],
+          "split_path": "1L1L1R1R1L1L1L1R1R1L1R1L"
+        }
+      ],
+      "retained_area_fraction": "74866738675/316659348799488"
+    },
+    {
+      "source_id": 49,
+      "generation": 8,
+      "source_box": [
+        "1649/6",
+        "1651/6",
+        "126782485694023817/618475290624",
+        "126782487857166199/618475290624"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 50,
+      "generation": 8,
+      "source_box": [
+        "1697/6",
+        "1699/6",
+        "32328940108981733/154618822656",
+        "32328940674013723/154618822656"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 51,
+      "generation": 8,
+      "source_box": [
+        "1745/6",
+        "1747/6",
+        "131849035274815625/618475290624",
+        "131849037437958007/618475290624"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 52,
+      "generation": 8,
+      "source_box": [
+        "1793/6",
+        "1795/6",
+        "33595577504179685/154618822656",
+        "33595578069211675/154618822656"
+      ],
+      "retained_pieces": [
+        {
+          "box": [
+            "1793/6",
+            "1795/6",
+            "68803743661145294375/316659348799488",
+            "11467290610237968395/52776558133248"
+          ],
+          "split_path": "1R1R1L1L1R1R1R1L1L1R1L1R"
+        },
+        {
+          "box": [
+            "1793/6",
+            "1795/6",
+            "11467290610237968395/52776558133248",
+            "8600467957749105295/39582418599936"
+          ],
+          "split_path": "1R1R1L1L1R1R1R1L1L1R1R"
+        },
+        {
+          "box": [
+            "1793/6",
+            "1795/6",
+            "8600467957749105295/39582418599936",
+            "4300233979015810645/19791209299968"
+          ],
+          "split_path": "1R1R1L1L1R1R1R1L1R"
+        },
+        {
+          "box": [
+            "1793/6",
+            "1795/6",
+            "4300233979015810645/19791209299968",
+            "268764623706145415/1236950581248"
+          ],
+          "split_path": "1R1R1L1L1R1R1R1R"
+        },
+        {
+          "box": [
+            "1793/6",
+            "1795/6",
+            "268764623706145415/1236950581248",
+            "44794103998110235/206158430208"
+          ],
+          "split_path": "1R1R1L1R"
+        },
+        {
+          "box": [
+            "1793/6",
+            "1795/6",
+            "44794103998110235/206158430208",
+            "33595578069211675/154618822656"
+          ],
+          "split_path": "1R1R1R"
+        }
+      ],
+      "retained_area_fraction": "74866738675/316659348799488"
+    },
+    {
+      "source_id": 55,
+      "generation": 8,
+      "source_box": [
+        "1607/6",
+        "1609/6",
+        "41429597795459791/206158430208",
+        "41429598473739569/206158430208"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 56,
+      "generation": 8,
+      "source_box": [
+        "1655/6",
+        "1657/6",
+        "5284252838678437/25769803776",
+        "5284252927504475/25769803776"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 57,
+      "generation": 8,
+      "source_box": [
+        "1703/6",
+        "1705/6",
+        "43118447655723727/206158430208",
+        "43118448334003505/206158430208"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 58,
+      "generation": 8,
+      "source_box": [
+        "1751/6",
+        "1753/6",
+        "5495359071211429/25769803776",
+        "5495359160037467/25769803776"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 59,
+      "generation": 8,
+      "source_box": [
+        "1799/6",
+        "1801/6",
+        "44807297515987663/206158430208",
+        "44807298194267441/206158430208"
+      ],
+      "retained_pieces": [
+        {
+          "box": [
+            "1799/6",
+            "1801/6",
+            "15294224285374920511/70368744177664",
+            "22941336428231950711/105553116266496"
+          ],
+          "split_path": "1L1R1L1L1R1L1L1R1R1L1R"
+        },
+        {
+          "box": [
+            "1799/6",
+            "1801/6",
+            "22941336428231950711/105553116266496",
+            "955889017857128775/4398046511104"
+          ],
+          "split_path": "1L1R1L1L1R1L1L1R1R1R"
+        },
+        {
+          "box": [
+            "1799/6",
+            "1801/6",
+            "955889017857128775/4398046511104",
+            "1433833526955263107/6597069766656"
+          ],
+          "split_path": "1L1R1L1L1R1L1R"
+        },
+        {
+          "box": [
+            "1799/6",
+            "1801/6",
+            "1433833526955263107/6597069766656",
+            "119486127274533583/549755813888"
+          ],
+          "split_path": "1L1R1L1L1R1R"
+        },
+        {
+          "box": [
+            "1799/6",
+            "1801/6",
+            "119486127274533583/549755813888",
+            "179229191081370319/824633720832"
+          ],
+          "split_path": "1L1R1L1R"
+        },
+        {
+          "box": [
+            "1799/6",
+            "1801/6",
+            "179229191081370319/824633720832",
+            "217344"
+          ],
+          "split_path": "1L1R1R"
+        },
+        {
+          "box": [
+            "1799/6",
+            "1801/6",
+            "217344",
+            "44807298194267441/206158430208"
+          ],
+          "split_path": "1R"
+        }
+      ],
+      "retained_area_fraction": "494805098051/633318697598976"
+    },
+    {
+      "source_id": 62,
+      "generation": 8,
+      "source_box": [
+        "1613/6",
+        "1615/6",
+        "41442792101766845/206158430208",
+        "41442792446499139/206158430208"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 63,
+      "generation": 8,
+      "source_box": [
+        "1661/6",
+        "1663/6",
+        "7047869502622425/34359738368",
+        "7047869565465895/34359738368"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 64,
+      "generation": 8,
+      "source_box": [
+        "1709/6",
+        "1711/6",
+        "43131641962030781/206158430208",
+        "43131642306763075/206158430208"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 65,
+      "generation": 8,
+      "source_box": [
+        "1757/6",
+        "1759/6",
+        "7329344479333081/34359738368",
+        "7329344542176551/34359738368"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 69,
+      "generation": 8,
+      "source_box": [
+        "1619/6",
+        "1621/6",
+        "7412908031/36864",
+        "7412908033/36864"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 70,
+      "generation": 8,
+      "source_box": [
+        "1667/6",
+        "1669/6",
+        "126901233966124811/618475290624",
+        "126901234096664821/618475290624"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 71,
+      "generation": 8,
+      "source_box": [
+        "1715/6",
+        "1717/6",
+        "7714897919/36864",
+        "7714897921/36864"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 72,
+      "generation": 8,
+      "source_box": [
+        "1763/6",
+        "1765/6",
+        "131967783546916619/618475290624",
+        "131967783677456629/618475290624"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 1290,
+      "generation": 12,
+      "source_box": [
+        "29897/6",
+        "29899/6",
+        "1308584632301/23040",
+        "1308584632339/23040"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 1371,
+      "generation": 12,
+      "source_box": [
+        "29903/6",
+        "29905/6",
+        "29079699455/512",
+        "29079699457/512"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 4242,
+      "generation": 8,
+      "source_box": [
+        "45307/160",
+        "1416/5",
+        "214106111/1024",
+        "428212223/2048"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 4243,
+      "generation": 8,
+      "source_box": [
+        "1414/5",
+        "45253/160",
+        "428212225/2048",
+        "214106113/1024"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 4389,
+      "generation": 12,
+      "source_box": [
+        "797473/160",
+        "24922/5",
+        "14539849727/256",
+        "116318797817/2048"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 4390,
+      "generation": 12,
+      "source_box": [
+        "398733/80",
+        "24922/5",
+        "116318797817/2048",
+        "58159398909/1024"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 4391,
+      "generation": 12,
+      "source_box": [
+        "39873/8",
+        "24922/5",
+        "58159398909/1024",
+        "116318797819/2048"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 4392,
+      "generation": 12,
+      "source_box": [
+        "797453/160",
+        "24922/5",
+        "116318797819/2048",
+        "29079699455/512"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 4393,
+      "generation": 12,
+      "source_box": [
+        "199351/40",
+        "797413/160",
+        "116318797825/2048",
+        "58159398913/1024"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 4394,
+      "generation": 12,
+      "source_box": [
+        "797393/160",
+        "797413/160",
+        "58159398913/1024",
+        "116318797827/2048"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 4395,
+      "generation": 12,
+      "source_box": [
+        "797381/160",
+        "797413/160",
+        "116318797827/2048",
+        "29079699457/512"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 4396,
+      "generation": 12,
+      "source_box": [
+        "797467/160",
+        "24922/5",
+        "29079699455/512",
+        "29079699457/512"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7310,
+      "generation": 8,
+      "source_box": [
+        "90633/320",
+        "1417/5",
+        "856424437/4096",
+        "428212219/2048"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7311,
+      "generation": 8,
+      "source_box": [
+        "22643/80",
+        "1417/5",
+        "428212219/2048",
+        "856424439/4096"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7312,
+      "generation": 8,
+      "source_box": [
+        "22633/80",
+        "1417/5",
+        "856424439/4096",
+        "107053055/512"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7313,
+      "generation": 8,
+      "source_box": [
+        "11313/40",
+        "45253/160",
+        "856424443/4096",
+        "214106111/1024"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7314,
+      "generation": 8,
+      "source_box": [
+        "45307/160",
+        "1417/5",
+        "107053055/512",
+        "214106111/1024"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7315,
+      "generation": 8,
+      "source_box": [
+        "1414/5",
+        "45253/160",
+        "214106111/1024",
+        "856424445/4096"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7316,
+      "generation": 8,
+      "source_box": [
+        "1416/5",
+        "1417/5",
+        "214106111/1024",
+        "856424445/4096"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7317,
+      "generation": 8,
+      "source_box": [
+        "11311/40",
+        "45253/160",
+        "856424445/4096",
+        "428212223/2048"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7318,
+      "generation": 8,
+      "source_box": [
+        "1416/5",
+        "90679/320",
+        "856424445/4096",
+        "428212223/2048"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7319,
+      "generation": 8,
+      "source_box": [
+        "90479/320",
+        "45253/160",
+        "428212223/2048",
+        "856424447/4096"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7320,
+      "generation": 8,
+      "source_box": [
+        "45307/160",
+        "90669/320",
+        "428212223/2048",
+        "856424447/4096"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7321,
+      "generation": 8,
+      "source_box": [
+        "9047/32",
+        "45253/160",
+        "856424447/4096",
+        "209088"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7322,
+      "generation": 8,
+      "source_box": [
+        "45307/160",
+        "90659/320",
+        "856424447/4096",
+        "209088"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7323,
+      "generation": 8,
+      "source_box": [
+        "90461/320",
+        "45253/160",
+        "209088",
+        "856424449/4096"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7324,
+      "generation": 8,
+      "source_box": [
+        "45307/160",
+        "9065/32",
+        "209088",
+        "856424449/4096"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7325,
+      "generation": 8,
+      "source_box": [
+        "90451/320",
+        "45253/160",
+        "856424449/4096",
+        "428212225/2048"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7326,
+      "generation": 8,
+      "source_box": [
+        "45307/160",
+        "90641/320",
+        "856424449/4096",
+        "428212225/2048"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7327,
+      "generation": 8,
+      "source_box": [
+        "90441/320",
+        "1414/5",
+        "428212225/2048",
+        "856424451/4096"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7328,
+      "generation": 8,
+      "source_box": [
+        "45307/160",
+        "11329/40",
+        "428212225/2048",
+        "856424451/4096"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7329,
+      "generation": 8,
+      "source_box": [
+        "1413/5",
+        "1414/5",
+        "856424451/4096",
+        "214106113/1024"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7330,
+      "generation": 8,
+      "source_box": [
+        "45307/160",
+        "1416/5",
+        "856424451/4096",
+        "214106113/1024"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7331,
+      "generation": 8,
+      "source_box": [
+        "45307/160",
+        "11327/40",
+        "214106113/1024",
+        "856424453/4096"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7332,
+      "generation": 8,
+      "source_box": [
+        "1413/5",
+        "45253/160",
+        "214106113/1024",
+        "107053057/512"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7333,
+      "generation": 8,
+      "source_box": [
+        "1413/5",
+        "22647/80",
+        "107053057/512",
+        "856424457/4096"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7334,
+      "generation": 8,
+      "source_box": [
+        "1413/5",
+        "22637/80",
+        "856424457/4096",
+        "428212229/2048"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7335,
+      "generation": 8,
+      "source_box": [
+        "1413/5",
+        "90487/320",
+        "428212229/2048",
+        "856424459/4096"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7714,
+      "generation": 11,
+      "source_box": [
+        "11333/5",
+        "11337/5",
+        "54811951463/4096",
+        "27405975733/2048"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7715,
+      "generation": 11,
+      "source_box": [
+        "11333/5",
+        "362747/160",
+        "27405975733/2048",
+        "54811951467/4096"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7791,
+      "generation": 12,
+      "source_box": [
+        "290575/64",
+        "22702/5",
+        "219398013063/4096",
+        "27424751633/512"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7792,
+      "generation": 12,
+      "source_box": [
+        "22698/5",
+        "22702/5",
+        "27424751633/512",
+        "109699006535/2048"
+      ],
+      "retained_pieces": [
+        {
+          "box": [
+            "22698/5",
+            "22702/5",
+            "224663565383149/4194304",
+            "14041472836447/262144"
+          ],
+          "split_path": "1R1R1R1L1R1L1L1R1R1R1R"
+        },
+        {
+          "box": [
+            "22698/5",
+            "22702/5",
+            "14041472836447/262144",
+            "7020736418225/131072"
+          ],
+          "split_path": "1R1R1R1L1R1L1R"
+        },
+        {
+          "box": [
+            "22698/5",
+            "22702/5",
+            "7020736418225/131072",
+            "1755184104557/32768"
+          ],
+          "split_path": "1R1R1R1L1R1R"
+        },
+        {
+          "box": [
+            "22698/5",
+            "22702/5",
+            "1755184104557/32768",
+            "109699006535/2048"
+          ],
+          "split_path": "1R1R1R1R"
+        }
+      ],
+      "retained_area_fraction": "531/5242880"
+    },
+    {
+      "source_id": 7801,
+      "generation": 12,
+      "source_box": [
+        "797453/160",
+        "797473/160",
+        "14539849727/256",
+        "232637595633/4096"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7802,
+      "generation": 12,
+      "source_box": [
+        "1594899/320",
+        "797473/160",
+        "232637595633/4096",
+        "116318797817/2048"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7803,
+      "generation": 12,
+      "source_box": [
+        "398723/80",
+        "398733/80",
+        "116318797817/2048",
+        "232637595635/4096"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7804,
+      "generation": 12,
+      "source_box": [
+        "318977/64",
+        "398733/80",
+        "232637595635/4096",
+        "58159398909/1024"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7805,
+      "generation": 12,
+      "source_box": [
+        "1594877/320",
+        "39873/8",
+        "58159398909/1024",
+        "232637595637/4096"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7806,
+      "generation": 12,
+      "source_box": [
+        "159487/32",
+        "39873/8",
+        "232637595637/4096",
+        "116318797819/2048"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7807,
+      "generation": 12,
+      "source_box": [
+        "797431/160",
+        "797453/160",
+        "116318797819/2048",
+        "232637595639/4096"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7808,
+      "generation": 12,
+      "source_box": [
+        "797427/160",
+        "797453/160",
+        "232637595639/4096",
+        "29079699455/512"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7809,
+      "generation": 12,
+      "source_box": [
+        "797409/160",
+        "797413/160",
+        "232637595643/4096",
+        "58159398911/1024"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7810,
+      "generation": 12,
+      "source_box": [
+        "199351/40",
+        "797413/160",
+        "58159398911/1024",
+        "232637595645/4096"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7811,
+      "generation": 12,
+      "source_box": [
+        "1594797/320",
+        "797413/160",
+        "232637595645/4096",
+        "116318797823/2048"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7812,
+      "generation": 12,
+      "source_box": [
+        "797393/160",
+        "797413/160",
+        "116318797823/2048",
+        "232637595647/4096"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7813,
+      "generation": 12,
+      "source_box": [
+        "797387/160",
+        "797413/160",
+        "232637595647/4096",
+        "56796288"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7814,
+      "generation": 12,
+      "source_box": [
+        "39869/8",
+        "797413/160",
+        "56796288",
+        "232637595649/4096"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7815,
+      "generation": 12,
+      "source_box": [
+        "24918/5",
+        "797413/160",
+        "232637595649/4096",
+        "116318797825/2048"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7816,
+      "generation": 12,
+      "source_box": [
+        "24918/5",
+        "199351/40",
+        "116318797825/2048",
+        "58159398913/1024"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7817,
+      "generation": 12,
+      "source_box": [
+        "24918/5",
+        "797393/160",
+        "58159398913/1024",
+        "116318797827/2048"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    },
+    {
+      "source_id": 7818,
+      "generation": 12,
+      "source_box": [
+        "24918/5",
+        "797381/160",
+        "116318797827/2048",
+        "29079699457/512"
+      ],
+      "retained_pieces": [],
+      "retained_area_fraction": "0"
+    }
+  ],
+  "restored_area_fraction": "3383049507533/1583296743997440",
+  "original_whole_removal_cost_fraction": "34405051681/1159641169920",
+  "final_deleted_area_fraction": "130773943162777/4749890231992320",
+  "whole_exchange_net_gain_fraction": "1833734879/1159641169920",
+  "exchange_plus_restoration_net_gain_fraction": "17660126586983/4749890231992320",
+  "safety_against_other_old_components": "each retained piece is a subset of a removed initial component; all initial components mutually compatible",
+  "future_safety": "inherited from the corresponding certified initial source component",
+  "all_uniform_generation_floors_retained": true,
+  "uniform_all_R_lower_coefficient": "1/55296",
+  "full_lean_formalization": false,
+  "new_asymptotic_order_proved": false,
+  "finite_optimum_proved": false
+}

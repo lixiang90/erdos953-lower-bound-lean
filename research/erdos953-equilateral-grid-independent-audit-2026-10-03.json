@@ -1,0 +1,9 @@
+{
+  "vertex_certificates": 12,
+  "cell_certificates": 7,
+  "exact_vertex_pairs": 20847,
+  "exact_cell_pairs": 17143,
+  "independent_shapely_minimum_comparisons": 1000,
+  "max_shapely_squared_distance_error": 1.8189894035458565e-12,
+  "all_passed": true
+}

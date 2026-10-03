@@ -1,0 +1,31 @@
+{
+  "certificates_verified": 2,
+  "results": [
+    {
+      "certificate": "erdos953-oct-R1-N16-coarse-2026-10-03.json",
+      "sha256": "5a81cd7d4b8aefb8341e370de019a767d81e99e1d15b6c799d950d0f34f4da45",
+      "status": "passed independent exact integer geometry",
+      "selected": 393,
+      "pair_checks": 77028,
+      "area_coefficient": "9553/12800",
+      "area_radical": 1,
+      "area_lower_fraction": "9553/12800",
+      "area_upper_fraction": "9553/12800",
+      "integer_overflow_excluded": true,
+      "lean_formalized": false
+    },
+    {
+      "certificate": "erdos953-hex-R1-N16-coarse-2026-10-03.json",
+      "sha256": "988f909723ea41267fc1a214007efdd2bbd1cbd328119b20b215ede6b3e6e885",
+      "status": "passed independent exact integer geometry",
+      "selected": 195,
+      "pair_checks": 18915,
+      "area_coefficient": "45/104",
+      "area_radical": 3,
+      "area_lower_fraction": "15588457268119893/20800000000000000",
+      "area_upper_fraction": "7794228634059951/10400000000000000",
+      "integer_overflow_excluded": true,
+      "lean_formalized": false
+    }
+  ]
+}

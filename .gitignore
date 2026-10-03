@@ -3,3 +3,5 @@
 *.ilean
 .upstream-hart/
 Erdos953Formalization/
+__pycache__/
+*.pyc

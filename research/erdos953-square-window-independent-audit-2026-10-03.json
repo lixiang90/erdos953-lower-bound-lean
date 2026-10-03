@@ -1,0 +1,414 @@
+{
+  "all_passed": true,
+  "certificates": [
+    {
+      "M": 1,
+      "N": 4,
+      "kind": "kernel",
+      "certificate": "erdos953-square-window-kernel-M1-N4-2026-10-03.json",
+      "sha256": "be7aa6aa81c57620ac797fd8ba7a610174e2a884556fe13080696c72ff3e5e87",
+      "nonedge_displacements_checked": 4,
+      "integer_upper": 7,
+      "grid_area_upper": "7/16",
+      "all_passed": true
+    },
+    {
+      "M": 1,
+      "N": 8,
+      "kind": "kernel",
+      "certificate": "erdos953-square-window-kernel-M1-N8-2026-10-03.json",
+      "sha256": "328d2f44afb6e74a0a01a8cb6c951a6a504b0f553d6c80cc6de00ba3d634a452",
+      "nonedge_displacements_checked": 23,
+      "integer_upper": 42,
+      "grid_area_upper": "21/32",
+      "all_passed": true
+    },
+    {
+      "M": 1,
+      "N": 12,
+      "kind": "kernel",
+      "certificate": "erdos953-square-window-kernel-M1-N12-2026-10-03.json",
+      "sha256": "7cec4456b23adf5c7a9ab8468c88aa1966a98e42825a335924882a6072ef3f0e",
+      "nonedge_displacements_checked": 58,
+      "integer_upper": 101,
+      "grid_area_upper": "101/144",
+      "all_passed": true
+    },
+    {
+      "M": 1,
+      "N": 16,
+      "kind": "kernel",
+      "certificate": "erdos953-square-window-kernel-M1-N16-2026-10-03.json",
+      "sha256": "67500a184734e613a72a25269d2034ab9dde197c8304c5d8b6835fa07a18576b",
+      "nonedge_displacements_checked": 109,
+      "integer_upper": 196,
+      "grid_area_upper": "49/64",
+      "all_passed": true
+    },
+    {
+      "M": 1,
+      "N": 24,
+      "kind": "kernel",
+      "certificate": "erdos953-square-window-kernel-M1-N24-2026-10-03.json",
+      "sha256": "2712e899c37ce3c694a75475cfc15839b500a6efcb22e1a85285a4247f661bcd",
+      "nonedge_displacements_checked": 258,
+      "integer_upper": 475,
+      "grid_area_upper": "475/576",
+      "all_passed": true
+    },
+    {
+      "M": 1,
+      "N": 32,
+      "kind": "kernel",
+      "certificate": "erdos953-square-window-kernel-M1-N32-2026-10-03.json",
+      "sha256": "3ae9fb3d7c6fc02607808666febb55dc7f556165274753ffcda826fac6ed9f7a",
+      "nonedge_displacements_checked": 471,
+      "integer_upper": 876,
+      "grid_area_upper": "219/256",
+      "all_passed": true
+    },
+    {
+      "M": 2,
+      "N": 4,
+      "kind": "kernel",
+      "certificate": "erdos953-square-window-kernel-M2-N4-2026-10-03.json",
+      "sha256": "e3fa4d85930c9a7434944a1785f6347e3e202ebd25aaf14ba376f32f281d9776",
+      "nonedge_displacements_checked": 12,
+      "integer_upper": 10,
+      "grid_area_upper": "5/8",
+      "all_passed": true
+    },
+    {
+      "M": 4,
+      "N": 4,
+      "kind": "kernel",
+      "certificate": "erdos953-square-window-kernel-M4-N4-2026-10-03.json",
+      "sha256": "81677ccf28d9730a8b3f557179b9bc7978c663947bd065eabf0b40faa23e533b",
+      "nonedge_displacements_checked": 45,
+      "integer_upper": 16,
+      "grid_area_upper": "1",
+      "all_passed": true
+    },
+    {
+      "M": 8,
+      "N": 4,
+      "kind": "kernel",
+      "certificate": "erdos953-square-window-kernel-M8-N4-2026-10-03.json",
+      "sha256": "7683c3b9d61492189e30997176ecc888249d5f76c45020d9a730e584d1eb7d84",
+      "nonedge_displacements_checked": 179,
+      "integer_upper": 27,
+      "grid_area_upper": "27/16",
+      "all_passed": true
+    },
+    {
+      "M": 16,
+      "N": 4,
+      "kind": "kernel",
+      "certificate": "erdos953-square-window-kernel-M16-N4-2026-10-03.json",
+      "sha256": "bb94f06778af685f7e8158669e0d2c0053c5b17b6a06515326a4f0dd0ab70373",
+      "nonedge_displacements_checked": 712,
+      "integer_upper": 44,
+      "grid_area_upper": "11/4",
+      "all_passed": true
+    },
+    {
+      "M": 2,
+      "N": 8,
+      "kind": "kernel",
+      "certificate": "erdos953-square-window-kernel-M2-N8-2026-10-03.json",
+      "sha256": "1e8d977ffc36327c15445fbd8bd186939430812f3b0506330a2f5c9a65f01428",
+      "nonedge_displacements_checked": 90,
+      "integer_upper": 68,
+      "grid_area_upper": "17/16",
+      "all_passed": true
+    },
+    {
+      "M": 4,
+      "N": 8,
+      "kind": "kernel",
+      "certificate": "erdos953-square-window-kernel-M4-N8-2026-10-03.json",
+      "sha256": "122dca7ec17b315eaecdaf16717c37aa6090fbb73da7d5b18d2a7c32eed13054",
+      "nonedge_displacements_checked": 351,
+      "integer_upper": 112,
+      "grid_area_upper": "7/4",
+      "all_passed": true
+    },
+    {
+      "M": 8,
+      "N": 8,
+      "kind": "kernel",
+      "certificate": "erdos953-square-window-kernel-M8-N8-2026-10-03.json",
+      "sha256": "5c5b29690bb02333a8a0e458c7b769ed6dd1127f16750bdea154be005e521c6b",
+      "nonedge_displacements_checked": 1395,
+      "integer_upper": 210,
+      "grid_area_upper": "105/32",
+      "all_passed": true
+    },
+    {
+      "M": 2,
+      "N": 12,
+      "kind": "kernel",
+      "certificate": "erdos953-square-window-kernel-M2-N12-2026-10-03.json",
+      "sha256": "c39801bcbac2ccb03c9258a75a228ca50a20e2dfc6f678da78f872991ce16a44",
+      "nonedge_displacements_checked": 231,
+      "integer_upper": 184,
+      "grid_area_upper": "23/18",
+      "all_passed": true
+    },
+    {
+      "M": 2,
+      "N": 16,
+      "kind": "kernel",
+      "certificate": "erdos953-square-window-kernel-M2-N16-2026-10-03.json",
+      "sha256": "19b384bf327f1ec13405fe0d9449ae095b526c8e3f35672eeec9e8c3e5edaddb",
+      "nonedge_displacements_checked": 436,
+      "integer_upper": 364,
+      "grid_area_upper": "91/64",
+      "all_passed": true
+    },
+    {
+      "M": 4,
+      "N": 12,
+      "kind": "kernel",
+      "certificate": "erdos953-square-window-kernel-M4-N12-2026-10-03.json",
+      "sha256": "2196a6ce7ed985b0a7d18f3eea37b814c1f26e4f46141cb54f2dd69d49b06346",
+      "nonedge_displacements_checked": 913,
+      "integer_upper": 305,
+      "grid_area_upper": "305/144",
+      "all_passed": true
+    },
+    {
+      "M": 1,
+      "N": 4,
+      "kind": "clique",
+      "certificate": "erdos953-square-window-clique-M1-N4-2026-10-03.json",
+      "sha256": "7418d10b4f7d4975307960a7587b21561cb0e28221cc9d38bbbd3133775d9bb8",
+      "clique_pairs_checked": 10,
+      "vertices_covered": 16,
+      "integer_upper": 9,
+      "grid_area_upper": "9/16",
+      "all_passed": true
+    },
+    {
+      "M": 1,
+      "N": 8,
+      "kind": "clique",
+      "certificate": "erdos953-square-window-clique-M1-N8-2026-10-03.json",
+      "sha256": "0bf365364ec9944d33f2b5f12a51136cc62aec5111c62fe4b71d747947ae582c",
+      "clique_pairs_checked": 33,
+      "vertices_covered": 64,
+      "integer_upper": 41,
+      "grid_area_upper": "41/64",
+      "all_passed": true
+    },
+    {
+      "M": 1,
+      "N": 12,
+      "kind": "clique",
+      "certificate": "erdos953-square-window-clique-M1-N12-2026-10-03.json",
+      "sha256": "3ba1e4f988c045a103a23835166d73660189020987e301137f50c5582f6e3496",
+      "clique_pairs_checked": 90,
+      "vertices_covered": 144,
+      "integer_upper": 100,
+      "grid_area_upper": "25/36",
+      "all_passed": true
+    },
+    {
+      "M": 1,
+      "N": 16,
+      "kind": "clique",
+      "certificate": "erdos953-square-window-clique-M1-N16-2026-10-03.json",
+      "sha256": "6b67778655fe56200d605d611358d50f4fba1e5d8c42692c9b850a4bafe8234b",
+      "clique_pairs_checked": 98,
+      "vertices_covered": 256,
+      "integer_upper": 185,
+      "grid_area_upper": "185/256",
+      "all_passed": true
+    },
+    {
+      "M": 1,
+      "N": 24,
+      "kind": "clique",
+      "certificate": "erdos953-square-window-clique-M1-N24-2026-10-03.json",
+      "sha256": "fbf8f6aad43527a3d71778468cf1b7687a6d8ef6a06c1b21661183ed2604ccf9",
+      "clique_pairs_checked": 192,
+      "vertices_covered": 576,
+      "integer_upper": 430,
+      "grid_area_upper": "215/288",
+      "all_passed": true
+    },
+    {
+      "M": 1,
+      "N": 32,
+      "kind": "clique",
+      "certificate": "erdos953-square-window-clique-M1-N32-2026-10-03.json",
+      "sha256": "1bffd64c74a3efbab853180e71a717b36dd173097392c2b9a1c410104ca5558b",
+      "clique_pairs_checked": 340,
+      "vertices_covered": 1024,
+      "integer_upper": 780,
+      "grid_area_upper": "195/256",
+      "all_passed": true
+    },
+    {
+      "M": 2,
+      "N": 4,
+      "kind": "clique",
+      "certificate": "erdos953-square-window-clique-M2-N4-2026-10-03.json",
+      "sha256": "018903e14d95abde9f97d388bda695ab5020e61b09d2b65b8522565add368e02",
+      "clique_pairs_checked": 774,
+      "vertices_covered": 64,
+      "integer_upper": 12,
+      "grid_area_upper": "3/4",
+      "all_passed": true
+    },
+    {
+      "M": 2,
+      "N": 8,
+      "kind": "clique",
+      "certificate": "erdos953-square-window-clique-M2-N8-2026-10-03.json",
+      "sha256": "429814cda76fecc00c7b6eac76ac66b1626596d5b6a97006661122047a326439",
+      "clique_pairs_checked": 1439,
+      "vertices_covered": 256,
+      "integer_upper": 66,
+      "grid_area_upper": "33/32",
+      "all_passed": true
+    },
+    {
+      "M": 2,
+      "N": 12,
+      "kind": "clique",
+      "certificate": "erdos953-square-window-clique-M2-N12-2026-10-03.json",
+      "sha256": "756e3cb2d817b95d99260af234da2565741778c08c7a05b28304ee9f7654dbaf",
+      "clique_pairs_checked": 2448,
+      "vertices_covered": 576,
+      "integer_upper": 167,
+      "grid_area_upper": "167/144",
+      "all_passed": true
+    },
+    {
+      "M": 4,
+      "N": 4,
+      "kind": "clique",
+      "certificate": "erdos953-square-window-clique-M4-N4-2026-10-03.json",
+      "sha256": "5b61f8c7ea052bac799011ea0c57f7009d5e0fc4b4276817271dc0516c47fbed",
+      "clique_pairs_checked": 9418,
+      "vertices_covered": 256,
+      "integer_upper": 22,
+      "grid_area_upper": "11/8",
+      "all_passed": true
+    },
+    {
+      "M": 4,
+      "N": 8,
+      "kind": "clique",
+      "certificate": "erdos953-square-window-clique-M4-N8-2026-10-03.json",
+      "sha256": "e4a63deae2aa0270a653c3b01c172d87bbe26b0f21edc4652406aaf2574e3e1c",
+      "clique_pairs_checked": 17983,
+      "vertices_covered": 1024,
+      "integer_upper": 153,
+      "grid_area_upper": "153/64",
+      "all_passed": true
+    },
+    {
+      "M": 8,
+      "N": 4,
+      "kind": "clique",
+      "certificate": "erdos953-square-window-clique-M8-N4-2026-10-03.json",
+      "sha256": "819ab50a2a31f4c85ceef1ae438a07ff4c4540b42ee6948932cd39b23dffe78a",
+      "clique_pairs_checked": 68765,
+      "vertices_covered": 1024,
+      "integer_upper": 61,
+      "grid_area_upper": "61/16",
+      "all_passed": true
+    }
+  ],
+  "nonedge_displacements_checked": 5287,
+  "clique_pairs_checked": 101590,
+  "vertices_covered_by_weighted_cliques": 5280,
+  "cosine_certificates": [
+    {
+      "file": "erdos953-grid-upper-cosines-T100-2026-10-03.json",
+      "sha256": "a1b8f01b704c0ba94f5d4a36b2d9e972e5ef99fc2c065f5be29d00e76a3932a0",
+      "all_passed": true
+    },
+    {
+      "file": "erdos953-grid-upper-cosines-T12-2026-10-03.json",
+      "sha256": "c1b4cc5bab9a4babb6f9190a84d0e119381f93ee449387a5d30444e841a3d975",
+      "all_passed": true
+    },
+    {
+      "file": "erdos953-grid-upper-cosines-T132-2026-10-03.json",
+      "sha256": "2fc8bb4a3e92dfe69cf7d4bcb2dd430e37369b5525dcf8a4a28ca62d7e2c64dc",
+      "all_passed": true
+    },
+    {
+      "file": "erdos953-grid-upper-cosines-T20-2026-10-03.json",
+      "sha256": "3cc2146bc6fce46e91f782c34a991a489ce5d1842aa6f7ef32ea5e64cfcb9ac3",
+      "all_passed": true
+    },
+    {
+      "file": "erdos953-grid-upper-cosines-T28-2026-10-03.json",
+      "sha256": "f56f570a8ddf6bc28ba0e922015f65b3f6f157dc060506cff29b3f6a5cf5095f",
+      "all_passed": true
+    },
+    {
+      "file": "erdos953-grid-upper-cosines-T36-2026-10-03.json",
+      "sha256": "d71919c3531d3a1a37860f317c2604d7b98f4993713397c712e171a38e90f281",
+      "all_passed": true
+    },
+    {
+      "file": "erdos953-grid-upper-cosines-T52-2026-10-03.json",
+      "sha256": "ee70a42203cbda11dbb4c8be4613db4f2934115dc00b8e09adb76ac88307f3bf",
+      "all_passed": true
+    },
+    {
+      "file": "erdos953-grid-upper-cosines-T68-2026-10-03.json",
+      "sha256": "1c021b9d56aba3da2ecaba93b363a3d7694d73699ed4c125581ade22676715fa",
+      "all_passed": true
+    }
+  ],
+  "structural_row_covers": [
+    {
+      "M": 1,
+      "N": 2,
+      "vertices_covered_once": 4,
+      "cliques": 4,
+      "clique_pairs_checked": 0,
+      "all_passed": true
+    },
+    {
+      "M": 2,
+      "N": 3,
+      "vertices_covered_once": 36,
+      "cliques": 18,
+      "clique_pairs_checked": 18,
+      "all_passed": true
+    },
+    {
+      "M": 4,
+      "N": 8,
+      "vertices_covered_once": 1024,
+      "cliques": 256,
+      "clique_pairs_checked": 1536,
+      "all_passed": true
+    },
+    {
+      "M": 16,
+      "N": 4,
+      "vertices_covered_once": 4096,
+      "cliques": 256,
+      "clique_pairs_checked": 30720,
+      "all_passed": true
+    },
+    {
+      "M": 32,
+      "N": 12,
+      "vertices_covered_once": 147456,
+      "cliques": 4608,
+      "clique_pairs_checked": 2285568,
+      "all_passed": true
+    }
+  ],
+  "scope": "finite square-cell graphs; analytic asymptotic statements in research note",
+  "lean_formalized": false
+}

@@ -1,0 +1,306 @@
+{
+  "date": "2026-10-03",
+  "scope": "best certified lower bounds currently found in this workspace; no global optimum claimed",
+  "uniform_lower_bounds": {
+    "finite_radius_adapted": {
+      "coefficient": "1/(32768*sqrt(10))",
+      "factor": "sqrt(R)*(log(log(R))/log(R))^3",
+      "validity": "every real R>=e; direct digit construction for R>=2560, disk construction below",
+      "full_lean_formalization": true,
+      "lean_theorem": "Erdos953SharpLower.sharp_lower_Mopen",
+      "lean_all_radii_theorem": "Erdos953SharpLower.explicit_lower_all_radii",
+      "lean_source": "../erdos953-lower-submission/Erdos953SharpLower.lean",
+      "lean_proof_route": "rectangle witnesses for R>=10^14; half-unit disk lower bound below; ten finite base estimates proved in Lean",
+      "lean_audit": "erdos953-sharp-formalization-audit-2026-10-03.json"
+    },
+    "one_fixed_unbounded_set": {
+      "coefficient": "1/524288",
+      "factor": "sqrt(R)*(log(log(R))/log(R))^3",
+      "validity": "every real R>=e; complete blocks for R>=16384, base rectangle below",
+      "full_lean_formalization": false
+    },
+    "all_positive_radii": "also use pi*min(R,1/2)^2 and the monotone envelope of the exact small-radius certificates",
+    "proof": "erdos953-explicit-constants-all-radii-2026-10-03.txt",
+    "independent_audit": "erdos953-explicit-constants-independent-audit-2026-10-03.json",
+    "one_fixed_unbounded_set_enlarged": {
+      "coefficient": "1/55296",
+      "factor": "sqrt(R)*(log(log(R))/log(R))^3",
+      "validity": "every real R>=e",
+      "set": "A_infinity_plus_plus, a superset of the original A_infinity",
+      "full_lean_formalization": false,
+      "proof": "erdos953-Ainfty-all-integer-rings-notes-2026-10-03.txt",
+      "independent_audit": "erdos953-Ainfty-ring-extension-independent-audit-2026-10-03.json",
+      "finite_addition_area": "11765/262144",
+      "summary": "erdos953-Ainfty-ring-extension-summary-2026-10-03.json"
+    },
+    "one_fixed_unbounded_set_iterated_exchange": {
+      "coefficient": "1/55296",
+      "factor": "sqrt(R)*(log(log(R))/log(R))^3",
+      "validity": "every real R>=e",
+      "proof_basis": "unchanged curved base and uniform tail; exact generation floors and containment checked",
+      "set": "A_infinity_iterated_exchange",
+      "full_lean_formalization": false,
+      "summary": "erdos953-iterated-fill-exchange-summary-2026-10-03.json",
+      "large_radius_additive_improvement": {
+        "valid_for_every_real_R_at_least": 268435456,
+        "delta_fraction": "1691743486634087/4749890231992320",
+        "delta_decimal": 0.3561647541325377
+      }
+    }
+  },
+  "radii": [
+    {
+      "R": "1",
+      "area_decimal": 0.8950191291901026,
+      "source": "two-lobe analytic construction"
+    },
+    {
+      "R": "3/2",
+      "source": "erdos953-hex-R1.5-N362-fine-2026-10-03.json",
+      "previous_area_fraction": "20385620360334689/20000000000000000",
+      "previous_source": "erdos953-random-polygons-R1.5-N32000-eps0.008-seed95503.json",
+      "area_expression": "(405597/679778)*sqrt(3)",
+      "area_decimal": 1.0334471127302058,
+      "area_constant": "0",
+      "area_sqrt_coefficient": "405597/679778",
+      "area_radical": 3,
+      "certified_lower_fraction": "702514611397513804569/679778000000000000000",
+      "improvement_percent": 1.38981247203398,
+      "full_lean_formalization": false,
+      "independent_audit": "erdos953-alternative-tilings-independent-audit-2026-10-03.json"
+    },
+    {
+      "R": "2",
+      "area_fraction": "295605/262144",
+      "area_decimal": 1.1276435852050781,
+      "source": "erdos953-square-runs-R2-N512-2026-10-03.json",
+      "previous_area_fraction": "259783/250000",
+      "improvement_percent": 8.517838465669243,
+      "full_lean_formalization": false
+    },
+    {
+      "R": "4",
+      "source": "erdos953-hex-R4-N91-fine-2026-10-03.json",
+      "full_lean_formalization": false,
+      "previous_area_fraction": "1203/1024",
+      "previous_source": "erdos953-square-grid-results-2026-10-03.json",
+      "area_expression": "(10789/14406)*sqrt(3)",
+      "area_decimal": 1.2971745219256292,
+      "area_constant": "0",
+      "area_sqrt_coefficient": "10789/14406",
+      "area_radical": 3,
+      "certified_lower_fraction": "18687096162860613953/14406000000000000000",
+      "improvement_percent": 10.416185407468358,
+      "independent_audit": "erdos953-alternative-tilings-independent-audit-2026-10-03.json"
+    },
+    {
+      "R": "8",
+      "source": "erdos953-hex-R8-N91-fine-2026-10-03.json",
+      "full_lean_formalization": false,
+      "previous_area_fraction": "153/128",
+      "previous_source": "erdos953-square-grid-results-2026-10-03.json",
+      "area_expression": "(892/1029)*sqrt(3)",
+      "area_decimal": 1.5014473472803094,
+      "area_constant": "0",
+      "area_sqrt_coefficient": "892/1029",
+      "area_radical": 3,
+      "certified_lower_fraction": "386247330087859571/257250000000000000",
+      "improvement_percent": 25.61128134109778,
+      "independent_audit": "erdos953-alternative-tilings-independent-audit-2026-10-03.json"
+    }
+  ],
+  "latest_grid_research": {
+    "date": "2026-10-03",
+    "summary": "erdos953-alternative-tilings-summary-2026-10-03.json",
+    "proof_notes": "erdos953-alternative-tilings-notes-2026-10-03.txt",
+    "independent_audit": "erdos953-alternative-tilings-independent-audit-2026-10-03.json",
+    "grids": [
+      "octagon-square with rational cut 3/10",
+      "exact regular octagon-square",
+      "regular hexagon",
+      "matched-resolution square control"
+    ],
+    "certificates_verified": 84,
+    "finite_optimum_proved": false,
+    "lean_formalized": false
+  },
+  "latest_infinite_set_research": {
+    "summary": "erdos953-Ainfty-ring-extension-summary-2026-10-03.json",
+    "all_integer_annuli": true,
+    "fixed_epsilon_not_used_as_global_constraint": true,
+    "finite_exact_pair_checks": 3730405,
+    "full_lean_formalization": false
+  },
+  "upper_bound_research": {
+    "date": "2026-10-03",
+    "summary": "erdos953-square-grid-upper-summary-2026-10-03.json",
+    "proof_notes": "erdos953-square-grid-upper-notes-2026-10-03.txt",
+    "independent_audit": "erdos953-square-grid-upper-independent-audit-2026-10-03.json",
+    "known_continuous_order": "O(sqrt(R))",
+    "new_order_improvement": false,
+    "finite_graph_upper_bounds_are_not_continuous_upper_at_fixed_N": true,
+    "new_work_lean_formalized": false
+  },
+  "square_window_cover_research": {
+    "exact_continuous_limit": "S(M)=lim_N alpha(M,N)/N^2, for each fixed integer M>=1",
+    "disk_comparison": "D(M/2)<=S(M)<=D(M/sqrt(2))",
+    "fractional_clique_cover_barrier": {
+      "lower_limit": "liminf_N kappa_f(M,N)/N^2 >= 5*M/(11*sqrt(2))",
+      "upper_limit": "limsup_N kappa_f(M,N)/N^2 <= M",
+      "scope": "N tends to infinity for each fixed M; not a lower bound for independence or area",
+      "dependency": "Avdeev, arXiv:1906.11926, Corollary 2.18",
+      "uniform_explicit_threshold_N0_of_M_proved": false
+    },
+    "finite_direction_kernel_family": {
+      "bound": "alpha(M,N)<=1+(72*B^2/c)*N^2*sqrt(1+sqrt(2)*M)",
+      "parameters": "B>=max(1,A,1/s0); A,c,s0 from existing Poisson-Bessel negativity theorem",
+      "finite_frequency_count_H": "O(N*log(N*M))",
+      "finite_direction_count_J": "O(M*N*log(N*M))",
+      "external_dependency": "https://www.ulam.ai/research/erdos953-short.pdf, Proposition 4",
+      "new_numerical_uniform_constant_proved": false,
+      "scope": "analytic finite-feature discretization in the note, not the finite LP certificates"
+    },
+    "limiting_window_density": "S(M)/M^2=M^(-3/2+o(1)); existing square-root exponent transferred to squares",
+    "new_logarithmic_improvement_proved": false,
+    "lean_formalized": false,
+    "summary": "erdos953-square-window-cover-summary-2026-10-03.json",
+    "independent_audit": "erdos953-square-window-independent-audit-2026-10-03.json",
+    "distinct_windows": 16,
+    "kernel_certificates": 16,
+    "clique_certificates": 12
+  },
+  "graph_upper_method_experiments": {
+    "summary": "erdos953-graph-methods-summary-2026-10-03.json",
+    "independent_audit": "erdos953-graph-methods-independent-audit-2026-10-03.json",
+    "finite_grid_improvements": [
+      {
+        "M": 1,
+        "N": 4,
+        "vertices": 16,
+        "previous_integer_upper": 7,
+        "new_integer_upper": 7,
+        "previous_grid_area_upper": "7/16",
+        "new_grid_area_upper": "7/16",
+        "improvement_fraction": "0",
+        "certificate": "erdos953-theta-M1-N4-2026-10-03.json",
+        "is_continuous_upper_at_this_N": false
+      },
+      {
+        "M": 1,
+        "N": 8,
+        "vertices": 64,
+        "previous_integer_upper": 41,
+        "new_integer_upper": 37,
+        "previous_grid_area_upper": "41/64",
+        "new_grid_area_upper": "37/64",
+        "improvement_fraction": "4/41",
+        "certificate": "erdos953-theta-M1-N8-2026-10-03.json",
+        "is_continuous_upper_at_this_N": false
+      },
+      {
+        "M": 2,
+        "N": 4,
+        "vertices": 64,
+        "previous_integer_upper": 10,
+        "new_integer_upper": 9,
+        "previous_grid_area_upper": "5/8",
+        "new_grid_area_upper": "9/16",
+        "improvement_fraction": "1/10",
+        "certificate": "erdos953-theta-M2-N4-2026-10-03.json",
+        "is_continuous_upper_at_this_N": false
+      },
+      {
+        "M": 1,
+        "N": 12,
+        "vertices": 144,
+        "previous_integer_upper": 100,
+        "new_integer_upper": 93,
+        "previous_grid_area_upper": "25/36",
+        "new_grid_area_upper": "31/48",
+        "improvement_fraction": "7/100",
+        "certificate": "erdos953-theta-M1-N12-2026-10-03.json",
+        "is_continuous_upper_at_this_N": false
+      },
+      {
+        "M": 2,
+        "N": 8,
+        "vertices": 256,
+        "previous_integer_upper": 66,
+        "new_integer_upper": 51,
+        "previous_grid_area_upper": "33/32",
+        "new_grid_area_upper": "51/64",
+        "improvement_fraction": "5/22",
+        "certificate": "erdos953-theta-M2-N8-2026-10-03.json",
+        "is_continuous_upper_at_this_N": false
+      },
+      {
+        "M": 4,
+        "N": 4,
+        "vertices": 256,
+        "previous_integer_upper": 16,
+        "new_integer_upper": 12,
+        "previous_grid_area_upper": "1",
+        "new_grid_area_upper": "3/4",
+        "improvement_fraction": "1/4",
+        "certificate": "erdos953-theta-M4-N4-2026-10-03.json",
+        "is_continuous_upper_at_this_N": false
+      }
+    ],
+    "theta_certificates": 6,
+    "spectral_certificates": 9,
+    "all_independently_verified": true,
+    "new_uniform_continuous_upper_proved": false,
+    "new_logarithmic_improvement_proved": false,
+    "lean_formalized": false
+  },
+  "graph_upper_moment_research": {
+    "summary": "erdos953-theta-cuts-summary-2026-10-03.json",
+    "audit": "erdos953-theta-cuts-independent-audit-2026-10-03.json",
+    "notes": "erdos953-theta-cuts-asymptotic-notes-2026-10-03.txt",
+    "certificates_verified": 36,
+    "finite_graph_only": true,
+    "continuous_order_improvement_proved": false,
+    "lean_formalized": false
+  },
+  "graph_upper_adaptive_research": {
+    "summary": "erdos953-adaptive-outer-summary-2026-10-03.json",
+    "notes": "erdos953-adaptive-upper-notes-2026-10-03.txt",
+    "audit": "erdos953-adaptive-outer-independent-audit-2026-10-03.json",
+    "fixed_delta_bounds": [
+      {
+        "M": 1,
+        "delta": "1/4",
+        "upper": 23
+      },
+      {
+        "M": 1,
+        "delta": "1/8",
+        "upper": 102
+      },
+      {
+        "M": 2,
+        "delta": "1/4",
+        "upper": 49
+      }
+    ],
+    "variable_scale_gram_derivation": "removes minimum-leaf-size loss; recovers existing order only",
+    "continuous_upper_improvement_proved": false,
+    "new_asymptotic_order_proved": false,
+    "lean_formalized": false
+  },
+  "iterated_lower_bound_research": {
+    "summary": "erdos953-iterated-fill-exchange-summary-2026-10-03.json",
+    "status": "exact positive finite-area gains with all future scales checked; no asymptotic-order improvement",
+    "total_net_gain_fraction": "1691743486634087/4749890231992320",
+    "total_net_gain_decimal": 0.3561647541325377,
+    "exchange_plus_local_crop_net_gain_fraction": "17660126586983/4749890231992320",
+    "large_radius_additive_threshold": 268435456,
+    "independent_audits": [
+      "erdos953-iterated-ring-holes-exchange-input-2026-10-03-independent-audit.json",
+      "erdos953-ring-exchange-2026-10-03-independent-audit.json",
+      "erdos953-ring-exchange-restoration-2026-10-03-independent-audit.json"
+    ],
+    "full_lean_formalization": false,
+    "new_asymptotic_order_proved": false
+  }
+}

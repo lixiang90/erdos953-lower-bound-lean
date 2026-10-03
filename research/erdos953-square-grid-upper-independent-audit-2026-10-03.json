@@ -1,0 +1,272 @@
+{
+  "all_passed": true,
+  "certificates": [
+    {
+      "N": 2,
+      "R": "1",
+      "integer_upper": 1,
+      "grid_area_upper": "1/4",
+      "nonedge_constraints_checked": 0,
+      "sha256": "233d746ee348acf4a6dff0d87167d8002685b50748739a91074f4bf05d650198",
+      "all_passed": true
+    },
+    {
+      "N": 3,
+      "R": "1",
+      "integer_upper": 4,
+      "grid_area_upper": "4/9",
+      "nonedge_constraints_checked": 3,
+      "sha256": "8e1b240417be010644de685d7fbe122797d65c5163623ddac65224ea6035750a",
+      "all_passed": true
+    },
+    {
+      "N": 4,
+      "R": "1",
+      "integer_upper": 9,
+      "grid_area_upper": "9/16",
+      "nonedge_constraints_checked": 11,
+      "sha256": "d40deb21329a689b4b1ecbf691a08d212105f4f227df1c4599341185ca744ff9",
+      "all_passed": true
+    },
+    {
+      "N": 6,
+      "R": "1",
+      "integer_upper": 29,
+      "grid_area_upper": "29/36",
+      "nonedge_constraints_checked": 37,
+      "sha256": "2ad1fb8250ea1c5b11a108d2090377e8d64f72351e54992aee62a01b1a73c0a7",
+      "all_passed": true
+    },
+    {
+      "N": 8,
+      "R": "1",
+      "integer_upper": 67,
+      "grid_area_upper": "67/64",
+      "nonedge_constraints_checked": 77,
+      "sha256": "93012cf2327b198cd4681c5f28dab887b1ad034a70bc6bd1378c3f3f4553cbb9",
+      "all_passed": true
+    },
+    {
+      "N": 12,
+      "R": "1",
+      "integer_upper": 182,
+      "grid_area_upper": "91/72",
+      "nonedge_constraints_checked": 192,
+      "sha256": "436beac5f8eca7a8b37fa324e632346404924849740da2f0d73a5ec6ab74a80f",
+      "all_passed": true
+    },
+    {
+      "N": 16,
+      "R": "1",
+      "integer_upper": 358,
+      "grid_area_upper": "179/128",
+      "nonedge_constraints_checked": 360,
+      "sha256": "bc8e67eb2c4627ecaa43496994cdf4adde3b6be1b486112d3040ae14c8651761",
+      "all_passed": true
+    },
+    {
+      "N": 4,
+      "R": "2",
+      "integer_upper": 15,
+      "grid_area_upper": "15/16",
+      "nonedge_constraints_checked": 39,
+      "sha256": "5a6d409ca8ce6f1017c15fa6582a4795efbe51aea709851cc89eb78e09587bcf",
+      "all_passed": true
+    },
+    {
+      "N": 8,
+      "R": "2",
+      "integer_upper": 104,
+      "grid_area_upper": "13/8",
+      "nonedge_constraints_checked": 290,
+      "sha256": "324dc20e3f4e5fcdab61de5c94ab98a4e9ea9d989490bf9c6546efbe5ce9e5bc",
+      "all_passed": true
+    },
+    {
+      "N": 12,
+      "R": "2",
+      "integer_upper": 277,
+      "grid_area_upper": "277/144",
+      "nonedge_constraints_checked": 740,
+      "sha256": "134a8a5e1f6e84405b0b8c5d3708d48a6538234d7880ef9f835126396e1d5eef",
+      "all_passed": true
+    },
+    {
+      "N": 16,
+      "R": "2",
+      "integer_upper": 525,
+      "grid_area_upper": "525/256",
+      "nonedge_constraints_checked": 1395,
+      "sha256": "09a7c761810e3d04cd031a2bdb6631546900113e0ac8fc8a82a1f20232519627",
+      "all_passed": true
+    },
+    {
+      "N": 4,
+      "R": "4",
+      "integer_upper": 25,
+      "grid_area_upper": "25/16",
+      "nonedge_constraints_checked": 149,
+      "sha256": "a43053d4d35f322e112d2c9624ea8187b41ce711264b98baff7fc0ae905457fe",
+      "all_passed": true
+    },
+    {
+      "N": 8,
+      "R": "4",
+      "integer_upper": 161,
+      "grid_area_upper": "161/64",
+      "nonedge_constraints_checked": 1126,
+      "sha256": "343ba3983ee23beea47e4e3ae53ea8d590f527e0e00843c8b2f55e9821ac2147",
+      "all_passed": true
+    },
+    {
+      "N": 4,
+      "R": "8",
+      "integer_upper": 38,
+      "grid_area_upper": "19/8",
+      "nonedge_constraints_checked": 587,
+      "sha256": "d93572d4dc4b242634ad095002cacb20bc5d2610e407715cddf57aee74f43e79",
+      "all_passed": true
+    }
+  ],
+  "method": "standard-library arbitrary precision rational and integer arithmetic",
+  "finite_graph_bounds_only": true,
+  "lean_formalized": false,
+  "cosine_certificates": [
+    {
+      "file": "erdos953-grid-upper-cosines-T16-2026-10-03.json",
+      "sha256": "3f4f34817e5a0ffb513e905cd1326322fc7fc921d1cf5ee2d31ed57ffce36ffa"
+    },
+    {
+      "file": "erdos953-grid-upper-cosines-T20-2026-10-03.json",
+      "sha256": "3cc2146bc6fce46e91f782c34a991a489ce5d1842aa6f7ef32ea5e64cfcb9ac3"
+    },
+    {
+      "file": "erdos953-grid-upper-cosines-T28-2026-10-03.json",
+      "sha256": "f56f570a8ddf6bc28ba0e922015f65b3f6f157dc060506cff29b3f6a5cf5095f"
+    },
+    {
+      "file": "erdos953-grid-upper-cosines-T36-2026-10-03.json",
+      "sha256": "d71919c3531d3a1a37860f317c2604d7b98f4993713397c712e171a38e90f281"
+    },
+    {
+      "file": "erdos953-grid-upper-cosines-T52-2026-10-03.json",
+      "sha256": "ee70a42203cbda11dbb4c8be4613db4f2934115dc00b8e09adb76ac88307f3bf"
+    },
+    {
+      "file": "erdos953-grid-upper-cosines-T68-2026-10-03.json",
+      "sha256": "1c021b9d56aba3da2ecaba93b363a3d7694d73699ed4c125581ade22676715fa"
+    },
+    {
+      "file": "erdos953-grid-upper-cosines-T100-2026-10-03.json",
+      "sha256": "a1b8f01b704c0ba94f5d4a36b2d9e972e5ef99fc2c065f5be29d00e76a3932a0"
+    },
+    {
+      "file": "erdos953-grid-upper-cosines-T132-2026-10-03.json",
+      "sha256": "2fc8bb4a3e92dfe69cf7d4bcb2dd430e37369b5525dcf8a4a28ca62d7e2c64dc"
+    }
+  ],
+  "nonedge_constraints_checked": 5006,
+  "clique_certificates": [
+    {
+      "N": 4,
+      "R": "1",
+      "integer_upper": 10,
+      "grid_area_upper": "5/8",
+      "clique_pairs_checked": 96,
+      "vertices_covered": 32,
+      "sha256": "d80dde0c7711ddca9732af9c4f8d5e885e3e45a9982370c9d8746b0f85a9ba0c",
+      "all_passed": true
+    },
+    {
+      "N": 6,
+      "R": "1",
+      "integer_upper": 26,
+      "grid_area_upper": "13/18",
+      "clique_pairs_checked": 321,
+      "vertices_covered": 88,
+      "sha256": "39d75645c76728df066e9d7c55af5ff75a225d925af774cf9cc13381ba9b2633",
+      "all_passed": true
+    },
+    {
+      "N": 8,
+      "R": "1",
+      "integer_upper": 54,
+      "grid_area_upper": "27/32",
+      "clique_pairs_checked": 483,
+      "vertices_covered": 164,
+      "sha256": "63e9a3a67a6ed07a8875d1bc405143e240134c605dd710723fc58c2ae7ae746f",
+      "all_passed": true
+    },
+    {
+      "N": 12,
+      "R": "1",
+      "integer_upper": 130,
+      "grid_area_upper": "65/72",
+      "clique_pairs_checked": 1149,
+      "vertices_covered": 392,
+      "sha256": "8d25d6cdfe60f4cd0c53c389a092fca93c54fc1600b3cc6a1ebcff8240d9ab95",
+      "all_passed": true
+    },
+    {
+      "N": 16,
+      "R": "1",
+      "integer_upper": 248,
+      "grid_area_upper": "31/32",
+      "clique_pairs_checked": 1914,
+      "vertices_covered": 732,
+      "sha256": "866cbfcbd806699e403134beb34ca9455ff1a3eb003a3c3cef285742ab168a05",
+      "all_passed": true
+    },
+    {
+      "N": 24,
+      "R": "1",
+      "integer_upper": 591,
+      "grid_area_upper": "197/192",
+      "clique_pairs_checked": 3934,
+      "vertices_covered": 1696,
+      "sha256": "d834046058ca91de206d61eaba4aba400a220dba69f37fc4ec9e3bc1b4ff005c",
+      "all_passed": true
+    },
+    {
+      "N": 32,
+      "R": "1",
+      "integer_upper": 1086,
+      "grid_area_upper": "543/512",
+      "clique_pairs_checked": 7452,
+      "vertices_covered": 3080,
+      "sha256": "7793512841e6f664f14857720fce0fa5fba76177eab230ad2304f65722a8e947",
+      "all_passed": true
+    },
+    {
+      "N": 8,
+      "R": "2",
+      "integer_upper": 119,
+      "grid_area_upper": "119/64",
+      "clique_pairs_checked": 10733,
+      "vertices_covered": 732,
+      "sha256": "32f08241e543e8aaff81e1886aeb91da3689dd595e2ed452b4fde87bcffe359e",
+      "all_passed": true
+    },
+    {
+      "N": 12,
+      "R": "2",
+      "integer_upper": 320,
+      "grid_area_upper": "20/9",
+      "clique_pairs_checked": 18490,
+      "vertices_covered": 1696,
+      "sha256": "c99e6bef19c3f947e4b30ffc45bfd20a39c633c368b54e070cb5521449ab56ad",
+      "all_passed": true
+    },
+    {
+      "N": 16,
+      "R": "2",
+      "integer_upper": 620,
+      "grid_area_upper": "155/64",
+      "clique_pairs_checked": 29968,
+      "vertices_covered": 3080,
+      "sha256": "c844e1b9b2a36cc7e3102b06c2c07232c72f7235230f64a96b680b9d117f93eb",
+      "all_passed": true
+    }
+  ],
+  "clique_pairs_checked": 74540
+}

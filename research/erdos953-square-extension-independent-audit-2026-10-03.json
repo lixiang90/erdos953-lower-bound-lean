@@ -1,0 +1,26 @@
+{
+  "all_passed": true,
+  "extension_certificates": 2,
+  "exact_incremental_pairs": 891128481,
+  "independent_geometry_comparisons": 1000,
+  "maximum_squared_distance_error": 7.275957614183426e-12,
+  "fft_used_for_verification": false,
+  "results": [
+    {
+      "certificate": "erdos953-square-grid-R2-N256-nested-extension-2026-10-03.json",
+      "refined_parent_squares": 71944,
+      "added_squares": 1279,
+      "exact_new_pairs_checked": 92833657,
+      "area_fraction": "73223/65536",
+      "passed": true
+    },
+    {
+      "certificate": "erdos953-square-grid-R2-N512-nested-extension-2026-10-03.json",
+      "refined_parent_squares": 292892,
+      "added_squares": 2713,
+      "exact_new_pairs_checked": 798294824,
+      "area_fraction": "295605/262144",
+      "passed": true
+    }
+  ]
+}

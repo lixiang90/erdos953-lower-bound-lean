@@ -11,6 +11,18 @@ local verification and is never committed here.
 
 The principal statements are:
 
+- `Erdos953SharpLower.sharp_lower_Mopen`: for every real `R ≥ exp 1`,
+  `Mopen R ≥ √R / (32768 √10) · (log(log R) / log R)^3`.
+- `Erdos953SharpLower.explicit_lower_all_radii`: for every `R > 0`, the
+  lower bound is `πR²` when `R ≤ 1/2`, `π/4` when `1/2 < R < exp 1`, and
+  the maximum of `π/4` and the preceding logarithmic expression thereafter.
+- `Erdos953SharpLower.sharp_lower_standalone` and
+  `Erdos953SharpLower.explicit_lower_standalone`: the same results for the
+  independently defined `Erdos953Lower.Mopen`.
+- `Erdos953SharpLower.digit_rectangle_lower`: for integers `k ≥ 3`, `n ≥ 0`
+  and `10 k^(2n) ≤ R`, the thin-rectangle construction gives area
+  `(k-1)^n / (1024 k^3)`. For example, the fully checked construction at
+  `R = 10^18` has area `170859375/4194304 = 40.7360494136810302734375`.
 - `Erdos953Lower.erdos953_lower`: for every `ε > 0`, all sufficiently large
   disks contain an admissible set with area at least `cε R^(1/2-ε)`.
 - `Erdos953Lower.erdos953_lower_polylog`: for `R ≥ 1000^4`, an admissible set
@@ -54,7 +66,8 @@ The principal files include `#print axioms` checks. The checked theorems use
 only `propext`, `Classical.choice`, and `Quot.sound`; there are no `sorry` or
 `admit` placeholders in the source.
 
-The full project built successfully on 2026-09-30 (3,677 Lake jobs) using the
+The full project built successfully on 2026-10-03 (3,688 Lake jobs), including
+the new exact-coefficient and all-radius theorems, using the
 pinned Hart commit and an existing local pinned Mathlib checkout/cache. A
 network-fresh dependency download has not yet been run for this copy.
 
@@ -68,12 +81,37 @@ by Przemek Chojecki in the [problem discussion](https://www.erdosproblems.com/fo
 Its existing Lean formalization belongs to Allen Hart; see
 [Hart's pinned project](https://github.com/AllenGrahamHart/FormalConjectures-Bench/tree/0d031f7212150df788f4fa38c26cfc3fc729f3d0/formalizations/erdos953).
 
-The current lower-bound refinement keeps the leading digit magnitude in the
+The earlier lower-bound refinement keeps the leading digit magnitude in the
 horizontal-coordinate estimate and uses vertical scale `8k` instead of
 `8k²`. The formally proved distance gap is then `1/(48k³)` rather than
 `1/(48k⁵)`. Thickening the digit points by disks of radius `1/(192k³)`
 improves this implementation's explicit area loss from twelve to eight
-powers of `log R`. The growth exponent remains `1/2`.
+powers of `log R`.
+
+The new refinement thickens those same centers by rectangles of width `1/4`
+and height `1/(256k^3)`. It proves the exact union area, a sharper radius
+bound, and the existence of a simultaneous choice of base and digit length
+at arbitrary real radii. The resulting explicit loss is
+`(log R / log(log R))^3`, with the coefficient above. The final theorem
+combines a rectangle witness for `R ≥ 10^14` with a half-unit disk estimate
+below that threshold. All ten exceptional base estimates are proved from
+Mathlib's logarithm-series remainder and rational arithmetic inside Lean.
+The checked source needs no external numerical oracle or certificate input.
+The growth exponent remains `1/2`.
+
+The complete new result is in `Erdos953SharpLower.lean`; its geometric,
+parameter-selection, and numerical dependencies are the
+`Erdos953Lower/Anisotropic*.lean` modules. The default `lake build` and the
+existing `lake build Erdos953Growth` both include this result.
+
+The [research snapshot](research/README.md) preserves the subsequent fixed-set,
+small-radius, upper-bound and local-exchange investigations, with scripts,
+exact certificates, independent audit reports and a complete compressed data
+archive. The latest fill-and-cropped-exchange construction adds approximately
+`0.3561647541325377` of area to the previous fixed unbounded set for every
+`R >= 268435456`, while preserving its uniform lower bound. These experiments
+are separately audited in Python and have not been formalized in Lean; their
+finite modifications do not establish a new asymptotic order.
 
 **Scope for prize review:** the growth-exponent theorem is unconditional and
 fully checked when built with Hart's attributed upper proof, but the original

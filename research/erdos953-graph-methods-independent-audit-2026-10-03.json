@@ -1,0 +1,227 @@
+{
+  "full_matrix_theta_certificates": [
+    {
+      "M": 1,
+      "N": 4,
+      "certificate": "erdos953-theta-M1-N4-2026-10-03.json",
+      "vertices": 16,
+      "nonedge_matrix_entries_checked": 82,
+      "psd_residual_rows_checked": 16,
+      "integer_upper": 7,
+      "area_upper_fraction": "7/16",
+      "sha256": "9e2fc7d47c270a2379ea9d8e1ff7d8de106c80f377128c0763957dedbffeebe3",
+      "all_passed": true
+    },
+    {
+      "M": 1,
+      "N": 8,
+      "certificate": "erdos953-theta-M1-N8-2026-10-03.json",
+      "vertices": 64,
+      "nonedge_matrix_entries_checked": 1770,
+      "psd_residual_rows_checked": 64,
+      "integer_upper": 37,
+      "area_upper_fraction": "37/64",
+      "sha256": "c9d1d09878d1f7b543b636b0fba3c124b89f701b34e6ba9418f5734c204553d3",
+      "all_passed": true
+    },
+    {
+      "M": 2,
+      "N": 4,
+      "certificate": "erdos953-theta-M2-N4-2026-10-03.json",
+      "vertices": 64,
+      "nonedge_matrix_entries_checked": 824,
+      "psd_residual_rows_checked": 64,
+      "integer_upper": 9,
+      "area_upper_fraction": "9/16",
+      "sha256": "50ddf71930c0a64610940e093f7fd7091cab54efb3961c248c4df28de082fe1b",
+      "all_passed": true
+    },
+    {
+      "M": 1,
+      "N": 12,
+      "certificate": "erdos953-theta-M1-N12-2026-10-03.json",
+      "vertices": 144,
+      "nonedge_matrix_entries_checked": 9498,
+      "psd_residual_rows_checked": 144,
+      "integer_upper": 93,
+      "area_upper_fraction": "31/48",
+      "sha256": "3954263a865f68cb43b21cd2f33f38048d6341cc593adc53754bba5d9f8fbb9e",
+      "all_passed": true
+    },
+    {
+      "M": 2,
+      "N": 8,
+      "certificate": "erdos953-theta-M2-N8-2026-10-03.json",
+      "vertices": 256,
+      "nonedge_matrix_entries_checked": 23424,
+      "psd_residual_rows_checked": 256,
+      "integer_upper": 51,
+      "area_upper_fraction": "51/64",
+      "sha256": "bf3fb759272b03698b29a700ad8154297beadab784570ec56550b82e757c1b18",
+      "all_passed": true
+    },
+    {
+      "M": 4,
+      "N": 4,
+      "certificate": "erdos953-theta-M4-N4-2026-10-03.json",
+      "vertices": 256,
+      "nonedge_matrix_entries_checked": 11514,
+      "psd_residual_rows_checked": 256,
+      "integer_upper": 12,
+      "area_upper_fraction": "3/4",
+      "sha256": "e77ac0c95b01fce3e6916dda13ff97b4e5596f28787a57b024ebfaaed7d16533",
+      "all_passed": true
+    }
+  ],
+  "spectral_certificates": [
+    {
+      "M": 1,
+      "N": 8,
+      "P": 16,
+      "certificate": "erdos953-graph-spectral-M1-N8-2026-10-03.json",
+      "weighted_support_displacements_checked": 102,
+      "character_eigenvalue_intervals_checked": 256,
+      "spectral_alpha_upper_fraction": "739880939500000000/11278768289020627",
+      "integer_upper": 56,
+      "area_upper_fraction": "7/8",
+      "sha256": "60dd6cb4c90518000f7025219dfd2993d71c7bdff4b0e70bbf08c61078f0f222",
+      "all_passed": true
+    },
+    {
+      "M": 2,
+      "N": 8,
+      "P": 32,
+      "certificate": "erdos953-graph-spectral-M2-N8-2026-10-03.json",
+      "weighted_support_displacements_checked": 355,
+      "character_eigenvalue_intervals_checked": 1024,
+      "spectral_alpha_upper_fraction": "667021710000000000/4845692090876291",
+      "integer_upper": 112,
+      "area_upper_fraction": "7/4",
+      "sha256": "89bbfc5a53470c25c91946e96e771156419f889e95773a7d4f0d55f76476b316",
+      "all_passed": true
+    },
+    {
+      "M": 4,
+      "N": 8,
+      "P": 64,
+      "certificate": "erdos953-graph-spectral-M4-N8-2026-10-03.json",
+      "weighted_support_displacements_checked": 1382,
+      "character_eigenvalue_intervals_checked": 4096,
+      "spectral_alpha_upper_fraction": "1739563304000000000/4619001376011161",
+      "integer_upper": 224,
+      "area_upper_fraction": "7/2",
+      "sha256": "94effdd2b33211ee8423eee82d6273bdca2ed67666c5d1b261dab7aaa3d11f1f",
+      "all_passed": true
+    },
+    {
+      "M": 8,
+      "N": 8,
+      "P": 128,
+      "certificate": "erdos953-graph-spectral-M8-N8-2026-10-03.json",
+      "weighted_support_displacements_checked": 5406,
+      "character_eigenvalue_intervals_checked": 16384,
+      "spectral_alpha_upper_fraction": "1389009094400000000/1762501379618303",
+      "integer_upper": 448,
+      "area_upper_fraction": "7",
+      "sha256": "93865968fca938ebfa5da32cd11da5edbe17dacde2dc49c7b3aa6f6666661d64",
+      "all_passed": true
+    },
+    {
+      "M": 16,
+      "N": 8,
+      "P": 256,
+      "certificate": "erdos953-graph-spectral-M16-N8-2026-10-03.json",
+      "weighted_support_displacements_checked": 21438,
+      "character_eigenvalue_intervals_checked": 65536,
+      "spectral_alpha_upper_fraction": "55182361600000000/33105911006473",
+      "integer_upper": 896,
+      "area_upper_fraction": "14",
+      "sha256": "5e2f55f4a86f3fd7c42e01bcfdac28d4c7dd65b3c122ce89891e47c3dc3df2f8",
+      "all_passed": true
+    },
+    {
+      "M": 1,
+      "N": 16,
+      "P": 32,
+      "certificate": "erdos953-graph-spectral-M1-N16-2026-10-03.json",
+      "weighted_support_displacements_checked": 222,
+      "character_eigenvalue_intervals_checked": 1024,
+      "spectral_alpha_upper_fraction": "606967998800000000/2270463970877501",
+      "integer_upper": 240,
+      "area_upper_fraction": "15/16",
+      "sha256": "930cb7c5255c2894cd48f33e98a3f10d8ebf3c4d0daac83217c8f270cf8775e6",
+      "all_passed": true
+    },
+    {
+      "M": 2,
+      "N": 16,
+      "P": 64,
+      "certificate": "erdos953-graph-spectral-M2-N16-2026-10-03.json",
+      "weighted_support_displacements_checked": 730,
+      "character_eigenvalue_intervals_checked": 4096,
+      "spectral_alpha_upper_fraction": "132523311040000000/200126500761591",
+      "integer_upper": 480,
+      "area_upper_fraction": "15/8",
+      "sha256": "eb936b948f4b3ca3e0234dc586c85ebb8779f98bf44c78420158a17c5de1a2ad",
+      "all_passed": true
+    },
+    {
+      "M": 4,
+      "N": 16,
+      "P": 128,
+      "certificate": "erdos953-graph-spectral-M4-N16-2026-10-03.json",
+      "weighted_support_displacements_checked": 2774,
+      "character_eigenvalue_intervals_checked": 16384,
+      "spectral_alpha_upper_fraction": "13258976000000000/8519383231043",
+      "integer_upper": 960,
+      "area_upper_fraction": "15/4",
+      "sha256": "512e1a7924aee72c36d4221e3b0f76fdee1f586516e22f9bbc655873cbe40385",
+      "all_passed": true
+    },
+    {
+      "M": 8,
+      "N": 16,
+      "P": 256,
+      "certificate": "erdos953-graph-spectral-M8-N16-2026-10-03.json",
+      "weighted_support_displacements_checked": 10814,
+      "character_eigenvalue_intervals_checked": 65536,
+      "spectral_alpha_upper_fraction": "436280345600000000/126494406454777",
+      "integer_upper": 1920,
+      "area_upper_fraction": "15/2",
+      "sha256": "ac3183c4ae21253218bf1a4a8f84092b81ddcede3006a946bdf1ffbb734a5c8e",
+      "all_passed": true
+    }
+  ],
+  "all_passed": true,
+  "lean_formalized": false,
+  "cosine_certificates": [
+    {
+      "file": "erdos953-grid-upper-cosines-T128-2026-10-03.json",
+      "sha256": "723f41843ff1bb98d0ec65d7c64c546cf72dda57466cb0ca1bdbffbc85710dd0",
+      "all_passed": true
+    },
+    {
+      "file": "erdos953-grid-upper-cosines-T16-2026-10-03.json",
+      "sha256": "3f4f34817e5a0ffb513e905cd1326322fc7fc921d1cf5ee2d31ed57ffce36ffa",
+      "all_passed": true
+    },
+    {
+      "file": "erdos953-grid-upper-cosines-T256-2026-10-03.json",
+      "sha256": "69ec73c5249329da339c74b48e88ccae5210a509200e4b9bfb25436dbe426ed9",
+      "all_passed": true
+    },
+    {
+      "file": "erdos953-grid-upper-cosines-T32-2026-10-03.json",
+      "sha256": "fd3fb67ff185dfe9389f8e1b19d612e92ea2b6c0489219e6db6d4fa6880ad0d2",
+      "all_passed": true
+    },
+    {
+      "file": "erdos953-grid-upper-cosines-T64-2026-10-03.json",
+      "sha256": "401c6bd6cb5a3c023b36662c4bbe477d2635efbe1e439c20019dcdd1e0be13fc",
+      "all_passed": true
+    }
+  ],
+  "nonedge_matrix_entries_checked": 47112,
+  "psd_residual_rows_checked": 800,
+  "character_eigenvalue_intervals_checked": 174336
+}

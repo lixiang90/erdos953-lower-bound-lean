@@ -1,0 +1,401 @@
+{
+  "date": "2026-10-03",
+  "rows": [
+    {
+      "M": 1,
+      "N": 8,
+      "vertices": 64,
+      "previous_record_integer_upper": 37,
+      "baseline": {
+        "certificate": "erdos953-theta-cuts-M1-N8-control-2026-10-03.json",
+        "tag": "control",
+        "integer_upper": 37,
+        "alpha_upper_fraction": "18799121863179/500000000000",
+        "area_upper_fraction": "37/64",
+        "active_cut_orbits": 0,
+        "individual_cut_counts": {
+          "conditional_rank": 0,
+          "boolean_three": 0
+        },
+        "largest_conditional_subgraph": 0,
+        "psd_optimality_proved": false
+      },
+      "cut_candidate": {
+        "certificate": "erdos953-theta-cuts-M1-N8-r3-2026-10-03.json",
+        "tag": "r3",
+        "integer_upper": 37,
+        "alpha_upper_fraction": "37052062249941/1000000000000",
+        "area_upper_fraction": "37/64",
+        "active_cut_orbits": 113,
+        "individual_cut_counts": {
+          "conditional_rank": 0,
+          "boolean_three": 113
+        },
+        "largest_conditional_subgraph": 0,
+        "psd_optimality_proved": false
+      },
+      "best_new_certificate": {
+        "certificate": "erdos953-theta-cuts-M1-N8-r3-2026-10-03.json",
+        "tag": "r3",
+        "integer_upper": 37,
+        "alpha_upper_fraction": "37052062249941/1000000000000",
+        "area_upper_fraction": "37/64",
+        "active_cut_orbits": 113,
+        "individual_cut_counts": {
+          "conditional_rank": 0,
+          "boolean_three": 113
+        },
+        "largest_conditional_subgraph": 0,
+        "psd_optimality_proved": false
+      },
+      "cut_candidate_improves_integer_bound": false,
+      "normalized_grid_area_by_sqrt_M": 0.578125,
+      "finite_N_continuous_upper": false
+    },
+    {
+      "M": 1,
+      "N": 16,
+      "vertices": 256,
+      "previous_record_integer_upper": 185,
+      "baseline": {
+        "certificate": "erdos953-theta-cuts-M1-N16-control-2026-10-03.json",
+        "tag": "control",
+        "integer_upper": 177,
+        "alpha_upper_fraction": "691624594939/3906250000",
+        "area_upper_fraction": "177/256",
+        "active_cut_orbits": 0,
+        "individual_cut_counts": {
+          "conditional_rank": 0,
+          "boolean_three": 0
+        },
+        "largest_conditional_subgraph": 0,
+        "psd_optimality_proved": false
+      },
+      "cut_candidate": {
+        "certificate": "erdos953-theta-cuts-M1-N16-r1-2026-10-03.json",
+        "tag": "r1",
+        "integer_upper": 177,
+        "alpha_upper_fraction": "44282555884573/250000000000",
+        "area_upper_fraction": "177/256",
+        "active_cut_orbits": 151,
+        "individual_cut_counts": {
+          "conditional_rank": 17,
+          "boolean_three": 134
+        },
+        "largest_conditional_subgraph": 9,
+        "psd_optimality_proved": false
+      },
+      "best_new_certificate": {
+        "certificate": "erdos953-theta-cuts-M1-N16-control-2026-10-03.json",
+        "tag": "control",
+        "integer_upper": 177,
+        "alpha_upper_fraction": "691624594939/3906250000",
+        "area_upper_fraction": "177/256",
+        "active_cut_orbits": 0,
+        "individual_cut_counts": {
+          "conditional_rank": 0,
+          "boolean_three": 0
+        },
+        "largest_conditional_subgraph": 0,
+        "psd_optimality_proved": false
+      },
+      "cut_candidate_improves_integer_bound": false,
+      "normalized_grid_area_by_sqrt_M": 0.69140625,
+      "finite_N_continuous_upper": false
+    },
+    {
+      "M": 2,
+      "N": 4,
+      "vertices": 64,
+      "previous_record_integer_upper": 9,
+      "baseline": {
+        "certificate": "erdos953-theta-cuts-M2-N4-control-2026-10-03.json",
+        "tag": "control",
+        "integer_upper": 9,
+        "alpha_upper_fraction": "4506128394123/500000000000",
+        "area_upper_fraction": "9/16",
+        "active_cut_orbits": 0,
+        "individual_cut_counts": {
+          "conditional_rank": 0,
+          "boolean_three": 0
+        },
+        "largest_conditional_subgraph": 0,
+        "psd_optimality_proved": false
+      },
+      "cut_candidate": {
+        "certificate": "erdos953-theta-cuts-M2-N4-r3-2026-10-03.json",
+        "tag": "r3",
+        "integer_upper": 8,
+        "alpha_upper_fraction": "8171303924351/1000000000000",
+        "area_upper_fraction": "1/2",
+        "active_cut_orbits": 237,
+        "individual_cut_counts": {
+          "conditional_rank": 233,
+          "boolean_three": 4
+        },
+        "largest_conditional_subgraph": 6,
+        "psd_optimality_proved": false
+      },
+      "best_new_certificate": {
+        "certificate": "erdos953-theta-cuts-M2-N4-r3-2026-10-03.json",
+        "tag": "r3",
+        "integer_upper": 8,
+        "alpha_upper_fraction": "8171303924351/1000000000000",
+        "area_upper_fraction": "1/2",
+        "active_cut_orbits": 237,
+        "individual_cut_counts": {
+          "conditional_rank": 233,
+          "boolean_three": 4
+        },
+        "largest_conditional_subgraph": 6,
+        "psd_optimality_proved": false
+      },
+      "cut_candidate_improves_integer_bound": true,
+      "normalized_grid_area_by_sqrt_M": 0.35355339059327373,
+      "finite_N_continuous_upper": false
+    },
+    {
+      "M": 2,
+      "N": 8,
+      "vertices": 256,
+      "previous_record_integer_upper": 51,
+      "baseline": {
+        "certificate": "erdos953-theta-cuts-M2-N8-warm-control-2026-10-03.json",
+        "tag": "warm-control",
+        "integer_upper": 51,
+        "alpha_upper_fraction": "6415516667563/125000000000",
+        "area_upper_fraction": "51/64",
+        "active_cut_orbits": 0,
+        "individual_cut_counts": {
+          "conditional_rank": 0,
+          "boolean_three": 0
+        },
+        "largest_conditional_subgraph": 0,
+        "psd_optimality_proved": false
+      },
+      "cut_candidate": {
+        "certificate": "erdos953-theta-cuts-M2-N8-r3-2026-10-03.json",
+        "tag": "r3",
+        "integer_upper": 50,
+        "alpha_upper_fraction": "50481647967283/1000000000000",
+        "area_upper_fraction": "25/32",
+        "active_cut_orbits": 481,
+        "individual_cut_counts": {
+          "conditional_rank": 13,
+          "boolean_three": 468
+        },
+        "largest_conditional_subgraph": 2,
+        "psd_optimality_proved": false
+      },
+      "best_new_certificate": {
+        "certificate": "erdos953-theta-cuts-M2-N8-r3-2026-10-03.json",
+        "tag": "r3",
+        "integer_upper": 50,
+        "alpha_upper_fraction": "50481647967283/1000000000000",
+        "area_upper_fraction": "25/32",
+        "active_cut_orbits": 481,
+        "individual_cut_counts": {
+          "conditional_rank": 13,
+          "boolean_three": 468
+        },
+        "largest_conditional_subgraph": 2,
+        "psd_optimality_proved": false
+      },
+      "cut_candidate_improves_integer_bound": true,
+      "normalized_grid_area_by_sqrt_M": 0.5524271728019902,
+      "finite_N_continuous_upper": false
+    },
+    {
+      "M": 2,
+      "N": 16,
+      "vertices": 1024,
+      "previous_record_integer_upper": 364,
+      "baseline": {
+        "certificate": "erdos953-theta-cuts-M2-N16-matched-control-2026-10-03.json",
+        "tag": "matched-control",
+        "integer_upper": 241,
+        "alpha_upper_fraction": "15083275473329/62500000000",
+        "area_upper_fraction": "241/256",
+        "active_cut_orbits": 0,
+        "individual_cut_counts": {
+          "conditional_rank": 0,
+          "boolean_three": 0
+        },
+        "largest_conditional_subgraph": 0,
+        "psd_optimality_proved": false
+      },
+      "cut_candidate": {
+        "certificate": "erdos953-theta-cuts-M2-N16-warm-r2-2026-10-03.json",
+        "tag": "warm-r2",
+        "integer_upper": 239,
+        "alpha_upper_fraction": "11963272245507/50000000000",
+        "area_upper_fraction": "239/256",
+        "active_cut_orbits": 478,
+        "individual_cut_counts": {
+          "conditional_rank": 96,
+          "boolean_three": 1816
+        },
+        "largest_conditional_subgraph": 2,
+        "psd_optimality_proved": false
+      },
+      "best_new_certificate": {
+        "certificate": "erdos953-theta-cuts-M2-N16-warm-r2-2026-10-03.json",
+        "tag": "warm-r2",
+        "integer_upper": 239,
+        "alpha_upper_fraction": "11963272245507/50000000000",
+        "area_upper_fraction": "239/256",
+        "active_cut_orbits": 478,
+        "individual_cut_counts": {
+          "conditional_rank": 96,
+          "boolean_three": 1816
+        },
+        "largest_conditional_subgraph": 2,
+        "psd_optimality_proved": false
+      },
+      "cut_candidate_improves_integer_bound": true,
+      "normalized_grid_area_by_sqrt_M": 0.6601504714983784,
+      "finite_N_continuous_upper": false
+    },
+    {
+      "M": 4,
+      "N": 4,
+      "vertices": 256,
+      "previous_record_integer_upper": 12,
+      "baseline": {
+        "certificate": "erdos953-theta-cuts-M4-N4-control-2026-10-03.json",
+        "tag": "control",
+        "integer_upper": 12,
+        "alpha_upper_fraction": "6122006675163/500000000000",
+        "area_upper_fraction": "3/4",
+        "active_cut_orbits": 0,
+        "individual_cut_counts": {
+          "conditional_rank": 0,
+          "boolean_three": 0
+        },
+        "largest_conditional_subgraph": 0,
+        "psd_optimality_proved": false
+      },
+      "cut_candidate": {
+        "certificate": "erdos953-theta-cuts-M4-N4-r3-2026-10-03.json",
+        "tag": "r3",
+        "integer_upper": 12,
+        "alpha_upper_fraction": "12122188594241/1000000000000",
+        "area_upper_fraction": "3/4",
+        "active_cut_orbits": 378,
+        "individual_cut_counts": {
+          "conditional_rank": 378,
+          "boolean_three": 0
+        },
+        "largest_conditional_subgraph": 7,
+        "psd_optimality_proved": false
+      },
+      "best_new_certificate": {
+        "certificate": "erdos953-theta-cuts-M4-N4-r3-2026-10-03.json",
+        "tag": "r3",
+        "integer_upper": 12,
+        "alpha_upper_fraction": "12122188594241/1000000000000",
+        "area_upper_fraction": "3/4",
+        "active_cut_orbits": 378,
+        "individual_cut_counts": {
+          "conditional_rank": 378,
+          "boolean_three": 0
+        },
+        "largest_conditional_subgraph": 7,
+        "psd_optimality_proved": false
+      },
+      "cut_candidate_improves_integer_bound": false,
+      "normalized_grid_area_by_sqrt_M": 0.375,
+      "finite_N_continuous_upper": false
+    },
+    {
+      "M": 4,
+      "N": 8,
+      "vertices": 1024,
+      "previous_record_integer_upper": 112,
+      "baseline": {
+        "certificate": "erdos953-theta-cuts-M4-N8-matched-control-2026-10-03.json",
+        "tag": "matched-control",
+        "integer_upper": 72,
+        "alpha_upper_fraction": "14464131217097/200000000000",
+        "area_upper_fraction": "9/8",
+        "active_cut_orbits": 0,
+        "individual_cut_counts": {
+          "conditional_rank": 0,
+          "boolean_three": 0
+        },
+        "largest_conditional_subgraph": 0,
+        "psd_optimality_proved": false
+      },
+      "cut_candidate": {
+        "certificate": "erdos953-theta-cuts-M4-N8-warm-r3-2026-10-03.json",
+        "tag": "warm-r3",
+        "integer_upper": 72,
+        "alpha_upper_fraction": "36202828234597/500000000000",
+        "area_upper_fraction": "9/8",
+        "active_cut_orbits": 580,
+        "individual_cut_counts": {
+          "conditional_rank": 8,
+          "boolean_three": 2312
+        },
+        "largest_conditional_subgraph": 3,
+        "psd_optimality_proved": false
+      },
+      "best_new_certificate": {
+        "certificate": "erdos953-theta-cuts-M4-N8-matched-control-2026-10-03.json",
+        "tag": "matched-control",
+        "integer_upper": 72,
+        "alpha_upper_fraction": "14464131217097/200000000000",
+        "area_upper_fraction": "9/8",
+        "active_cut_orbits": 0,
+        "individual_cut_counts": {
+          "conditional_rank": 0,
+          "boolean_three": 0
+        },
+        "largest_conditional_subgraph": 0,
+        "psd_optimality_proved": false
+      },
+      "cut_candidate_improves_integer_bound": false,
+      "normalized_grid_area_by_sqrt_M": 0.5625,
+      "finite_N_continuous_upper": false
+    }
+  ],
+  "certificates_verified": 36,
+  "windows": 7,
+  "windows_with_integer_cut_improvement": 3,
+  "proof_scope": "upper bounds on selected complete square cells only; no continuous upper at finite N",
+  "new_fixed_power_improvement_possible": false,
+  "new_uniform_continuous_upper_proved": false,
+  "new_logarithmic_saving_proved": false,
+  "new_lemmas": [
+    {
+      "name": "fixed-size conditional/three-point dilution on vertex-transitive graphs",
+      "bound": "1+(theta_prime-1)/h <= L_h <= theta_prime",
+      "scope": "only the two homogeneous cut families implemented here; not a theorem about all ESC/SOS or finite box graphs",
+      "status": "mathematical proof in note; not Lean formalized"
+    },
+    {
+      "name": "nonnegative mixtures of the existing one-parameter Poisson-Bessel kernels",
+      "bound": "worst-nonedge certificate cost is Omega(N^2*sqrt(M))",
+      "scope": "even N>=4, integer M>=2, positive mixtures with s<=1/(B*N); not all PSD kernels",
+      "status": "analytic proof from cited Poisson formula; not Lean formalized"
+    },
+    {
+      "name": "phase-sensitive energy refinement",
+      "bound": "|P| <= 1+C*N^2*sqrt(M)/E_phase(P)",
+      "scope": "N>=11; consequence of existing kernel proof with ceil(distance)-distance retained",
+      "status": "mathematical proof in note; growth of E_phase for large independent sets NOT proved"
+    }
+  ],
+  "next_structural_target": "uniform in N: every independent set is small at N^2*sqrt(M)/L(M) scale or its mean phase energy is >=L(M), with L(M)->infinity",
+  "comparison_note": "M=4,N=8: shorter plain run 73 vs cut 72; equal total compute plain also reaches 72, so no integer cut improvement counted",
+  "optimizer_optimality_used_as_proof": false,
+  "lean_formalized": false,
+  "audit": "erdos953-theta-cuts-independent-audit-2026-10-03.json",
+  "notes": "erdos953-theta-cuts-asymptotic-notes-2026-10-03.txt",
+  "audit_totals": {
+    "cuts_verified": 6566,
+    "local_states_or_clique_pairs_checked": 117895,
+    "nonedge_matrix_entries_checked": 5046248,
+    "psd_residual_rows_checked": 16896
+  }
+}

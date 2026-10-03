@@ -1,0 +1,143 @@
+ℹ [2996/3236] Replayed Erdos953Lower.DigitControl
+info: Erdos953Lower/DigitControl.lean:42:0: 'Erdos953Lower.weighted_digit_sum_abs_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953Lower/DigitControl.lean:43:0: 'Erdos953Lower.digit_difference_abs_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [2997/3236] Replayed Erdos953Lower.Digits
+warning: Erdos953Lower/Digits.lean:48:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+info: Erdos953Lower/Digits.lean:76:0: 'Erdos953Lower.exists_highest_digit_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [2998/3236] Replayed Erdos953Lower.DigitTail
+info: Erdos953Lower/DigitTail.lean:45:0: 'Erdos953Lower.linear_digit_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953Lower/DigitTail.lean:46:0: 'Erdos953Lower.quadratic_digit_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [2999/3236] Replayed Erdos953Lower.LeadingDigit
+info: Erdos953Lower/LeadingDigit.lean:167:0: 'Erdos953Lower.leading_linear_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953Lower/LeadingDigit.lean:168:0: 'Erdos953Lower.leading_linear_weighted_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953Lower/LeadingDigit.lean:169:0: 'Erdos953Lower.leading_quadratic_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3000/3236] Replayed Erdos953Lower.DistanceGap
+info: Erdos953Lower/DistanceGap.lean:54:0: 'Erdos953Lower.sqrt_sq_add_away' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3001/3236] Replayed Erdos953Lower.GeometryGap
+info: Erdos953Lower/GeometryGap.lean:105:0: 'Erdos953Lower.distance_gap_of_digit_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3002/3236] Replayed Erdos953Lower.FiniteGap
+info: Erdos953Lower/FiniteGap.lean:92:0: 'Erdos953Lower.finite_digit_distance_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3135/3236] Replayed Erdos953Lower.PointGap
+info: Erdos953Lower/PointGap.lean:78:0: 'Erdos953Lower.digitPoint_pair_away' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953Lower/PointGap.lean:79:0: 'Erdos953Lower.digitPointSet_away' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3136/3236] Replayed Erdos953Lower.PointSize
+warning: Erdos953Lower/PointSize.lean:125:6: This simp argument is unused:
+  Pi.zero_apply
+
+Hint: Omit it from the simp argument list.
+  simp only [Fin.sum_univ_two, digitPoint_zero, digitPoint_one, P̵i̵.̵z̵e̵r̵o̵_̵a̵p̵p̵l̵y̵,̵ ̵Real.dist_eq]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: Erdos953Lower/PointSize.lean:137:0: 'Erdos953Lower.digitPoint_radius' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953Lower/PointSize.lean:139:0: 'Erdos953Lower.xCoord_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953Lower/PointSize.lean:140:0: 'Erdos953Lower.yCoord_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3434/3688] Replayed Erdos953Lower.DigitDisks
+info: Erdos953Lower/DigitDisks.lean:100:0: 'Erdos953Lower.digitDisks_no_positive_integer_distances' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953Lower/DigitDisks.lean:101:0: 'Erdos953Lower.digitDisks_volume' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953Lower/DigitDisks.lean:102:0: 'Erdos953Lower.digitDisks_subset_ball' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953Lower/DigitDisks.lean:103:0: 'Erdos953Lower.digitDisks_finite_lower_witness' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3436/3688] Replayed Erdos953Lower.Asymptotic
+info: Erdos953Lower/Asymptotic.lean:415:0: 'Erdos953Lower.erdos953_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953Lower/Asymptotic.lean:416:0: 'Erdos953Lower.digitDisks_lower_growth_explicit' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953Lower/Asymptotic.lean:417:0: 'Erdos953Lower.growthExponent_ge_half_sub_inv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953Lower/Asymptotic.lean:418:0: 'Erdos953Lower.exp_neg_one_mul_sqrt_le_rpow_growthExponent' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953Lower/Asymptotic.lean:419:0: 'Erdos953Lower.digitDisks_lower_sqrt_with_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3438/3688] Replayed Erdos953Lower.Coefficient
+info: Erdos953Lower/Coefficient.lean:118:0: 'Erdos953Lower.base_coefficient_ge_inv_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953Lower/Coefficient.lean:119:0: 'Erdos953Lower.digitDisks_lower_sqrt_div_pow_with_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3439/3688] Replayed Erdos953Lower.Polylog
+info: Erdos953Lower/Polylog.lean:111:0: 'Erdos953Lower.erdos953_lower_polylog' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3456/3688] Replayed Erdos953Formalization.CircleBessel
+warning: Erdos953Formalization/CircleBessel.lean:430:6: `MeasureTheory.integral_finset_sum` has been deprecated: Use `MeasureTheory.integral_finsetSum` instead
+warning: Erdos953Formalization/CircleBessel.lean:433:8: `MeasureTheory.integral_finset_sum` has been deprecated: Use `MeasureTheory.integral_finsetSum` instead
+warning: Erdos953Formalization/CircleBessel.lean:437:10: `MeasureTheory.integrable_finset_sum` has been deprecated: Use `MeasureTheory.integrable_finsetSum` instead
+⚠ [3457/3688] Replayed Erdos953Formalization.PoissonKernel
+warning: Erdos953Formalization/PoissonKernel.lean:131:13: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+ℹ [3670/3688] Replayed Erdos953OpenClosed
+info: Erdos953OpenClosed.lean:71:0: 'Erdos953OpenClosed.Mopen_eq_M' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3671/3688] Replayed Erdos953SmallRadius
+info: Erdos953SmallRadius.lean:74:0: 'Erdos953SmallRadius.M_eq_pi_mul_sq_of_le_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3672/3688] Replayed Erdos953Defect
+warning: Erdos953Defect.lean:44:10: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Erdos953Defect.lean:101:29: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: Erdos953Defect.lean:122:33: Try this:
+  [apply] abel_nf
+warning: Erdos953Defect.lean:166:6: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+info: Erdos953Defect.lean:303:0: 'Erdos953Defect.area_add_le_of_unit_translation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953Defect.lean:304:0: 'Erdos953Defect.lens_area_defect' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953Defect.lean:305:0: 'Erdos953Defect.strong_explicit_area_defect' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953Defect.lean:306:0: 'Erdos953Defect.explicit_area_defect' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953Defect.lean:307:0: 'Erdos953Defect.exists_strict_area_defect' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3673/3688] Replayed Erdos953Sandwich
+info: Erdos953Sandwich.lean:160:0: 'Erdos953Sandwich.growth_sandwich' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953Sandwich.lean:161:0: 'Erdos953Sandwich.lower_polylog_for_Mopen' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953Sandwich.lean:162:0: 'Erdos953Sandwich.polylog_sandwich_open' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953Sandwich.lean:163:0: 'Erdos953Sandwich.growth_sandwich_open' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953Sandwich.lean:164:0: 'Erdos953Sandwich.Mopen_eq_pi_mul_sq_of_le_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953Sandwich.lean:165:0: 'Erdos953Sandwich.explicit_area_defect_open' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953Sandwich.lean:166:0: 'Erdos953Sandwich.lens_area_defect_open' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953Sandwich.lean:167:0: 'Erdos953Sandwich.strong_explicit_area_defect_open' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953Sandwich.lean:168:0: 'Erdos953Sandwich.Mopen_eq_disk_area_iff_le_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953Sandwich.lean:169:0: 'Erdos953Formalization.erdos953_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953Sandwich.lean:170:0: 'Erdos953Lower.erdos953_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3674/3688] Replayed Erdos953Lower.AnisotropicGeometry
+info: Erdos953Lower/AnisotropicGeometry.lean:92:0: 'Erdos953Lower.anisotropic_sqrt_between' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953Lower/AnisotropicGeometry.lean:93:0: 'Erdos953Lower.anisotropic_distance_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3675/3688] Replayed Erdos953Lower.AnisotropicDigits
+info: Erdos953Lower/AnisotropicDigits.lean:209:0: 'Erdos953Lower.digit_coordinate_ratio_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953Lower/AnisotropicDigits.lean:210:0: 'Erdos953Lower.finite_digit_coordinate_ratios' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953Lower/AnisotropicDigits.lean:211:0: 'Erdos953Lower.finite_digit_rectangular_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953Lower/AnisotropicDigits.lean:212:0: 'Erdos953Lower.digitPoint_coordinate_ratios' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3676/3688] Replayed Erdos953Lower.AnisotropicRadius
+info: Erdos953Lower/AnisotropicRadius.lean:98:0: 'Erdos953Lower.yCoord_bound_sharp' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953Lower/AnisotropicRadius.lean:99:0: 'Erdos953Lower.digitPoint_radius_sharp' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3677/3688] Replayed Erdos953Lower.AnisotropicRectangles
+info: Erdos953Lower/AnisotropicRectangles.lean:223:0: 'Erdos953Lower.digitRectangles_no_positive_integer_distances' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953Lower/AnisotropicRectangles.lean:224:0: 'Erdos953Lower.digitRectangles_area' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953Lower/AnisotropicRectangles.lean:225:0: 'Erdos953Lower.digitRectangles_subset_ball' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3678/3688] Replayed Erdos953Lower.AnisotropicParameters
+info: Erdos953Lower/AnisotropicParameters.lean:70:0: 'Erdos953Lower.one_sub_nat_mul_le_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953Lower/AnisotropicParameters.lean:71:0: 'Erdos953Lower.half_pow_le_sub_one_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953Lower/AnisotropicParameters.lean:72:0: 'Erdos953Lower.anisotropic_digit_count_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3680/3688] Replayed Erdos953Lower.AnisotropicSelection
+info: Erdos953Lower/AnisotropicSelection.lean:136:0: 'Erdos953Lower.choose_anisotropic_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953Lower/AnisotropicSelection.lean:137:0: 'Erdos953Lower.anisotropic_length_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3681/3688] Replayed Erdos953Lower.AnisotropicLogBounds
+info: Erdos953Lower/AnisotropicLogBounds.lean:150:0: 'Erdos953Lower.certify_log_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953Lower/AnisotropicLogBounds.lean:151:0: 'Erdos953Lower.base_bound_from_max' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3682/3688] Replayed Erdos953Lower.AnisotropicLogCertificates
+info: Erdos953Lower/AnisotropicLogCertificates.lean:289:0: 'Erdos953Lower.finite_parameter_base_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3683/3688] Replayed Erdos953Lower.AnisotropicUniform
+info: Erdos953Lower/AnisotropicUniform.lean:150:0: 'Erdos953Lower.sharpLower_small_radius' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953Lower/AnisotropicUniform.lean:151:0: 'Erdos953Lower.choose_uniform_anisotropic_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3684/3688] Replayed Erdos953Lower.Extremal
+info: Erdos953Lower/Extremal.lean:67:0: 'Erdos953Lower.area_le_Mopen_of_admissible' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953Lower/Extremal.lean:68:0: 'Erdos953Lower.lower_bound_for_Mopen' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953Lower/Extremal.lean:69:0: 'Erdos953Lower.lower_polylog_for_Mopen' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3685/3688] Replayed Erdos953Lower.GrowthRate
+info: Erdos953Lower/GrowthRate.lean:76:0: 'Erdos953Lower.log_growth_exponent_of_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3686/3688] Built Erdos953SharpLower (11s)
+info: Erdos953SharpLower.lean:152:0: 'Erdos953SharpLower.large_radius_witness' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953SharpLower.lean:153:0: 'Erdos953SharpLower.sharp_lower_Mopen' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953SharpLower.lean:154:0: 'Erdos953SharpLower.explicit_lower_all_radii' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953SharpLower.lean:155:0: 'Erdos953SharpLower.sharp_lower_standalone' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953SharpLower.lean:156:0: 'Erdos953SharpLower.explicit_lower_standalone' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953SharpLower.lean:157:0: 'Erdos953SharpLower.lower_at_ten_pow_eighteen' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3687/3688] Built Erdos953Growth (10s)
+info: Erdos953Growth.lean:36:0: 'Erdos953Sandwich.growth_exponent_open' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos953Growth.lean:37:0: 'Erdos953Sandwich.standalone_Mopen_eq_reference' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3688 jobs).

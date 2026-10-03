@@ -1,0 +1,1714 @@
+{
+  "date": "2026-10-03",
+  "previous_best": {
+    "1": 0.8950191291901026,
+    "1.5": 1.0192810180167344,
+    "2": 1.1276435852050781,
+    "4": 1.1748046875,
+    "8": 1.1953125
+  },
+  "best_by_radius_and_family": {
+    "1": {
+      "oct": {
+        "family": "oct",
+        "R": 1.0,
+        "N": 256,
+        "nodes": 410433,
+        "selected": 116341,
+        "type_counts": [
+          57934,
+          58407
+        ],
+        "area": 0.8853018188476562,
+        "area_expression": "2900957/3276800",
+        "certificate": "erdos953-oct-R1-N256-fine-2026-10-03.json",
+        "seconds": 33.260904900031164,
+        "mode": "fine",
+        "search_info": {
+          "implicit_extensions": [
+            {
+              "source": "erdos953-square-grid-R1-N128-free-2026-10-03.json",
+              "initial_area_units": 5697920,
+              "seed_conflicts_removed": 0,
+              "certified_seed_area_units": 5697920,
+              "fft_rounding_error": 9.094947017729282e-13,
+              "unblocked_candidates": 3251,
+              "outcomes": [
+                {
+                  "area_units": 5796074,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 5797852,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 5798274,
+                  "rejected_after_fft": 0
+                }
+              ]
+            },
+            {
+              "source": "two_lobe_analytic_seed",
+              "initial_area_units": 5814180,
+              "seed_conflicts_removed": 236,
+              "certified_seed_area_units": 5794828,
+              "fft_rounding_error": 9.094947017729282e-13,
+              "unblocked_candidates": 339,
+              "outcomes": [
+                {
+                  "area_units": 5801750,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 5801914,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 5801850,
+                  "rejected_after_fft": 0
+                }
+              ]
+            },
+            {
+              "source": "erdos953-oct-R1-N128-fine-2026-10-03.json",
+              "initial_area_units": 5699110,
+              "seed_conflicts_removed": 0,
+              "certified_seed_area_units": 5699110,
+              "fft_rounding_error": 6.821210263296962e-13,
+              "unblocked_candidates": 2997,
+              "outcomes": [
+                {
+                  "area_units": 5796626,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 5796896,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 5796968,
+                  "rejected_after_fft": 0
+                }
+              ]
+            }
+          ]
+        },
+        "finite_optimum_proved": false,
+        "lean_formalized": false,
+        "independent_audit": {
+          "certificate": "erdos953-oct-R1-N256-fine-2026-10-03.json",
+          "sha256": "c9ba241e9c6f0653e2a757eaf38771e63e9faaa3985b8c4df1f05f139124fa5d",
+          "status": "passed independent exact integer geometry",
+          "selected": 116341,
+          "pair_checks": 6767555970,
+          "area_constant": "2900957/3276800",
+          "area_sqrt_coefficient": "0",
+          "area_radical": 1,
+          "area_lower_fraction": "2900957/3276800",
+          "area_upper_fraction": "2900957/3276800",
+          "integer_overflow_excluded": true,
+          "lean_formalized": false
+        }
+      },
+      "regular-oct": {
+        "family": "regular-oct",
+        "R": 1.0,
+        "N": 256,
+        "nodes": 410441,
+        "selected": 116343,
+        "type_counts": [
+          57932,
+          58411
+        ],
+        "area": 0.885226187244363,
+        "area_expression": "(59369/65536) + (-479/32768)*sqrt(2)",
+        "certificate": "erdos953-regular-oct-R1-N256-fine-2026-10-03.json",
+        "seconds": 68.33394199993927,
+        "mode": "fine",
+        "search_info": {
+          "implicit_extensions": [
+            {
+              "source": "erdos953-square-grid-R1-N128-free-2026-10-03.json",
+              "initial_area_units": 56985604615000,
+              "seed_conflicts_removed": 0,
+              "certified_seed_area_units": 56985604615000,
+              "fft_rounding_error": 9.094947017729282e-13,
+              "unblocked_candidates": 3259,
+              "outcomes": [
+                {
+                  "area_units": 57955751083125,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 57980976479875,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 57993055556875,
+                  "rejected_after_fft": 0
+                }
+              ]
+            },
+            {
+              "source": "two_lobe_analytic_seed",
+              "initial_area_units": 58143088311750,
+              "seed_conflicts_removed": 236,
+              "certified_seed_area_units": 57947579510250,
+              "fft_rounding_error": 9.094947017729282e-13,
+              "unblocked_candidates": 319,
+              "outcomes": [
+                {
+                  "area_units": 58014183407125,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 58014183407125,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 58014183407125,
+                  "rejected_after_fft": 0
+                }
+              ]
+            },
+            {
+              "source": "erdos953-regular-oct-R1-N128-fine-2026-10-03.json",
+              "initial_area_units": 56992127850250,
+              "seed_conflicts_removed": 0,
+              "certified_seed_area_units": 56992127850250,
+              "fft_rounding_error": 9.094947017729282e-13,
+              "unblocked_candidates": 2979,
+              "outcomes": [
+                {
+                  "area_units": 57966550073000,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 57968378500125,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 57845050506250,
+                  "rejected_after_fft": 0
+                }
+              ]
+            }
+          ]
+        },
+        "finite_optimum_proved": false,
+        "lean_formalized": false,
+        "independent_audit": {
+          "certificate": "erdos953-regular-oct-R1-N256-fine-2026-10-03.json",
+          "sha256": "0b53435efcf4bedd47958201f7a24298d489ff3ad1455f65a0d555322fa35adf",
+          "status": "passed independent exact integer geometry",
+          "selected": 116343,
+          "pair_checks": 6767788653,
+          "area_constant": "59369/65536",
+          "area_sqrt_coefficient": "-479/32768",
+          "area_radical": 2,
+          "area_lower_fraction": "3625886462952910877/4096000000000000000",
+          "area_upper_fraction": "5801418340724657499/6553600000000000000",
+          "integer_overflow_excluded": true,
+          "lean_formalized": false
+        }
+      },
+      "hex": {
+        "family": "hex",
+        "R": 1.0,
+        "N": 256,
+        "nodes": 205285,
+        "selected": 58051,
+        "type_counts": [
+          58051
+        ],
+        "area": 0.8842223507511408,
+        "area_expression": "(24879/48734)*sqrt(3)",
+        "certificate": "erdos953-hex-R1-N256-fine-2026-10-03.json",
+        "seconds": 6.900017800042406,
+        "mode": "fine",
+        "search_info": {
+          "implicit_extensions": [
+            {
+              "source": "erdos953-square-grid-R1-N128-free-2026-10-03.json",
+              "initial_area_units": 168792,
+              "seed_conflicts_removed": 0,
+              "certified_seed_area_units": 168792,
+              "fft_rounding_error": 6.821210263296962e-13,
+              "unblocked_candidates": 2591,
+              "outcomes": [
+                {
+                  "area_units": 173976,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 173841,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 173856,
+                  "rejected_after_fft": 0
+                }
+              ]
+            },
+            {
+              "source": "two_lobe_analytic_seed",
+              "initial_area_units": 173568,
+              "seed_conflicts_removed": 0,
+              "certified_seed_area_units": 173568,
+              "fft_rounding_error": 6.821210263296962e-13,
+              "unblocked_candidates": 486,
+              "outcomes": [
+                {
+                  "area_units": 174105,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 174153,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 174153,
+                  "rejected_after_fft": 0
+                }
+              ]
+            },
+            {
+              "source": "erdos953-hex-R1-N128-fine-2026-10-03.json",
+              "initial_area_units": 169437,
+              "seed_conflicts_removed": 0,
+              "certified_seed_area_units": 169437,
+              "fft_rounding_error": 6.821210263296962e-13,
+              "unblocked_candidates": 1970,
+              "outcomes": [
+                {
+                  "area_units": 174003,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 173943,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 174018,
+                  "rejected_after_fft": 0
+                }
+              ]
+            }
+          ]
+        },
+        "finite_optimum_proved": false,
+        "lean_formalized": false,
+        "independent_audit": {
+          "certificate": "erdos953-hex-R1-N256-fine-2026-10-03.json",
+          "sha256": "9a170b640d22ec376b7eb6943ea25d63edf50e801c278a0d00deac5d92859c53",
+          "status": "passed independent exact integer geometry",
+          "selected": 58051,
+          "pair_checks": 1684930275,
+          "area_constant": "0",
+          "area_sqrt_coefficient": "24879/48734",
+          "area_radical": 3,
+          "area_lower_fraction": "43091692041506090883/48734000000000000000",
+          "area_upper_fraction": "21545846020753057881/24367000000000000000",
+          "integer_overflow_excluded": true,
+          "lean_formalized": false
+        }
+      },
+      "square": {
+        "family": "square",
+        "R": 1.0,
+        "N": 256,
+        "nodes": 204836,
+        "selected": 57902,
+        "type_counts": [
+          57902
+        ],
+        "area": 0.883514404296875,
+        "area_expression": "28951/32768",
+        "certificate": "erdos953-square-R1-N256-fine-2026-10-03.json",
+        "seconds": 9.092191100004129,
+        "mode": "fine",
+        "search_info": {
+          "implicit_extensions": [
+            {
+              "source": "erdos953-square-grid-R1-N128-free-2026-10-03.json",
+              "initial_area_units": 57116,
+              "seed_conflicts_removed": 0,
+              "certified_seed_area_units": 57116,
+              "fft_rounding_error": 6.821210263296962e-13,
+              "unblocked_candidates": 978,
+              "outcomes": [
+                {
+                  "area_units": 57877,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 57859,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 57850,
+                  "rejected_after_fft": 0
+                }
+              ]
+            },
+            {
+              "source": "two_lobe_analytic_seed",
+              "initial_area_units": 58100,
+              "seed_conflicts_removed": 706,
+              "certified_seed_area_units": 57864,
+              "fft_rounding_error": 6.821210263296962e-13,
+              "unblocked_candidates": 70,
+              "outcomes": [
+                {
+                  "area_units": 57902,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 57901,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 57901,
+                  "rejected_after_fft": 0
+                }
+              ]
+            },
+            {
+              "source": "erdos953-square-R1-N128-fine-2026-10-03.json",
+              "initial_area_units": 57116,
+              "seed_conflicts_removed": 0,
+              "certified_seed_area_units": 57116,
+              "fft_rounding_error": 6.821210263296962e-13,
+              "unblocked_candidates": 978,
+              "outcomes": [
+                {
+                  "area_units": 57860,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 57873,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 57866,
+                  "rejected_after_fft": 0
+                }
+              ]
+            }
+          ]
+        },
+        "finite_optimum_proved": false,
+        "lean_formalized": false,
+        "independent_audit": {
+          "certificate": "erdos953-square-R1-N256-fine-2026-10-03.json",
+          "sha256": "2ec887dd6e21ed13bc6a6dceec4ae84d15f1f0d4de5e6a0c1263cf5faa73375e",
+          "status": "passed independent exact integer geometry",
+          "selected": 57902,
+          "pair_checks": 1676291851,
+          "area_constant": "28951/32768",
+          "area_sqrt_coefficient": "0",
+          "area_radical": 1,
+          "area_lower_fraction": "28951/32768",
+          "area_upper_fraction": "28951/32768",
+          "integer_overflow_excluded": true,
+          "lean_formalized": false
+        }
+      }
+    },
+    "1.5": {
+      "oct": {
+        "family": "oct",
+        "R": 1.5,
+        "N": 256,
+        "nodes": 924525,
+        "selected": 135581,
+        "type_counts": [
+          67568,
+          68013
+        ],
+        "area": 1.0322280883789063,
+        "area_expression": "676481/655360",
+        "certificate": "erdos953-oct-R1.5-N256-fine-2026-10-03.json",
+        "seconds": 25.29986289993394,
+        "mode": "fine",
+        "search_info": {
+          "implicit_extensions": [
+            {
+              "source": "erdos953-random-polygons-R1.5-N32000-eps0.008-seed95503.json",
+              "initial_area_units": 6589132,
+              "seed_conflicts_removed": 0,
+              "certified_seed_area_units": 6589132,
+              "fft_rounding_error": 1.1084466677857563e-12,
+              "unblocked_candidates": 5030,
+              "outcomes": [
+                {
+                  "area_units": 6744198,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 6740872,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 6735052,
+                  "rejected_after_fft": 0
+                }
+              ]
+            },
+            {
+              "source": "erdos953-oct-R1.5-N128-fine-2026-10-03.json",
+              "initial_area_units": 6616292,
+              "seed_conflicts_removed": 0,
+              "certified_seed_area_units": 6616292,
+              "fft_rounding_error": 1.1368683772161603e-12,
+              "unblocked_candidates": 4510,
+              "outcomes": [
+                {
+                  "area_units": 6762824,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 6764810,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 6757088,
+                  "rejected_after_fft": 0
+                }
+              ]
+            }
+          ]
+        },
+        "finite_optimum_proved": false,
+        "lean_formalized": false,
+        "independent_audit": {
+          "certificate": "erdos953-oct-R1.5-N256-fine-2026-10-03.json",
+          "sha256": "f9e70980afa691fd9fa34cfee1287fb18b684ff3d49df530260103e297773b4f",
+          "status": "passed independent exact integer geometry",
+          "selected": 135581,
+          "pair_checks": 9191035990,
+          "area_constant": "676481/655360",
+          "area_sqrt_coefficient": "0",
+          "area_radical": 1,
+          "area_lower_fraction": "676481/655360",
+          "area_upper_fraction": "676481/655360",
+          "integer_overflow_excluded": true,
+          "lean_formalized": false
+        }
+      },
+      "regular-oct": {
+        "family": "regular-oct",
+        "R": 1.5,
+        "N": 256,
+        "nodes": 924525,
+        "selected": 135584,
+        "type_counts": [
+          67566,
+          68018
+        ],
+        "area": 1.0321586752260548,
+        "area_expression": "(34461/32768) + (-113/8192)*sqrt(2)",
+        "certificate": "erdos953-regular-oct-R1.5-N256-fine-2026-10-03.json",
+        "seconds": 44.09959869994782,
+        "mode": "fine",
+        "search_info": {
+          "implicit_extensions": [
+            {
+              "source": "erdos953-random-polygons-R1.5-N32000-eps0.008-seed95503.json",
+              "initial_area_units": 65885585427375,
+              "seed_conflicts_removed": 0,
+              "certified_seed_area_units": 65885585427375,
+              "fft_rounding_error": 1.2126596023639042e-12,
+              "unblocked_candidates": 5007,
+              "outcomes": [
+                {
+                  "area_units": 67429982397000,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 67428639251250,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 67456502166250,
+                  "rejected_after_fft": 0
+                }
+              ]
+            },
+            {
+              "source": "erdos953-regular-oct-R1.5-N128-fine-2026-10-03.json",
+              "initial_area_units": 66181583694375,
+              "seed_conflicts_removed": 0,
+              "certified_seed_area_units": 66181583694375,
+              "fft_rounding_error": 1.3642420526593924e-12,
+              "unblocked_candidates": 4523,
+              "outcomes": [
+                {
+                  "area_units": 67640438241125,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 67643550939500,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 67627614864625,
+                  "rejected_after_fft": 0
+                }
+              ]
+            }
+          ]
+        },
+        "finite_optimum_proved": false,
+        "lean_formalized": false,
+        "independent_audit": {
+          "certificate": "erdos953-regular-oct-R1.5-N256-fine-2026-10-03.json",
+          "sha256": "f0d65fd54b611b0f7e289a6183a14219f5bcf861f58883c45000952e9ca64ae8",
+          "status": "passed independent exact integer geometry",
+          "selected": 135584,
+          "pair_checks": 9191442736,
+          "area_constant": "34461/32768",
+          "area_sqrt_coefficient": "-113/8192",
+          "area_radical": 2,
+          "area_lower_fraction": "1056930483431480019/1024000000000000000",
+          "area_upper_fraction": "1691088773490368053/1638400000000000000",
+          "integer_overflow_excluded": true,
+          "lean_formalized": false
+        }
+      },
+      "hex": {
+        "family": "hex",
+        "R": 1.5,
+        "N": 362,
+        "nodes": 922747,
+        "selected": 135199,
+        "type_counts": [
+          135199
+        ],
+        "area": 1.0334471127302058,
+        "area_expression": "(405597/679778)*sqrt(3)",
+        "certificate": "erdos953-hex-R1.5-N362-fine-2026-10-03.json",
+        "seconds": 26.1785944000585,
+        "mode": "fine",
+        "search_info": {
+          "implicit_extensions": [
+            {
+              "source": "erdos953-random-polygons-R1.5-N32000-eps0.008-seed95503.json",
+              "initial_area_units": 395265,
+              "seed_conflicts_removed": 0,
+              "certified_seed_area_units": 395265,
+              "fft_rounding_error": 9.094947017729282e-13,
+              "unblocked_candidates": 4891,
+              "outcomes": [
+                {
+                  "area_units": 404391,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 404415,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 404379,
+                  "rejected_after_fft": 0
+                }
+              ]
+            },
+            {
+              "source": "erdos953-hex-R1.5-N256-fine-2026-10-03.json",
+              "initial_area_units": 397995,
+              "seed_conflicts_removed": 0,
+              "certified_seed_area_units": 397995,
+              "fft_rounding_error": 1.1368683772161603e-12,
+              "unblocked_candidates": 3564,
+              "outcomes": [
+                {
+                  "area_units": 405549,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 405597,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 405597,
+                  "rejected_after_fft": 0
+                }
+              ]
+            }
+          ]
+        },
+        "finite_optimum_proved": false,
+        "lean_formalized": false,
+        "matched_average_tile_area_to_oct_N": 256,
+        "independent_audit": {
+          "certificate": "erdos953-hex-R1.5-N362-fine-2026-10-03.json",
+          "sha256": "15c49b4ff87e754a69864e1d57ca55d0ded3e04b2ca53dcdef625c4d5c51db93",
+          "status": "passed independent exact integer geometry",
+          "selected": 135199,
+          "pair_checks": 9139317201,
+          "area_constant": "0",
+          "area_sqrt_coefficient": "405597/679778",
+          "area_radical": 3,
+          "area_lower_fraction": "702514611397513804569/679778000000000000000",
+          "area_upper_fraction": "351257305698757105083/339889000000000000000",
+          "integer_overflow_excluded": true,
+          "lean_formalized": false
+        }
+      },
+      "square": {
+        "family": "square",
+        "R": 1.5,
+        "N": 362,
+        "nodes": 924020,
+        "selected": 135255,
+        "type_counts": [
+          135255
+        ],
+        "area": 1.0321342449864168,
+        "area_expression": "135255/131044",
+        "certificate": "erdos953-square-R1.5-N362-fine-2026-10-03.json",
+        "seconds": 27.906378100044094,
+        "mode": "fine",
+        "search_info": {
+          "implicit_extensions": [
+            {
+              "source": "erdos953-random-polygons-R1.5-N32000-eps0.008-seed95503.json",
+              "initial_area_units": 131903,
+              "seed_conflicts_removed": 0,
+              "certified_seed_area_units": 131903,
+              "fft_rounding_error": 1.0231815394945443e-12,
+              "unblocked_candidates": 4968,
+              "outcomes": [
+                {
+                  "area_units": 134935,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 134986,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 134874,
+                  "rejected_after_fft": 0
+                }
+              ]
+            },
+            {
+              "source": "erdos953-square-R1.5-N256-fine-2026-10-03.json",
+              "initial_area_units": 132934,
+              "seed_conflicts_removed": 0,
+              "certified_seed_area_units": 132934,
+              "fft_rounding_error": 1.0231815394945443e-12,
+              "unblocked_candidates": 3156,
+              "outcomes": [
+                {
+                  "area_units": 135211,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 135248,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 135255,
+                  "rejected_after_fft": 0
+                }
+              ]
+            }
+          ]
+        },
+        "finite_optimum_proved": false,
+        "lean_formalized": false,
+        "matched_average_tile_area_to_oct_N": 256,
+        "independent_audit": {
+          "certificate": "erdos953-square-R1.5-N362-fine-2026-10-03.json",
+          "sha256": "40943cd3acbf8cfb330463f6551e164611fc4cf527dccef1178f9df26d2a7b35",
+          "status": "passed independent exact integer geometry",
+          "selected": 135255,
+          "pair_checks": 9146889885,
+          "area_constant": "135255/131044",
+          "area_sqrt_coefficient": "0",
+          "area_radical": 1,
+          "area_lower_fraction": "135255/131044",
+          "area_upper_fraction": "135255/131044",
+          "integer_overflow_excluded": true,
+          "lean_formalized": false
+        }
+      }
+    },
+    "2": {
+      "oct": {
+        "family": "oct",
+        "R": 2.0,
+        "N": 256,
+        "nodes": 1644521,
+        "selected": 147596,
+        "type_counts": [
+          73560,
+          74036
+        ],
+        "area": 1.123743896484375,
+        "area_expression": "920571/819200",
+        "certificate": "erdos953-oct-R2-N256-fine-2026-10-03.json",
+        "seconds": 33.75703209999483,
+        "mode": "fine",
+        "search_info": {
+          "implicit_extensions": [
+            {
+              "source": "erdos953-square-runs-R2-N512-2026-10-03.json",
+              "initial_area_units": 7320284,
+              "seed_conflicts_removed": 0,
+              "certified_seed_area_units": 7320284,
+              "fft_rounding_error": 9.094947017729282e-13,
+              "unblocked_candidates": 1465,
+              "outcomes": [
+                {
+                  "area_units": 7352898,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 7354206,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 7353288,
+                  "rejected_after_fft": 0
+                }
+              ]
+            },
+            {
+              "source": "erdos953-oct-R2-N128-fine-2026-10-03.json",
+              "initial_area_units": 7181808,
+              "seed_conflicts_removed": 0,
+              "certified_seed_area_units": 7181808,
+              "fft_rounding_error": 9.094947017729282e-13,
+              "unblocked_candidates": 5468,
+              "outcomes": [
+                {
+                  "area_units": 7361588,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 7364568,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 7359530,
+                  "rejected_after_fft": 0
+                }
+              ]
+            }
+          ]
+        },
+        "finite_optimum_proved": false,
+        "lean_formalized": false,
+        "independent_audit": {
+          "certificate": "erdos953-oct-R2-N256-fine-2026-10-03.json",
+          "sha256": "c3c719a3c431ee279bc1de8b0cdd8cb7abdff6e447069b8c696a618b4dd05571",
+          "status": "passed independent exact integer geometry",
+          "selected": 147596,
+          "pair_checks": 10892215810,
+          "area_constant": "920571/819200",
+          "area_sqrt_coefficient": "0",
+          "area_radical": 1,
+          "area_lower_fraction": "920571/819200",
+          "area_upper_fraction": "920571/819200",
+          "integer_overflow_excluded": true,
+          "lean_formalized": false
+        }
+      },
+      "regular-oct": {
+        "family": "regular-oct",
+        "R": 2.0,
+        "N": 256,
+        "nodes": 1644505,
+        "selected": 147425,
+        "type_counts": [
+          73446,
+          73979
+        ],
+        "area": 1.1220924124528546,
+        "area_expression": "(75045/65536) + (-533/32768)*sqrt(2)",
+        "certificate": "erdos953-regular-oct-R2-N256-fine-2026-10-03.json",
+        "seconds": 60.042532300110906,
+        "mode": "fine",
+        "search_info": {
+          "implicit_extensions": [
+            {
+              "source": "erdos953-square-runs-R2-N512-2026-10-03.json",
+              "initial_area_units": 73203783838000,
+              "seed_conflicts_removed": 0,
+              "certified_seed_area_units": 73203783838000,
+              "fft_rounding_error": 9.094947017729282e-13,
+              "unblocked_candidates": 1468,
+              "outcomes": [
+                {
+                  "area_units": 73524370131875,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 73537448342375,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 73518429006375,
+                  "rejected_after_fft": 0
+                }
+              ]
+            },
+            {
+              "source": "erdos953-regular-oct-R2-N128-fine-2026-10-03.json",
+              "initial_area_units": 71708730880625,
+              "seed_conflicts_removed": 0,
+              "certified_seed_area_units": 71708730880625,
+              "fft_rounding_error": 9.094947017729282e-13,
+              "unblocked_candidates": 5553,
+              "outcomes": [
+                {
+                  "area_units": 73533281820125,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 73520820925375,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 73485659453750,
+                  "rejected_after_fft": 0
+                }
+              ]
+            }
+          ]
+        },
+        "finite_optimum_proved": false,
+        "lean_formalized": false,
+        "independent_audit": {
+          "certificate": "erdos953-regular-oct-R2-N256-fine-2026-10-03.json",
+          "sha256": "7978c50f3550b6e852a12a4cea0c8c1a7b1e66a3974b12c6ab833d79c4957395",
+          "status": "passed independent exact integer geometry",
+          "selected": 147425,
+          "pair_checks": 10866991600,
+          "area_constant": "75045/65536",
+          "area_sqrt_coefficient": "-533/32768",
+          "area_radical": 2,
+          "area_lower_fraction": "4596090521406892479/4096000000000000000",
+          "area_upper_fraction": "7353744834251028073/6553600000000000000",
+          "integer_overflow_excluded": true,
+          "lean_formalized": false
+        }
+      },
+      "hex": {
+        "family": "hex",
+        "R": 2.0,
+        "N": 362,
+        "nodes": 1641265,
+        "selected": 147254,
+        "type_counts": [
+          147254
+        ],
+        "area": 1.125594280564011,
+        "area_expression": "(220881/339889)*sqrt(3)",
+        "certificate": "erdos953-hex-R2-N362-fine-2026-10-03.json",
+        "seconds": 36.19623760005925,
+        "mode": "fine",
+        "search_info": {
+          "implicit_extensions": [
+            {
+              "source": "erdos953-square-runs-R2-N512-2026-10-03.json",
+              "initial_area_units": 435333,
+              "seed_conflicts_removed": 0,
+              "certified_seed_area_units": 435333,
+              "fft_rounding_error": 1.1368683772161603e-12,
+              "unblocked_candidates": 3241,
+              "outcomes": [
+                {
+                  "area_units": 440988,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 440931,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 441072,
+                  "rejected_after_fft": 0
+                }
+              ]
+            },
+            {
+              "source": "erdos953-hex-R2-N256-fine-2026-10-03.json",
+              "initial_area_units": 432345,
+              "seed_conflicts_removed": 0,
+              "certified_seed_area_units": 432345,
+              "fft_rounding_error": 1.1368683772161603e-12,
+              "unblocked_candidates": 4498,
+              "outcomes": [
+                {
+                  "area_units": 441687,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 441762,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 441711,
+                  "rejected_after_fft": 0
+                }
+              ]
+            }
+          ]
+        },
+        "finite_optimum_proved": false,
+        "lean_formalized": false,
+        "matched_average_tile_area_to_oct_N": 256,
+        "independent_audit": {
+          "certificate": "erdos953-hex-R2-N362-fine-2026-10-03.json",
+          "sha256": "1c6586fec9bdacd1a3e533e0b2b83ee43c6988366ae3e065fc0e7441f4ec390f",
+          "status": "passed independent exact integer geometry",
+          "selected": 147254,
+          "pair_checks": 10841796631,
+          "area_constant": "0",
+          "area_sqrt_coefficient": "220881/339889",
+          "area_radical": 3,
+          "area_lower_fraction": "382577114426621120637/339889000000000000000",
+          "area_upper_fraction": "191288557213310670759/169944500000000000000",
+          "integer_overflow_excluded": true,
+          "lean_formalized": false
+        }
+      },
+      "square": {
+        "family": "square",
+        "R": 2.0,
+        "N": 362,
+        "nodes": 1643716,
+        "selected": 147212,
+        "type_counts": [
+          147212
+        ],
+        "area": 1.123378407252526,
+        "area_expression": "36803/32761",
+        "certificate": "erdos953-square-R2-N362-fine-2026-10-03.json",
+        "seconds": 36.99705779994838,
+        "mode": "fine",
+        "search_info": {
+          "implicit_extensions": [
+            {
+              "source": "erdos953-square-runs-R2-N512-2026-10-03.json",
+              "initial_area_units": 145674,
+              "seed_conflicts_removed": 0,
+              "certified_seed_area_units": 145674,
+              "fft_rounding_error": 1.5916157281026244e-12,
+              "unblocked_candidates": 2340,
+              "outcomes": [
+                {
+                  "area_units": 147187,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 147212,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 147203,
+                  "rejected_after_fft": 0
+                }
+              ]
+            },
+            {
+              "source": "erdos953-square-R2-N256-fine-2026-10-03.json",
+              "initial_area_units": 144296,
+              "seed_conflicts_removed": 0,
+              "certified_seed_area_units": 144296,
+              "fft_rounding_error": 1.5916157281026244e-12,
+              "unblocked_candidates": 4080,
+              "outcomes": [
+                {
+                  "area_units": 147176,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 147193,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 147161,
+                  "rejected_after_fft": 0
+                }
+              ]
+            }
+          ]
+        },
+        "finite_optimum_proved": false,
+        "lean_formalized": false,
+        "matched_average_tile_area_to_oct_N": 256,
+        "independent_audit": {
+          "certificate": "erdos953-square-R2-N362-fine-2026-10-03.json",
+          "sha256": "18a199bb4757e02c5c6ceaf6404e0a73a3a3106583ca9a2f3e87e761d99dc5f7",
+          "status": "passed independent exact integer geometry",
+          "selected": 147212,
+          "pair_checks": 10835612866,
+          "area_constant": "36803/32761",
+          "area_sqrt_coefficient": "0",
+          "area_radical": 1,
+          "area_lower_fraction": "36803/32761",
+          "area_upper_fraction": "36803/32761",
+          "integer_overflow_excluded": true,
+          "lean_formalized": false
+        }
+      }
+    },
+    "4": {
+      "oct": {
+        "family": "oct",
+        "R": 4.0,
+        "N": 64,
+        "nodes": 410433,
+        "selected": 10657,
+        "type_counts": [
+          5250,
+          5407
+        ],
+        "area": 1.2886376953125,
+        "area_expression": "263913/204800",
+        "certificate": "erdos953-oct-R4-N64-fine-2026-10-03.json",
+        "seconds": 4.744939600001089,
+        "mode": "fine",
+        "search_info": {
+          "implicit_extensions": [
+            {
+              "source": "erdos953-square-grid-R4-N32-free-2026-10-03.json",
+              "initial_area_units": 472056,
+              "seed_conflicts_removed": 0,
+              "certified_seed_area_units": 472056,
+              "fft_rounding_error": 2.2737367544323206e-13,
+              "unblocked_candidates": 1816,
+              "outcomes": [
+                {
+                  "area_units": 527078,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 527826,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 526952,
+                  "rejected_after_fft": 0
+                }
+              ]
+            },
+            {
+              "source": "erdos953-oct-R4-N32-fine-2026-10-03.json",
+              "initial_area_units": 466028,
+              "seed_conflicts_removed": 0,
+              "certified_seed_area_units": 466028,
+              "fft_rounding_error": 2.2737367544323206e-13,
+              "unblocked_candidates": 2130,
+              "outcomes": [
+                {
+                  "area_units": 527596,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 527114,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 525732,
+                  "rejected_after_fft": 0
+                }
+              ]
+            }
+          ]
+        },
+        "finite_optimum_proved": false,
+        "lean_formalized": false,
+        "independent_audit": {
+          "certificate": "erdos953-oct-R4-N64-fine-2026-10-03.json",
+          "sha256": "ee89cef46ac96be5cd3a41e12fea23147951784912ca371d944ba2458aee3fff",
+          "status": "passed independent exact integer geometry",
+          "selected": 10657,
+          "pair_checks": 56780496,
+          "area_constant": "263913/204800",
+          "area_sqrt_coefficient": "0",
+          "area_radical": 1,
+          "area_lower_fraction": "263913/204800",
+          "area_upper_fraction": "263913/204800",
+          "integer_overflow_excluded": true,
+          "lean_formalized": false
+        }
+      },
+      "regular-oct": {
+        "family": "regular-oct",
+        "R": 4.0,
+        "N": 64,
+        "nodes": 410441,
+        "selected": 10649,
+        "type_counts": [
+          5247,
+          5402
+        ],
+        "area": 1.2874984852696143,
+        "area_expression": "(357/256) + (-155/2048)*sqrt(2)",
+        "certificate": "erdos953-regular-oct-R4-N64-fine-2026-10-03.json",
+        "seconds": 4.769414699985646,
+        "mode": "fine",
+        "search_info": {
+          "implicit_extensions": [
+            {
+              "source": "erdos953-square-grid-R4-N32-free-2026-10-03.json",
+              "initial_area_units": 4724840979500,
+              "seed_conflicts_removed": 0,
+              "certified_seed_area_units": 4724840979500,
+              "fft_rounding_error": 2.2737367544323206e-13,
+              "unblocked_candidates": 1812,
+              "outcomes": [
+                {
+                  "area_units": 5270539971750,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 5273593795625,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 5265368398875,
+                  "rejected_after_fft": 0
+                }
+              ]
+            },
+            {
+              "source": "erdos953-regular-oct-R4-N32-fine-2026-10-03.json",
+              "initial_area_units": 4648358297625,
+              "seed_conflicts_removed": 0,
+              "certified_seed_area_units": 4648358297625,
+              "fft_rounding_error": 2.2737367544323206e-13,
+              "unblocked_candidates": 2140,
+              "outcomes": [
+                {
+                  "area_units": 5263196826000,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 5261623232875,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 5240290188375,
+                  "rejected_after_fft": 0
+                }
+              ]
+            }
+          ]
+        },
+        "finite_optimum_proved": false,
+        "lean_formalized": false,
+        "independent_audit": {
+          "certificate": "erdos953-regular-oct-R4-N64-fine-2026-10-03.json",
+          "sha256": "d23760a467a5fc2124cefcd5b028f7961b897ca641d08003cd67f437b25d212b",
+          "status": "passed independent exact integer geometry",
+          "selected": 10649,
+          "pair_checks": 56695276,
+          "area_constant": "357/256",
+          "area_sqrt_coefficient": "-155/2048",
+          "area_radical": 2,
+          "area_lower_fraction": "65919922445804253/51200000000000000",
+          "area_upper_fraction": "105471875913286811/81920000000000000",
+          "integer_overflow_excluded": true,
+          "lean_formalized": false
+        }
+      },
+      "hex": {
+        "family": "hex",
+        "R": 4.0,
+        "N": 91,
+        "nodes": 416707,
+        "selected": 10789,
+        "type_counts": [
+          10789
+        ],
+        "area": 1.2971745219256292,
+        "area_expression": "(10789/14406)*sqrt(3)",
+        "certificate": "erdos953-hex-R4-N91-fine-2026-10-03.json",
+        "seconds": 4.780911799985915,
+        "mode": "fine",
+        "search_info": {
+          "implicit_extensions": [
+            {
+              "source": "erdos953-square-grid-R4-N32-free-2026-10-03.json",
+              "initial_area_units": 26910,
+              "seed_conflicts_removed": 0,
+              "certified_seed_area_units": 26910,
+              "fft_rounding_error": 2.8421709430404007e-13,
+              "unblocked_candidates": 2760,
+              "outcomes": [
+                {
+                  "area_units": 32319,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 32199,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 32178,
+                  "rejected_after_fft": 0
+                }
+              ]
+            },
+            {
+              "source": "erdos953-hex-R4-N64-fine-2026-10-03.json",
+              "initial_area_units": 28959,
+              "seed_conflicts_removed": 0,
+              "certified_seed_area_units": 28959,
+              "fft_rounding_error": 2.8421709430404007e-13,
+              "unblocked_candidates": 1916,
+              "outcomes": [
+                {
+                  "area_units": 32319,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 32202,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 32367,
+                  "rejected_after_fft": 0
+                }
+              ]
+            }
+          ]
+        },
+        "finite_optimum_proved": false,
+        "lean_formalized": false,
+        "matched_average_tile_area_to_oct_N": 64,
+        "independent_audit": {
+          "certificate": "erdos953-hex-R4-N91-fine-2026-10-03.json",
+          "sha256": "c9bd6dd46a82e336fc6edb75f01157ce600cc9eff66e3139467499b9833ceca1",
+          "status": "passed independent exact integer geometry",
+          "selected": 10789,
+          "pair_checks": 58195866,
+          "area_constant": "0",
+          "area_sqrt_coefficient": "10789/14406",
+          "area_radical": 3,
+          "area_lower_fraction": "18687096162860613953/14406000000000000000",
+          "area_upper_fraction": "3114516027143437457/2401000000000000000",
+          "integer_overflow_excluded": true,
+          "lean_formalized": false
+        }
+      },
+      "square": {
+        "family": "square",
+        "R": 4.0,
+        "N": 91,
+        "nodes": 414692,
+        "selected": 10720,
+        "type_counts": [
+          10720
+        ],
+        "area": 1.2945296461779978,
+        "area_expression": "10720/8281",
+        "certificate": "erdos953-square-R4-N91-fine-2026-10-03.json",
+        "seconds": 4.090429999982007,
+        "mode": "fine",
+        "search_info": {
+          "implicit_extensions": [
+            {
+              "source": "erdos953-square-grid-R4-N32-free-2026-10-03.json",
+              "initial_area_units": 9042,
+              "seed_conflicts_removed": 0,
+              "certified_seed_area_units": 9042,
+              "fft_rounding_error": 6.252776074688882e-13,
+              "unblocked_candidates": 2595,
+              "outcomes": [
+                {
+                  "area_units": 10711,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 10675,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 10647,
+                  "rejected_after_fft": 0
+                }
+              ]
+            },
+            {
+              "source": "erdos953-square-R4-N64-fine-2026-10-03.json",
+              "initial_area_units": 9717,
+              "seed_conflicts_removed": 0,
+              "certified_seed_area_units": 9717,
+              "fft_rounding_error": 6.252776074688882e-13,
+              "unblocked_candidates": 1657,
+              "outcomes": [
+                {
+                  "area_units": 10720,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 10699,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 10678,
+                  "rejected_after_fft": 0
+                }
+              ]
+            }
+          ]
+        },
+        "finite_optimum_proved": false,
+        "lean_formalized": false,
+        "matched_average_tile_area_to_oct_N": 64,
+        "independent_audit": {
+          "certificate": "erdos953-square-R4-N91-fine-2026-10-03.json",
+          "sha256": "db704a2377f827002a1c9d823a00671cdb71e65f927ff7dd693056712bdeb800",
+          "status": "passed independent exact integer geometry",
+          "selected": 10720,
+          "pair_checks": 57453840,
+          "area_constant": "10720/8281",
+          "area_sqrt_coefficient": "0",
+          "area_radical": 1,
+          "area_lower_fraction": "10720/8281",
+          "area_upper_fraction": "10720/8281",
+          "integer_overflow_excluded": true,
+          "lean_formalized": false
+        }
+      }
+    },
+    "8": {
+      "oct": {
+        "family": "oct",
+        "R": 8.0,
+        "N": 64,
+        "nodes": 1644521,
+        "selected": 12267,
+        "type_counts": [
+          6025,
+          6242
+        ],
+        "area": 1.4804833984375,
+        "area_expression": "303203/204800",
+        "certificate": "erdos953-oct-R8-N64-fine-2026-10-03.json",
+        "seconds": 22.025547500001267,
+        "mode": "fine",
+        "search_info": {
+          "implicit_extensions": [
+            {
+              "source": "erdos953-square-grid-R8-N16-free-2026-10-03.json",
+              "initial_area_units": 480330,
+              "seed_conflicts_removed": 0,
+              "certified_seed_area_units": 480330,
+              "fft_rounding_error": 2.8421709430404007e-13,
+              "unblocked_candidates": 4401,
+              "outcomes": [
+                {
+                  "area_units": 601484,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 598070,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 593682,
+                  "rejected_after_fft": 0
+                }
+              ]
+            },
+            {
+              "source": "erdos953-oct-R8-N32-fine-2026-10-03.json",
+              "initial_area_units": 526742,
+              "seed_conflicts_removed": 0,
+              "certified_seed_area_units": 526742,
+              "fft_rounding_error": 3.410605131648481e-13,
+              "unblocked_candidates": 3498,
+              "outcomes": [
+                {
+                  "area_units": 603580,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 606406,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 596638,
+                  "rejected_after_fft": 0
+                }
+              ]
+            }
+          ]
+        },
+        "finite_optimum_proved": false,
+        "lean_formalized": false,
+        "independent_audit": {
+          "certificate": "erdos953-oct-R8-N64-fine-2026-10-03.json",
+          "sha256": "97b08af3cfd25dd2b232618a10b1982c5bdae5413055eb909b3d1c640eff80e7",
+          "status": "passed independent exact integer geometry",
+          "selected": 12267,
+          "pair_checks": 75233511,
+          "area_constant": "303203/204800",
+          "area_sqrt_coefficient": "0",
+          "area_radical": 1,
+          "area_lower_fraction": "303203/204800",
+          "area_upper_fraction": "303203/204800",
+          "integer_overflow_excluded": true,
+          "lean_formalized": false
+        }
+      },
+      "regular-oct": {
+        "family": "regular-oct",
+        "R": 8.0,
+        "N": 64,
+        "nodes": 1644505,
+        "selected": 12211,
+        "type_counts": [
+          5992,
+          6219
+        ],
+        "area": 1.4723991803424352,
+        "area_expression": "(6673/4096) + (-227/2048)*sqrt(2)",
+        "certificate": "erdos953-regular-oct-R8-N64-fine-2026-10-03.json",
+        "seconds": 12.721283499966376,
+        "mode": "fine",
+        "search_info": {
+          "implicit_extensions": [
+            {
+              "source": "erdos953-square-grid-R8-N16-free-2026-10-03.json",
+              "initial_area_units": 4807639969375,
+              "seed_conflicts_removed": 0,
+              "certified_seed_area_units": 4807639969375,
+              "fft_rounding_error": 2.8421709430404007e-13,
+              "unblocked_candidates": 4404,
+              "outcomes": [
+                {
+                  "area_units": 6002608947500,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 5997397836125,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 5913275903000,
+                  "rejected_after_fft": 0
+                }
+              ]
+            },
+            {
+              "source": "erdos953-regular-oct-R8-N32-fine-2026-10-03.json",
+              "initial_area_units": 5267824243000,
+              "seed_conflicts_removed": 0,
+              "certified_seed_area_units": 5267824243000,
+              "fft_rounding_error": 2.8421709430404007e-13,
+              "unblocked_candidates": 3523,
+              "outcomes": [
+                {
+                  "area_units": 6030947042625,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 6017432324000,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 5973310390875,
+                  "rejected_after_fft": 0
+                }
+              ]
+            }
+          ]
+        },
+        "finite_optimum_proved": false,
+        "lean_formalized": false,
+        "independent_audit": {
+          "certificate": "erdos953-regular-oct-R8-N64-fine-2026-10-03.json",
+          "sha256": "2c70a82b2f9584765d1bc2133bc3af474af0c68408cfb4997927968d0135247a",
+          "status": "passed independent exact integer geometry",
+          "selected": 12211,
+          "pair_checks": 74548155,
+          "area_constant": "6673/4096",
+          "area_sqrt_coefficient": "-227/2048",
+          "area_radical": 2,
+          "area_lower_fraction": "376934190167663401/256000000000000000",
+          "area_upper_fraction": "603094704268261487/409600000000000000",
+          "integer_overflow_excluded": true,
+          "lean_formalized": false
+        }
+      },
+      "hex": {
+        "family": "hex",
+        "R": 8.0,
+        "N": 91,
+        "nodes": 1669603,
+        "selected": 12488,
+        "type_counts": [
+          12488
+        ],
+        "area": 1.5014473472803094,
+        "area_expression": "(892/1029)*sqrt(3)",
+        "certificate": "erdos953-hex-R8-N91-fine-2026-10-03.json",
+        "seconds": 14.915159299969673,
+        "mode": "fine",
+        "search_info": {
+          "implicit_extensions": [
+            {
+              "source": "erdos953-square-grid-R8-N16-free-2026-10-03.json",
+              "initial_area_units": 27414,
+              "seed_conflicts_removed": 0,
+              "certified_seed_area_units": 27414,
+              "fft_rounding_error": 3.410605131648481e-13,
+              "unblocked_candidates": 6459,
+              "outcomes": [
+                {
+                  "area_units": 37089,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 36219,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 36237,
+                  "rejected_after_fft": 0
+                }
+              ]
+            },
+            {
+              "source": "erdos953-hex-R8-N64-fine-2026-10-03.json",
+              "initial_area_units": 33195,
+              "seed_conflicts_removed": 0,
+              "certified_seed_area_units": 33195,
+              "fft_rounding_error": 3.410605131648481e-13,
+              "unblocked_candidates": 2613,
+              "outcomes": [
+                {
+                  "area_units": 37392,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 37464,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 37317,
+                  "rejected_after_fft": 0
+                }
+              ]
+            }
+          ]
+        },
+        "finite_optimum_proved": false,
+        "lean_formalized": false,
+        "matched_average_tile_area_to_oct_N": 64,
+        "independent_audit": {
+          "certificate": "erdos953-hex-R8-N91-fine-2026-10-03.json",
+          "sha256": "251fb1d000e5bb522cc312f8db8f1ea90c8868bdf1db6d1871db498370a1813c",
+          "status": "passed independent exact integer geometry",
+          "selected": 12488,
+          "pair_checks": 77968828,
+          "area_constant": "0",
+          "area_sqrt_coefficient": "892/1029",
+          "area_radical": 3,
+          "area_lower_fraction": "386247330087859571/257250000000000000",
+          "area_upper_fraction": "64374555014643299/42875000000000000",
+          "integer_overflow_excluded": true,
+          "lean_formalized": false
+        }
+      },
+      "square": {
+        "family": "square",
+        "R": 8.0,
+        "N": 91,
+        "nodes": 1661992,
+        "selected": 12384,
+        "type_counts": [
+          12384
+        ],
+        "area": 1.4954715614056273,
+        "area_expression": "12384/8281",
+        "certificate": "erdos953-square-R8-N91-fine-2026-10-03.json",
+        "seconds": 10.220759800053202,
+        "mode": "fine",
+        "search_info": {
+          "implicit_extensions": [
+            {
+              "source": "erdos953-square-grid-R8-N16-free-2026-10-03.json",
+              "initial_area_units": 9171,
+              "seed_conflicts_removed": 0,
+              "certified_seed_area_units": 9171,
+              "fft_rounding_error": 5.684341886080801e-13,
+              "unblocked_candidates": 6466,
+              "outcomes": [
+                {
+                  "area_units": 12294,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 11947,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 11993,
+                  "rejected_after_fft": 0
+                }
+              ]
+            },
+            {
+              "source": "erdos953-square-R8-N64-fine-2026-10-03.json",
+              "initial_area_units": 11169,
+              "seed_conflicts_removed": 0,
+              "certified_seed_area_units": 11169,
+              "fft_rounding_error": 6.252776074688882e-13,
+              "unblocked_candidates": 2214,
+              "outcomes": [
+                {
+                  "area_units": 12384,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 12350,
+                  "rejected_after_fft": 0
+                },
+                {
+                  "area_units": 12308,
+                  "rejected_after_fft": 0
+                }
+              ]
+            }
+          ]
+        },
+        "finite_optimum_proved": false,
+        "lean_formalized": false,
+        "matched_average_tile_area_to_oct_N": 64,
+        "independent_audit": {
+          "certificate": "erdos953-square-R8-N91-fine-2026-10-03.json",
+          "sha256": "2adc811cd9bef01705000c0dbee9a341e8fc94849b3b974055569fdaa92ca454",
+          "status": "passed independent exact integer geometry",
+          "selected": 12384,
+          "pair_checks": 76675536,
+          "area_constant": "12384/8281",
+          "area_sqrt_coefficient": "0",
+          "area_radical": 1,
+          "area_lower_fraction": "12384/8281",
+          "area_upper_fraction": "12384/8281",
+          "integer_overflow_excluded": true,
+          "lean_formalized": false
+        }
+      }
+    }
+  },
+  "certificates": 84,
+  "pair_checks": 111880148435,
+  "finite_optimum_proved": false,
+  "lean_formalized": false,
+  "matched_resolution": "mean cell area; octagon tiling has two tiles per parent square",
+  "interpretation": "new finite-radius constructions; these experiments do not establish an asymptotic growth law or a globally optimal grid"
+}
