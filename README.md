@@ -11,6 +11,15 @@ local verification and is never committed here.
 
 The principal statements are:
 
+- `Erdos953Lower.fixed_unbounded_uniform_lower`: a single fixed unbounded
+  open set avoids every positive integer distance and, for **every real
+  `R ≥ exp 1`**, has area in the radius-`R` disk at least
+  `9/9604 · √R · (log(log R) / log R)^3`.
+- `Erdos953Lower.retreat_lower_Mopen`: the same improved lower bound for
+  the standalone extremal area. Its coefficient is about `0.00093711`,
+  a factor `124416/2401 ≈ 51.8184` above the earlier fixed infinite
+  construction's `1/55296`. This improves the coefficient, not the order;
+  it does not assert global optimality.
 - `Erdos953SharpLower.sharp_lower_Mopen`: for every real `R ≥ exp 1`,
   `Mopen R ≥ √R / (32768 √10) · (log(log R) / log R)^3`.
 - `Erdos953SharpLower.explicit_lower_all_radii`: for every `R > 0`, the
@@ -66,8 +75,22 @@ The principal files include `#print axioms` checks. The checked theorems use
 only `propext`, `Classical.choice`, and `Quot.sound`; there are no `sorry` or
 `admit` placeholders in the source.
 
-The full project built successfully on 2026-10-03 (3,688 Lake jobs), including
-the new exact-coefficient and all-radius theorems, using the
+The trimmed, vertically compressed construction is in `Erdos953Retreat.lean`
+and the seven `Erdos953Lower/Retreat*.lean` support modules. It can be
+checked separately with `lake build Erdos953Retreat`, without fetching or
+importing Hart's upper-bound project. The default build includes it.
+The paper source and compiled PDF are in
+[`paper/retreat-uniform-lower-bound.tex`](paper/retreat-uniform-lower-bound.tex)
+and [`paper/retreat-uniform-lower-bound.pdf`](paper/retreat-uniform-lower-bound.pdf).
+Run `python scripts/build_paper.py` with an existing `pdflatex` installation
+to rebuild the PDF with resolved references. The paper's family optimization
+limit `384 exp(-3/2)` is an analytic result; its asymptotic argument is not
+included in the Lean verification claim. The simple area-`3/8` prefix used
+in Lean replaces the larger finite computational prefix while retaining the
+same `9/9604` guaranteed coefficient.
+
+The full project built successfully on 2026-10-04 (3,696 Lake jobs), including
+the fixed unbounded set and its `9/9604` uniform theorem, using the
 pinned Hart commit and an existing local pinned Mathlib checkout/cache. A
 network-fresh dependency download has not yet been run for this copy.
 

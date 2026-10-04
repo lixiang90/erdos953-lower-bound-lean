@@ -1,0 +1,93 @@
+{
+  "date": "2026-10-04",
+  "scope": "Fixed infinite open witness with simple area-3/8 prefix; not the 7813-rectangle computational prefix.",
+  "statement": {
+    "coefficient": "9/9604",
+    "factor": "sqrt(R)*(log(log(R))/log(R))^3",
+    "radii": "every real R >= exp(1)",
+    "single_fixed_unbounded_open_set": true,
+    "no_positive_integer_distances": true
+  },
+  "full_lean_formalization": true,
+  "main_theorems": [
+    "Erdos953Lower.fixed_unbounded_uniform_lower",
+    "Erdos953Lower.retreatInfinity_uniform_lower",
+    "Erdos953Lower.retreat_lower_Mopen"
+  ],
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "proof_placeholder_scan": {
+    "files_checked": 8,
+    "sorry": false,
+    "admit": false,
+    "native_decide": false,
+    "new_axiom_declarations": false
+  },
+  "build": {
+    "command": "lake build",
+    "exit_code": 0,
+    "jobs": 3696,
+    "standalone_command": "lake build Erdos953Retreat",
+    "lean_version": "Lean (version 4.32.2, x86_64-w64-windows-gnu, commit f3b06c705e6c85f5314019d5d3baab0fec5b580c, Release)",
+    "mathlib_commit": "905b95818eb32af7874a58b427f50c1711a5e96c",
+    "log": "retreat-full-build-2026-10-04.log",
+    "default_target_includes_new_bound": true,
+    "original_log_sha256": "a1c9ecacccaded6c7be343784c1bb4051a2345fdcb71b816f0d395ea216f4561",
+    "published_log_sha256": "fe0fa82620b0b4675ceffd6f0ce011db591a6088564518de746b64e0701842ad",
+    "log_normalization": "CRLF to LF only; original build log retained in workspace research directory."
+  },
+  "source_state": "Verified source snapshot prepared for GitHub publication; source hashes identify its contents independently of the enclosing commit.",
+  "base_commit": "cc9d4079d267e54720873c844553962be08958d9",
+  "paper": {
+    "pages": 9,
+    "compiler": "existing MiKTeX pdfTeX",
+    "passes": 2,
+    "all_references_resolved": true,
+    "citation_entries": 6,
+    "unresolved_reference_or_citation_warnings": false,
+    "overfull_boxes": false,
+    "extracted_pdf_contains_question_marks": false,
+    "all_pages_visually_inspected": true,
+    "built_in_compiler": "unavailable: Unable to find standard directories for platform"
+  },
+  "limits": [
+    "No global optimum claimed.",
+    "The logarithmic loss has exponent 3, unchanged.",
+    "Asymptotically optimal trim t=4 and limit 384*exp(-3/2) have an analytic paper proof, not a Lean proof.",
+    "The larger 7813-rectangle computational prefix remains outside this Lean verification claim."
+  ],
+  "sha256": {
+    "Erdos953Retreat.lean": "69f3c1d7c06f6709af6835cffd0edd33818651e72f960b55b0330f565f2bdacd",
+    "Erdos953Lower/RetreatAssembly.lean": "a5ae32d366e2c9c1c2dde4067a1a9fdbc31c88e0d842b3e07b4a91243771f0e7",
+    "Erdos953Lower/RetreatDigits.lean": "2a7666dc401e7be4358e6cf8108e42115ee21341f7696558bc8c411e9964df09",
+    "Erdos953Lower/RetreatGain.lean": "1bf9f1e86116b0cc14c13345003ac0876924d44dd60bbde89e0942478cd1a173",
+    "Erdos953Lower/RetreatGeometry.lean": "6058a68a84a9467c6ac0942ac8e8529805881a94c409adc4da9fdcf10bbd6369",
+    "Erdos953Lower/RetreatParameters.lean": "0b05dba13581bc1e226a2db5cc3c00c5b896493c6d311e5e7a7dd7300b1781ab",
+    "Erdos953Lower/RetreatRectangles.lean": "020d2a1e78b0d43fb6937f3b8b61fa5ad6afe72c697e56d4e0585e336bccf11b",
+    "Erdos953Lower/RetreatUniform.lean": "3175495f36de4493b66440aaf26df387d09d7157cbfed2127399eef6400f50b1",
+    "Erdos953Growth.lean": "ee44eeb85a49cf6366505652f9980611e9804a07ffa7597e536d927bcd8297e0",
+    "lakefile.toml": "fbbd6fc60b2af83eeb66b40a5d8ecb6d884ed455d1804b45c4c5899b2b772346",
+    "paper/retreat-uniform-lower-bound.tex": "cb1ac6ddc4fc938da26aea3626f9dde59b28635dba6696557b896a8881264cac",
+    "paper/retreat-uniform-lower-bound.pdf": "88c3878206ca366743bea3b3e7f39f93d9693bf877dba171275e7335ab199c97",
+    "scripts/build_paper.py": "c59c82650c16ce4896084706d113b9f52fcefc4fd80754c8814a9dd6ab917a4e"
+  },
+  "checked_working_tree_sha256": {
+    "Erdos953Retreat.lean": "69f3c1d7c06f6709af6835cffd0edd33818651e72f960b55b0330f565f2bdacd",
+    "Erdos953Lower/RetreatAssembly.lean": "a5ae32d366e2c9c1c2dde4067a1a9fdbc31c88e0d842b3e07b4a91243771f0e7",
+    "Erdos953Lower/RetreatDigits.lean": "2a7666dc401e7be4358e6cf8108e42115ee21341f7696558bc8c411e9964df09",
+    "Erdos953Lower/RetreatGain.lean": "1bf9f1e86116b0cc14c13345003ac0876924d44dd60bbde89e0942478cd1a173",
+    "Erdos953Lower/RetreatGeometry.lean": "6058a68a84a9467c6ac0942ac8e8529805881a94c409adc4da9fdcf10bbd6369",
+    "Erdos953Lower/RetreatParameters.lean": "0b05dba13581bc1e226a2db5cc3c00c5b896493c6d311e5e7a7dd7300b1781ab",
+    "Erdos953Lower/RetreatRectangles.lean": "82ff41e34e4fbe26c35a1bb255a9d24497854993b31da71d8f7029c73ef6b921",
+    "Erdos953Lower/RetreatUniform.lean": "41afb86762beba142a96cde0f7dde21fdf46d8da9c4012ad90ed3d83d9d1a9c3",
+    "Erdos953Growth.lean": "5664a93345860b5d01e7cf5fd2017f9cd19e7688752a21953eb3af47ab7ff3f9",
+    "lakefile.toml": "32effe865a7c57b00c5525f18fb24dd56ba0aa6c828ebd378b31f2190384b129",
+    "paper/retreat-uniform-lower-bound.tex": "c6f2fc763800ddf299495251aa1b9cda16fecb1ebc90c504c7d768c1c4848a41",
+    "paper/retreat-uniform-lower-bound.pdf": "88c3878206ca366743bea3b3e7f39f93d9693bf877dba171275e7335ab199c97",
+    "scripts/build_paper.py": "c59c82650c16ce4896084706d113b9f52fcefc4fd80754c8814a9dd6ab917a4e"
+  },
+  "sha256_representation": "Git blob bytes: LF for source text; original bytes for PDF. checked_working_tree_sha256 preserves the verified local byte snapshot."
+}

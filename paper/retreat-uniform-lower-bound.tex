@@ -1,0 +1,547 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=28mm]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools,booktabs}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue,
+pdftitle={Explicit uniform lower bounds for planar sets avoiding integral distances},
+pdfauthor={lixiang90}}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{remark}\newtheorem{remark}[theorem]{Remark}
+\newcommand{\R}{\mathbb R}
+\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\area}{\lvert}
+\newcommand{\PhiR}{\sqrt R\left(\frac{\log\log R}{\log R}\right)^3}
+\title{Explicit uniform lower bounds for planar sets avoiding integral distances\\
+\large A trimmed and vertically compressed digit construction}
+\author{lixiang90\thanks{Prepared with assistance from OpenAI Codex. The classical
+digit method is attributed to S\'ark\"ozy. The existing upper-bound formalization
+in the companion repository is by Allen Hart and is not a contribution of this paper.}}
+\date{4 October 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+We construct a single explicit unbounded open subset $A$ of the Euclidean plane
+with no positive integral distance between distinct points and prove that, for
+every real $R\ge e$,
+\[
+ |A\cap B_R(0)|\ \ge\ \frac9{9604}\sqrt R
+       \left(\frac{\log\log R}{\log R}\right)^3.
+\]
+The construction trims the alphabet of a digit product, reduces its vertical
+scaling, and enlarges the surviving rectangles. Uniform estimates for entire
+rectangles establish compatibility both within and between infinitely many
+generations. A single rectangle of area $3/8$ suffices as the finite prefix.
+Compared with the reference construction used here, the certified coefficient
+improves by a factor $124416/2401$. Exact optimization within the specified
+parameter family has asymptotic improvement factor $384e^{-3/2}$.
+This is an explicit constant improvement with three logarithmic losses;
+neither global optimality of the coefficient nor a lower bound of order
+$\sqrt R$ is asserted.
+\end{abstract}
+
+\section{Problem, scope, and main result}
+Write $B_R(0)=\{z\in\R^2:|z|<R\}$ and let
+\[
+ M(R)=\sup\{|E|:E\subset B_R(0)\text{ is measurable},\
+       |x-y|\notin\Z_{>0}\ (x,y\in E,\ x\ne y)\}.
+\]
+Here $|E|$ denotes two-dimensional Lebesgue measure and all logarithms are
+natural. Erd\H{o}s Problem 953 asks for the growth of $M(R)$ \cite{bloom}.
+S\'ark\"ozy's digit construction supplies nearly square-root lower bounds
+for robustly avoiding integral distances \cite{sarkozy1,sarkozy2};
+Goenka and Moore give a modern treatment and higher-dimensional extensions
+\cite{gm}. The square-root upper bound for the measurable problem is background
+to the present work \cite{ulam}. We do not reprove or claim that upper bound.
+
+\begin{theorem}\label{thm:main}
+There is an explicitly specified unbounded open set $A\subset\R^2$ such that
+no distance between distinct points of $A$ is a positive integer, and
+\begin{equation}\label{eq:main}
+ |A\cap B_R(0)|\ge\frac9{9604}\PhiR\qquad(R\ge e).
+\end{equation}
+Consequently $M(R)$ satisfies the same lower bound. The construction is fixed
+independently of $R$.
+\end{theorem}
+
+The coefficient in \eqref{eq:main} is a guaranteed uniform coefficient, not a
+proved optimum for $M(R)$ or even the largest coefficient available from this
+set. The word ``optimal'' below refers exclusively to the finite choice of a
+trim parameter within the stated family. The exponent $1/2$ is unchanged,
+and the factor $(\log\log R/\log R)^3$ has not been removed.
+
+\section{Definition of the fixed infinite construction}
+For each integer $j\ge6$, put
+\[
+ B_j=2^j,\qquad C_j=B_j^2/16,
+\]
+let $n_j\ge2$ be the largest integer with $(2n_j)^{2n_j}\le C_j$, and set
+$k_j=\lfloor C_j^{1/(2n_j)}\rfloor$. Thus
+\begin{equation}\label{eq:params}
+ 2n_j\le k_j,\quad k_j^{2n_j}\le C_j<(k_j+1)^{2n_j},\quad
+ C_j<[2(n_j+1)]^{2(n_j+1)}.
+\end{equation}
+Existence follows because $C_j\ge256$ and $(2n)^{2n}$ grows without bound.
+For $j\ge14$ these parameters satisfy $k_j\ge8$.
+
+Temporarily write $k=k_j$, $n=n_j$. For $1\le t\le\lfloor k/2\rfloor$, define
+\begin{equation}\label{eq:height}
+ q=k-t,\qquad H(k,t)=\min\left\{\frac1{256},\frac{4t^2}{9k^3}\right\}.
+\end{equation}
+For $\alpha=(\alpha_0,\ldots,\alpha_{n-1})\in\{0,\ldots,q-1\}^n$, put
+\begin{align}
+ x_{j,\alpha}&=B_j+\sum_{i<n}\alpha_i k^i,\label{eq:x}\\
+ y_{j,\alpha}&=3B_j^2+k\sum_{i<n}\alpha_i k^{2i}.
+ \label{eq:y}
+\end{align}
+Let $Q_{j,\alpha}$ be the open rectangle centred there, of full width $1/2$
+and full height $H(k,t)$. Choose $t_j$ to maximize
+\begin{equation}\label{eq:objective}
+ D_j(t)=\frac12(k_j-t)^{n_j}H(k_j,t)
+\end{equation}
+over its finite integer range, taking the smaller $t$ in a tie. This rule is
+an exact finite comparison of rational numbers.
+
+Define the base rectangle
+\[
+ P=(-3/8,3/8)\times(-17/32,-1/32),\qquad |P|=3/8,
+\]
+and the complete set
+\begin{equation}\label{eq:A}
+ A=P\ \cup\ \bigcup_{j\ge14}\ \bigcup_{\alpha\in\{0,\ldots,k_j-t_j-1\}^{n_j}}
+ Q_{j,\alpha}.
+\end{equation}
+This is a countable union of open sets, hence open and measurable. It is
+unbounded since even the zero digit string has centre $(2^j,3\cdot4^j)$.
+Compared with the reference tail, the alphabet loses $t-1$ symbols, the
+vertical multiplier changes from $8k$ to $k$, and the rectangles are enlarged.
+Thus \eqref{eq:A} is not obtained merely by adding points to the old tail.
+
+\section{Entire rectangles within one generation}
+We give estimates independent of $j,n$ and of any enumeration of pairs.
+Take two different strings, let $r$ be their highest differing position, and
+orient their difference so that its leading digit is $d\ge1$. Put
+\[
+ X=k^r,\qquad a=|\Delta y|,\qquad b=|\Delta x|,
+ \qquad p=\frac{q-1}{k-1},\quad c=\frac{q-1}{k^2-1}.
+\]
+Both coordinate differences have the sign of the leading digit, since the
+sum of all lower magnitudes is smaller than the leading place. In particular
+$a,b$ are positive integers. Geometric sums give
+\begin{equation}\label{eq:leading}
+ (d-p)X\le b\le(d+p)X,\qquad
+ k(d-c)X^2\le a\le k(d+c)X^2.
+\end{equation}
+Here $p<1$, $c<1/(k+1)\le1/9$, and $1\le d\le q-1\le k-2$.
+
+\begin{lemma}\label{lem:lower}
+For all these pairs, with $H=H(k,t)$,
+\[
+ (b-1/2)^2>2aH.
+\]
+\end{lemma}
+\begin{proof}
+If $r\ge1$, retaining the exact geometric remainder gives
+\begin{align*}
+ b&\ge dk^r-(k-t-1)\sum_{i<r}k^i\\
+  &=(d-1)k^r+t\sum_{i<r}k^i+1
+   \ \ge\ dt k^{r-1}+1.
+\end{align*}
+The last inequality uses $t\le k$ and
+$\sum_{i<r}k^i\ge k^{r-1}$. With $L=tk^{r-1}>0$, \eqref{eq:leading} and
+$H\le4t^2/(9k^3)$ give
+\[
+ 2aH\le\frac89(d+1/9)L^2.
+\]
+Since $d\ge1$,
+\[
+ d^2-\frac89(d+1/9)\ge\frac1{81},
+\]
+so $(b-1/2)^2>2aH$. If $r=0$, then $a=kd$, $b=d$ and $2t\le k$;
+thus $2aH\le2d/9$ whereas
+$(d-1/2)^2-2d/9\ge d/36>0$.
+\end{proof}
+
+\begin{lemma}\label{lem:upper}
+For every such pair,
+\[
+ (b+1/2)^2\le\frac{45}{32}a.
+\]
+\end{lemma}
+\begin{proof}
+Because $X\ge1$, \eqref{eq:leading} implies
+$b+1/2\le(d+3/2)X$. The quadratic
+$(d+3/2)^2-(k+2)d$ is convex in $d$ on $[1,k-2]$ and has equal endpoint
+values $17/4-k<0$. Therefore
+\[
+ (b+1/2)^2\le(k+2)dX^2.
+\]
+Also $a\ge(8/9)kdX^2$, by $c\le1/9$ and $d\ge1$. Since $k\ge8$,
+$(k+2)/k\le5/4$, proving the stated factor $45/32$.
+\end{proof}
+
+For points in these two rectangles, horizontal and vertical differences can
+be written $b+u$, $a+v$ after taking absolute values, where $|u|\le1/2$,
+$|v|\le H$. Lemma~\ref{lem:lower} shows
+\[
+ (b+u)^2+(a+v)^2\ge(b-1/2)^2+(a-H)^2>a^2.
+\]
+Lemma~\ref{lem:upper} and $H\le1/256$ show
+\begin{align*}
+ (b+u)^2+(a+v)^2
+ &\le(b+1/2)^2+(a+H)^2\\
+ &\le a^2+(45/32+1/128)a+H^2<(a+1)^2.
+\end{align*}
+Here $2-(45/32+1/128)=75/128>0$, $a\ge1$ and $H^2<1$.
+All distances therefore lie in $(a,a+1)$, which contains no integer.
+The diameter of one rectangle has square at most $1/4+(1/256)^2<1$.
+Different horizontal centre coordinates are different integers, so the
+rectangles are disjoint, and their exact combined area is \eqref{eq:objective}.
+
+\section{Compatibility across infinitely many generations}
+From geometric sums and \eqref{eq:params}, every centre in generation $j$ lies
+in the frame
+\begin{equation}\label{eq:frame}
+ B_j\le x<5B_j/4,\qquad 3B_j^2\le y<7B_j^2/2.
+\end{equation}
+Indeed the horizontal increment is less than $k^n\le B_j/4$, and the vertical
+increment is less than $k^{2n}\le B_j^2/16$; the displayed upper vertical
+bound is a convenient looser one.
+
+Consider frames of two generations $i<j$, so $B_i\le B_j/2$. If $a=y_j-y_i$
+and $b=x_j-x_i$, then
+\[
+ b\ge3B_j/8\ge48,\qquad b^2\le a\le32b^2.
+\]
+For example, $a\ge17B_j^2/8$ and $b\le5B_j/4$ give the first square inequality;
+$a\le7B_j^2/2$ and $b\ge3B_j/8$ give the second. Both $a$ and $b$ are integers.
+
+Set $h=1/256$ and $\delta=1/512$. Two rectangles change $b$ by at most $1/2$
+and $a$ by at most $h$. Consequently
+\[
+ \frac{95}{96}b\le b+u\le\frac{97}{96}b,\qquad |v|\le h.
+\]
+The lower comparison with $(a+\delta)^2$ is strictly positive since
+\[
+ (95/96)^2-64(h+\delta)=5569/9216>0,
+ \qquad h^2-\delta^2>0.
+\]
+The upper comparison with $(a+1-\delta)^2$ is strictly positive since
+\[
+ 2(1-h-\delta)-(97/96)^2=8915/9216>0,
+ \qquad (1-\delta)^2-h^2>0.
+\]
+Thus all cross-generation distances lie in $(a+\delta,a+1-\delta)$.
+This proves compatibility of every future pair of generations, without
+truncating the infinite union.
+
+For a centre $(b,a)$ in any generation $j\ge14$, \eqref{eq:frame} gives
+\[
+ b\ge64,\qquad a\le3b^2,\qquad 48b^2\le25a.
+\]
+The base rectangle is contained in
+\[
+ C_* =\{(x,y):x^2+(y+9/32)^2<1/4,\ -23/32<y<5/32\}.
+\]
+Comparing a point of $P\subset C_*$ to a new rectangle, the horizontal
+perturbation is at most $3/4$ and the vertical perturbation belongs to
+$[-81/512,369/512]$. Hence the horizontal square lies between
+$(253/256)^2b^2$ and $(259/256)^2b^2$. The coefficients for the same two
+square comparisons are respectively
+\[
+ (253/256)^2-6(81/512+\delta)=1033/65536>0,
+\]
+\[
+ 2(1-\delta-369/512)-(25/48)(259/256)^2
+       =67871/3145728>0.
+\]
+The corresponding constant terms are positive. Distances from $P$ to every
+new rectangle also lie in $(a+\delta,a+1-\delta)$. Finally the diameter
+of $P$ has square $(3/4)^2+(1/2)^2=13/16<1$.
+We have proved the distance-avoidance assertion of Theorem~\ref{thm:main}.
+
+\section{A uniform gain in the area of every tail generation}
+The reference area used to extract the previous uniform coefficient is
+\[
+ U_j=\frac{(k_j-1)^{n_j}}{108k_j^3}.
+\]
+It corresponds to full width $1/3$ and full height $1/(36k_j^3)$.
+For $k\ge8$, the allowed choice $t=2$ has uncapped height $16/(9k^3)$.
+Since our selected $t_j$ maximizes \eqref{eq:objective},
+\begin{equation}\label{eq:gain}
+ \frac{D_j(t_j)}{U_j}\ge96\left(\frac{k_j-2}{k_j-1}\right)^{n_j}
+ \ge G:=96(6/7)^4=\frac{124416}{2401}.
+\end{equation}
+For completeness, put $f(x)=(x/2)\log((x-2)/(x-1))$. Using
+$\log(1-u)\ge-u/(1-u)$ for $0<u<1$ gives, for $x\ge8$,
+\[
+ f'(x)=\tfrac12\log\frac{x-2}{x-1}
+       +\frac{x}{2(x-2)(x-1)}
+       \ge\frac1{2(x-2)(x-1)}>0.
+\]
+As $n\le k/2$ and the base of the power is below one,
+\[
+ \left(\frac{k-2}{k-1}\right)^n
+ \ge\exp(f(k))\ge\exp(f(8))=(6/7)^4.
+\]
+This is a proof for every allowed parameter, not an extrapolation of
+computed examples. The first tail generation has $j=14$, $(k,n,t)=(8,4,2)$
+and exact area $D_{14}=9/4$; its reference area is $2401/55296$.
+
+\section{Passage to every real radius}
+Let $R_j=4^{j+1}$. The frame \eqref{eq:frame} and the rectangle dimensions
+imply that every rectangle of generation $j$ lies strictly inside $B_{R_j}$.
+For example $x+y+1<4B_j^2$ for $B_j\ge64$ bounds the Euclidean norm.
+Every rectangle of generation $j+1$ lies outside $B_{R_j}$ since its lower
+vertical coordinate exceeds $3\cdot4^{j+1}-1/512>R_j$.
+In particular
+\begin{equation}\label{eq:complete-area}
+ |A\cap B_{R_j}|=3/8+\sum_{14\le\ell\le j}D_\ell\qquad(j\ge14).
+\end{equation}
+
+\begin{lemma}\label{lem:extraction}
+Suppose a measurable distance-avoiding set $E$ satisfies
+$|E\cap B_{R_j}|\ge G U_j$ for every $j\ge6$, with $G>0$. Then
+\[
+ |E\cap B_R|\ge\frac{G}{55296}\PhiR\qquad(R\ge16384).
+\]
+\end{lemma}
+\begin{proof}
+Choose the unique $j\ge6$ with $R_j\le R<R_{j+1}=4R_j$.
+Bernoulli's inequality, $2n\le k$, and $C_j<(k+1)^{2n}$ give
+\[
+ (k-1)^n\ge k^n/2\ge(k+1)^n/4>\sqrt{C_j}/4=B_j/16.
+\]
+Therefore
+\begin{equation}\label{eq:U-radius}
+ U_j>\frac{B_j}{1728k_j^3}>\frac{\sqrt R}{6912k_j^3}.
+\end{equation}
+For $n_j\ge6$ we have the explicit base bound
+\begin{equation}\label{eq:klog}
+ k_j<\frac{2\log R}{\log\log R}.
+\end{equation}
+Here are details of the bound and its finite cases. Write $T=\log R$.
+The budget $2n\log(2n)<T$ implies $n<3T/(4\log T)$: for
+$s=3T/(2\log T)$, the tangent inequality for $\log$ gives
+$\log s>(2/3)\log T$, hence $s\log s>T$, and monotonicity of $x\log x$
+completes the inversion. For $n\ge16$, induction gives
+$2(n+1)\le(5/4)^n$, beginning with $34\cdot4^{16}<5^{16}$.
+Together with \eqref{eq:params}, this yields
+$k<(5/2)(n+1)\le(8/3)n<2T/\log T$.
+For $6\le n\le15$, the following integer maxima $K$ bound $k$:
+\[
+\begin{array}{c|rrrrrrrrrr}
+n&6&7&8&9&10&11&12&13&14&15\\\hline
+K&21&23&25&27&29&32&34&36&38&40
+\end{array}
+\]
+They follow by the exact inequality
+$[2(n+1)]^{2(n+1)}\le(K+1)^{2n}$.
+Set $T_0(k)=\log10+2n\log k$. The function
+$k\log T_0(k)/T_0(k)$ is increasing for $k\ge2n$, while
+$\log T/T$ is decreasing for $T\ge T_0(k)>e$.
+For each displayed $K$, the inequality
+$K\log T_0(K)<2T_0(K)$ is proved by rational logarithm bounds;
+these ten inequalities are also present as kernel-checked lemmas
+in the companion source. Their premises apply here because
+$R\ge64C_j\ge10k_j^{2n_j}$.
+Substituting \eqref{eq:klog} into \eqref{eq:U-radius} proves the lemma for $n_j\ge6$.
+
+The remaining generations are exactly $6\le j\le23$. They can be checked
+with the short table in Appendix~\ref{app:early}: throughout each whole
+interval $[R_j,R_{j+1})$, use
+$\sqrt R<2^{j+2}$ and the indicated upper bound $q_0$ for
+$\log\log R/\log R$. Every table row satisfies the exact rational inequality
+\[
+ 55296 U_j>2^{j+2}q_0^3.
+\]
+These are interval checks and so cover real as well as integer radii.
+Finally area is monotone with radius, giving the claim.
+\end{proof}
+
+For $j\ge14$, \eqref{eq:gain} proves the premise of
+Lemma~\ref{lem:extraction}. For $6\le j\le13$, the base rectangle alone
+suffices: the exact values of $GU_j$ are
+\[
+\begin{array}{c|rrrr}
+j&6&7&8&9\\\hline
+GU_j&162/2401&18432/300125&9/196&115200/3195731\\[2pt]
+j&10&11&12&13\\\hline
+GU_j&2000/7203&9/28&104976/300125&2662/7203
+\end{array}
+\]
+Each is strictly below $3/8$. Thus for $R\ge16384$ we get the coefficient
+$G/55296=9/9604$. For $e\le R<16384$, the entire base rectangle lies in
+$B_R$, while $\sqrt R\le128$ and $0\le\log\log R/\log R\le1$.
+Since $128\cdot9/9604<3/8$, this covers the remaining radii and completes
+the proof of Theorem~\ref{thm:main}.
+
+The extremal quantity $M(R)$ independently satisfies $M(R)=\pi R^2$ for
+$0<R\le1/2$ and $M(R)\ge\pi/4$ for $R\ge1/2$, by open disks of radius
+at most $1/2$. Combining these with \eqref{eq:main} gives a lower bound for
+$M(R)$ at every positive radius. The witnesses for those small-radius
+bounds need not coincide with the fixed infinite set $A$.
+
+\section{Optimization within the certified family}\label{sec:optimality}
+The guaranteed coefficient used only the admissible choice $t=2$.
+Optimization generally does better. From \eqref{eq:params},
+\[
+ 2n\le k<[2(n+1)]^{1+1/n},\qquad k/(2n)\longrightarrow1.
+\]
+In the uncapped region, maximizing \eqref{eq:objective} is equivalent to
+maximizing $t^2(k-t)^n$. Its logarithmic derivative is
+$2/t-n/(k-t)$, strictly decreasing, with unique zero
+\[
+ t_{\rm real}=\frac{2k}{n+2}\longrightarrow4.
+\]
+The height cap begins at $t=\sqrt{9k^3/1024}$, which tends to infinity.
+Above that point the capped area decreases with $t$. Thus the cap does not
+affect the eventual maximizer. Comparison of the finitely many adjacent
+integers, or their limiting objective ratios, shows that the unique optimal
+integer is eventually $t=4$. For clarity, the limiting objective is
+$t^2e^{-t/2}$, whose unique real maximum is $t=4$; its neighbouring integer
+values at $3$ and $5$ are strictly smaller, and log concavity excludes all
+other integers.
+
+Consequently, for the reference per-generation areas,
+\[
+ \frac{D_j(t_j)}{U_j}
+ =24t_j^2\left(\frac{k_j-t_j}{k_j-1}\right)^{n_j}
+ \longrightarrow384e^{-3/2}=85.68198149\ldots.
+\]
+The fraction of surviving digit strings tends to $e^{-3/2}$, approximately
+$22.313\%$, while the area of each surviving rectangle is multiplied by
+$384$. The same ratio holds for cumulative areas at completed-generation
+radii, since a finite prefix is negligible and the reference cumulative
+area diverges. No ratio limit at arbitrary partially completed radii is
+claimed.
+
+This family cannot remove a logarithmic loss. The elementary parameter bound
+$k<9n$ follows from \eqref{eq:params}: for $n\ge2$,
+$[2(n+1)]^{1+1/n}<(9n)$ (one may use
+$2(n+1)\le3^n$ and $6(n+1)\le9n$).
+For any allowed $t$,
+\[
+ \frac{D_j(t)}{U_j}\le24t^2
+    \left(1-\frac{t-1}{k-1}\right)^n
+ \le24t^2 e^{-(t-1)/9}.
+\]
+The right side is bounded independently of $j$ and $t$. Thus arbitrary
+choices of the trim parameter within this uniform-height digit product
+can improve the multiplier only by a bounded amount. Non-product digit
+selection or variable shapes would require a new argument.
+
+\section{Verification, reproducibility, and attribution}
+The companion repository is
+\par\noindent\url{https://github.com/lixiang90/erdos953-lower-bound-lean}.
+\par\noindent
+Its formal proofs use Lean~4.32.2 and Mathlib commit
+\par\noindent\texttt{905b95818eb32af7874a58b427f50c1711a5e96c}.
+\par\noindent
+The uniform inequality for the single fixed set, for every real $R\ge e$,
+has been checked in Lean as
+\texttt{Erdos953Lower.retreatInfinity\_uniform\_lower}.
+The combined existence statement, including openness, unboundedness,
+and exclusion of every positive integral distance, is
+\texttt{Erdos953Lower.fixed\_unbounded\_uniform\_lower}.
+Its extremal-area consequence is
+\texttt{Erdos953Lower.retreat\_lower\_Mopen}.
+The supporting modules verify parameter existence, the finite maximizing
+trim rule and its guaranteed gain, the area of each generation, exclusion
+of all positive integral distances within and between generations, and
+compatibility with the base rectangle. The checked theorems use only
+Lean's standard axioms \texttt{propext}, \texttt{Classical.choice}, and
+\texttt{Quot.sound}; there are no proof placeholders.
+The asymptotic maximizing trim $t=4$ and the limiting improvement factor
+$384e^{-3/2}$ in Section~\ref{sec:optimality} are proved analytically in
+this paper and are not part of the Lean verification claim.
+A rational certificate audit, finite pair enumeration, and a Lean theorem
+are distinct forms of evidence. Run \texttt{lake build Erdos953Retreat}
+to check this lower construction independently of the upper-bound project.
+The companion \texttt{scripts/build\_paper.py} runs LaTeX until citations
+and cross-references are resolved and rejects unresolved-reference warnings.
+
+The enlarged finite prefix from previous computations can be appended in
+place of $P$. It consists of the clipped disk $C_*$ and 7,813 rational
+rectangles. Its compatibility with the new tail is certified by rational
+envelopes covering every future source frame. Those data give stronger
+finite-radius area values, but are unnecessary for the main construction
+\eqref{eq:A} and its coefficient. In particular the present analytic proof
+does not rely on enumerating those 7,813 rectangles.
+
+The classical digit principle is due to S\'ark\"ozy; our changes are the
+trimmed alphabet, compressed vertical scaling, whole-rectangle estimates,
+infinite compatible assembly, and explicit constant extraction.
+The separately authored Lean upper-bound proof by Allen Hart is fetched
+at commit \texttt{0d031f7212150df788f4f}\allowbreak\texttt{a38c26cfc3fc729f3d0} for the
+earlier growth-exponent theorem. It is neither used in this paper's lower
+construction nor redistributed as our source. Award eligibility and a
+full extremal solution are not conclusions of this paper.
+
+\appendix
+\section{Short exact checks for the initial scales}\label{app:early}
+The following table contains the entire finite part of the complete-generation
+radius check. Here $q_0$ is an upper bound valid throughout the real interval
+$[4^{j+1},4^{j+2})$. All rows satisfy
+$512(k-1)^n>2^{j+2}k^3q_0^3$, equivalently the inequality used in
+Lemma~\ref{lem:extraction}.
+\begin{center}
+\begin{tabular}{rrrr|rrrr|rrrr}
+\toprule
+$j$&$k$&$n$&$q_0$&$j$&$k$&$n$&$q_0$&$j$&$k$&$n$&$q_0$\\
+\midrule
+6&4&2&$1/4$&12&10&3&$1/4$&18&16&4&$1/6$\\
+7&5&2&$1/4$&13&12&3&$1/6$&19&10&5&$1/8$\\
+8&8&2&$1/4$&14&8&4&$1/6$&20&12&5&$1/8$\\
+9&11&2&$1/4$&15&9&4&$1/6$&21&13&5&$1/8$\\
+10&6&3&$1/4$&16&11&4&$1/6$&22&16&5&$1/8$\\
+11&8&3&$1/4$&17&13&4&$1/6$&23&18&5&$1/8$\\
+\bottomrule
+\end{tabular}
+\end{center}
+To verify the bounds $q_0$, use
+\[
+ \log T\le T/4\ (T\ge9),\qquad
+ \log T\le T/6\ (T\ge18),\qquad
+ \log T\le T/8\ (T\ge27).
+\]
+They follow from the tangent inequality
+$\log T\le\log T_0+(T-T_0)/T_0$ at $T_0=9,18,27$, respectively,
+and the rationally verifiable bounds $\log3<9/8$, $\log18<3$.
+Also $\log2>27/40$, so the respective first-generation log radii
+$14\log2$, $28\log2$, $40\log2$ exceed $9,18,27$.
+For a positive rational $x$, scale to $x=2^m y$, $1\le y\le2$, and use
+$z=(y-1)/(y+1)$ in
+\[
+ 2\sum_{r=0}^{s-1}\frac{z^{2r+1}}{2r+1}
+ \le\log y\le
+ 2\sum_{r=0}^{s-1}\frac{z^{2r+1}}{2r+1}
+ +\frac{2z^{2s+1}}{(2s+1)(1-z^2)}.
+\]
+Every comparison then reduces to exact rational arithmetic. The companion
+Lean logarithm certificate uses a slightly looser remainder and six terms,
+which are sufficient for the constants displayed here.
+
+\clearpage
+\begin{thebibliography}{9}
+\bibitem{bloom} T.~F.~Bloom, \emph{Erd\H{o}s Problem 953},
+\url{https://www.erdosproblems.com/953}, accessed 4 October 2026.
+\bibitem{sarkozy1} A.~S\'ark\"ozy, \emph{On distances near integers. I},
+Studia Sci. Math. Hungar. \textbf{11} (1976), 37--50.
+\bibitem{sarkozy2} A.~S\'ark\"ozy, \emph{On distances near integers. II},
+Studia Sci. Math. Hungar. \textbf{11} (1976), 105--111.
+\bibitem{gm} R.~Goenka and K.~Moore,
+\emph{Point sets avoiding near-integer distances}, arXiv:2605.06621v1 (2026),
+\url{https://arxiv.org/abs/2605.06621}.
+\bibitem{ulam} \emph{The order of growth of planar sets avoiding integer distances},
+ULAM research preprint (2026),
+\url{https://www.ulam.ai/research/erdos953-short.pdf}.
+\bibitem{hart} A.~Hart, \emph{Erd\H{o}s 953 formalization},
+\url{https://github.com/AllenGrahamHart/FormalConjectures-Bench/tree/0d031f7212150df788f4fa38c26cfc3fc729f3d0/formalizations/erdos953}.
+\end{thebibliography}
+\end{document}
